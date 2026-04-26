@@ -1,0 +1,4746 @@
+[
+  {
+    "equipment_id": 1,
+    "equipment_name": "BMH Ship Unloader",
+    "alias_name": "BMH Ship Unloader",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 1,
+    "equipment_name": "BMH Ship Unloader",
+    "alias_name": "BMH_SHIP_UNLOADER",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 1,
+    "equipment_name": "BMH Ship Unloader",
+    "alias_name": "Bruks Siwertell BMH Screw-Type Ship Unloader Serial Number XXX",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 8,
+    "equipment_name": "Dust Filter Fan D.P.1",
+    "alias_name": "Dust Plant 1 Filter Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 9,
+    "equipment_name": "Rotary Valve R.V.1",
+    "alias_name": "Rotary Valve 1",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 12,
+    "equipment_name": "RB8",
+    "alias_name": "LG/S2/RB8",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 12,
+    "equipment_name": "RB8",
+    "alias_name": "RB8",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 12,
+    "equipment_name": "RB8",
+    "alias_name": "RB8 DCE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 12,
+    "equipment_name": "RB8",
+    "alias_name": "Receiving Belt 8",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 12,
+    "equipment_name": "RB8",
+    "alias_name": "Tripper RB8",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to RB8."
+  },
+  {
+    "equipment_id": 13,
+    "equipment_name": "RB9",
+    "alias_name": "LG/S2/RB9",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 13,
+    "equipment_name": "RB9",
+    "alias_name": "RB9",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 13,
+    "equipment_name": "RB9",
+    "alias_name": "RB9 DCE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 13,
+    "equipment_name": "RB9",
+    "alias_name": "Receiving Belt 9",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 13,
+    "equipment_name": "RB9",
+    "alias_name": "Tripper RB9",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to RB9."
+  },
+  {
+    "equipment_id": 14,
+    "equipment_name": "Dust Plant 12 - Elevator",
+    "alias_name": "Dust Plant 12 and 13 Elevator",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 15,
+    "equipment_name": "Dust Plant 12 - Chain Conveyor",
+    "alias_name": "Dust Plant 12 and 13 Chain Conveyor",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 16,
+    "equipment_name": "Dust Plant 12 - Fan",
+    "alias_name": "Dust Plant 12 Main Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 19,
+    "equipment_name": "Dust Plant 13 - Fan",
+    "alias_name": "Dust Plant 13 Main Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 20,
+    "equipment_name": "BB4",
+    "alias_name": "BB4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 20,
+    "equipment_name": "BB4",
+    "alias_name": "Basement Belt 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 20,
+    "equipment_name": "BB4",
+    "alias_name": "Basement Belt Conveyor No 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to BB4."
+  },
+  {
+    "equipment_id": 21,
+    "equipment_name": "BB5",
+    "alias_name": "BB5",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 21,
+    "equipment_name": "BB5",
+    "alias_name": "Basement Belt 5",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 21,
+    "equipment_name": "BB5",
+    "alias_name": "Basement Belt Conveyor No 5",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to BB5."
+  },
+  {
+    "equipment_id": 22,
+    "equipment_name": "BB7",
+    "alias_name": "BB7",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 22,
+    "equipment_name": "BB7",
+    "alias_name": "Basement Belt 7",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 22,
+    "equipment_name": "BB7",
+    "alias_name": "Basement Belt Conveyor No 7",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to BB7."
+  },
+  {
+    "equipment_id": 23,
+    "equipment_name": "Basement Chain Conveyor No 1",
+    "alias_name": "Basement Receiving Chain Conveyor 1",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 24,
+    "equipment_name": "Basement Chain Conveyor No 2",
+    "alias_name": "Basement Receiving Chain Conveyor 2",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 25,
+    "equipment_name": "Basement Chain Conveyor No 3",
+    "alias_name": "Basement Receiving Chain Conveyor 3",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 26,
+    "equipment_name": "RC3",
+    "alias_name": "LG/S2/RC3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 26,
+    "equipment_name": "RC3",
+    "alias_name": "RC3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 26,
+    "equipment_name": "RC3",
+    "alias_name": "Receiving Chain Conveyor 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to RC3."
+  },
+  {
+    "equipment_id": 26,
+    "equipment_name": "RC3",
+    "alias_name": "Receiving Conveyor 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 26,
+    "equipment_name": "RC3",
+    "alias_name": "Receiving Conveyor 3",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 27,
+    "equipment_name": "RC4",
+    "alias_name": "LG/S2/RC4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 27,
+    "equipment_name": "RC4",
+    "alias_name": "RC4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 27,
+    "equipment_name": "RC4",
+    "alias_name": "Receiving Chain Conveyor 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to RC4."
+  },
+  {
+    "equipment_id": 27,
+    "equipment_name": "RC4",
+    "alias_name": "Receiving Conveyor 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 27,
+    "equipment_name": "RC4",
+    "alias_name": "Receiving Conveyor 4",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 29,
+    "equipment_name": "Basement Chain Conv 1 Valve 1",
+    "alias_name": "Basement Chain Conveyor 1 Slide Valve 1",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 30,
+    "equipment_name": "Basement Chain Conv 1 Valve 2",
+    "alias_name": "Basement Chain Conveyor 1 Slide Valve 2",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 31,
+    "equipment_name": "Basement Chain Conv 2 Valve 1",
+    "alias_name": "Basement Chain Conveyor 2 Slide Valve 1",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 32,
+    "equipment_name": "Rotary Bin Discharger No 1",
+    "alias_name": "Rotary Bin Discharger 1",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 33,
+    "equipment_name": "Rotary Bin Discharger No 2",
+    "alias_name": "Rotary Bin Discharger 2",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 34,
+    "equipment_name": "Tripper No 6",
+    "alias_name": "TR6",
+    "alias_type": "drawing_label",
+    "source": "Pulley register clarification 2026-04-25",
+    "notes": "TR6 pulley label confirmed as tripper equipment."
+  },
+  {
+    "equipment_id": 34,
+    "equipment_name": "Tripper No 6",
+    "alias_name": "Tripper 6",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 35,
+    "equipment_name": "Tripper No 8",
+    "alias_name": "LG/S2/T8",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 35,
+    "equipment_name": "Tripper No 8",
+    "alias_name": "TR8",
+    "alias_type": "drawing_label",
+    "source": "Pulley register clarification 2026-04-25",
+    "notes": "TR8 pulley label confirmed as tripper equipment."
+  },
+  {
+    "equipment_id": 35,
+    "equipment_name": "Tripper No 8",
+    "alias_name": "Tripper 8",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 35,
+    "equipment_name": "Tripper No 8",
+    "alias_name": "Tripper 8 Travel",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 36,
+    "equipment_name": "Tripper No 9",
+    "alias_name": "LG/S2/T9",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 36,
+    "equipment_name": "Tripper No 9",
+    "alias_name": "TR9",
+    "alias_type": "drawing_label",
+    "source": "Pulley register clarification 2026-04-25",
+    "notes": "TR9 pulley label confirmed as tripper equipment."
+  },
+  {
+    "equipment_id": 36,
+    "equipment_name": "Tripper No 9",
+    "alias_name": "Tripper 9",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 36,
+    "equipment_name": "Tripper No 9",
+    "alias_name": "Tripper 9 Travel",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 43,
+    "equipment_name": "RB1",
+    "alias_name": "LG/RG/RB1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 43,
+    "equipment_name": "RB1",
+    "alias_name": "RB1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 43,
+    "equipment_name": "RB1",
+    "alias_name": "RECEIVING BELT No1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 43,
+    "equipment_name": "RB1",
+    "alias_name": "Receiving Belt 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 43,
+    "equipment_name": "RB1",
+    "alias_name": "Receiving Belt RB1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for RB1"
+  },
+  {
+    "equipment_id": 44,
+    "equipment_name": "RB2",
+    "alias_name": "LG/RG/RB2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 44,
+    "equipment_name": "RB2",
+    "alias_name": "RB2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 44,
+    "equipment_name": "RB2",
+    "alias_name": "RECEIVING BELT No2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 44,
+    "equipment_name": "RB2",
+    "alias_name": "Receiving Belt 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 44,
+    "equipment_name": "RB2",
+    "alias_name": "Receiving Belt RB2",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for RB2"
+  },
+  {
+    "equipment_id": 45,
+    "equipment_name": "RC1",
+    "alias_name": "LG/RG/RC1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 45,
+    "equipment_name": "RC1",
+    "alias_name": "RC1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 45,
+    "equipment_name": "RC1",
+    "alias_name": "RECEIVING CONV. NO 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 45,
+    "equipment_name": "RC1",
+    "alias_name": "Receiving Chain Conveyor 1",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RC1."
+  },
+  {
+    "equipment_id": 45,
+    "equipment_name": "RC1",
+    "alias_name": "Receiving Chain RC1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for RC1"
+  },
+  {
+    "equipment_id": 45,
+    "equipment_name": "RC1",
+    "alias_name": "Receiving Conveyor 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 46,
+    "equipment_name": "RC2",
+    "alias_name": "D.C.E./R.C.2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 46,
+    "equipment_name": "RC2",
+    "alias_name": "LG/RG/RC2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 46,
+    "equipment_name": "RC2",
+    "alias_name": "RC2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 46,
+    "equipment_name": "RC2",
+    "alias_name": "RECEIVING CONV. No 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 46,
+    "equipment_name": "RC2",
+    "alias_name": "Receiving Chain Conveyor 2",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RC2."
+  },
+  {
+    "equipment_id": 46,
+    "equipment_name": "RC2",
+    "alias_name": "Receiving Chain RC2",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for RC2"
+  },
+  {
+    "equipment_id": 46,
+    "equipment_name": "RC2",
+    "alias_name": "Receiving Conveyor 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 47,
+    "equipment_name": "RB1 DCE",
+    "alias_name": "D.C.E. /R.B.1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 47,
+    "equipment_name": "RB1 DCE",
+    "alias_name": "Dust Compaction Unit for RB1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 47,
+    "equipment_name": "RB1 DCE",
+    "alias_name": "RB1 DCE",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 47,
+    "equipment_name": "RB1 DCE",
+    "alias_name": "RB1_DCE",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 47,
+    "equipment_name": "RB1 DCE",
+    "alias_name": "Receiving Belt 1 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB1 DCE."
+  },
+  {
+    "equipment_id": 48,
+    "equipment_name": "RB2 DCE",
+    "alias_name": "D.C.E./R.B.2.",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 48,
+    "equipment_name": "RB2 DCE",
+    "alias_name": "Dust Compaction Unit for RB2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 48,
+    "equipment_name": "RB2 DCE",
+    "alias_name": "RB2 DCE",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 48,
+    "equipment_name": "RB2 DCE",
+    "alias_name": "RB2_DCE",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 48,
+    "equipment_name": "RB2 DCE",
+    "alias_name": "Receiving Belt 2 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB2 DCE."
+  },
+  {
+    "equipment_id": 49,
+    "equipment_name": "RC1 DCE1",
+    "alias_name": "D.C.E./R.C.1.",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 49,
+    "equipment_name": "RC1 DCE1",
+    "alias_name": "Dust Compaction Unit 1 for RC1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 49,
+    "equipment_name": "RC1 DCE1",
+    "alias_name": "RC1 DCE1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 49,
+    "equipment_name": "RC1 DCE1",
+    "alias_name": "RC1_DCE1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 49,
+    "equipment_name": "RC1 DCE1",
+    "alias_name": "Receiving Chain Conveyor 1 DCE 1",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RC1 DCE1."
+  },
+  {
+    "equipment_id": 50,
+    "equipment_name": "RC1 DCE2",
+    "alias_name": "D.C.E./R.C.1A.",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 50,
+    "equipment_name": "RC1 DCE2",
+    "alias_name": "Dust Compaction Unit 2 for RC1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 50,
+    "equipment_name": "RC1 DCE2",
+    "alias_name": "RC1 DCE2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 50,
+    "equipment_name": "RC1 DCE2",
+    "alias_name": "RC1_DCE2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 50,
+    "equipment_name": "RC1 DCE2",
+    "alias_name": "Receiving Chain Conveyor 1 DCE 2",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RC1 DCE2."
+  },
+  {
+    "equipment_id": 51,
+    "equipment_name": "JL1",
+    "alias_name": "J/H ELEVATOR 1 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 51,
+    "equipment_name": "JL1",
+    "alias_name": "J/HOUSE ELEVATOR 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 51,
+    "equipment_name": "JL1",
+    "alias_name": "JH_ELEVATOR_1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 51,
+    "equipment_name": "JL1",
+    "alias_name": "JL1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 51,
+    "equipment_name": "JL1",
+    "alias_name": "JUNCTION HOUSE ELEVATOR 1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for JL1"
+  },
+  {
+    "equipment_id": 51,
+    "equipment_name": "JL1",
+    "alias_name": "Junction House Elevator 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 51,
+    "equipment_name": "JL1",
+    "alias_name": "Junction House Elevator JH El1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for JL1"
+  },
+  {
+    "equipment_id": 51,
+    "equipment_name": "JL1",
+    "alias_name": "Junction Tower Elevator J.L.1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for JL1"
+  },
+  {
+    "equipment_id": 51,
+    "equipment_name": "JL1",
+    "alias_name": "LG/JH/EL1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 52,
+    "equipment_name": "JL2",
+    "alias_name": "J/H ELEVATOR 2 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 52,
+    "equipment_name": "JL2",
+    "alias_name": "J/HOUSE ELEVATOR 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 52,
+    "equipment_name": "JL2",
+    "alias_name": "JH_ELEVATOR_2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 52,
+    "equipment_name": "JL2",
+    "alias_name": "JL2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 52,
+    "equipment_name": "JL2",
+    "alias_name": "JUNCTION HOUSE ELEVATOR 2",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for JL2"
+  },
+  {
+    "equipment_id": 52,
+    "equipment_name": "JL2",
+    "alias_name": "Junction House Elevator 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 52,
+    "equipment_name": "JL2",
+    "alias_name": "Junction House Elevator JH El2",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for JL2"
+  },
+  {
+    "equipment_id": 52,
+    "equipment_name": "JL2",
+    "alias_name": "LG/JH/EL2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 53,
+    "equipment_name": "RB3",
+    "alias_name": "LG/S1/RB3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 53,
+    "equipment_name": "RB3",
+    "alias_name": "RB3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 53,
+    "equipment_name": "RB3",
+    "alias_name": "RECEIVING BELT No 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 53,
+    "equipment_name": "RB3",
+    "alias_name": "Receiving Belt 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 54,
+    "equipment_name": "RB4",
+    "alias_name": "LG/S1/RB4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 54,
+    "equipment_name": "RB4",
+    "alias_name": "RB4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 54,
+    "equipment_name": "RB4",
+    "alias_name": "RECEIVING BELT No 4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 54,
+    "equipment_name": "RB4",
+    "alias_name": "Receiving Belt 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 55,
+    "equipment_name": "RB3 DCE",
+    "alias_name": "D.C.E./R.B.3.",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 55,
+    "equipment_name": "RB3 DCE",
+    "alias_name": "Dust Compaction Unit for RB3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 55,
+    "equipment_name": "RB3 DCE",
+    "alias_name": "RB3 DCE",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 55,
+    "equipment_name": "RB3 DCE",
+    "alias_name": "RB3_DCE",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 55,
+    "equipment_name": "RB3 DCE",
+    "alias_name": "Receiving Belt 3 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB3 DCE."
+  },
+  {
+    "equipment_id": 56,
+    "equipment_name": "RB4 DCE",
+    "alias_name": "Dust Compaction Unit for RB4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 56,
+    "equipment_name": "RB4 DCE",
+    "alias_name": "RB4 DCE",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 56,
+    "equipment_name": "RB4 DCE",
+    "alias_name": "RB4_DCE",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 56,
+    "equipment_name": "RB4 DCE",
+    "alias_name": "Receiving Belt 4 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB4 DCE."
+  },
+  {
+    "equipment_id": 57,
+    "equipment_name": "COMPRESSOR 1",
+    "alias_name": "COMPRESSOR 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 57,
+    "equipment_name": "COMPRESSOR 1",
+    "alias_name": "COMPRESSOR_1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 57,
+    "equipment_name": "COMPRESSOR 1",
+    "alias_name": "Receiving Compressor 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 58,
+    "equipment_name": "COMPRESSOR 2",
+    "alias_name": "COMPRESSOR 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 58,
+    "equipment_name": "COMPRESSOR 2",
+    "alias_name": "COMPRESSOR_2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 58,
+    "equipment_name": "COMPRESSOR 2",
+    "alias_name": "Receiving Compressor 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 59,
+    "equipment_name": "RB1 MAGNET",
+    "alias_name": "RB1 MAGNET",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 59,
+    "equipment_name": "RB1 MAGNET",
+    "alias_name": "RB1 Magnet",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 59,
+    "equipment_name": "RB1 MAGNET",
+    "alias_name": "RB1_MAGNET",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 59,
+    "equipment_name": "RB1 MAGNET",
+    "alias_name": "Receiving Belt 1 Magnet",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB1 MAGNET."
+  },
+  {
+    "equipment_id": 59,
+    "equipment_name": "RB1 MAGNET",
+    "alias_name": "Receiving Belt 1 Magnetic Separator",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 60,
+    "equipment_name": "RB2 MAGNET",
+    "alias_name": "RB2 MAGNET",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 60,
+    "equipment_name": "RB2 MAGNET",
+    "alias_name": "RB2 Magnet",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 60,
+    "equipment_name": "RB2 MAGNET",
+    "alias_name": "RB2_MAGNET",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 60,
+    "equipment_name": "RB2 MAGNET",
+    "alias_name": "Receiving Belt 2 Magnet",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB2 MAGNET."
+  },
+  {
+    "equipment_id": 60,
+    "equipment_name": "RB2 MAGNET",
+    "alias_name": "Receiving Belt 2 Magnetic Separator",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 61,
+    "equipment_name": "BB1",
+    "alias_name": "BASEMENT BELT 1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for BB1"
+  },
+  {
+    "equipment_id": 61,
+    "equipment_name": "BB1",
+    "alias_name": "BASEMENT BELT No 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 61,
+    "equipment_name": "BB1",
+    "alias_name": "BB1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 61,
+    "equipment_name": "BB1",
+    "alias_name": "Basement Belt 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 61,
+    "equipment_name": "BB1",
+    "alias_name": "LG/S1/BB1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 62,
+    "equipment_name": "BB2",
+    "alias_name": "BASEMENT BELT 2",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for BB2"
+  },
+  {
+    "equipment_id": 62,
+    "equipment_name": "BB2",
+    "alias_name": "BASEMENT BELT No 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 62,
+    "equipment_name": "BB2",
+    "alias_name": "BB2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 62,
+    "equipment_name": "BB2",
+    "alias_name": "Basement Belt 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 62,
+    "equipment_name": "BB2",
+    "alias_name": "LG/S1/BB2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 63,
+    "equipment_name": "BB3",
+    "alias_name": "BASEMENT BELT 3",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for BB3"
+  },
+  {
+    "equipment_id": 63,
+    "equipment_name": "BB3",
+    "alias_name": "BASEMENT BELT No 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 63,
+    "equipment_name": "BB3",
+    "alias_name": "BB3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 63,
+    "equipment_name": "BB3",
+    "alias_name": "Basement Belt 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 63,
+    "equipment_name": "BB3",
+    "alias_name": "LG/S1/BB3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 64,
+    "equipment_name": "BB1_V1",
+    "alias_name": "B.B. 1. VALVE No1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 64,
+    "equipment_name": "BB1_V1",
+    "alias_name": "BASEMENT BELT 1 — VALVE 1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for BB1_V1"
+  },
+  {
+    "equipment_id": 64,
+    "equipment_name": "BB1_V1",
+    "alias_name": "BASEMENT BELT 1, VALVE 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to BB1_V1."
+  },
+  {
+    "equipment_id": 64,
+    "equipment_name": "BB1_V1",
+    "alias_name": "BB1_V1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 64,
+    "equipment_name": "BB1_V1",
+    "alias_name": "Basement Belt 1 Valve 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 65,
+    "equipment_name": "BB2_V1",
+    "alias_name": "B.B. 2. VALVE No1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 65,
+    "equipment_name": "BB2_V1",
+    "alias_name": "BASEMENT BELT 2 — VALVE 1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for BB2_V1"
+  },
+  {
+    "equipment_id": 65,
+    "equipment_name": "BB2_V1",
+    "alias_name": "BASMENT BELT 2, VALVE 1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for BB2_V1"
+  },
+  {
+    "equipment_id": 65,
+    "equipment_name": "BB2_V1",
+    "alias_name": "BB2_V1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 65,
+    "equipment_name": "BB2_V1",
+    "alias_name": "Basement Belt 2 Valve 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 66,
+    "equipment_name": "BB3_V1",
+    "alias_name": "B.B. 3. VALVE No 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 66,
+    "equipment_name": "BB3_V1",
+    "alias_name": "BASEMENT BELT 3 — VALVE 1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for BB3_V1"
+  },
+  {
+    "equipment_id": 66,
+    "equipment_name": "BB3_V1",
+    "alias_name": "BASEMENT BELT 3, VALVE 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to BB3_V1."
+  },
+  {
+    "equipment_id": 66,
+    "equipment_name": "BB3_V1",
+    "alias_name": "BB3_V1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 66,
+    "equipment_name": "BB3_V1",
+    "alias_name": "Basement Belt 3 Valve 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 71,
+    "equipment_name": "RB5",
+    "alias_name": "LG/S1/RB5",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 71,
+    "equipment_name": "RB5",
+    "alias_name": "RB5",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 71,
+    "equipment_name": "RB5",
+    "alias_name": "RECEIVING BELT No 5",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 71,
+    "equipment_name": "RB5",
+    "alias_name": "Receiving Belt 5",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 72,
+    "equipment_name": "RB6",
+    "alias_name": "LG/S1/RB6",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 72,
+    "equipment_name": "RB6",
+    "alias_name": "RB6",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 72,
+    "equipment_name": "RB6",
+    "alias_name": "RECEIVING BELT No 6",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 72,
+    "equipment_name": "RB6",
+    "alias_name": "Receiving Belt 6",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 73,
+    "equipment_name": "RB7",
+    "alias_name": "LG/S1/RB7",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 73,
+    "equipment_name": "RB7",
+    "alias_name": "RB7",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 73,
+    "equipment_name": "RB7",
+    "alias_name": "RECEIVING BELT No 7",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 73,
+    "equipment_name": "RB7",
+    "alias_name": "Receiving Belt 7",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 74,
+    "equipment_name": "SUB 1",
+    "alias_name": "SUB_1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 74,
+    "equipment_name": "SUB 1",
+    "alias_name": "Substation 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 75,
+    "equipment_name": "SUB 2",
+    "alias_name": "SUB_2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 75,
+    "equipment_name": "SUB 2",
+    "alias_name": "Substation 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 76,
+    "equipment_name": "UG1",
+    "alias_name": "Upper Garner 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 77,
+    "equipment_name": "UG2",
+    "alias_name": "Upper Garner 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 78,
+    "equipment_name": "UG3",
+    "alias_name": "Upper Garner 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 79,
+    "equipment_name": "UG4",
+    "alias_name": "Upper Garner 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 80,
+    "equipment_name": "ELV1",
+    "alias_name": "ELEVATOR No 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 80,
+    "equipment_name": "ELV1",
+    "alias_name": "Elevator 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 80,
+    "equipment_name": "ELV1",
+    "alias_name": "LG/S1/EL1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 80,
+    "equipment_name": "ELV1",
+    "alias_name": "MAIN ELEVATOR 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to ME1."
+  },
+  {
+    "equipment_id": 80,
+    "equipment_name": "ELV1",
+    "alias_name": "ME1",
+    "alias_type": "legacy_name",
+    "source": "renamed",
+    "notes": "Old name before canonical rename to ELV1"
+  },
+  {
+    "equipment_id": 80,
+    "equipment_name": "ELV1",
+    "alias_name": "Main Elevator 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 80,
+    "equipment_name": "ELV1",
+    "alias_name": "SILO1_ME1",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for ME1"
+  },
+  {
+    "equipment_id": 81,
+    "equipment_name": "ELV2",
+    "alias_name": "ELEVATOR No 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 81,
+    "equipment_name": "ELV2",
+    "alias_name": "Elevator 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 81,
+    "equipment_name": "ELV2",
+    "alias_name": "LG/S1/EL2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 81,
+    "equipment_name": "ELV2",
+    "alias_name": "MAIN ELEVATOR 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to ME2."
+  },
+  {
+    "equipment_id": 81,
+    "equipment_name": "ELV2",
+    "alias_name": "ME2",
+    "alias_type": "legacy_name",
+    "source": "renamed",
+    "notes": "Old name before canonical rename to ELV2"
+  },
+  {
+    "equipment_id": 81,
+    "equipment_name": "ELV2",
+    "alias_name": "Main Elevator 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 81,
+    "equipment_name": "ELV2",
+    "alias_name": "SILO1_ME2",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for ME2"
+  },
+  {
+    "equipment_id": 82,
+    "equipment_name": "ELV3",
+    "alias_name": "ELEVATOR No 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 82,
+    "equipment_name": "ELV3",
+    "alias_name": "Elevator 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 82,
+    "equipment_name": "ELV3",
+    "alias_name": "LG/S1/EL3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 82,
+    "equipment_name": "ELV3",
+    "alias_name": "MAIN ELEVATOR 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to ME3."
+  },
+  {
+    "equipment_id": 82,
+    "equipment_name": "ELV3",
+    "alias_name": "ME3",
+    "alias_type": "legacy_name",
+    "source": "renamed",
+    "notes": "Old name before canonical rename to ELV3"
+  },
+  {
+    "equipment_id": 82,
+    "equipment_name": "ELV3",
+    "alias_name": "Main Elevator 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 82,
+    "equipment_name": "ELV3",
+    "alias_name": "SILO1_ME3",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for ME3"
+  },
+  {
+    "equipment_id": 83,
+    "equipment_name": "ELV4",
+    "alias_name": "ELEVATOR No 4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 83,
+    "equipment_name": "ELV4",
+    "alias_name": "Elevator 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 83,
+    "equipment_name": "ELV4",
+    "alias_name": "LG/S1/EL4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 83,
+    "equipment_name": "ELV4",
+    "alias_name": "MAIN ELEVATOR 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Previous starter name before canonical rename to ME4."
+  },
+  {
+    "equipment_id": 83,
+    "equipment_name": "ELV4",
+    "alias_name": "ME4",
+    "alias_type": "legacy_name",
+    "source": "renamed",
+    "notes": "Old name before canonical rename to ELV4"
+  },
+  {
+    "equipment_id": 83,
+    "equipment_name": "ELV4",
+    "alias_name": "Main Elevator 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 83,
+    "equipment_name": "ELV4",
+    "alias_name": "SILO1_ME4",
+    "alias_type": "legacy_name",
+    "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+    "notes": "Canonical merge alias for ME4"
+  },
+  {
+    "equipment_id": 84,
+    "equipment_name": "TH1",
+    "alias_name": "LG/S1/TH1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 84,
+    "equipment_name": "TH1",
+    "alias_name": "LOWER GARNER No 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 84,
+    "equipment_name": "TH1",
+    "alias_name": "TURNHEAD No 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 84,
+    "equipment_name": "TH1",
+    "alias_name": "Turnhead 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 85,
+    "equipment_name": "TH2",
+    "alias_name": "LG/S1/TH2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 85,
+    "equipment_name": "TH2",
+    "alias_name": "LOWER GARNER No 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 85,
+    "equipment_name": "TH2",
+    "alias_name": "TURNHEAD No 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 85,
+    "equipment_name": "TH2",
+    "alias_name": "Turnhead 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 86,
+    "equipment_name": "TH3",
+    "alias_name": "LG/S1/TH3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 86,
+    "equipment_name": "TH3",
+    "alias_name": "LOWER GARNER No 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 86,
+    "equipment_name": "TH3",
+    "alias_name": "TURNHEAD No 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 86,
+    "equipment_name": "TH3",
+    "alias_name": "Turnhead 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 87,
+    "equipment_name": "TH4",
+    "alias_name": "LG/S1/TH4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 87,
+    "equipment_name": "TH4",
+    "alias_name": "LOWER GARNER No 4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 87,
+    "equipment_name": "TH4",
+    "alias_name": "TURNHEAD No 4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 87,
+    "equipment_name": "TH4",
+    "alias_name": "Turnhead 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 88,
+    "equipment_name": "MB1",
+    "alias_name": "Mill Bin 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 89,
+    "equipment_name": "MB2",
+    "alias_name": "Mill Bin 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 90,
+    "equipment_name": "DCC (UNUSED)",
+    "alias_name": "D.C.C. VALVE No 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 90,
+    "equipment_name": "DCC (UNUSED)",
+    "alias_name": "D.C.C. VALVE No 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 90,
+    "equipment_name": "DCC (UNUSED)",
+    "alias_name": "D.C.C. VALVE No 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 90,
+    "equipment_name": "DCC (UNUSED)",
+    "alias_name": "DCC",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 90,
+    "equipment_name": "DCC (UNUSED)",
+    "alias_name": "DIS. CHAIN CONV.",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 90,
+    "equipment_name": "DCC (UNUSED)",
+    "alias_name": "Distribution Chain Conveyor",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 91,
+    "equipment_name": "LLCC1",
+    "alias_name": "L.L.CHAIN CONV. No 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 91,
+    "equipment_name": "LLCC1",
+    "alias_name": "LC1",
+    "alias_type": "legacy_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Previous displayed name before LLCC1 normalization."
+  },
+  {
+    "equipment_id": 91,
+    "equipment_name": "LLCC1",
+    "alias_name": "LCC1",
+    "alias_type": "legacy_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Duplicate placeholder name consolidated into LLCC1."
+  },
+  {
+    "equipment_id": 91,
+    "equipment_name": "LLCC1",
+    "alias_name": "LG/LL/CC1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 91,
+    "equipment_name": "LLCC1",
+    "alias_name": "LLCC1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 91,
+    "equipment_name": "LLCC1",
+    "alias_name": "Lorry Loading Chain Conveyor 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 92,
+    "equipment_name": "TH8",
+    "alias_name": "LG/S2/TH8",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 92,
+    "equipment_name": "TH8",
+    "alias_name": "Turnhead 8",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 93,
+    "equipment_name": "TH9",
+    "alias_name": "LG/S2/TH9",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 93,
+    "equipment_name": "TH9",
+    "alias_name": "Turnhead 9",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 94,
+    "equipment_name": "BIN 400A",
+    "alias_name": "BIN_400A",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 94,
+    "equipment_name": "BIN 400A",
+    "alias_name": "Bin 400A",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 94,
+    "equipment_name": "BIN 400A",
+    "alias_name": "Transfer Bin 400A",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 95,
+    "equipment_name": "BIN 500",
+    "alias_name": "BIN_500",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 95,
+    "equipment_name": "BIN 500",
+    "alias_name": "Bin 500",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 95,
+    "equipment_name": "BIN 500",
+    "alias_name": "Transfer Bin 500",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 96,
+    "equipment_name": "BIN 600",
+    "alias_name": "BIN_600",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 96,
+    "equipment_name": "BIN 600",
+    "alias_name": "Bin 600",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 96,
+    "equipment_name": "BIN 600",
+    "alias_name": "Transfer Bin 600",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 97,
+    "equipment_name": "BB6",
+    "alias_name": "Basement Belt 6",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 98,
+    "equipment_name": "SMC",
+    "alias_name": "LG/S2/SMC",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 98,
+    "equipment_name": "SMC",
+    "alias_name": "SMC",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 98,
+    "equipment_name": "SMC",
+    "alias_name": "Soya Mill Conveyor",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 99,
+    "equipment_name": "TH5",
+    "alias_name": "TURNHEAD No 5",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 99,
+    "equipment_name": "TH5",
+    "alias_name": "Turnhead 5",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 100,
+    "equipment_name": "TH6",
+    "alias_name": "TURNHEAD No 6",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 100,
+    "equipment_name": "TH6",
+    "alias_name": "Turnhead 6",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 101,
+    "equipment_name": "TH7",
+    "alias_name": "TURNHEAD No 7",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 101,
+    "equipment_name": "TH7",
+    "alias_name": "Turnhead 7",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 102,
+    "equipment_name": "UG5",
+    "alias_name": "Upper Garner 5",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 103,
+    "equipment_name": "FE1",
+    "alias_name": "FEED ELEVATOR",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 103,
+    "equipment_name": "FE1",
+    "alias_name": "FEED ELEVATOR PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 103,
+    "equipment_name": "FE1",
+    "alias_name": "Feed Elevator 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 103,
+    "equipment_name": "FE1",
+    "alias_name": "LG/S3/FE1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 104,
+    "equipment_name": "FB1",
+    "alias_name": "FEED BELT No 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 104,
+    "equipment_name": "FB1",
+    "alias_name": "Feed Belt 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 104,
+    "equipment_name": "FB1",
+    "alias_name": "LG/S3/FB1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 105,
+    "equipment_name": "FB2",
+    "alias_name": "FEED BELT No 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 105,
+    "equipment_name": "FB2",
+    "alias_name": "Feed Belt 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 105,
+    "equipment_name": "FB2",
+    "alias_name": "LG/S3/FB2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 106,
+    "equipment_name": "MC1",
+    "alias_name": "LG/MF/MC1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 106,
+    "equipment_name": "MC1",
+    "alias_name": "M.C. No 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 106,
+    "equipment_name": "MC1",
+    "alias_name": "Mill Conveyor 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 107,
+    "equipment_name": "MC2",
+    "alias_name": "D.C.E/M.C. 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 107,
+    "equipment_name": "MC2",
+    "alias_name": "LG/MF/MC2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 107,
+    "equipment_name": "MC2",
+    "alias_name": "M.C. No 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 107,
+    "equipment_name": "MC2",
+    "alias_name": "Mill Conveyor 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 108,
+    "equipment_name": "MC3",
+    "alias_name": "D.C.E./M.C. 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 108,
+    "equipment_name": "MC3",
+    "alias_name": "LG/MF/MC3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 108,
+    "equipment_name": "MC3",
+    "alias_name": "M.C. No 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 108,
+    "equipment_name": "MC3",
+    "alias_name": "Mill Conveyor 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 109,
+    "equipment_name": "MC4",
+    "alias_name": "D.C.E./M.C. 4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 109,
+    "equipment_name": "MC4",
+    "alias_name": "LG/MF/MC4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 109,
+    "equipment_name": "MC4",
+    "alias_name": "M.C. No 4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 109,
+    "equipment_name": "MC4",
+    "alias_name": "Mill Conveyor 4",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 110,
+    "equipment_name": "BB8",
+    "alias_name": "BASEMENT BELT No 8",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 110,
+    "equipment_name": "BB8",
+    "alias_name": "Basement Belt 8",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 110,
+    "equipment_name": "BB8",
+    "alias_name": "LG/S3/BB8",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 111,
+    "equipment_name": "BB9",
+    "alias_name": "BASEMENT BELT No 9",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 111,
+    "equipment_name": "BB9",
+    "alias_name": "Basement Belt 9",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 111,
+    "equipment_name": "BB9",
+    "alias_name": "LG/S3/BB9",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 112,
+    "equipment_name": "BB10",
+    "alias_name": "BASEMENT BELT No 10",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 112,
+    "equipment_name": "BB10",
+    "alias_name": "Basement Belt 10",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 112,
+    "equipment_name": "BB10",
+    "alias_name": "LG/S3/BB10",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 113,
+    "equipment_name": "BB11",
+    "alias_name": "BASEMENT BELT No 11",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 113,
+    "equipment_name": "BB11",
+    "alias_name": "Basement Belt 11",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 113,
+    "equipment_name": "BB11",
+    "alias_name": "LG/S3/BB11",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 114,
+    "equipment_name": "BB12",
+    "alias_name": "BASEMENT BELT No 12",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 114,
+    "equipment_name": "BB12",
+    "alias_name": "Basement Belt 12",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 114,
+    "equipment_name": "BB12",
+    "alias_name": "LG/S3/BB12",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 115,
+    "equipment_name": "RB10",
+    "alias_name": "LG/S3/RB10",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 115,
+    "equipment_name": "RB10",
+    "alias_name": "RECEIVING BELT NO10",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 115,
+    "equipment_name": "RB10",
+    "alias_name": "Receiving Belt 10",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 116,
+    "equipment_name": "RB11",
+    "alias_name": "LG/S3/RB11",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 116,
+    "equipment_name": "RB11",
+    "alias_name": "RECEIVING BELT No 11",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 116,
+    "equipment_name": "RB11",
+    "alias_name": "Receiving Belt 11",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 117,
+    "equipment_name": "RB12",
+    "alias_name": "LG/S3/RB12",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 117,
+    "equipment_name": "RB12",
+    "alias_name": "RECEIVING BELT No 12",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 117,
+    "equipment_name": "RB12",
+    "alias_name": "Receiving Belt 12",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 119,
+    "equipment_name": "LORRY INTAKE",
+    "alias_name": "LORRY INTAKE CHAIN 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 119,
+    "equipment_name": "LORRY INTAKE",
+    "alias_name": "LORRY INTAKE CHAIN 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 119,
+    "equipment_name": "LORRY INTAKE",
+    "alias_name": "LORRY_INTAKE",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 119,
+    "equipment_name": "LORRY INTAKE",
+    "alias_name": "Lorry Intake Hopper",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 120,
+    "equipment_name": "LWB ELEVATOR",
+    "alias_name": "LORRY INTAKE ELEV.",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 120,
+    "equipment_name": "LWB ELEVATOR",
+    "alias_name": "LWB_ELEVATOR",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 120,
+    "equipment_name": "LWB ELEVATOR",
+    "alias_name": "Lorry Weighback Elevator",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 121,
+    "equipment_name": "LWCC1",
+    "alias_name": "Lorry Weighback Chain Conveyor 1",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 122,
+    "equipment_name": "LWCC2",
+    "alias_name": "Lorry Weighback Chain Conveyor 2",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "DP1_TO_DP6",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust Plants 1 to 6",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 1 Rotary",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 1 fan",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 2 Rotary",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 2 fan",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 3 Rotary",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 3 fan",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 4 Rotary",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 4 fan",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 5 Rotary",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 123,
+    "equipment_name": "DP1 TO DP6",
+    "alias_name": "Dust plant 5 fan",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 124,
+    "equipment_name": "DP12 TO DP13",
+    "alias_name": "DP12_TO_DP13",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 124,
+    "equipment_name": "DP12 TO DP13",
+    "alias_name": "Dust Plants 12 to 13",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 124,
+    "equipment_name": "DP12 TO DP13",
+    "alias_name": "Dust plant 12 Rotary",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 124,
+    "equipment_name": "DP12 TO DP13",
+    "alias_name": "Dust plant 12 fan",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 124,
+    "equipment_name": "DP12 TO DP13",
+    "alias_name": "Dust plant 13 Rotary",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 124,
+    "equipment_name": "DP12 TO DP13",
+    "alias_name": "Dust plant 13 fan",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 125,
+    "equipment_name": "DC12/13",
+    "alias_name": "DC12_13",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 125,
+    "equipment_name": "DC12/13",
+    "alias_name": "Dust Chain Conveyor 12/13",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 125,
+    "equipment_name": "DC12/13",
+    "alias_name": "Dust Chain Conveyor 12/13",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 126,
+    "equipment_name": "Simons Bin",
+    "alias_name": "LGS1",
+    "alias_type": "drawing_label",
+    "source": "User correction 2026-04-25",
+    "notes": "Drawing label retained after operational rename to Simons Bin."
+  },
+  {
+    "equipment_id": 126,
+    "equipment_name": "Simons Bin",
+    "alias_name": "Simons Dust Collection Bin",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 128,
+    "equipment_name": "LLCC3",
+    "alias_name": "L.L.CHAIN CONV. No 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 128,
+    "equipment_name": "LLCC3",
+    "alias_name": "LCC3",
+    "alias_type": "legacy_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Previous displayed name before LLCC3 normalization."
+  },
+  {
+    "equipment_id": 128,
+    "equipment_name": "LLCC3",
+    "alias_name": "LG/LL/CC3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Asset number from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 128,
+    "equipment_name": "LLCC3",
+    "alias_name": "LLCC3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 128,
+    "equipment_name": "LLCC3",
+    "alias_name": "Lorry Loading Chain Conveyor 3",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 129,
+    "equipment_name": "LORRY LOADING BINS",
+    "alias_name": "LORRY_LOADING_BINS",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 129,
+    "equipment_name": "LORRY LOADING BINS",
+    "alias_name": "Lorry Loading Bins A to F",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 130,
+    "equipment_name": "CARGILLS",
+    "alias_name": "Cargills Interface",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 131,
+    "equipment_name": "COMPRESSOR ROOM, WORKHOUSE FLOOR 7",
+    "alias_name": "COMPRESSOR_ROOM",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 131,
+    "equipment_name": "COMPRESSOR ROOM, WORKHOUSE FLOOR 7",
+    "alias_name": "COMPRESSOR_ROOM_WORKHOUSE_FLOOR_7",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 131,
+    "equipment_name": "COMPRESSOR ROOM, WORKHOUSE FLOOR 7",
+    "alias_name": "Compressor Room — Workhouse 7th Floor",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 131,
+    "equipment_name": "COMPRESSOR ROOM, WORKHOUSE FLOOR 7",
+    "alias_name": "Compressor Room, Workhouse Floor 7",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 132,
+    "equipment_name": "DUMP HOPPER",
+    "alias_name": "DUMP_HOPPER",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 132,
+    "equipment_name": "DUMP HOPPER",
+    "alias_name": "Dump Hopper",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+  },
+  {
+    "equipment_id": 132,
+    "equipment_name": "DUMP HOPPER",
+    "alias_name": "Ship Unloader Dump Hopper",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 133,
+    "equipment_name": "Tripper No 5",
+    "alias_name": "Tripper 5",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code TR5."
+  },
+  {
+    "equipment_id": 133,
+    "equipment_name": "Tripper No 5",
+    "alias_name": "Tripper 5",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 133,
+    "equipment_name": "Tripper No 5",
+    "alias_name": "Tripper No 5",
+    "alias_type": "legacy_name",
+    "source": "Pulley register clarification 2026-04-25",
+    "notes": "TR5 confirmed as tripper equipment."
+  },
+  {
+    "equipment_id": 134,
+    "equipment_name": "Tripper No 7",
+    "alias_name": "Tripper 7",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code TR7."
+  },
+  {
+    "equipment_id": 134,
+    "equipment_name": "Tripper No 7",
+    "alias_name": "Tripper 7",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 134,
+    "equipment_name": "Tripper No 7",
+    "alias_name": "Tripper No 7",
+    "alias_type": "legacy_name",
+    "source": "Pulley register clarification 2026-04-25",
+    "notes": "TR7 confirmed as tripper equipment."
+  },
+  {
+    "equipment_id": 135,
+    "equipment_name": "Mill Feed",
+    "alias_name": "MILL BIN No 1 V 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 135,
+    "equipment_name": "Mill Feed",
+    "alias_name": "MILL BIN No 1 V3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 135,
+    "equipment_name": "Mill Feed",
+    "alias_name": "MILL BIN No 2 V1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 135,
+    "equipment_name": "Mill Feed",
+    "alias_name": "MILL BIN No 2 V3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 135,
+    "equipment_name": "Mill Feed",
+    "alias_name": "MILL No 1 VALVE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 135,
+    "equipment_name": "Mill Feed",
+    "alias_name": "MILL No 2 VALVE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 135,
+    "equipment_name": "Mill Feed",
+    "alias_name": "Mill Feed Area",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 136,
+    "equipment_name": "Shipping Spout 2",
+    "alias_name": "S Spout No 2",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 136,
+    "equipment_name": "Shipping Spout 2",
+    "alias_name": "S/Spout No 2",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 136,
+    "equipment_name": "Shipping Spout 2",
+    "alias_name": "Shipping Spout No 2",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN 1 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN 2 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN 3 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN 4 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN 5 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN 6 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN 7 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN 8 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN 9 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 1 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 1 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 2 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 2 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 3 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 3 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 4 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 4 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 5 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 5 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 6 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 6 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 7 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 7 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 8 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 8 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 9 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "BIN No 9 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "Silo 3 Bin",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "Silo 3 Bin Group",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "Silo 3 Bins 1-9",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 138,
+    "equipment_name": "Silo 1 Cupola Floor DCE",
+    "alias_name": "Dust Fan No 16",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 138,
+    "equipment_name": "Silo 1 Cupola Floor DCE",
+    "alias_name": "Silo 1 Cupola Floor Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 138,
+    "equipment_name": "Silo 1 Cupola Floor DCE",
+    "alias_name": "Silo 1 DCE Dust Fan 16",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 139,
+    "equipment_name": "Lorry Loading Routing Valves",
+    "alias_name": "A-F Routing Valves",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 139,
+    "equipment_name": "Lorry Loading Routing Valves",
+    "alias_name": "Lorry Loading Head Routers",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 139,
+    "equipment_name": "Lorry Loading Routing Valves",
+    "alias_name": "Lorry Loading Head Routing Valves",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 140,
+    "equipment_name": "Lorry Loading Compressors",
+    "alias_name": "Compressor East",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 140,
+    "equipment_name": "Lorry Loading Compressors",
+    "alias_name": "Compressor West",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 140,
+    "equipment_name": "Lorry Loading Compressors",
+    "alias_name": "Lorry Loading Air Compressors",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 141,
+    "equipment_name": "LLCC2",
+    "alias_name": "L.L.C.C. 2",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 141,
+    "equipment_name": "LLCC2",
+    "alias_name": "Lorry Loading Chain Conveyor 2",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 142,
+    "equipment_name": "Surge Bin DCE",
+    "alias_name": "Surge Bin D.C.E",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 143,
+    "equipment_name": "Main Elevator Pony Motors",
+    "alias_name": "ELEVATOR No 1 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 143,
+    "equipment_name": "Main Elevator Pony Motors",
+    "alias_name": "ELEVATOR No 2 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 143,
+    "equipment_name": "Main Elevator Pony Motors",
+    "alias_name": "ELEVATOR No 3 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 143,
+    "equipment_name": "Main Elevator Pony Motors",
+    "alias_name": "ELEVATOR No 4 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 143,
+    "equipment_name": "Main Elevator Pony Motors",
+    "alias_name": "ELV PONY",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 143,
+    "equipment_name": "Main Elevator Pony Motors",
+    "alias_name": "Elevator Pony Motors",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 143,
+    "equipment_name": "Main Elevator Pony Motors",
+    "alias_name": "Main Elevator Pony Motors — ELV1 to ELV4",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 144,
+    "equipment_name": "Surge Bin 1",
+    "alias_name": "SURGE BIN No1 VALVE1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 144,
+    "equipment_name": "Surge Bin 1",
+    "alias_name": "Surge Bin 1 Valve 2",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 145,
+    "equipment_name": "Surge Bin 2",
+    "alias_name": "SURGE BIN No2 VALVE1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 145,
+    "equipment_name": "Surge Bin 2",
+    "alias_name": "SURGE BIN No2 VALVE2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 145,
+    "equipment_name": "Surge Bin 2",
+    "alias_name": "Surge Bin 2 Valve 1",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 145,
+    "equipment_name": "Surge Bin 2",
+    "alias_name": "Surge Bin 2 Valve 2",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 149,
+    "equipment_name": "Silo 3 Compressor",
+    "alias_name": "COMPRESSOR",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 149,
+    "equipment_name": "Silo 3 Compressor",
+    "alias_name": "Silo 3 Air Compressor",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 149,
+    "equipment_name": "Silo 3 Compressor",
+    "alias_name": "Silo 3 COMPRESSOR",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 150,
+    "equipment_name": "Silo 3 Dust Plant 14",
+    "alias_name": "DUST PLANT 14",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 151,
+    "equipment_name": "Silo 3 Dust Plant 15",
+    "alias_name": "DUST PLANT 15",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 152,
+    "equipment_name": "Silo 3 Dust Plant Rotary Valve",
+    "alias_name": "ROTARY VALVE 14/15",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 152,
+    "equipment_name": "Silo 3 Dust Plant Rotary Valve",
+    "alias_name": "Silo 3 Dust Plants 14 and 15 Rotary Valve",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 153,
+    "equipment_name": "Silo 3 Valve 3",
+    "alias_name": "S3V3",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 153,
+    "equipment_name": "Silo 3 Valve 3",
+    "alias_name": "S3V3 VALVE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 153,
+    "equipment_name": "Silo 3 Valve 3",
+    "alias_name": "Silo 3 Slide Valve 3",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 154,
+    "equipment_name": "Silo 3 Valve 4",
+    "alias_name": "S3V4",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 154,
+    "equipment_name": "Silo 3 Valve 4",
+    "alias_name": "S3V4 VALVE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 154,
+    "equipment_name": "Silo 3 Valve 4",
+    "alias_name": "Silo 3 Slide Valve 4",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 155,
+    "equipment_name": "BMH Horizontal Conveyor",
+    "alias_name": "BMH Ship Unloader Horizontal Screw Conveyor",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 155,
+    "equipment_name": "BMH Horizontal Conveyor",
+    "alias_name": "Horizontal conveyor",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 156,
+    "equipment_name": "BMH Vertical Conveyor 1",
+    "alias_name": "BMH Ship Unloader Vertical Screw Conveyor 1",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 156,
+    "equipment_name": "BMH Vertical Conveyor 1",
+    "alias_name": "Vertical Conveyor 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 157,
+    "equipment_name": "BMH Vertical Conveyor 2",
+    "alias_name": "BMH Ship Unloader Vertical Screw Conveyor 2",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 157,
+    "equipment_name": "BMH Vertical Conveyor 2",
+    "alias_name": "Vertical Conveyor 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 158,
+    "equipment_name": "BMH Inlet Head",
+    "alias_name": "BMH Ship Unloader Inlet Head",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 158,
+    "equipment_name": "BMH Inlet Head",
+    "alias_name": "Inlet head",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 159,
+    "equipment_name": "BMH Slew Motor 1",
+    "alias_name": "BMH Ship Unloader Slew Motor 1",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 159,
+    "equipment_name": "BMH Slew Motor 1",
+    "alias_name": "Slew motor 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 160,
+    "equipment_name": "BMH Slew Motor 2",
+    "alias_name": "BMH Ship Unloader Slew Motor 2",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 160,
+    "equipment_name": "BMH Slew Motor 2",
+    "alias_name": "Slew motor 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 161,
+    "equipment_name": "BMH Hydraulic Pump Motor",
+    "alias_name": "BMH Ship Unloader Hydraulic Pump Motor",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 161,
+    "equipment_name": "BMH Hydraulic Pump Motor",
+    "alias_name": "Hydraulic Pump Motor",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 162,
+    "equipment_name": "BMH Travel Motor 1",
+    "alias_name": "BMH Ship Unloader Travel Motor 1",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 162,
+    "equipment_name": "BMH Travel Motor 1",
+    "alias_name": "Travel Motor 1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 163,
+    "equipment_name": "BMH Travel Motor 2",
+    "alias_name": "BMH Ship Unloader Travel Motor 2",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 163,
+    "equipment_name": "BMH Travel Motor 2",
+    "alias_name": "Travel Motor 2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 164,
+    "equipment_name": "BMH Travel Motor 3",
+    "alias_name": "BMH Ship Unloader Travel Motor 3",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 164,
+    "equipment_name": "BMH Travel Motor 3",
+    "alias_name": "Travel Motor 3",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 165,
+    "equipment_name": "BMH Travel Motor 4",
+    "alias_name": "BMH Ship Unloader Travel Motor 4",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 165,
+    "equipment_name": "BMH Travel Motor 4",
+    "alias_name": "Travel Motor 4",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 166,
+    "equipment_name": "BMH Travel Motor 5",
+    "alias_name": "BMH Ship Unloader Travel Motor 5",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 166,
+    "equipment_name": "BMH Travel Motor 5",
+    "alias_name": "Travel Motor 5",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 167,
+    "equipment_name": "BMH Travel Motor 6",
+    "alias_name": "BMH Ship Unloader Travel Motor 6",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 167,
+    "equipment_name": "BMH Travel Motor 6",
+    "alias_name": "Travel Motor 6",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 168,
+    "equipment_name": "BMH Travel Motor 7",
+    "alias_name": "BMH Ship Unloader Travel Motor 7",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 168,
+    "equipment_name": "BMH Travel Motor 7",
+    "alias_name": "Travel Motor 7",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 169,
+    "equipment_name": "BMH Travel Motor 8",
+    "alias_name": "BMH Ship Unloader Travel Motor 8",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 169,
+    "equipment_name": "BMH Travel Motor 8",
+    "alias_name": "Travel Motor 8",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 170,
+    "equipment_name": "BMH Travel Motor 9",
+    "alias_name": "BMH Ship Unloader Travel Motor 9",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 170,
+    "equipment_name": "BMH Travel Motor 9",
+    "alias_name": "Travel Motor 9",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 171,
+    "equipment_name": "BMH Travel Motor 10",
+    "alias_name": "BMH Ship Unloader Travel Motor 10",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 171,
+    "equipment_name": "BMH Travel Motor 10",
+    "alias_name": "Travel Motor 10",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 174,
+    "equipment_name": "RC2 DCE",
+    "alias_name": "R.C. 2 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 174,
+    "equipment_name": "RC2 DCE",
+    "alias_name": "Receiving Chain Conveyor 2 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RC2 DCE."
+  },
+  {
+    "equipment_id": 174,
+    "equipment_name": "RC2 DCE",
+    "alias_name": "Receiving Conveyor 2 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 175,
+    "equipment_name": "RB5 DCE",
+    "alias_name": "R.B. 5 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 175,
+    "equipment_name": "RB5 DCE",
+    "alias_name": "Receiving Belt 5 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB5 DCE."
+  },
+  {
+    "equipment_id": 175,
+    "equipment_name": "RB5 DCE",
+    "alias_name": "Receiving Belt 5 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 176,
+    "equipment_name": "RB6 DCE",
+    "alias_name": "R.B. 6 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 176,
+    "equipment_name": "RB6 DCE",
+    "alias_name": "Receiving Belt 6 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB6 DCE."
+  },
+  {
+    "equipment_id": 176,
+    "equipment_name": "RB6 DCE",
+    "alias_name": "Receiving Belt 6 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 177,
+    "equipment_name": "RB7 DCE",
+    "alias_name": "R.B. 7 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 177,
+    "equipment_name": "RB7 DCE",
+    "alias_name": "Receiving Belt 7 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB7 DCE."
+  },
+  {
+    "equipment_id": 177,
+    "equipment_name": "RB7 DCE",
+    "alias_name": "Receiving Belt 7 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 178,
+    "equipment_name": "RB8 DCE",
+    "alias_name": "R.B. 8 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 178,
+    "equipment_name": "RB8 DCE",
+    "alias_name": "Receiving Belt 8 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB8 DCE."
+  },
+  {
+    "equipment_id": 178,
+    "equipment_name": "RB8 DCE",
+    "alias_name": "Receiving Belt 8 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 179,
+    "equipment_name": "RB9 DCE",
+    "alias_name": "R.B. 9 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 179,
+    "equipment_name": "RB9 DCE",
+    "alias_name": "Receiving Belt 9 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB9 DCE."
+  },
+  {
+    "equipment_id": 179,
+    "equipment_name": "RB9 DCE",
+    "alias_name": "Receiving Belt 9 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 180,
+    "equipment_name": "RB11 DCE",
+    "alias_name": "DCE 11",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 180,
+    "equipment_name": "RB11 DCE",
+    "alias_name": "R.B. 11 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 180,
+    "equipment_name": "RB11 DCE",
+    "alias_name": "Receiving Belt 11 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB11 DCE."
+  },
+  {
+    "equipment_id": 180,
+    "equipment_name": "RB11 DCE",
+    "alias_name": "Receiving Belt 11 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 181,
+    "equipment_name": "RB12 DCE",
+    "alias_name": "DCE 12",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 181,
+    "equipment_name": "RB12 DCE",
+    "alias_name": "R.B. 12 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 181,
+    "equipment_name": "RB12 DCE",
+    "alias_name": "Receiving Belt 12 DCE",
+    "alias_type": "normalised_name",
+    "source": "manual tidy 2026-04-26",
+    "notes": "Long name for short equipment code RB12 DCE."
+  },
+  {
+    "equipment_id": 181,
+    "equipment_name": "RB12 DCE",
+    "alias_name": "Receiving Belt 12 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 182,
+    "equipment_name": "Tripper No 5 DCE",
+    "alias_name": "Tripper 5 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 182,
+    "equipment_name": "Tripper No 5 DCE",
+    "alias_name": "Tripper 5 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 183,
+    "equipment_name": "Tripper No 6 DCE",
+    "alias_name": "Tripper 6 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 183,
+    "equipment_name": "Tripper No 6 DCE",
+    "alias_name": "Tripper 6 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 184,
+    "equipment_name": "Tripper No 7 DCE",
+    "alias_name": "Tripper 7 DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 184,
+    "equipment_name": "Tripper No 7 DCE",
+    "alias_name": "Tripper 7 Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 185,
+    "equipment_name": "MC2 Tail End DCE",
+    "alias_name": "M.C. 2 Tail End DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 185,
+    "equipment_name": "MC2 Tail End DCE",
+    "alias_name": "Mill Conveyor 2 Tail End Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 186,
+    "equipment_name": "MC2 Drive End DCE",
+    "alias_name": "M.C. 2 Drive End DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 186,
+    "equipment_name": "MC2 Drive End DCE",
+    "alias_name": "Mill Conveyor 2 Drive End Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 187,
+    "equipment_name": "MC3 Tail End DCE",
+    "alias_name": "M.C. 3 Tail End DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 187,
+    "equipment_name": "MC3 Tail End DCE",
+    "alias_name": "Mill Conveyor 3 Tail End Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 188,
+    "equipment_name": "MC3 Drive End DCE",
+    "alias_name": "M.C. 3 Drive End DCE",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 188,
+    "equipment_name": "MC3 Drive End DCE",
+    "alias_name": "Mill Conveyor 3 Drive End Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 189,
+    "equipment_name": "BMH DCE",
+    "alias_name": "BMH Dust Control Equipment",
+    "alias_type": "dust_bag_label",
+    "source": "Incoming/DUST BAGS IN STOCK",
+    "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+  },
+  {
+    "equipment_id": 189,
+    "equipment_name": "BMH DCE",
+    "alias_name": "BMH Ship Unloader Dust Control Equipment",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 192,
+    "equipment_name": "BMH Compressor",
+    "alias_name": "BMH Air Compressor",
+    "alias_type": "compressor_document",
+    "source": "Compressors/Compressors",
+    "notes": "Alias from Compressors/Compressors."
+  },
+  {
+    "equipment_id": 192,
+    "equipment_name": "BMH Compressor",
+    "alias_name": "BMH Ship Unloader Air Compressor",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": "Long name confirmed by Paul"
+  },
+  {
+    "equipment_id": 192,
+    "equipment_name": "BMH Compressor",
+    "alias_name": "BMH Ship Unloader Air Compressor",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 192,
+    "equipment_name": "BMH Compressor",
+    "alias_name": "Champion BMH Compressor",
+    "alias_type": "compressor_document",
+    "source": "Compressors/Compressors",
+    "notes": "Alias from Compressors/Compressors."
+  },
+  {
+    "equipment_id": 193,
+    "equipment_name": "SCR Compressor 7th Floor",
+    "alias_name": "7th Floor SCR Compressor",
+    "alias_type": "compressor_document",
+    "source": "Compressors/Compressors",
+    "notes": "Alias from Compressors/Compressors."
+  },
+  {
+    "equipment_id": 193,
+    "equipment_name": "SCR Compressor 7th Floor",
+    "alias_name": "Air Compressor — Workhouse 7th Floor",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 193,
+    "equipment_name": "SCR Compressor 7th Floor",
+    "alias_name": "SCR compressor 7th floor",
+    "alias_type": "compressor_document",
+    "source": "Compressors/Compressors",
+    "notes": "Alias from Compressors/Compressors."
+  },
+  {
+    "equipment_id": 194,
+    "equipment_name": "Fike Dust Suppression System",
+    "alias_name": "FIKES EPC",
+    "alias_type": "fike_document",
+    "source": "Fike/Fike",
+    "notes": "Alias from Fike/Fike."
+  },
+  {
+    "equipment_id": 194,
+    "equipment_name": "Fike Dust Suppression System",
+    "alias_name": "Fike Explosion Suppression System — Main Elevators",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 194,
+    "equipment_name": "Fike Dust Suppression System",
+    "alias_name": "Fike System",
+    "alias_type": "fike_document",
+    "source": "Fike/Fike",
+    "notes": "Alias from Fike/Fike."
+  },
+  {
+    "equipment_id": 195,
+    "equipment_name": "Fike Main Elevators Panel",
+    "alias_name": "8th Floor Main Elevators Fike Panel",
+    "alias_type": "fike_document",
+    "source": "Fike/Fike",
+    "notes": "Alias from Fike/Fike."
+  },
+  {
+    "equipment_id": 195,
+    "equipment_name": "Fike Main Elevators Panel",
+    "alias_name": "EPACO Multi Stream Cabinet 3",
+    "alias_type": "fike_document",
+    "source": "Fike/Fike",
+    "notes": "Alias from Fike/Fike."
+  },
+  {
+    "equipment_id": 195,
+    "equipment_name": "Fike Main Elevators Panel",
+    "alias_name": "Fike Cabinet 3",
+    "alias_type": "fike_document",
+    "source": "Fike/Fike",
+    "notes": "Alias from Fike/Fike."
+  },
+  {
+    "equipment_id": 195,
+    "equipment_name": "Fike Main Elevators Panel",
+    "alias_name": "Fike Explosion Suppression Panel — Main Elevators",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 196,
+    "equipment_name": "Fike Junction House Panel",
+    "alias_name": "Fike Explosion Suppression Panel — Junction House",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 196,
+    "equipment_name": "Fike Junction House Panel",
+    "alias_name": "Fike Switchroom 1 Panel",
+    "alias_type": "fike_document",
+    "source": "Fike/Fike",
+    "notes": "Alias from Fike/Fike."
+  },
+  {
+    "equipment_id": 196,
+    "equipment_name": "Fike Junction House Panel",
+    "alias_name": "Fike Switchroom 2 Panel",
+    "alias_type": "fike_document",
+    "source": "Fike/Fike",
+    "notes": "Alias from Fike/Fike."
+  },
+  {
+    "equipment_id": 197,
+    "equipment_name": "Fike Scale Room Panel",
+    "alias_name": "Fike Explosion Suppression Panel — Scale Room",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 197,
+    "equipment_name": "Fike Scale Room Panel",
+    "alias_name": "Scale Room Fike Panel",
+    "alias_type": "fike_document",
+    "source": "Fike/Fike",
+    "notes": "Alias from Fike/Fike."
+  },
+  {
+    "equipment_id": 198,
+    "equipment_name": "Silo 3 Bin 1",
+    "alias_name": "Bin 1",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 199,
+    "equipment_name": "Silo 3 Bin 1 Sweep Auger",
+    "alias_name": "Silo 3 Bin 1 Auger",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 200,
+    "equipment_name": "Silo 3 Bin 1 Aeration Fan",
+    "alias_name": "Bin 1 Aeration Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 201,
+    "equipment_name": "Silo 3 Bin 1 Outlet Gate",
+    "alias_name": "Bin 1 Outlet Gate",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 202,
+    "equipment_name": "Silo 3 Bin 2",
+    "alias_name": "Bin 2",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 203,
+    "equipment_name": "Silo 3 Bin 2 Sweep Auger",
+    "alias_name": "Silo 3 Bin 2 Auger",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 204,
+    "equipment_name": "Silo 3 Bin 2 Aeration Fan",
+    "alias_name": "Bin 2 Aeration Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 205,
+    "equipment_name": "Silo 3 Bin 2 Outlet Gate",
+    "alias_name": "Bin 2 Outlet Gate",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 206,
+    "equipment_name": "Silo 3 Bin 3",
+    "alias_name": "Bin 3",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 207,
+    "equipment_name": "Silo 3 Bin 3 Sweep Auger",
+    "alias_name": "Silo 3 Bin 3 Auger",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 208,
+    "equipment_name": "Silo 3 Bin 3 Aeration Fan",
+    "alias_name": "Bin 3 Aeration Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 209,
+    "equipment_name": "Silo 3 Bin 3 Outlet Gate",
+    "alias_name": "Bin 3 Outlet Gate",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 210,
+    "equipment_name": "Silo 3 Bin 4",
+    "alias_name": "Bin 4",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 211,
+    "equipment_name": "Silo 3 Bin 4 Sweep Auger",
+    "alias_name": "Silo 3 Bin 4 Auger",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 212,
+    "equipment_name": "Silo 3 Bin 4 Aeration Fan",
+    "alias_name": "Bin 4 Aeration Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 213,
+    "equipment_name": "Silo 3 Bin 4 Outlet Gate",
+    "alias_name": "Bin 4 Outlet Gate",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 214,
+    "equipment_name": "Silo 3 Bin 5",
+    "alias_name": "Bin 5",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 215,
+    "equipment_name": "Silo 3 Bin 5 Sweep Auger",
+    "alias_name": "Silo 3 Bin 5 Auger",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 216,
+    "equipment_name": "Silo 3 Bin 5 Aeration Fan",
+    "alias_name": "Bin 5 Aeration Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 217,
+    "equipment_name": "Silo 3 Bin 5 Outlet Gate",
+    "alias_name": "Bin 5 Outlet Gate",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 218,
+    "equipment_name": "Silo 3 Bin 6",
+    "alias_name": "Bin 6",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 219,
+    "equipment_name": "Silo 3 Bin 6 Sweep Auger",
+    "alias_name": "Silo 3 Bin 6 Auger",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 220,
+    "equipment_name": "Silo 3 Bin 6 Aeration Fan",
+    "alias_name": "Bin 6 Aeration Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 221,
+    "equipment_name": "Silo 3 Bin 6 Outlet Gate",
+    "alias_name": "Bin 6 Outlet Gate",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 222,
+    "equipment_name": "Silo 3 Bin 7",
+    "alias_name": "Bin 7",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 223,
+    "equipment_name": "Silo 3 Bin 7 Sweep Auger",
+    "alias_name": "Silo 3 Bin 7 Auger",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 224,
+    "equipment_name": "Silo 3 Bin 7 Aeration Fan",
+    "alias_name": "Bin 7 Aeration Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 225,
+    "equipment_name": "Silo 3 Bin 7 Outlet Gate",
+    "alias_name": "Bin 7 Outlet Gate",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 226,
+    "equipment_name": "Silo 3 Bin 8",
+    "alias_name": "Bin 8",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 227,
+    "equipment_name": "Silo 3 Bin 8 Sweep Auger",
+    "alias_name": "Silo 3 Bin 8 Auger",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 228,
+    "equipment_name": "Silo 3 Bin 8 Aeration Fan",
+    "alias_name": "Bin 8 Aeration Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 229,
+    "equipment_name": "Silo 3 Bin 8 Outlet Gate",
+    "alias_name": "Bin 8 Outlet Gate",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 230,
+    "equipment_name": "Silo 3 Bin 9",
+    "alias_name": "Bin 9",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 231,
+    "equipment_name": "Silo 3 Bin 9 Sweep Auger",
+    "alias_name": "Silo 3 Bin 9 Auger",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 232,
+    "equipment_name": "Silo 3 Bin 9 Aeration Fan",
+    "alias_name": "Bin 9 Aeration Fan",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  },
+  {
+    "equipment_id": 233,
+    "equipment_name": "Silo 3 Bin 9 Outlet Gate",
+    "alias_name": "Bin 9 Outlet Gate",
+    "alias_type": "legacy_name",
+    "source": "user_confirmed",
+    "notes": null
+  }
+]

@@ -1,0 +1,6678 @@
+[
+  {
+    "id": 192,
+    "name": "BMH Compressor",
+    "long_name": null,
+    "type": "compressor",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder compressor asset created from BMH compressor controller manual.",
+    "location": "BMH",
+    "aliases": [
+      {
+        "name": "BMH Air Compressor",
+        "type": "compressor_document",
+        "source": "Compressors/Compressors",
+        "notes": "Alias from Compressors/Compressors."
+      },
+      {
+        "name": "BMH Ship Unloader Air Compressor",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": "Long name confirmed by Paul"
+      },
+      {
+        "name": "BMH Ship Unloader Air Compressor",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Champion BMH Compressor",
+        "type": "compressor_document",
+        "source": "Compressors/Compressors",
+        "notes": "Alias from Compressors/Compressors."
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "name": "BMH DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "BMH DCE asset from dust bag records.",
+    "location": "BMH",
+    "aliases": [
+      {
+        "name": "BMH Dust Control Equipment",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "BMH Ship Unloader Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "name": "BMH Horizontal Conveyor",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Horizontal Screw Conveyor",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Horizontal conveyor",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "name": "BMH Hydraulic Pump Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Hydraulic Pump Motor",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Hydraulic Pump Motor",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "name": "BMH Inlet Head",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Inlet Head",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Inlet head",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "BMH Ship Unloader",
+    "long_name": null,
+    "type": "ship_unloader",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": "Siwertell (Bruks Siwertell)",
+    "model": null,
+    "notes": "Current equipment - original marine legs defunct",
+    "location": null,
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "BMH_SHIP_UNLOADER",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Bruks Siwertell BMH Screw-Type Ship Unloader Serial Number XXX",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "name": "BMH Slew Motor 1",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Slew Motor 1",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Slew motor 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "name": "BMH Slew Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Slew Motor 2",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Slew motor 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "name": "BMH Travel Motor 1",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 1",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "name": "BMH Travel Motor 10",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 10",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 10",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "name": "BMH Travel Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 2",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "name": "BMH Travel Motor 3",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 3",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "name": "BMH Travel Motor 4",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 4",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "name": "BMH Travel Motor 5",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 5",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 5",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "name": "BMH Travel Motor 6",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 6",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 6",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "name": "BMH Travel Motor 7",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 7",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 7",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "name": "BMH Travel Motor 8",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 8",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 8",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "name": "BMH Travel Motor 9",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Travel Motor 9",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Travel Motor 9",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "name": "BMH Vertical Conveyor 1",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Vertical Screw Conveyor 1",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Vertical Conveyor 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "name": "BMH Vertical Conveyor 2",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "BMH",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder created from RSGT Asset ListV2. Additional technical information can be added as it becomes available.",
+    "location": "BMH Ship Unloader",
+    "aliases": [
+      {
+        "name": "BMH Ship Unloader Vertical Screw Conveyor 2",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Vertical Conveyor 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "name": "SCR Compressor 7th Floor",
+    "long_name": null,
+    "type": "compressor",
+    "area": "Compressor Room / Workhouse Floor 7",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Placeholder compressor asset created from SCR compressor 7th floor certification pack.",
+    "location": "Compressor Room / Workhouse Floor 7",
+    "aliases": [
+      {
+        "name": "7th Floor SCR Compressor",
+        "type": "compressor_document",
+        "source": "Compressors/Compressors",
+        "notes": "Alias from Compressors/Compressors."
+      },
+      {
+        "name": "Air Compressor — Workhouse 7th Floor",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "SCR compressor 7th floor",
+        "type": "compressor_document",
+        "source": "Compressors/Compressors",
+        "notes": "Alias from Compressors/Compressors."
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "DC12/13",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "Dust Plant And Discharge",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Dust Plant And Discharge",
+    "aliases": [
+      {
+        "name": "DC12_13",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Dust Chain Conveyor 12/13",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Dust Chain Conveyor 12/13",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "DP1 TO DP6",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Dust Plant And Discharge",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Dust Plant And Discharge",
+    "aliases": [
+      {
+        "name": "DP1_TO_DP6",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Dust Plants 1 to 6",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Dust plant 1 Rotary",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 1 fan",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 2 Rotary",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 2 fan",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 3 Rotary",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 3 fan",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 4 Rotary",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 4 fan",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 5 Rotary",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 5 fan",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "DP12 TO DP13",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Dust Plant And Discharge",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Dust Plant And Discharge",
+    "aliases": [
+      {
+        "name": "DP12_TO_DP13",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Dust Plants 12 to 13",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Dust plant 12 Rotary",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 12 fan",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 13 Rotary",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust plant 13 fan",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Simons Bin",
+    "long_name": "Simons Bin",
+    "type": "process_equipment",
+    "area": "Dust Plant And Discharge",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology. Label preserved from drawing. Expansion still to be confirmed. Known operationally as Simons Bin. Drawing label LGS1 preserved as alias.",
+    "location": "Dust Plant And Discharge",
+    "aliases": [
+      {
+        "name": "LGS1",
+        "type": "drawing_label",
+        "source": "User correction 2026-04-25",
+        "notes": "Drawing label retained after operational rename to Simons Bin."
+      },
+      {
+        "name": "Simons Dust Collection Bin",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Dust Plant 12 - Chain Conveyor",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "Dust Plants",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-DS"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Dust Plant 12 and 13 Chain Conveyor",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Dust Plant 12 - Elevator",
+    "long_name": null,
+    "type": "bucket_elevator",
+    "area": "Dust Plants",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-DS"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Motors M1, M2",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Dust Plant 12 and 13 Elevator",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Dust Plant 12 - Fan",
+    "long_name": null,
+    "type": "dust_filter",
+    "area": "Dust Plants",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-D7",
+      "CTX-361-DT"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Dust Plant 12 Main Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Dust Plant 13 - Fan",
+    "long_name": null,
+    "type": "dust_filter",
+    "area": "Dust Plants",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-DU"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Dust Plant 13 Main Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "CARGILLS",
+    "long_name": null,
+    "type": "external_interface",
+    "area": "External Interfaces",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology. Live interface, important to retain in the model even if not directly operated.",
+    "location": "External Interfaces",
+    "aliases": [
+      {
+        "name": "Cargills Interface",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "COMPRESSOR ROOM, WORKHOUSE FLOOR 7",
+    "long_name": null,
+    "type": "room",
+    "area": "External Interfaces",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "External Interfaces",
+    "aliases": [
+      {
+        "name": "COMPRESSOR_ROOM",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "COMPRESSOR_ROOM_WORKHOUSE_FLOOR_7",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Compressor Room — Workhouse 7th Floor",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Compressor Room, Workhouse Floor 7",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "DUMP HOPPER",
+    "long_name": null,
+    "type": "hopper",
+    "area": "External Interfaces",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "External Interfaces",
+    "aliases": [
+      {
+        "name": "DUMP_HOPPER",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Dump Hopper",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Ship Unloader Dump Hopper",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "LLCC1",
+    "long_name": "Lorry Loading Chain Conveyor 1",
+    "type": "chain_conveyor",
+    "area": "Lorry Loading",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Lorry Loading Chain Conveyor 1. Consolidated from LC1 process schematic record and LCC1 asset-list placeholder.",
+    "location": "Lorry Loading",
+    "aliases": [
+      {
+        "name": "L.L.CHAIN CONV. No 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "LC1",
+        "type": "legacy_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Previous displayed name before LLCC1 normalization."
+      },
+      {
+        "name": "LCC1",
+        "type": "legacy_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Duplicate placeholder name consolidated into LLCC1."
+      },
+      {
+        "name": "LG/LL/CC1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "LLCC1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Lorry Loading Chain Conveyor 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "name": "LLCC2",
+    "long_name": "Lorry Loading Chain Conveyor 2",
+    "type": "chain_conveyor",
+    "area": "Lorry Loading",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Lorry Loading Chain Conveyor 2, from the electrical motor register.",
+    "location": "Lorry Loading",
+    "aliases": [
+      {
+        "name": "L.L.C.C. 2",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Lorry Loading Chain Conveyor 2",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "LLCC3",
+    "long_name": "Lorry Loading Chain Conveyor 3",
+    "type": "chain_conveyor",
+    "area": "Lorry Loading",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Lorry Loading Chain Conveyor 3. Display name normalized from LCC3 / LLCC3 aliases.",
+    "location": "Lorry Loading",
+    "aliases": [
+      {
+        "name": "L.L.CHAIN CONV. No 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "LCC3",
+        "type": "legacy_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Previous displayed name before LLCC3 normalization."
+      },
+      {
+        "name": "LG/LL/CC3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "LLCC3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Lorry Loading Chain Conveyor 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "LORRY LOADING BINS",
+    "long_name": null,
+    "type": "bin_group",
+    "area": "Lorry Loading",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Lorry Loading",
+    "aliases": [
+      {
+        "name": "LORRY_LOADING_BINS",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Lorry Loading Bins A to F",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Lorry Loading Compressors",
+    "long_name": null,
+    "type": "compressor",
+    "area": "Lorry Loading",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Aggregate lorry loading compressor record for East and West compressors from the electrical motor register.",
+    "location": "Lorry Loading",
+    "aliases": [
+      {
+        "name": "Compressor East",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Compressor West",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Lorry Loading Air Compressors",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Lorry Loading Routing Valves",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Lorry Loading",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Aggregate lorry loading routing valve record covering A-F head routers and bin routing valves from the electrical motor register.",
+    "location": "Lorry Loading",
+    "aliases": [
+      {
+        "name": "A-F Routing Valves",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Lorry Loading Head Routers",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Lorry Loading Head Routing Valves",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "DCC (UNUSED)",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "D.C.C. VALVE No 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "D.C.C. VALVE No 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "D.C.C. VALVE No 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "DCC",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "DIS. CHAIN CONV.",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Distribution Chain Conveyor",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "ELV1",
+    "long_name": "Elevator 1",
+    "type": "bucket_elevator",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "ELEVATOR No 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Elevator 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S1/EL1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "MAIN ELEVATOR 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to ME1."
+      },
+      {
+        "name": "ME1",
+        "type": "legacy_name",
+        "source": "renamed",
+        "notes": "Old name before canonical rename to ELV1"
+      },
+      {
+        "name": "Main Elevator 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "SILO1_ME1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for ME1"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "ELV2",
+    "long_name": "Elevator 2",
+    "type": "bucket_elevator",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "ELEVATOR No 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Elevator 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S1/EL2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "MAIN ELEVATOR 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to ME2."
+      },
+      {
+        "name": "ME2",
+        "type": "legacy_name",
+        "source": "renamed",
+        "notes": "Old name before canonical rename to ELV2"
+      },
+      {
+        "name": "Main Elevator 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "SILO1_ME2",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for ME2"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "ELV3",
+    "long_name": "Elevator 3",
+    "type": "bucket_elevator",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "ELEVATOR No 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Elevator 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S1/EL3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "MAIN ELEVATOR 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to ME3."
+      },
+      {
+        "name": "ME3",
+        "type": "legacy_name",
+        "source": "renamed",
+        "notes": "Old name before canonical rename to ELV3"
+      },
+      {
+        "name": "Main Elevator 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "SILO1_ME3",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for ME3"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "ELV4",
+    "long_name": "Elevator 4",
+    "type": "bucket_elevator",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "ELEVATOR No 4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Elevator 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S1/EL4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "MAIN ELEVATOR 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to ME4."
+      },
+      {
+        "name": "ME4",
+        "type": "legacy_name",
+        "source": "renamed",
+        "notes": "Old name before canonical rename to ELV4"
+      },
+      {
+        "name": "Main Elevator 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "SILO1_ME4",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for ME4"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Fike Dust Suppression System",
+    "long_name": null,
+    "type": "dust_suppression",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": "Fike",
+    "model": null,
+    "notes": "Fike dust suppression system attached to main elevators, Junction House elevators, and lorry intake chains.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "FIKES EPC",
+        "type": "fike_document",
+        "source": "Fike/Fike",
+        "notes": "Alias from Fike/Fike."
+      },
+      {
+        "name": "Fike Explosion Suppression System — Main Elevators",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Fike System",
+        "type": "fike_document",
+        "source": "Fike/Fike",
+        "notes": "Alias from Fike/Fike."
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "MB1",
+    "long_name": null,
+    "type": "bin",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "Mill Bin 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "MB2",
+    "long_name": null,
+    "type": "bin",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "Mill Bin 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Main Elevator Pony Motors",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Aggregate main elevator pony motor record from the electrical motor register.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "ELEVATOR No 1 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "ELEVATOR No 2 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "ELEVATOR No 3 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "ELEVATOR No 4 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "ELV PONY",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Elevator Pony Motors",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Main Elevator Pony Motors — ELV1 to ELV4",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "RC3",
+    "long_name": "Receiving Chain Conveyor 3",
+    "type": "belt_conveyor",
+    "area": "Main Elevators And Distribution",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-CH"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S2/RC3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RC3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Chain Conveyor 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to RC3."
+      },
+      {
+        "name": "Receiving Conveyor 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Conveyor 3",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "RC4",
+    "long_name": "Receiving Chain Conveyor 4",
+    "type": "belt_conveyor",
+    "area": "Main Elevators And Distribution",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-CJ"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S2/RC4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RC4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Chain Conveyor 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to RC4."
+      },
+      {
+        "name": "Receiving Conveyor 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Conveyor 4",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "SUB 1",
+    "long_name": "Substation 1",
+    "type": "substation",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "SUB_1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Substation 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "SUB 2",
+    "long_name": "Substation 2",
+    "type": "substation",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "SUB_2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Substation 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "TH1",
+    "long_name": "Turnhead 1",
+    "type": "turnhead",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "LG/S1/TH1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "LOWER GARNER No 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "TURNHEAD No 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Turnhead 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "TH2",
+    "long_name": "Turnhead 2",
+    "type": "turnhead",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "LG/S1/TH2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "LOWER GARNER No 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "TURNHEAD No 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Turnhead 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "TH3",
+    "long_name": "Turnhead 3",
+    "type": "turnhead",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "LG/S1/TH3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "LOWER GARNER No 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "TURNHEAD No 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Turnhead 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "TH4",
+    "long_name": "Turnhead 4",
+    "type": "turnhead",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "LG/S1/TH4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "LOWER GARNER No 4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "TURNHEAD No 4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Turnhead 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "UG1",
+    "long_name": "Upper Garner 1",
+    "type": "garner",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "Upper Garner 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "UG2",
+    "long_name": "Upper Garner 2",
+    "type": "garner",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "Upper Garner 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "UG3",
+    "long_name": "Upper Garner 3",
+    "type": "garner",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "Upper Garner 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "UG4",
+    "long_name": "Upper Garner 4",
+    "type": "garner",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Main Elevators And Distribution",
+    "aliases": [
+      {
+        "name": "Upper Garner 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "name": "MC2 Drive End DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Mill Feed",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "MC2 drive-end DCE asset from dust bag records.",
+    "location": "Mill Feed",
+    "aliases": [
+      {
+        "name": "M.C. 2 Drive End DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Mill Conveyor 2 Drive End Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "name": "MC2 Tail End DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Mill Feed",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "MC2 tail-end DCE asset from dust bag records.",
+    "location": "Mill Feed",
+    "aliases": [
+      {
+        "name": "M.C. 2 Tail End DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Mill Conveyor 2 Tail End Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "name": "MC3 Drive End DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Mill Feed",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "MC3 drive-end DCE asset from dust bag records.",
+    "location": "Mill Feed",
+    "aliases": [
+      {
+        "name": "M.C. 3 Drive End DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Mill Conveyor 3 Drive End Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "name": "MC3 Tail End DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Mill Feed",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "MC3 tail-end DCE asset from dust bag records.",
+    "location": "Mill Feed",
+    "aliases": [
+      {
+        "name": "M.C. 3 Tail End DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Mill Conveyor 3 Tail End Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Mill Feed",
+    "long_name": "Mill Feed",
+    "type": "process_equipment",
+    "area": "Mill Feed",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Aggregate plant record for mill feed motor-driven valves and auxiliaries from the electrical motor register.",
+    "location": "Mill Feed",
+    "aliases": [
+      {
+        "name": "MILL BIN No 1 V 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "MILL BIN No 1 V3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "MILL BIN No 2 V1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "MILL BIN No 2 V3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "MILL No 1 VALVE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "MILL No 2 VALVE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Mill Feed Area",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Basement Belt Valve 1",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Receiving",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-B"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": []
+  },
+  {
+    "id": 29,
+    "name": "Basement Chain Conv 1 Valve 1",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Receiving",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-BU"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Basement Chain Conveyor 1 Slide Valve 1",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Basement Chain Conv 1 Valve 2",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Receiving",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-BV"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Basement Chain Conveyor 1 Slide Valve 2",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Basement Chain Conv 2 Valve 1",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Receiving",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-BW"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Basement Chain Conveyor 2 Slide Valve 1",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Basement Chain Conveyor No 1",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "Receiving",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-CD"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Basement Receiving Chain Conveyor 1",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Basement Chain Conveyor No 2",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "Receiving",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-CE"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Basement Receiving Chain Conveyor 2",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Basement Chain Conveyor No 3",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "Receiving",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-BX"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Basement Receiving Chain Conveyor 3",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "COMPRESSOR 1",
+    "long_name": null,
+    "type": "compressor",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "COMPRESSOR 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "COMPRESSOR_1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Compressor 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "COMPRESSOR 2",
+    "long_name": null,
+    "type": "compressor",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "COMPRESSOR 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "COMPRESSOR_2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Compressor 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Dust Filter Fan D.P.1",
+    "long_name": null,
+    "type": "dust_filter",
+    "area": "Receiving",
+    "mcc": "MCC1A",
+    "drawing_refs": [
+      "DTX-361-AA"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Includes DPDT relay",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Dust Plant 1 Filter Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "JL1",
+    "long_name": "Junction House Elevator 1",
+    "type": "bucket_elevator",
+    "area": "Receiving",
+    "mcc": "MCC1/MCC2",
+    "drawing_refs": [
+      "DTX-361-AA"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Bucket elevator",
+    "location": null,
+    "aliases": [
+      {
+        "name": "J/H ELEVATOR 1 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "J/HOUSE ELEVATOR 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "JH_ELEVATOR_1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "JL1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "JUNCTION HOUSE ELEVATOR 1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for JL1"
+      },
+      {
+        "name": "Junction House Elevator 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Junction House Elevator JH El1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for JL1"
+      },
+      {
+        "name": "Junction Tower Elevator J.L.1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for JL1"
+      },
+      {
+        "name": "LG/JH/EL1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "JL2",
+    "long_name": "Junction House Elevator 2",
+    "type": "bucket_elevator",
+    "area": "Receiving",
+    "mcc": "MCC1/MCC2",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Bucket elevator",
+    "location": null,
+    "aliases": [
+      {
+        "name": "J/H ELEVATOR 2 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "J/HOUSE ELEVATOR 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "JH_ELEVATOR_2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "JL2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "JUNCTION HOUSE ELEVATOR 2",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for JL2"
+      },
+      {
+        "name": "Junction House Elevator 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Junction House Elevator JH El2",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for JL2"
+      },
+      {
+        "name": "LG/JH/EL2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "RB1",
+    "long_name": "Receiving Belt 1",
+    "type": "belt_conveyor",
+    "area": "Receiving",
+    "mcc": "MCC1/MCC2",
+    "drawing_refs": [
+      "DTX-361-AA"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/RG/RB1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RB1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RECEIVING BELT No1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Belt RB1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for RB1"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "RB1 DCE",
+    "long_name": "Receiving Belt 1 DCE",
+    "type": "dust_control",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "D.C.E. /R.B.1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust Compaction Unit for RB1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB1 DCE",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB1_DCE",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Belt 1 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB1 DCE."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "RB1 MAGNET",
+    "long_name": "Receiving Belt 1 Magnet",
+    "type": "magnetic_separator",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "RB1 MAGNET",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB1 Magnet",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB1_MAGNET",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Belt 1 Magnet",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB1 MAGNET."
+      },
+      {
+        "name": "Receiving Belt 1 Magnetic Separator",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "RB2",
+    "long_name": "Receiving Belt 2",
+    "type": "belt_conveyor",
+    "area": "Receiving",
+    "mcc": "MCC1/MCC2",
+    "drawing_refs": [
+      "DTX-361-AA"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/RG/RB2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RB2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RECEIVING BELT No2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Belt RB2",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for RB2"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "RB2 DCE",
+    "long_name": "Receiving Belt 2 DCE",
+    "type": "dust_control",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "D.C.E./R.B.2.",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust Compaction Unit for RB2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB2 DCE",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB2_DCE",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Belt 2 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB2 DCE."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "RB2 MAGNET",
+    "long_name": "Receiving Belt 2 Magnet",
+    "type": "magnetic_separator",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "RB2 MAGNET",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB2 Magnet",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB2_MAGNET",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Belt 2 Magnet",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB2 MAGNET."
+      },
+      {
+        "name": "Receiving Belt 2 Magnetic Separator",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "RB3",
+    "long_name": "Receiving Belt 3",
+    "type": "belt_conveyor",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S1/RB3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RB3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RECEIVING BELT No 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "RB3 DCE",
+    "long_name": "Receiving Belt 3 DCE",
+    "type": "dust_control",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "D.C.E./R.B.3.",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust Compaction Unit for RB3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB3 DCE",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB3_DCE",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Belt 3 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB3 DCE."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "RB4",
+    "long_name": "Receiving Belt 4",
+    "type": "belt_conveyor",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S1/RB4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RB4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RECEIVING BELT No 4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "RB4 DCE",
+    "long_name": "Receiving Belt 4 DCE",
+    "type": "dust_control",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Dust Compaction Unit for RB4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB4 DCE",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB4_DCE",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Belt 4 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB4 DCE."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "RC1",
+    "long_name": "Receiving Chain Conveyor 1",
+    "type": "chain_conveyor",
+    "area": "Receiving",
+    "mcc": "MCC1/MCC2",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/RG/RC1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RC1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RECEIVING CONV. NO 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Chain Conveyor 1",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RC1."
+      },
+      {
+        "name": "Receiving Chain RC1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for RC1"
+      },
+      {
+        "name": "Receiving Conveyor 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "RC1 DCE1",
+    "long_name": "Receiving Chain Conveyor 1 DCE 1",
+    "type": "conveyor",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "D.C.E./R.C.1.",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust Compaction Unit 1 for RC1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RC1 DCE1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RC1_DCE1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Chain Conveyor 1 DCE 1",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RC1 DCE1."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "RC1 DCE2",
+    "long_name": "Receiving Chain Conveyor 1 DCE 2",
+    "type": "conveyor",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "D.C.E./R.C.1A.",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Dust Compaction Unit 2 for RC1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RC1 DCE2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RC1_DCE2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Receiving Chain Conveyor 1 DCE 2",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RC1 DCE2."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "RC2",
+    "long_name": "Receiving Chain Conveyor 2",
+    "type": "chain_conveyor",
+    "area": "Receiving",
+    "mcc": "MCC1/MCC2",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "D.C.E./R.C.2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "LG/RG/RC2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RC2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RECEIVING CONV. No 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Chain Conveyor 2",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RC2."
+      },
+      {
+        "name": "Receiving Chain RC2",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for RC2"
+      },
+      {
+        "name": "Receiving Conveyor 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "name": "RC2 DCE",
+    "long_name": "Receiving Chain Conveyor 2 DCE",
+    "type": "dust_control",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "RC2 DCE dust-control asset from dust bag records.",
+    "location": "Receiving",
+    "aliases": [
+      {
+        "name": "R.C. 2 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Receiving Chain Conveyor 2 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RC2 DCE."
+      },
+      {
+        "name": "Receiving Conveyor 2 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Rotary Bin Discharger No 1",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Receiving",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-CG"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Rotary Bin Discharger 1",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Rotary Bin Discharger No 2",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Receiving",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-CG"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Rotary Bin Discharger 2",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Rotary Valve R.V.1",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Receiving",
+    "mcc": "MCC1A",
+    "drawing_refs": [
+      "DTX-361-AA"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "ATEX - dust handling",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Rotary Valve 1",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Surge Bin DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Receiving",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Surge Bin DCE on the 4th floor, from the electrical motor register.",
+    "location": "Receiving",
+    "aliases": [
+      {
+        "name": "Surge Bin D.C.E",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "name": "Fike Scale Room Panel",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "Scale Room",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": "Fike",
+    "model": null,
+    "notes": "Placeholder Fike panel located in the Scale Room.",
+    "location": "Scale Room",
+    "aliases": [
+      {
+        "name": "Fike Explosion Suppression Panel — Scale Room",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Scale Room Fike Panel",
+        "type": "fike_document",
+        "source": "Fike/Fike",
+        "notes": "Alias from Fike/Fike."
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Shipping Spout 2",
+    "long_name": "Shipping Spout 2",
+    "type": "process_equipment",
+    "area": "Shipping Spouts",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Aggregate plant record for Shipping Spout 2 motor-driven hoist, slew, telescope, and valve equipment from the electrical motor register.",
+    "location": "Shipping Spouts",
+    "aliases": [
+      {
+        "name": "S Spout No 2",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "S/Spout No 2",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Shipping Spout No 2",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "RB5",
+    "long_name": "Receiving Belt 5",
+    "type": "belt_conveyor",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S1/RB5",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RB5",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RECEIVING BELT No 5",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 5",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "name": "RB5 DCE",
+    "long_name": "Receiving Belt 5 DCE",
+    "type": "dust_control",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "RB5 DCE dust-control asset from dust bag records.",
+    "location": "Silo 1",
+    "aliases": [
+      {
+        "name": "R.B. 5 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Receiving Belt 5 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB5 DCE."
+      },
+      {
+        "name": "Receiving Belt 5 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "RB6",
+    "long_name": "Receiving Belt 6",
+    "type": "belt_conveyor",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S1/RB6",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RB6",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RECEIVING BELT No 6",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 6",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "name": "RB6 DCE",
+    "long_name": "Receiving Belt 6 DCE",
+    "type": "dust_control",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "RB6 DCE dust-control asset from dust bag records.",
+    "location": "Silo 1",
+    "aliases": [
+      {
+        "name": "R.B. 6 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Receiving Belt 6 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB6 DCE."
+      },
+      {
+        "name": "Receiving Belt 6 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "RB7",
+    "long_name": "Receiving Belt 7",
+    "type": "belt_conveyor",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S1/RB7",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RB7",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RECEIVING BELT No 7",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 7",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "name": "RB7 DCE",
+    "long_name": "Receiving Belt 7 DCE",
+    "type": "dust_control",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "RB7 DCE dust-control asset from dust bag records.",
+    "location": "Silo 1",
+    "aliases": [
+      {
+        "name": "R.B. 7 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Receiving Belt 7 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB7 DCE."
+      },
+      {
+        "name": "Receiving Belt 7 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Silo 1 Cupola Floor DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Dust Fan No 16 / DCE asset on the Silo 1 cupola floor, from the electrical motor register.",
+    "location": "Silo 1",
+    "aliases": [
+      {
+        "name": "Dust Fan No 16",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Silo 1 Cupola Floor Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Silo 1 DCE Dust Fan 16",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Surge Bin 1",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Surge Bin 1 valve motors from the electrical motor register.",
+    "location": "Silo 1",
+    "aliases": [
+      {
+        "name": "SURGE BIN No1 VALVE1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Surge Bin 1 Valve 2",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Surge Bin 2",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Surge Bin 2 valve motors from the electrical motor register.",
+    "location": "Silo 1",
+    "aliases": [
+      {
+        "name": "SURGE BIN No2 VALVE1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "SURGE BIN No2 VALVE2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Surge Bin 2 Valve 1",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Surge Bin 2 Valve 2",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Tripper No 5",
+    "long_name": "Tripper 5",
+    "type": "tripper",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from pulley register. Confirmed by Paul as tripper equipment.",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Tripper 5",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code TR5."
+      },
+      {
+        "name": "Tripper 5",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Tripper No 5",
+        "type": "legacy_name",
+        "source": "Pulley register clarification 2026-04-25",
+        "notes": "TR5 confirmed as tripper equipment."
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Tripper No 5 DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Tripper 5 DCE dust-control asset from dust bag records.",
+    "location": "Silo 1",
+    "aliases": [
+      {
+        "name": "Tripper 5 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Tripper 5 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Tripper No 7",
+    "long_name": "Tripper 7",
+    "type": "tripper",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from pulley register. Confirmed by Paul as tripper equipment.",
+    "location": null,
+    "aliases": [
+      {
+        "name": "Tripper 7",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code TR7."
+      },
+      {
+        "name": "Tripper 7",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Tripper No 7",
+        "type": "legacy_name",
+        "source": "Pulley register clarification 2026-04-25",
+        "notes": "TR7 confirmed as tripper equipment."
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Tripper No 7 DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Tripper 7 DCE dust-control asset from dust bag records.",
+    "location": "Silo 1",
+    "aliases": [
+      {
+        "name": "Tripper 7 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Tripper 7 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "name": "RB8 DCE",
+    "long_name": "Receiving Belt 8 DCE",
+    "type": "dust_control",
+    "area": "Silo 2",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "RB8 DCE dust-control asset from dust bag records.",
+    "location": "Silo 2",
+    "aliases": [
+      {
+        "name": "R.B. 8 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Receiving Belt 8 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB8 DCE."
+      },
+      {
+        "name": "Receiving Belt 8 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "name": "RB9 DCE",
+    "long_name": "Receiving Belt 9 DCE",
+    "type": "dust_control",
+    "area": "Silo 2",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "RB9 DCE dust-control asset from dust bag records.",
+    "location": "Silo 2",
+    "aliases": [
+      {
+        "name": "R.B. 9 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Receiving Belt 9 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB9 DCE."
+      },
+      {
+        "name": "Receiving Belt 9 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "name": "RB11 DCE",
+    "long_name": "Receiving Belt 11 DCE",
+    "type": "dust_control",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "RB11 DCE dust-control asset from dust bag records.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "DCE 11",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "R.B. 11 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Receiving Belt 11 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB11 DCE."
+      },
+      {
+        "name": "Receiving Belt 11 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "name": "RB12 DCE",
+    "long_name": "Receiving Belt 12 DCE",
+    "type": "dust_control",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "RB12 DCE dust-control asset from dust bag records.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "DCE 12",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "R.B. 12 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Receiving Belt 12 DCE",
+        "type": "normalised_name",
+        "source": "manual tidy 2026-04-26",
+        "notes": "Long name for short equipment code RB12 DCE."
+      },
+      {
+        "name": "Receiving Belt 12 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Silo 3 Bin 1",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 1",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Silo 3 Bin 1 Aeration Fan",
+    "long_name": null,
+    "type": "fan",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 1 Aeration Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Silo 3 Bin 1 Outlet Gate",
+    "long_name": null,
+    "type": "gate",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 1 Outlet Gate",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Silo 3 Bin 1 Sweep Auger",
+    "long_name": null,
+    "type": "sweep_auger",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Silo 3 Bin 1 Auger",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Silo 3 Bin 2",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 2",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "name": "Silo 3 Bin 2 Aeration Fan",
+    "long_name": null,
+    "type": "fan",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 2 Aeration Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "name": "Silo 3 Bin 2 Outlet Gate",
+    "long_name": null,
+    "type": "gate",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 2 Outlet Gate",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Silo 3 Bin 2 Sweep Auger",
+    "long_name": null,
+    "type": "sweep_auger",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Silo 3 Bin 2 Auger",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "name": "Silo 3 Bin 3",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 3",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Silo 3 Bin 3 Aeration Fan",
+    "long_name": null,
+    "type": "fan",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 3 Aeration Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Silo 3 Bin 3 Outlet Gate",
+    "long_name": null,
+    "type": "gate",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 3 Outlet Gate",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "name": "Silo 3 Bin 3 Sweep Auger",
+    "long_name": null,
+    "type": "sweep_auger",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Silo 3 Bin 3 Auger",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Silo 3 Bin 4",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 4",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "name": "Silo 3 Bin 4 Aeration Fan",
+    "long_name": null,
+    "type": "fan",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 4 Aeration Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Silo 3 Bin 4 Outlet Gate",
+    "long_name": null,
+    "type": "gate",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 4 Outlet Gate",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Silo 3 Bin 4 Sweep Auger",
+    "long_name": null,
+    "type": "sweep_auger",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Silo 3 Bin 4 Auger",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Silo 3 Bin 5",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 5",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "name": "Silo 3 Bin 5 Aeration Fan",
+    "long_name": null,
+    "type": "fan",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 5 Aeration Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Silo 3 Bin 5 Outlet Gate",
+    "long_name": null,
+    "type": "gate",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 5 Outlet Gate",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "name": "Silo 3 Bin 5 Sweep Auger",
+    "long_name": null,
+    "type": "sweep_auger",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Silo 3 Bin 5 Auger",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Silo 3 Bin 6",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 6",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "name": "Silo 3 Bin 6 Aeration Fan",
+    "long_name": null,
+    "type": "fan",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 6 Aeration Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "name": "Silo 3 Bin 6 Outlet Gate",
+    "long_name": null,
+    "type": "gate",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 6 Outlet Gate",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "name": "Silo 3 Bin 6 Sweep Auger",
+    "long_name": null,
+    "type": "sweep_auger",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Silo 3 Bin 6 Auger",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "name": "Silo 3 Bin 7",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 7",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "name": "Silo 3 Bin 7 Aeration Fan",
+    "long_name": null,
+    "type": "fan",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 7 Aeration Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Silo 3 Bin 7 Outlet Gate",
+    "long_name": null,
+    "type": "gate",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 7 Outlet Gate",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "name": "Silo 3 Bin 7 Sweep Auger",
+    "long_name": null,
+    "type": "sweep_auger",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Silo 3 Bin 7 Auger",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "name": "Silo 3 Bin 8",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 8",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "name": "Silo 3 Bin 8 Aeration Fan",
+    "long_name": null,
+    "type": "fan",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 8 Aeration Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "name": "Silo 3 Bin 8 Outlet Gate",
+    "long_name": null,
+    "type": "gate",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 8 Outlet Gate",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Silo 3 Bin 8 Sweep Auger",
+    "long_name": null,
+    "type": "sweep_auger",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Silo 3 Bin 8 Auger",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "name": "Silo 3 Bin 9",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 9",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Silo 3 Bin 9 Aeration Fan",
+    "long_name": null,
+    "type": "fan",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 9 Aeration Fan",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Silo 3 Bin 9 Outlet Gate",
+    "long_name": null,
+    "type": "gate",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Bin 9 Outlet Gate",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Silo 3 Bin 9 Sweep Auger",
+    "long_name": null,
+    "type": "sweep_auger",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "Silo 3 Bin 9 Auger",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Silo 3 Compressor",
+    "long_name": null,
+    "type": "compressor",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Silo 3 compressor from the electrical motor register.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "COMPRESSOR",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Silo 3 Air Compressor",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Silo 3 COMPRESSOR",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Silo 3 Dust Plant 14",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Silo 3 Dust Plant 14 from the electrical motor register.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "DUST PLANT 14",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Silo 3 Dust Plant 15",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Silo 3 Dust Plant 15 from the electrical motor register.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "DUST PLANT 15",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Silo 3 Dust Plant Rotary Valve",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Rotary Valve 14/15 for the Silo 3 dust plant from the electrical motor register.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "ROTARY VALVE 14/15",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Silo 3 Dust Plants 14 and 15 Rotary Valve",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Silo 3 Storage Bins 1 to 9",
+    "long_name": "Silo 3 Bins 1-9",
+    "type": "bin_group",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Aggregate Silo 3 bin record for aeration fans, sweep augers, and outlet gates from the electrical motor register.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "BIN 1 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN 2 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN 3 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN 4 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN 5 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN 6 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN 7 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN 8 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN 9 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 1 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 1 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 2 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 2 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 3 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 3 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 4 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 4 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 5 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 5 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 6 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 6 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 7 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 7 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 8 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 8 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 9 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BIN No 9 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Silo 3 Bin",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Silo 3 Bin Group",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Silo 3 Bins 1-9",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "Silo 3 Storage Bins 1 to 9",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Silo 3 Valve 3",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Silo 3 valve 3 from the electrical motor register.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "S3V3",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "S3V3 VALVE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Silo 3 Slide Valve 3",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Silo 3 Valve 4",
+    "long_name": null,
+    "type": "rotary_valve",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Silo 3 valve 4 from the electrical motor register.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "S3V4",
+        "type": "legacy_name",
+        "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+        "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      },
+      {
+        "name": "S3V4 VALVE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Silo 3 Slide Valve 4",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Tripper No 6",
+    "long_name": null,
+    "type": "tripper",
+    "area": "Silo 3",
+    "mcc": "MCC3",
+    "drawing_refs": [
+      "27A"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Compressor-tripper",
+    "location": null,
+    "aliases": [
+      {
+        "name": "TR6",
+        "type": "drawing_label",
+        "source": "Pulley register clarification 2026-04-25",
+        "notes": "TR6 pulley label confirmed as tripper equipment."
+      },
+      {
+        "name": "Tripper 6",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Tripper No 6 DCE",
+    "long_name": null,
+    "type": "dust_control",
+    "area": "Silo 3",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Tripper 6 DCE dust-control asset from dust bag records.",
+    "location": "Silo 3",
+    "aliases": [
+      {
+        "name": "Tripper 6 DCE",
+        "type": "dust_bag_label",
+        "source": "Incoming/DUST BAGS IN STOCK",
+        "notes": "Alias from Incoming/DUST BAGS IN STOCK."
+      },
+      {
+        "name": "Tripper 6 Dust Control Equipment",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Tripper No 8",
+    "long_name": null,
+    "type": "tripper",
+    "area": "Silo 3",
+    "mcc": "MCC3",
+    "drawing_refs": [
+      "DTX-361-DC",
+      "CTX-361-CX"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Control circuits",
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S2/T8",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "TR8",
+        "type": "drawing_label",
+        "source": "Pulley register clarification 2026-04-25",
+        "notes": "TR8 pulley label confirmed as tripper equipment."
+      },
+      {
+        "name": "Tripper 8",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Tripper 8 Travel",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Tripper No 9",
+    "long_name": null,
+    "type": "tripper",
+    "area": "Silo 3",
+    "mcc": "MCC3",
+    "drawing_refs": [
+      "DTX-361-DE",
+      "CTX-361-CX"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Control circuits",
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S2/T9",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "TR9",
+        "type": "drawing_label",
+        "source": "Pulley register clarification 2026-04-25",
+        "notes": "TR9 pulley label confirmed as tripper equipment."
+      },
+      {
+        "name": "Tripper 9",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Tripper 9 Travel",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "BB1",
+    "long_name": "Basement Belt 1",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "BASEMENT BELT 1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for BB1"
+      },
+      {
+        "name": "BASEMENT BELT No 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BB1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S1/BB1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "BB1_V1",
+    "long_name": "Basement Belt 1 Valve 1",
+    "type": "rotary_valve",
+    "area": "Silo Cluster 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "B.B. 1. VALVE No1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BASEMENT BELT 1 — VALVE 1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for BB1_V1"
+      },
+      {
+        "name": "BASEMENT BELT 1, VALVE 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to BB1_V1."
+      },
+      {
+        "name": "BB1_V1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt 1 Valve 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "BB2",
+    "long_name": "Basement Belt 2",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "BASEMENT BELT 2",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for BB2"
+      },
+      {
+        "name": "BASEMENT BELT No 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BB2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S1/BB2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "BB2_V1",
+    "long_name": "Basement Belt 2 Valve 1",
+    "type": "rotary_valve",
+    "area": "Silo Cluster 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "B.B. 2. VALVE No1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BASEMENT BELT 2 — VALVE 1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for BB2_V1"
+      },
+      {
+        "name": "BASMENT BELT 2, VALVE 1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for BB2_V1"
+      },
+      {
+        "name": "BB2_V1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt 2 Valve 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "BB3",
+    "long_name": "Basement Belt 3",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "BASEMENT BELT 3",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for BB3"
+      },
+      {
+        "name": "BASEMENT BELT No 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BB3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S1/BB3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "BB3_V1",
+    "long_name": "Basement Belt 3 Valve 1",
+    "type": "rotary_valve",
+    "area": "Silo Cluster 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": null,
+    "location": null,
+    "aliases": [
+      {
+        "name": "B.B. 3. VALVE No 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "BASEMENT BELT 3 — VALVE 1",
+        "type": "legacy_name",
+        "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
+        "notes": "Canonical merge alias for BB3_V1"
+      },
+      {
+        "name": "BASEMENT BELT 3, VALVE 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to BB3_V1."
+      },
+      {
+        "name": "BB3_V1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt 3 Valve 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "BB4",
+    "long_name": "Basement Belt 4",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 2",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-BN"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "BB4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt Conveyor No 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to BB4."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "BB5",
+    "long_name": "Basement Belt 5",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 2",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-BP"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "BB5",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt 5",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt Conveyor No 5",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to BB5."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "BB6",
+    "long_name": "Basement Belt 6",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 2",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 2",
+    "aliases": [
+      {
+        "name": "Basement Belt 6",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "BB7",
+    "long_name": "Basement Belt 7",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 2",
+    "mcc": "MCC2",
+    "drawing_refs": [
+      "CTX-361-BZ"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "",
+    "location": null,
+    "aliases": [
+      {
+        "name": "BB7",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt 7",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Basement Belt Conveyor No 7",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to BB7."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "BIN 400A",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo Cluster 2",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 2",
+    "aliases": [
+      {
+        "name": "BIN_400A",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Bin 400A",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Transfer Bin 400A",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "BIN 500",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo Cluster 2",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 2",
+    "aliases": [
+      {
+        "name": "BIN_500",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Bin 500",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Transfer Bin 500",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "BIN 600",
+    "long_name": null,
+    "type": "bin",
+    "area": "Silo Cluster 2",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 2",
+    "aliases": [
+      {
+        "name": "BIN_600",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Bin 600",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Transfer Bin 600",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "RB8",
+    "long_name": "Receiving Belt 8",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 2",
+    "mcc": "MCC12",
+    "drawing_refs": [
+      "GTX-361-CT"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Tripper control panel",
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S2/RB8",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RB8",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB8 DCE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 8",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Tripper RB8",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to RB8."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "RB9",
+    "long_name": "Receiving Belt 9",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 2",
+    "mcc": "MCC12",
+    "drawing_refs": [
+      "GTX-361-CU"
+    ],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Tripper control panel",
+    "location": null,
+    "aliases": [
+      {
+        "name": "LG/S2/RB9",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RB9",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "RB9 DCE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 9",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Tripper RB9",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Previous starter name before canonical rename to RB9."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "SMC",
+    "long_name": null,
+    "type": "chain_conveyor",
+    "area": "Silo Cluster 2",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 2",
+    "aliases": [
+      {
+        "name": "LG/S2/SMC",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "SMC",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Soya Mill Conveyor",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "TH8",
+    "long_name": "Turnhead 8",
+    "type": "turnhead",
+    "area": "Silo Cluster 2",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 2",
+    "aliases": [
+      {
+        "name": "LG/S2/TH8",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "Turnhead 8",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "TH9",
+    "long_name": "Turnhead 9",
+    "type": "turnhead",
+    "area": "Silo Cluster 2",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 2",
+    "aliases": [
+      {
+        "name": "LG/S2/TH9",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "Turnhead 9",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "BB10",
+    "long_name": "Basement Belt 10",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "BASEMENT BELT No 10",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Basement Belt 10",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S3/BB10",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "BB11",
+    "long_name": "Basement Belt 11",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "BASEMENT BELT No 11",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Basement Belt 11",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S3/BB11",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "BB12",
+    "long_name": "Basement Belt 12",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "BASEMENT BELT No 12",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Basement Belt 12",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S3/BB12",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "BB8",
+    "long_name": "Basement Belt 8",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "BASEMENT BELT No 8",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Basement Belt 8",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S3/BB8",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "BB9",
+    "long_name": "Basement Belt 9",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "BASEMENT BELT No 9",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Basement Belt 9",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S3/BB9",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "FB1",
+    "long_name": "Feed Belt 1",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "FEED BELT No 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Feed Belt 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S3/FB1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "FB2",
+    "long_name": "Feed Belt 2",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "FEED BELT No 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Feed Belt 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S3/FB2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "FE1",
+    "long_name": "Feed Elevator 1",
+    "type": "bucket_elevator",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "FEED ELEVATOR",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "FEED ELEVATOR PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Feed Elevator 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "LG/S3/FE1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "MC1",
+    "long_name": "Mill Conveyor 1",
+    "type": "chain_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "LG/MF/MC1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "M.C. No 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Mill Conveyor 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "MC2",
+    "long_name": "Mill Conveyor 2",
+    "type": "chain_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "D.C.E/M.C. 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "LG/MF/MC2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "M.C. No 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Mill Conveyor 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "MC3",
+    "long_name": "Mill Conveyor 3",
+    "type": "chain_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "D.C.E./M.C. 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "LG/MF/MC3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "M.C. No 3",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Mill Conveyor 3",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "MC4",
+    "long_name": "Mill Conveyor 4",
+    "type": "chain_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "D.C.E./M.C. 4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "LG/MF/MC4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "M.C. No 4",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Mill Conveyor 4",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "RB10",
+    "long_name": "Receiving Belt 10",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "LG/S3/RB10",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RECEIVING BELT NO10",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 10",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "RB11",
+    "long_name": "Receiving Belt 11",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "LG/S3/RB11",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RECEIVING BELT No 11",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 11",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "RB12",
+    "long_name": "Receiving Belt 12",
+    "type": "belt_conveyor",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "LG/S3/RB12",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Asset number from RSGT Asset ListV2."
+      },
+      {
+        "name": "RECEIVING BELT No 12",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Receiving Belt 12",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "TH5",
+    "long_name": "Turnhead 5",
+    "type": "turnhead",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "TURNHEAD No 5",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Turnhead 5",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "TH6",
+    "long_name": "Turnhead 6",
+    "type": "turnhead",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "TURNHEAD No 6",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Turnhead 6",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "TH7",
+    "long_name": "Turnhead 7",
+    "type": "turnhead",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "TURNHEAD No 7",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "Turnhead 7",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "UG5",
+    "long_name": "Upper Garner 5",
+    "type": "garner",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Silo Cluster 3 And Mill",
+    "aliases": [
+      {
+        "name": "Upper Garner 5",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Fike Junction House Panel",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "Switchrooms",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": "Fike",
+    "model": null,
+    "notes": "Placeholder Fike panel serving Junction House elevators; user identified panels in switchrooms 1 and 2.",
+    "location": "Switchrooms",
+    "aliases": [
+      {
+        "name": "Fike Explosion Suppression Panel — Junction House",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      },
+      {
+        "name": "Fike Switchroom 1 Panel",
+        "type": "fike_document",
+        "source": "Fike/Fike",
+        "notes": "Alias from Fike/Fike."
+      },
+      {
+        "name": "Fike Switchroom 2 Panel",
+        "type": "fike_document",
+        "source": "Fike/Fike",
+        "notes": "Alias from Fike/Fike."
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Fike Main Elevators Panel",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "Switchrooms",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": "Fike",
+    "model": null,
+    "notes": "Fike panel for main elevators; source folder labels this as 8th Floor Main Elevators Fike Panel.",
+    "location": "Switchrooms",
+    "aliases": [
+      {
+        "name": "8th Floor Main Elevators Fike Panel",
+        "type": "fike_document",
+        "source": "Fike/Fike",
+        "notes": "Alias from Fike/Fike."
+      },
+      {
+        "name": "EPACO Multi Stream Cabinet 3",
+        "type": "fike_document",
+        "source": "Fike/Fike",
+        "notes": "Alias from Fike/Fike."
+      },
+      {
+        "name": "Fike Cabinet 3",
+        "type": "fike_document",
+        "source": "Fike/Fike",
+        "notes": "Alias from Fike/Fike."
+      },
+      {
+        "name": "Fike Explosion Suppression Panel — Main Elevators",
+        "type": "legacy_name",
+        "source": "user_confirmed",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "LORRY INTAKE",
+    "long_name": null,
+    "type": "hopper",
+    "area": "Weighback And Lorry Intake",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Weighback And Lorry Intake",
+    "aliases": [
+      {
+        "name": "LORRY INTAKE CHAIN 1",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "LORRY INTAKE CHAIN 2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "LORRY_INTAKE",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Lorry Intake Hopper",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "LWB ELEVATOR",
+    "long_name": null,
+    "type": "bucket_elevator",
+    "area": "Weighback And Lorry Intake",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Weighback And Lorry Intake",
+    "aliases": [
+      {
+        "name": "LORRY INTAKE ELEV.",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
+        "name": "LWB_ELEVATOR",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      },
+      {
+        "name": "Lorry Weighback Elevator",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "LWCC1",
+    "long_name": "Lorry Weighback Chain Conveyor 1",
+    "type": "chain_conveyor",
+    "area": "Weighback And Lorry Intake",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Weighback And Lorry Intake",
+    "aliases": [
+      {
+        "name": "Lorry Weighback Chain Conveyor 1",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "LWCC2",
+    "long_name": "Lorry Weighback Chain Conveyor 2",
+    "type": "chain_conveyor",
+    "area": "Weighback And Lorry Intake",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Created from September 2021 process schematic topology.",
+    "location": "Weighback And Lorry Intake",
+    "aliases": [
+      {
+        "name": "Lorry Weighback Chain Conveyor 2",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
+      }
+    ]
+  }
+]

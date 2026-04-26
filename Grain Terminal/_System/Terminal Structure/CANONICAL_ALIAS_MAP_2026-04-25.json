@@ -1,0 +1,137 @@
+{
+  "_note": "Canonical-to-legacy alias map created from the merge pass so starter records can be folded into the new topology without losing source names.",
+  "aliases": [
+    {
+      "canonical_asset_id": "RB1",
+      "canonical_name": "RB1",
+      "long_name": "Receiving Belt 1",
+      "legacy_aliases": [
+        "Receiving Belt RB1"
+      ]
+    },
+    {
+      "canonical_asset_id": "RB2",
+      "canonical_name": "RB2",
+      "long_name": "Receiving Belt 2",
+      "legacy_aliases": [
+        "Receiving Belt RB2"
+      ]
+    },
+    {
+      "canonical_asset_id": "RC1",
+      "canonical_name": "RC1",
+      "long_name": "Receiving Conveyor 1",
+      "legacy_aliases": [
+        "Receiving Chain RC1"
+      ]
+    },
+    {
+      "canonical_asset_id": "RC2",
+      "canonical_name": "RC2",
+      "long_name": "Receiving Conveyor 2",
+      "legacy_aliases": [
+        "Receiving Chain RC2"
+      ]
+    },
+    {
+      "canonical_asset_id": "JL1",
+      "canonical_name": "JH_ELEVATOR_1",
+      "long_name": "Junction House Elevator 1",
+      "legacy_aliases": [
+        "JUNCTION HOUSE ELEVATOR 1",
+        "Junction House Elevator JH El1",
+        "Junction Tower Elevator J.L.1"
+      ]
+    },
+    {
+      "canonical_asset_id": "JL2",
+      "canonical_name": "JH_ELEVATOR_2",
+      "long_name": "Junction House Elevator 2",
+      "legacy_aliases": [
+        "JUNCTION HOUSE ELEVATOR 2",
+        "Junction House Elevator JH El2"
+      ]
+    },
+    {
+      "canonical_asset_id": "BB1",
+      "canonical_name": "BB1",
+      "long_name": "Basement Belt 1",
+      "legacy_aliases": [
+        "BASEMENT BELT 1"
+      ]
+    },
+    {
+      "canonical_asset_id": "BB2",
+      "canonical_name": "BB2",
+      "long_name": "Basement Belt 2",
+      "legacy_aliases": [
+        "BASEMENT BELT 2"
+      ]
+    },
+    {
+      "canonical_asset_id": "BB3",
+      "canonical_name": "BB3",
+      "long_name": "Basement Belt 3",
+      "legacy_aliases": [
+        "BASEMENT BELT 3"
+      ]
+    },
+    {
+      "canonical_asset_id": "BB1_V1",
+      "canonical_name": "BB1_V1",
+      "long_name": "Basement Belt 1 Valve 1",
+      "legacy_aliases": [
+        "BASEMENT BELT 1 — VALVE 1"
+      ]
+    },
+    {
+      "canonical_asset_id": "BB2_V1",
+      "canonical_name": "BB2_V1",
+      "long_name": "Basement Belt 2 Valve 1",
+      "legacy_aliases": [
+        "BASEMENT BELT 2 — VALVE 1",
+        "BASMENT BELT 2, VALVE 1"
+      ]
+    },
+    {
+      "canonical_asset_id": "BB3_V1",
+      "canonical_name": "BB3_V1",
+      "long_name": "Basement Belt 3 Valve 1",
+      "legacy_aliases": [
+        "BASEMENT BELT 3 — VALVE 1"
+      ]
+    },
+    {
+      "canonical_asset_id": "ME1",
+      "canonical_name": "ME1",
+      "long_name": "Main Elevator 1",
+      "legacy_aliases": [
+        "SILO1_ME1"
+      ]
+    },
+    {
+      "canonical_asset_id": "ME2",
+      "canonical_name": "ME2",
+      "long_name": "Main Elevator 2",
+      "legacy_aliases": [
+        "SILO1_ME2"
+      ]
+    },
+    {
+      "canonical_asset_id": "ME3",
+      "canonical_name": "ME3",
+      "long_name": "Main Elevator 3",
+      "legacy_aliases": [
+        "SILO1_ME3"
+      ]
+    },
+    {
+      "canonical_asset_id": "ME4",
+      "canonical_name": "ME4",
+      "long_name": "Main Elevator 4",
+      "legacy_aliases": [
+        "SILO1_ME4"
+      ]
+    }
+  ]
+}

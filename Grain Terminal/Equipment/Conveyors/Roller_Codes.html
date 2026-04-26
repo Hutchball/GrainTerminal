@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conveyor Roller Codes - Port of Liverpool Grain Terminal</title>
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-card: #1e2530;
+            --border: #2d3748;
+            --text-primary: #e2e8f0;
+            --text-secondary: #a0aec0;
+            --accent: #4299e1;
+            --warning: #ed8936;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; }
+
+        .nav-bar {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .nav-bar a {
+            color: var(--accent);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-bar a:hover {
+            background: #252d3a;
+        }
+
+        .nav-bar .home-btn {
+            background: var(--accent);
+            color: #0f1419;
+            font-weight: 600;
+        }
+
+        .nav-bar .home-btn:hover {
+            background: #63b3ed;
+        }
+
+        .nav-bar .breadcrumb {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .nav-bar .breadcrumb span {
+            color: var(--text-muted);
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .subtitle {
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        .source-link {
+            display: inline-block;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            text-decoration: none;
+            color: var(--accent);
+            transition: all 0.2s;
+        }
+
+        .source-link:hover {
+            border-color: var(--accent);
+            background: #252d3a;
+        }
+
+        .source-link span {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .section {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section h2 {
+            font-size: 1.25rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: #252d3a;
+            color: var(--text-secondary);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+        }
+
+        td { color: var(--text-primary); }
+
+        .belt-name {
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        .code {
+            font-family: 'Monaco', 'Menlo', monospace;
+            background: #252d3a;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.85rem;
+        }
+
+        .note {
+            background: #744210;
+            border: 1px solid var(--warning);
+            color: var(--warning);
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .manufacturer {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+        }
+
+        .manufacturer img {
+            height: 40px;
+        }
+
+        .manufacturer-info {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .legend {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .legend-item {
+            background: #252d3a;
+            padding: 0.75rem;
+            border-radius: 4px;
+        }
+
+        .legend-item strong {
+            color: var(--accent);
+        }
+
+        footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <a href="../../../Web App/index.html" class="home-btn">&#8962; Dashboard</a>
+            <span class="breadcrumb">Equipment <span>&rsaquo;</span> Conveyors <span>&rsaquo;</span> Roller Codes</span>
+        </nav>
+
+        <h1>Conveyor Roller Codes</h1>
+        <p class="subtitle">Port of Liverpool Grain Terminal - Mersey Docks</p>
+
+        <a href="Roller_Codes_Rulmeca.jpeg" class="source-link" target="_blank">
+            View Original Document <span>(Roller_Codes_Rulmeca.jpeg)</span>
+        </a>
+
+        <div class="manufacturer">
+            <div class="manufacturer-info">
+                <strong>Supplier:</strong> Rulmeca (Conveyor Rollers & Components)<br>
+                <a href="https://www.rulmeca.com" target="_blank" style="color: var(--accent);">www.rulmeca.com</a>
+            </div>
+        </div>
+
+        <div class="note">
+            Roller codes extracted from site reference sheet. Verify against current stock before ordering replacements.
+        </div>
+
+        <!-- GRAIN TERMINAL SECTION -->
+        <div class="section">
+            <h2>Grain Terminal - Belt Conveyors</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Conveyor</th>
+                        <th>Description</th>
+                        <th>Wing Roller</th>
+                        <th>Centre Roller</th>
+                        <th>Return Roller</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="belt-name">BB1 - BB3</td>
+                        <td>Basement Belts 1-3</td>
+                        <td><span class="code">MD029 / MD001</span></td>
+                        <td><span class="code">MD015</span></td>
+                        <td><span class="code">MD030 / MD002</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">BB4 - BB7</td>
+                        <td>Basement Belts 4-7</td>
+                        <td><span class="code">MD015</span></td>
+                        <td><span class="code">MD013</span></td>
+                        <td><span class="code">MD016</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">BB8 - BB12</td>
+                        <td>Basement Belts 8-12</td>
+                        <td><span class="code">MD013</span></td>
+                        <td><span class="code">MD013</span></td>
+                        <td><span class="code">MD014</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">FB1</td>
+                        <td>Feed Belt 1</td>
+                        <td><span class="code">MD05</span></td>
+                        <td><span class="code">MD11</span></td>
+                        <td><span class="code">MD06</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">FB2</td>
+                        <td>Feed Belt 2</td>
+                        <td><span class="code">MD05</span></td>
+                        <td><span class="code">MD11</span></td>
+                        <td><span class="code">MD14</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">RB1 - RB7</td>
+                        <td>Receiving Belts 1-7</td>
+                        <td><span class="code">MD029 / MD001</span></td>
+                        <td><span class="code">MD029</span></td>
+                        <td><span class="code">MD030</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">RB8 - RB9</td>
+                        <td>Receiving Belts 8-9</td>
+                        <td><span class="code">MD007</span></td>
+                        <td><span class="code">MD005</span></td>
+                        <td><span class="code">MD002</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">RB10 - RB12</td>
+                        <td>Receiving Belts 10-12</td>
+                        <td><span class="code">MD009</span></td>
+                        <td><span class="code">MD007</span></td>
+                        <td><span class="code">MD008</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">MC1 - MC4</td>
+                        <td>Mill Conveyors 1-4</td>
+                        <td><span class="code">MD05</span></td>
+                        <td><span class="code">MD05</span></td>
+                        <td><span class="code">MD02</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">RC1 - RC2</td>
+                        <td>Receiving Chain 1-2</td>
+                        <td><span class="code">MD007</span></td>
+                        <td><span class="code">MD007</span></td>
+                        <td><span class="code">MD010</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">RC3 - RC4</td>
+                        <td>Receiving Chain 3-4</td>
+                        <td><span class="code">MD007</span></td>
+                        <td><span class="code">MD009</span></td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">SMC1</td>
+                        <td>Soya Mill Conveyor 1</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ANIMAL FEED PLANT SECTION -->
+        <div class="section">
+            <h2>Animal Feed Plant - Belt Conveyors</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Conveyor</th>
+                        <th>Trough Roller</th>
+                        <th>Impact Roller</th>
+                        <th>Return Roller</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="belt-name">C1</td>
+                        <td><span class="code">MD04</span></td>
+                        <td><span class="code">MD017</span></td>
+                        <td><span class="code">MD022</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">C2, SC1, SC2</td>
+                        <td><span class="code">MD017</span></td>
+                        <td><span class="code">MD021</span></td>
+                        <td><span class="code">MD023</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">C3A, C3B, C4</td>
+                        <td><span class="code">MD021</span></td>
+                        <td><span class="code">MD019</span></td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">BC5</td>
+                        <td><span class="code">MD028</span></td>
+                        <td>?</td>
+                        <td><span class="code">MD019</span></td>
+                    </tr>
+                    <tr>
+                        <td class="belt-name">Shuttle C3</td>
+                        <td><span class="code">MD017</span></td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- BELT SUMMARY -->
+        <div class="section">
+            <h2>Belt Summary</h2>
+
+            <div class="legend">
+                <div class="legend-item">
+                    <strong>BB</strong> = Basement Belt
+                </div>
+                <div class="legend-item">
+                    <strong>RB</strong> = Receiving Belt
+                </div>
+                <div class="legend-item">
+                    <strong>FB</strong> = Feed Belt
+                </div>
+                <div class="legend-item">
+                    <strong>MC</strong> = Mill Conveyor
+                </div>
+                <div class="legend-item">
+                    <strong>RC</strong> = Receiving Chain
+                </div>
+                <div class="legend-item">
+                    <strong>SMC</strong> = Soya Mill Conveyor
+                </div>
+                <div class="legend-item">
+                    <strong>C</strong> = Conveyor (Animal Feed)
+                </div>
+                <div class="legend-item">
+                    <strong>SC</strong> = Shuttle Conveyor
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Source:</strong> <a href="Roller_Codes_Rulmeca.jpeg" style="color: var(--accent);">Roller_Codes_Rulmeca.jpeg</a></p>
+            <p>Extracted by Ellie (Electrical Engineer) - 19 April 2026</p>
+            <p>Part of Port of Liverpool Grain Terminal Information System</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.DS_Store
+**/.DS_Store
+
+# Incoming files that have already been imported are duplicated in the database/app.
+Incoming/Processed/
+
+# Local assistant/runtime state
+.claude/
+.memory/
+
+# Common transient files
+*.tmp
+*.log
+*.db-shm
+*.db-wal

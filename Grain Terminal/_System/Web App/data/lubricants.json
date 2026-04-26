@@ -1,0 +1,132 @@
+[
+  {
+    "id": 3,
+    "supplier": "FUCHS",
+    "product_description": "CASSIDA FLUID GL 220",
+    "stock_quantity": 6,
+    "ordering_instructions": "22L DRUMS",
+    "used_for": "BMH Inlet Head feeder gearbox (bottom), Inlet Head Machinery gearbox (top), Horizontal gearbox, Vertical gearbox, Slew gearboxes, Auto Lubrication unit",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 4,
+    "supplier": "FUCHS",
+    "product_description": "CASSIDA FLUID HF 46",
+    "stock_quantity": 20,
+    "ordering_instructions": "22L DRUMS",
+    "used_for": "BMH Hydraulic oil tank",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 5,
+    "supplier": "FUCHS",
+    "product_description": "CASSIDA PTFE DRY SPRAY",
+    "stock_quantity": 10,
+    "ordering_instructions": "400ML AEROSOL",
+    "used_for": "General",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 1,
+    "supplier": "FUCHS",
+    "product_description": "CISIDA GREASE EPS2",
+    "stock_quantity": 2,
+    "ordering_instructions": "205 LITRE DRUMS",
+    "used_for": "BMH Ship Unloader Main Grease Pump",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 2,
+    "supplier": "FUCHS",
+    "product_description": "CISIDA GREASE EPS2",
+    "stock_quantity": 5,
+    "ordering_instructions": "19KG DRUM",
+    "used_for": "BMH Ship Unloader inlet head",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 11,
+    "supplier": "FUCHS",
+    "product_description": "RENOFLUID TF 1500 Oil",
+    "stock_quantity": 5,
+    "ordering_instructions": "ORDER IN 20 L PLASTIC CONTAINERS",
+    "used_for": "All fluid drive couplings",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 8,
+    "supplier": "FUCHS",
+    "product_description": "RENOLIN CLP GEAR OIL 150",
+    "stock_quantity": 4,
+    "ordering_instructions": "ORDER IN 20 L PLASTIC CONTAINERS",
+    "used_for": "RB1 Drive gearbox, RB2 Drive gearbox, RB3 Drive gearbox, RB4 Drive gearbox, RB5 Drive gearbox, RB6 Drive gearbox, RB7 Drive gearbox, RB8 Drive gearbox, RB9 Drive gearbox, RC1 Drive gearbox, RC2 Drive gearbox, RC3 Drive gearbox, RC4 Drive gearbox, BB1 Drive gearbox, BB2 Drive gearbox, BB3 Drive gearbox, BB4 Drive gearbox, BB5 Drive gearbox, BB6 Drive gearbox, BB7 Drive gearbox, MC1 Drive gearbox, MC2 Drive gearbox, MC3 Drive gearbox, MC4 Drive gearbox, JHEL1 Drive gearbox, JHEL2 Drive gearbox, EL1 Drive gearbox, EL2 Drive gearbox, EL3 Drive gearbox, EL4 Drive gearbox, LLCC1 Drive gearbox, LLCC3 Drive gearbox, DCC Drive gearbox, LWCC1 Drive gearbox, LWCC2 Drive gearbox, BCC1 Drive gearbox, BCC2 Drive gearbox, BCC3 Drive gearbox, SMC1 Drive gearbox, All turnhead gearboxes, JHEL1 Pony drive gearbox, JHEL2 Pony drive gearbox, EL1 Pony drive gearbox, EL2 Pony drive gearbox, EL3 Pony drive gearbox, EL4 Pony drive gearbox, LWEL1 Drive gearbox",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 7,
+    "supplier": "FUCHS",
+    "product_description": "RENOLIN CLP GEAR OIL 220",
+    "stock_quantity": 2,
+    "ordering_instructions": "ORDER IN 20 L PLASTIC CONTAINERS",
+    "used_for": "CC3 Drive gearbox, Shuttle 1 drive gearboxes, Bridge 1 chain conveyor drive gearbox, Shuttle 2 drive gearboxes, Bridge 2 chain conveyor drive gearbox, CC4 Drive gearbox, Shuttle 3 drive gearboxes, Bridge 3 (CC5) chain conveyor drive gearbox, Shuttle 4 drive gearboxes, Bridge 4 (CC6) chain conveyor drive gearbox",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 9,
+    "supplier": "FUCHS",
+    "product_description": "RENOLIN CLP GEAR OIL 320",
+    "stock_quantity": 2,
+    "ordering_instructions": "ORDER IN 20 L PLASTIC CONTAINERS",
+    "used_for": "BB8 Drive gearbox, BB9 Drive gearbox, BB10 Drive gearbox, BB11 Drive gearbox, BB12 Drive gearbox, RB10 Drive gearbox, RB11 Drive gearbox, RB12 Drive gearbox, FB1 Drive gearbox, FB2 Drive gearbox, FE1 Drive gearbox, BC5 Drive gearbox",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 6,
+    "supplier": "FUCHS",
+    "product_description": "RENOLIN CLP GEAR OIL 460",
+    "stock_quantity": 2,
+    "ordering_instructions": "ORDER IN 20 L PLASTIC CONTAINERS",
+    "used_for": "AFS C1, C2, C3A, C3B, C4 Gearbox",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 10,
+    "supplier": "FUCHS",
+    "product_description": "RENOLIN UNISYN CLP 320",
+    "stock_quantity": 3,
+    "ordering_instructions": "ORDER IN 20 L PLASTIC CONTAINERS",
+    "used_for": "BMH Travelling drive gears",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 12,
+    "supplier": "FUCHS",
+    "product_description": "RENOLIT EP-X1-PBF",
+    "stock_quantity": 2,
+    "ordering_instructions": "ORDER IN 20 L PLASTIC CONTAINERS",
+    "used_for": "CONVEYOR GEAR COUPLING GREASE",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  },
+  {
+    "id": 13,
+    "supplier": "OAKLEY",
+    "product_description": "INTERFLON SPRAY",
+    "stock_quantity": 12,
+    "ordering_instructions": "SPRAY CANS",
+    "used_for": "Drive Chain Lubrication",
+    "source_file": "Incoming/LUBRICANTS - FINAL G&B copy.csv",
+    "imported_at": "2026-04-25T20:09:16"
+  }
+]

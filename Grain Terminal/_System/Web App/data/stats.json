@@ -1,0 +1,22 @@
+{
+  "electrical_drawings": 329,
+  "photos": 3,
+  "equipment_items": 204,
+  "electrical_motors": 304,
+  "obsolete_drawings": 12,
+  "last_import": "2026-04-26T00:43",
+  "mcc_counts": {
+    "MCC1": 19,
+    "MCC10": 3,
+    "MCC11": 9,
+    "MCC12": 25,
+    "MCC13": 20,
+    "MCC2": 67,
+    "MCC3": 53,
+    "MCC4": 9,
+    "MCC5": 30,
+    "MCC6": 4,
+    "SCP": 87,
+    "Scale Room": 2
+  }
+}

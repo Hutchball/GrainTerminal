@@ -1,0 +1,2357 @@
+{
+  "_note": "Source: Grain Store Process Schematic Rev 1 Sept 21.pdf. This first-pass terminal topology preserves original drawing labels and adds canonical names for database use. Legacy CSV-derived starter data has been folded into this structure where it aligns. BMH Ship Unloader added to receiving topology during merge pass.",
+  "locations": [
+    {
+      "id": "receiving",
+      "name": "Receiving",
+      "assets": [
+        {
+          "id": "BMH_SHIP_UNLOADER",
+          "name": "BMH Ship Unloader",
+          "drawing_label": "Ship unloader",
+          "canonical_name": "BMH_SHIP_UNLOADER",
+          "long_name": "BMH Ship Unloader",
+          "type": "ship_unloader",
+          "notes": "Existing marine intake asset added to topology during 25 Apr 2026 merge.",
+          "components": []
+        },
+        {
+          "id": "RB1",
+          "name": "RB1",
+          "drawing_label": "RB1",
+          "canonical_name": "RB1",
+          "long_name": "Receiving Belt 1",
+          "legacy_name_aliases": [
+            "Receiving Belt RB1"
+          ],
+          "type": "belt_conveyor",
+          "notes": "Ship unloader intake route. Drawing label preserved.",
+          "components": [
+            {
+              "name": "LV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "FLUID COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "REDUCTION GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE CHAIN",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE SPROCKET",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVEN SPROCKET",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE PULLEY",
+              "category": "mechanical"
+            },
+            {
+              "name": "SNUB PULLEYS",
+              "category": "mechanical"
+            },
+            {
+              "name": "WING ROLLERS",
+              "category": "mechanical",
+              "spec": "MD029 / MD001",
+              "spec_source": "Rulmeca roller codes sheet, RB1-RB7 row"
+            },
+            {
+              "name": "TROUGH ROLLERS",
+              "category": "mechanical",
+              "spec": "MD030 / MD002",
+              "spec_source": "Rulmeca roller codes sheet, RB1-RB7 row"
+            },
+            {
+              "name": "RETURN ROLLERS",
+              "category": "mechanical",
+              "spec": "MD030 / MD002",
+              "spec_source": "Rulmeca roller codes sheet, RB1-RB7 row"
+            },
+            {
+              "name": "BELT ALIGNMENT SWITCHES",
+              "category": "electrical"
+            },
+            {
+              "name": "PULL CORDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTONS",
+              "category": "electrical"
+            },
+            {
+              "name": "SOUNDER",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            },
+            {
+              "name": "MAGNET",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "RB2",
+          "name": "RB2",
+          "drawing_label": "RB2",
+          "canonical_name": "RB2",
+          "long_name": "Receiving Belt 2",
+          "legacy_name_aliases": [
+            "Receiving Belt RB2"
+          ],
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "LV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "FLUID COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "REDUCTION GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE CHAIN",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE SPROCKET",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVEN SPROCKET",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE PULLEY",
+              "category": "mechanical"
+            },
+            {
+              "name": "SNUB PULLEYS",
+              "category": "mechanical"
+            },
+            {
+              "name": "WING ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "TROUGH ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "RETURN ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "BELT ALIGNMENT SWITCHES",
+              "category": "electrical"
+            },
+            {
+              "name": "PULL CORDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTONS",
+              "category": "electrical"
+            },
+            {
+              "name": "SOUNDER",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            },
+            {
+              "name": "MAGNET",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "RC1",
+          "name": "RC1",
+          "drawing_label": "RC1",
+          "canonical_name": "RC1",
+          "long_name": "Receiving Conveyor 1",
+          "legacy_name_aliases": [
+            "Receiving Chain RC1"
+          ],
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "LV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "FLUID COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "REDUCTION GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE PULLEY",
+              "category": "mechanical"
+            },
+            {
+              "name": "SNUB PULLEYS",
+              "category": "mechanical"
+            },
+            {
+              "name": "WING ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "TROUGH ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "RETURN ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "PULL CORDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTONS",
+              "category": "electrical"
+            },
+            {
+              "name": "SOUNDER",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "RC2",
+          "name": "RC2",
+          "drawing_label": "RC2",
+          "canonical_name": "RC2",
+          "long_name": "Receiving Conveyor 2",
+          "legacy_name_aliases": [
+            "Receiving Chain RC2"
+          ],
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "LV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "FLUID COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "REDUCTION GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVEN SPROCKET",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE PULLEY",
+              "category": "mechanical"
+            },
+            {
+              "name": "SNUB PULLEYS",
+              "category": "mechanical"
+            },
+            {
+              "name": "WING ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "TROUGH ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "RETURN ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "PULL CORDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTONS",
+              "category": "electrical"
+            },
+            {
+              "name": "SOUNDER",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "RB3",
+          "name": "RB3",
+          "drawing_label": "RB3",
+          "canonical_name": "RB3",
+          "long_name": "Receiving Belt 3",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "LV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "DRIVE PULLEY",
+              "category": "mechanical"
+            },
+            {
+              "name": "SNUB PULLEYS",
+              "category": "mechanical"
+            },
+            {
+              "name": "WING ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "TROUGH ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "RETURN ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "BELT ALIGNMENT SWITCHES",
+              "category": "electrical"
+            },
+            {
+              "name": "PULL CORDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTONS",
+              "category": "electrical"
+            },
+            {
+              "name": "SOUNDER",
+              "category": "electrical"
+            },
+            {
+              "name": "LOCAL ISOLATOR",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "RB4",
+          "name": "RB4",
+          "drawing_label": "RB4",
+          "canonical_name": "RB4",
+          "long_name": "Receiving Belt 4",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "LV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "DRIVE PULLEY",
+              "category": "mechanical"
+            },
+            {
+              "name": "SNUB PULLEYS",
+              "category": "mechanical"
+            },
+            {
+              "name": "WING ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "TROUGH ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "RETURN ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "BELT ALIGNMENT SWITCHES",
+              "category": "electrical"
+            },
+            {
+              "name": "PULL CORDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTONS",
+              "category": "electrical"
+            },
+            {
+              "name": "SOUNDER",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "JL1",
+          "name": "JL1",
+          "drawing_label": "JL1",
+          "canonical_name": "JH_ELEVATOR_1",
+          "long_name": "Junction House Elevator 1",
+          "legacy_name_aliases": [
+            "JUNCTION HOUSE ELEVATOR 1",
+            "Junction House Elevator JH El1",
+            "Junction Tower Elevator J.L.1"
+          ],
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "LOWER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "UPPER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "BELT ALIGNMENT SWITCHES",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "JL2",
+          "name": "JL2",
+          "drawing_label": "JL2",
+          "canonical_name": "JH_ELEVATOR_2",
+          "long_name": "Junction House Elevator 2",
+          "legacy_name_aliases": [
+            "JUNCTION HOUSE ELEVATOR 2",
+            "Junction House Elevator JH El2"
+          ],
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "LOWER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "UPPER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "BELT ALIGNMENT SWITCHES",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "RB1_DCE",
+          "name": "RB1 DCE",
+          "drawing_label": "RB1 DCE",
+          "canonical_name": "RB1_DCE",
+          "long_name": "Dust Compaction Unit for RB1",
+          "type": "dust_control",
+          "components": [
+            {
+              "name": "FAN MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "DUST BAGS (NUMBER AND TYPE)",
+              "category": "dust_control"
+            },
+            {
+              "name": "PULSE AIR SOLENOIDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "RB2_DCE",
+          "name": "RB2 DCE",
+          "drawing_label": "RB2 DCE",
+          "canonical_name": "RB2_DCE",
+          "long_name": "Dust Compaction Unit for RB2",
+          "type": "dust_control",
+          "components": [
+            {
+              "name": "FAN MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "DUST BAGS (NUMBER AND TYPE)",
+              "category": "dust_control"
+            },
+            {
+              "name": "PULSE AIR SOLENOIDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "RC1_DCE1",
+          "name": "RC1 DCE1",
+          "drawing_label": "RC1 DCE1",
+          "canonical_name": "RC1_DCE1",
+          "long_name": "Dust Compaction Unit 1 for RC1",
+          "type": "dust_control",
+          "components": [
+            {
+              "name": "FAN MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "DUST BAGS (NUMBER AND TYPE)",
+              "category": "dust_control"
+            },
+            {
+              "name": "PULSE AIR SOLENOIDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "RC1_DCE2",
+          "name": "RC1 DCE2",
+          "drawing_label": "RC1 DCE2",
+          "canonical_name": "RC1_DCE2",
+          "long_name": "Dust Compaction Unit 2 for RC1",
+          "type": "dust_control",
+          "components": [
+            {
+              "name": "FAN MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "DUST BAGS (NUMBER AND TYPE)",
+              "category": "dust_control"
+            },
+            {
+              "name": "PULSE AIR SOLENOIDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "RB3_DCE",
+          "name": "RB3 DCE",
+          "drawing_label": "RB3 DCE",
+          "canonical_name": "RB3_DCE",
+          "long_name": "Dust Compaction Unit for RB3",
+          "type": "dust_control",
+          "components": [
+            {
+              "name": "DUST BAGS (NUMBER AND TYPE)",
+              "category": "dust_control"
+            },
+            {
+              "name": "PULSE AIR SOLENOIDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "RB4_DCE",
+          "name": "RB4 DCE",
+          "drawing_label": "RB4 DCE",
+          "canonical_name": "RB4_DCE",
+          "long_name": "Dust Compaction Unit for RB4",
+          "type": "dust_control",
+          "components": [
+            {
+              "name": "DUST BAGS (NUMBER AND TYPE)",
+              "category": "dust_control"
+            },
+            {
+              "name": "PULSE AIR SOLENOIDS",
+              "category": "electrical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "COMPRESSOR_1",
+          "name": "COMPRESSOR 1",
+          "drawing_label": "COMPRESSOR 1",
+          "canonical_name": "COMPRESSOR_1",
+          "long_name": "Receiving Compressor 1",
+          "type": "compressor",
+          "components": [
+            {
+              "name": "MAKE AND MODEL",
+              "category": "info_required"
+            }
+          ]
+        },
+        {
+          "id": "COMPRESSOR_2",
+          "name": "COMPRESSOR 2",
+          "drawing_label": "COMPRESSOR 2",
+          "canonical_name": "COMPRESSOR_2",
+          "long_name": "Receiving Compressor 2",
+          "type": "compressor",
+          "components": [
+            {
+              "name": "MAKE AND MODEL",
+              "category": "info_required"
+            }
+          ]
+        },
+        {
+          "id": "RB1_MAGNET",
+          "name": "RB1 MAGNET",
+          "drawing_label": "RB1 MAGNET",
+          "canonical_name": "RB1_MAGNET",
+          "long_name": "RB1 Magnet",
+          "type": "magnetic_separator",
+          "components": [
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            },
+            {
+              "name": "MORE INFO REQUIRED",
+              "category": "info_required"
+            }
+          ]
+        },
+        {
+          "id": "RB2_MAGNET",
+          "name": "RB2 MAGNET",
+          "drawing_label": "RB2 MAGNET",
+          "canonical_name": "RB2_MAGNET",
+          "long_name": "RB2 Magnet",
+          "type": "magnetic_separator",
+          "components": [
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            },
+            {
+              "name": "MORE INFO REQUIRED",
+              "category": "info_required"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main_elevator_and_distribution",
+      "name": "Main Elevators And Distribution",
+      "assets": [
+        {
+          "id": "SUB_1",
+          "name": "SUB 1",
+          "drawing_label": "SUB 1",
+          "canonical_name": "SUB_1",
+          "long_name": "Substation 1",
+          "type": "substation",
+          "components": [
+            {
+              "name": "SWITCHGEAR",
+              "category": "electrical"
+            },
+            {
+              "name": "CONTROL PANEL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "SUB_2",
+          "name": "SUB 2",
+          "drawing_label": "SUB 2",
+          "canonical_name": "SUB_2",
+          "long_name": "Substation 2",
+          "type": "substation",
+          "components": [
+            {
+              "name": "SWITCHGEAR",
+              "category": "electrical"
+            },
+            {
+              "name": "CONTROL PANEL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "UG1",
+          "name": "UG1",
+          "drawing_label": "UG1",
+          "canonical_name": "UG1",
+          "long_name": "Upper Garner 1",
+          "type": "garner",
+          "components": [
+            {
+              "name": "SCALE 1",
+              "category": "process"
+            },
+            {
+              "name": "LG1",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "UG2",
+          "name": "UG2",
+          "drawing_label": "UG2",
+          "canonical_name": "UG2",
+          "long_name": "Upper Garner 2",
+          "type": "garner",
+          "components": [
+            {
+              "name": "SCALE 2",
+              "category": "process"
+            },
+            {
+              "name": "LG2",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "UG3",
+          "name": "UG3",
+          "drawing_label": "UG3",
+          "canonical_name": "UG3",
+          "long_name": "Upper Garner 3",
+          "type": "garner",
+          "components": [
+            {
+              "name": "SCALE 3",
+              "category": "process"
+            },
+            {
+              "name": "LG3",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "UG4",
+          "name": "UG4",
+          "drawing_label": "UG4",
+          "canonical_name": "UG4",
+          "long_name": "Upper Garner 4",
+          "type": "garner",
+          "components": [
+            {
+              "name": "SCALE 4",
+              "category": "process"
+            },
+            {
+              "name": "LG4",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "ELV1",
+          "name": "ELV1",
+          "drawing_label": "ELV1",
+          "canonical_name": "ELV1",
+          "long_name": "Elevator 1",
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "UG1",
+              "category": "process"
+            },
+            {
+              "name": "TH1",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "ELV2",
+          "name": "ELV2",
+          "drawing_label": "ELV2",
+          "canonical_name": "ELV2",
+          "long_name": "Elevator 2",
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "UG2",
+              "category": "process"
+            },
+            {
+              "name": "TH2",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "ELV3",
+          "name": "ELV3",
+          "drawing_label": "ELV3",
+          "canonical_name": "ELV3",
+          "long_name": "Elevator 3",
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "UG3",
+              "category": "process"
+            },
+            {
+              "name": "TH3",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "ELV4",
+          "name": "ELV4",
+          "drawing_label": "ELV4",
+          "canonical_name": "ELV4",
+          "long_name": "Elevator 4",
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "UG4",
+              "category": "process"
+            },
+            {
+              "name": "TH4",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "TH1",
+          "name": "TH1",
+          "drawing_label": "TH1",
+          "canonical_name": "TH1",
+          "long_name": "Turnhead 1",
+          "type": "turnhead",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "TH2",
+          "name": "TH2",
+          "drawing_label": "TH2",
+          "canonical_name": "TH2",
+          "long_name": "Turnhead 2",
+          "type": "turnhead",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "TH3",
+          "name": "TH3",
+          "drawing_label": "TH3",
+          "canonical_name": "TH3",
+          "long_name": "Turnhead 3",
+          "type": "turnhead",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "TH4",
+          "name": "TH4",
+          "drawing_label": "TH4",
+          "canonical_name": "TH4",
+          "long_name": "Turnhead 4",
+          "type": "turnhead",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "MB1",
+          "name": "MB1",
+          "drawing_label": "MB1",
+          "canonical_name": "MB1",
+          "long_name": "Mill Bin 1",
+          "type": "bin",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "MB2",
+          "name": "MB2",
+          "drawing_label": "MB2",
+          "canonical_name": "MB2",
+          "long_name": "Mill Bin 2",
+          "type": "bin",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "DCC",
+          "name": "DCC (UNUSED)",
+          "drawing_label": "DCC (UNUSED)",
+          "canonical_name": "DCC",
+          "long_name": "Distribution Chain Conveyor",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "UNUSED ON DRAWING",
+              "category": "info_required"
+            }
+          ]
+        },
+        {
+          "id": "RC3",
+          "name": "RC3",
+          "drawing_label": "RC3",
+          "canonical_name": "RC3",
+          "long_name": "Receiving Conveyor 3",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "RC4",
+          "name": "RC4",
+          "drawing_label": "RC4",
+          "canonical_name": "RC4",
+          "long_name": "Receiving Conveyor 4",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "LLCC1",
+          "name": "LLCC1",
+          "drawing_label": "LC1",
+          "canonical_name": "LLCC1",
+          "long_name": "Lorry Loading Chain Conveyor 1",
+          "type": "chain_conveyor",
+          "notes": "Drawing label preserved. Canonical name uses LLCC1 per site knowledge.",
+          "components": [
+            {
+              "name": "FEEDS LLCC3",
+              "category": "process"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silo_cluster_1",
+      "name": "Silo 1",
+      "assets": [
+        {
+          "id": "RB5",
+          "name": "RB5",
+          "drawing_label": "RB5",
+          "canonical_name": "RB5",
+          "long_name": "Receiving Belt 5",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "LV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "FLUID COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "REDUCTION GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE CHAIN",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE SPROCKET",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVEN SPROCKET",
+              "category": "mechanical"
+            },
+            {
+              "name": "DRIVE PULLEY",
+              "category": "mechanical"
+            },
+            {
+              "name": "SNUB PULLEYS",
+              "category": "mechanical"
+            },
+            {
+              "name": "WING ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "TROUGH ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "RETURN ROLLERS",
+              "category": "mechanical"
+            },
+            {
+              "name": "BEND PULLEYS",
+              "category": "mechanical"
+            },
+            {
+              "name": "GTU",
+              "category": "mechanical"
+            },
+            {
+              "name": "CP",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "RB6",
+          "name": "RB6",
+          "drawing_label": "RB6",
+          "canonical_name": "RB6",
+          "long_name": "Receiving Belt 6",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "LV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "GTU",
+              "category": "mechanical"
+            },
+            {
+              "name": "CP",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "RB7",
+          "name": "RB7",
+          "drawing_label": "RB7",
+          "canonical_name": "RB7",
+          "long_name": "Receiving Belt 7",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "LV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "GTU",
+              "category": "mechanical"
+            },
+            {
+              "name": "CP",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "BB1",
+          "name": "BB1",
+          "drawing_label": "BB1",
+          "canonical_name": "BB1",
+          "long_name": "Basement Belt 1",
+          "legacy_name_aliases": [
+            "BASEMENT BELT 1"
+          ],
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 1",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB2",
+          "name": "BB2",
+          "drawing_label": "BB2",
+          "canonical_name": "BB2",
+          "long_name": "Basement Belt 2",
+          "legacy_name_aliases": [
+            "BASEMENT BELT 2"
+          ],
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 1",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB3",
+          "name": "BB3",
+          "drawing_label": "BB3",
+          "canonical_name": "BB3",
+          "long_name": "Basement Belt 3",
+          "legacy_name_aliases": [
+            "BASEMENT BELT 3"
+          ],
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 1",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB1_V1",
+          "name": "BASEMENT BELT 1, VALVE 1",
+          "drawing_label": "BASEMENT BELT 1, VALVE 1",
+          "canonical_name": "BB1_V1",
+          "long_name": "Basement Belt 1 Valve 1",
+          "legacy_name_aliases": [
+            "BASEMENT BELT 1 — VALVE 1"
+          ],
+          "type": "rotary_valve",
+          "components": [
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "BB2_V1",
+          "name": "BASMENT BELT 2, VALVE 1",
+          "drawing_label": "BASMENT BELT 2, VALVE 1",
+          "canonical_name": "BB2_V1",
+          "long_name": "Basement Belt 2 Valve 1",
+          "legacy_name_aliases": [
+            "BASEMENT BELT 2 — VALVE 1"
+          ],
+          "type": "rotary_valve",
+          "components": [
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "BB3_V1",
+          "name": "BASEMENT BELT 3, VALVE 1",
+          "drawing_label": "BASEMENT BELT 3, VALVE 1",
+          "canonical_name": "BB3_V1",
+          "long_name": "Basement Belt 3 Valve 1",
+          "legacy_name_aliases": [
+            "BASEMENT BELT 3 — VALVE 1"
+          ],
+          "type": "rotary_valve",
+          "components": [
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "ME1",
+          "name": "ME1",
+          "drawing_label": "MAIN ELEVATOR 1",
+          "canonical_name": "ME1",
+          "long_name": "Main Elevator 1",
+          "legacy_name_aliases": [
+            "SILO1_ME1"
+          ],
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "HV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "FLUID COUPLING DRIVE",
+              "category": "mechanical"
+            },
+            {
+              "name": "REDUCTION GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "ANTI RUN BACK GEAR",
+              "category": "mechanical"
+            },
+            {
+              "name": "PONY MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "PONY COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "PONY GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "SPEED SENSOR",
+              "category": "electrical"
+            },
+            {
+              "name": "LOWER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "HIGHER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "ME2",
+          "name": "ME2",
+          "drawing_label": "MAIN ELEVATOR 2",
+          "canonical_name": "ME2",
+          "long_name": "Main Elevator 2",
+          "legacy_name_aliases": [
+            "SILO1_ME2"
+          ],
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "HV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "FLUID COUPLING DRIVE",
+              "category": "mechanical"
+            },
+            {
+              "name": "REDUCTION GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "ANTI RUN BACK GEAR",
+              "category": "mechanical"
+            },
+            {
+              "name": "PONY MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "PONY COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "PONY GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "SPEED SENSOR",
+              "category": "electrical"
+            },
+            {
+              "name": "LOWER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "HIGHER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "ME3",
+          "name": "ME3",
+          "drawing_label": "MAIN ELEVATOR 3",
+          "canonical_name": "ME3",
+          "long_name": "Main Elevator 3",
+          "legacy_name_aliases": [
+            "SILO1_ME3"
+          ],
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "HV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "FLUID COUPLING DRIVE",
+              "category": "mechanical"
+            },
+            {
+              "name": "REDUCTION GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "ANTI RUN BACK GEAR",
+              "category": "mechanical"
+            },
+            {
+              "name": "PONY MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "PONY COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "PONY GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "SPEED SENSOR",
+              "category": "electrical"
+            },
+            {
+              "name": "LOWER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "HIGHER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        },
+        {
+          "id": "ME4",
+          "name": "ME4",
+          "drawing_label": "MAIN ELEVATOR 4",
+          "canonical_name": "ME4",
+          "long_name": "Main Elevator 4",
+          "legacy_name_aliases": [
+            "SILO1_ME4"
+          ],
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "HV MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "FLUID COUPLING DRIVE",
+              "category": "mechanical"
+            },
+            {
+              "name": "REDUCTION GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "ANTI RUN BACK GEAR",
+              "category": "mechanical"
+            },
+            {
+              "name": "PONY MOTOR",
+              "category": "electrical"
+            },
+            {
+              "name": "PONY COUPLING",
+              "category": "mechanical"
+            },
+            {
+              "name": "PONY GEARBOX",
+              "category": "mechanical"
+            },
+            {
+              "name": "SPEED SENSOR",
+              "category": "electrical"
+            },
+            {
+              "name": "LOWER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "HIGHER CHUTE BLOCK",
+              "category": "mechanical"
+            },
+            {
+              "name": "STOP BUTTON",
+              "category": "electrical"
+            },
+            {
+              "name": "HAND CONTROL",
+              "category": "electrical"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silo_cluster_2",
+      "name": "Silo 2",
+      "assets": [
+        {
+          "id": "TH8",
+          "name": "TH8",
+          "drawing_label": "TH8",
+          "canonical_name": "TH8",
+          "long_name": "Turnhead 8",
+          "type": "turnhead",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "TH9",
+          "name": "TH9",
+          "drawing_label": "TH9",
+          "canonical_name": "TH9",
+          "long_name": "Turnhead 9",
+          "type": "turnhead",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "RB8",
+          "name": "RB8",
+          "drawing_label": "RB8",
+          "canonical_name": "RB8",
+          "long_name": "Receiving Belt 8",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "CP",
+              "category": "mechanical"
+            },
+            {
+              "name": "GTU",
+              "category": "mechanical"
+            },
+            {
+              "name": "LAST POSITION OF TRIPPER",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "RB9",
+          "name": "RB9",
+          "drawing_label": "RB9",
+          "canonical_name": "RB9",
+          "long_name": "Receiving Belt 9",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "CP",
+              "category": "mechanical"
+            },
+            {
+              "name": "GTU",
+              "category": "mechanical"
+            },
+            {
+              "name": "LAST POSITION OF TRIPPER",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BIN_400A",
+          "name": "BIN 400A",
+          "drawing_label": "BIN 400A",
+          "canonical_name": "BIN_400A",
+          "long_name": "Bin 400A",
+          "type": "bin",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BIN_500",
+          "name": "BIN 500",
+          "drawing_label": "BIN 500",
+          "canonical_name": "BIN_500",
+          "long_name": "Bin 500",
+          "type": "bin",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BIN_600",
+          "name": "BIN 600",
+          "drawing_label": "BIN 600",
+          "canonical_name": "BIN_600",
+          "long_name": "Bin 600",
+          "type": "bin",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB4",
+          "name": "BB4",
+          "drawing_label": "BB4",
+          "canonical_name": "BB4",
+          "long_name": "Basement Belt 4",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 2",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB5",
+          "name": "BB5",
+          "drawing_label": "BB5",
+          "canonical_name": "BB5",
+          "long_name": "Basement Belt 5",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 2",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB6",
+          "name": "BB6",
+          "drawing_label": "BB6",
+          "canonical_name": "BB6",
+          "long_name": "Basement Belt 6",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "GTU",
+              "category": "mechanical"
+            },
+            {
+              "name": "SILO CLUSTER 2",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB7",
+          "name": "BB7",
+          "drawing_label": "BB7",
+          "canonical_name": "BB7",
+          "long_name": "Basement Belt 7",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "GTU",
+              "category": "mechanical"
+            },
+            {
+              "name": "SILO CLUSTER 2",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "SMC",
+          "name": "SMC",
+          "drawing_label": "SMC",
+          "canonical_name": "SMC",
+          "long_name": "Soya Mill Conveyor",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "C1",
+              "category": "process"
+            },
+            {
+              "name": "CARGILLS",
+              "category": "process"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silo_3",
+      "name": "Silo 3",
+      "assets": [
+        {
+          "id": "TH5",
+          "name": "TH5",
+          "drawing_label": "TH5",
+          "canonical_name": "TH5",
+          "long_name": "Turnhead 5",
+          "type": "turnhead",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "TH6",
+          "name": "TH6",
+          "drawing_label": "TH6",
+          "canonical_name": "TH6",
+          "long_name": "Turnhead 6",
+          "type": "turnhead",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "TH7",
+          "name": "TH7",
+          "drawing_label": "TH7",
+          "canonical_name": "TH7",
+          "long_name": "Turnhead 7",
+          "type": "turnhead",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "UG5",
+          "name": "UG5",
+          "drawing_label": "UG5",
+          "canonical_name": "UG5",
+          "long_name": "Upper Garner 5",
+          "type": "garner",
+          "components": [
+            {
+              "name": "SCALE 5",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB8",
+          "name": "BB8",
+          "drawing_label": "BB8",
+          "canonical_name": "BB8",
+          "long_name": "Basement Belt 8",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 3",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB9",
+          "name": "BB9",
+          "drawing_label": "BB9",
+          "canonical_name": "BB9",
+          "long_name": "Basement Belt 9",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 3",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB10",
+          "name": "BB10",
+          "drawing_label": "BB10",
+          "canonical_name": "BB10",
+          "long_name": "Basement Belt 10",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 3",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB11",
+          "name": "BB11",
+          "drawing_label": "BB11",
+          "canonical_name": "BB11",
+          "long_name": "Basement Belt 11",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 3",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BB12",
+          "name": "BB12",
+          "drawing_label": "BB12",
+          "canonical_name": "BB12",
+          "long_name": "Basement Belt 12",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "SILO CLUSTER 3",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "RB10",
+          "name": "RB10",
+          "drawing_label": "RB10",
+          "canonical_name": "RB10",
+          "long_name": "Receiving Belt 10",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "RB11",
+          "name": "RB11",
+          "drawing_label": "RB11",
+          "canonical_name": "RB11",
+          "long_name": "Receiving Belt 11",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "RB12",
+          "name": "RB12",
+          "drawing_label": "RB12",
+          "canonical_name": "RB12",
+          "long_name": "Receiving Belt 12",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "BIN_1_TO_9",
+          "name": "BINS 1 TO 9",
+          "drawing_label": "BIN 1 ... BIN 9",
+          "canonical_name": "SILO_CLUSTER_3_BINS",
+          "long_name": "Silo Cluster 3 Bins 1 to 9",
+          "type": "bin_group",
+          "components": [
+            {
+              "name": "HS",
+              "category": "safety"
+            },
+            {
+              "name": "AF",
+              "category": "mechanical"
+            },
+            {
+              "name": "MRV'S",
+              "category": "safety"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mill_feed",
+      "name": "Mill Feed",
+      "assets": [
+        {
+          "id": "FE1",
+          "name": "FE1",
+          "drawing_label": "FE1",
+          "canonical_name": "FE1",
+          "long_name": "Feed Elevator 1",
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "GB",
+              "category": "safety"
+            },
+            {
+              "name": "EP",
+              "category": "safety"
+            },
+            {
+              "name": "LS",
+              "category": "safety"
+            }
+          ]
+        },
+        {
+          "id": "FB1",
+          "name": "FB1",
+          "drawing_label": "FB1",
+          "canonical_name": "FB1",
+          "long_name": "Feed Belt 1",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "FB2",
+          "name": "FB2",
+          "drawing_label": "FB2",
+          "canonical_name": "FB2",
+          "long_name": "Feed Belt 2",
+          "type": "belt_conveyor",
+          "components": [
+            {
+              "name": "PROCESS CONNECTIONS",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "MC1",
+          "name": "MC1",
+          "drawing_label": "MC1",
+          "canonical_name": "MC1",
+          "long_name": "Mill Conveyor 1",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "CP",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "MC2",
+          "name": "MC2",
+          "drawing_label": "MC2",
+          "canonical_name": "MC2",
+          "long_name": "Mill Conveyor 2",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "CP",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "MC3",
+          "name": "MC3",
+          "drawing_label": "MC3",
+          "canonical_name": "MC3",
+          "long_name": "Mill Conveyor 3",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "CP",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "MC4",
+          "name": "MC4",
+          "drawing_label": "MC4",
+          "canonical_name": "MC4",
+          "long_name": "Mill Conveyor 4",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "CP",
+              "category": "mechanical"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weighback_and_lorry_intake",
+      "name": "Weighback And Lorry Intake",
+      "assets": [
+        {
+          "id": "LORRY_INTAKE",
+          "name": "LORRY INTAKE",
+          "drawing_label": "LORRY INTAKE",
+          "canonical_name": "LORRY_INTAKE",
+          "long_name": "Lorry Intake Hopper",
+          "type": "hopper",
+          "components": [
+            {
+              "name": "LWB ELEVATOR",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "LWB_ELEVATOR",
+          "name": "LWB ELEVATOR",
+          "drawing_label": "LWB ELEVATOR",
+          "canonical_name": "LWB_ELEVATOR",
+          "long_name": "Lorry Weighback Elevator",
+          "type": "bucket_elevator",
+          "components": [
+            {
+              "name": "LWCC1",
+              "category": "process"
+            },
+            {
+              "name": "LWCC2",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "LWCC1",
+          "name": "LWCC1",
+          "drawing_label": "LWCC1",
+          "canonical_name": "LWCC1",
+          "long_name": "Lorry Weighback Chain Conveyor 1",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "FEEDS LC1",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "LWCC2",
+          "name": "LWCC2",
+          "drawing_label": "LWCC2",
+          "canonical_name": "LWCC2",
+          "long_name": "Lorry Weighback Chain Conveyor 2",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "LWB ELEVATOR CONNECTION",
+              "category": "process"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dust_plant_and_discharge",
+      "name": "Dust Plant And Discharge",
+      "assets": [
+        {
+          "id": "DP1_TO_DP6",
+          "name": "DP1 TO DP6",
+          "drawing_label": "DP1 ... DP6",
+          "canonical_name": "DP1_TO_DP6",
+          "long_name": "Dust Plants 1 to 6",
+          "type": "dust_control",
+          "components": [
+            {
+              "name": "RV1 TO RV6",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "DP12_TO_DP13",
+          "name": "DP12 TO DP13",
+          "drawing_label": "DP12 ... DP13",
+          "canonical_name": "DP12_TO_DP13",
+          "long_name": "Dust Plants 12 to 13",
+          "type": "dust_control",
+          "components": [
+            {
+              "name": "RV12 TO RV13",
+              "category": "mechanical"
+            },
+            {
+              "name": "DC12/13",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "DC12_13",
+          "name": "DC12/13",
+          "drawing_label": "DC12/13",
+          "canonical_name": "DC12_13",
+          "long_name": "Dust Chain Conveyor 12/13",
+          "type": "chain_conveyor",
+          "components": [
+            {
+              "name": "LGS2",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "LGS1",
+          "name": "Simons Bin",
+          "drawing_label": "LGS1",
+          "canonical_name": "SIMONS_BIN",
+          "long_name": "Simons Bin",
+          "type": "process_equipment",
+          "notes": "Known operationally as Simons Bin. Drawing label LGS1 preserved as alias.",
+          "components": [
+            {
+              "name": "VIBRATING BIN DISCHARGER",
+              "category": "process"
+            }
+          ],
+          "legacy_name_aliases": [
+            "LGS1"
+          ]
+        },
+        {
+          "id": "LGS2",
+          "name": "LGS2",
+          "drawing_label": "LGS2",
+          "canonical_name": "LGS2",
+          "long_name": "LGS2",
+          "type": "process_equipment",
+          "notes": "Label preserved from drawing. Expansion still to be confirmed.",
+          "components": [
+            {
+              "name": "DC12/13",
+              "category": "process"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lorry_loading",
+      "name": "Lorry Loading",
+      "assets": [
+        {
+          "id": "LLCC3",
+          "name": "LLCC3",
+          "drawing_label": "LCC3",
+          "canonical_name": "LLCC3",
+          "long_name": "Lorry Loading Chain Conveyor 3",
+          "type": "chain_conveyor",
+          "notes": "Drawing label preserved. Canonical name uses LLCC3 per site knowledge.",
+          "components": [
+            {
+              "name": "BIN A",
+              "category": "process"
+            },
+            {
+              "name": "BIN B",
+              "category": "process"
+            },
+            {
+              "name": "BIN C",
+              "category": "process"
+            },
+            {
+              "name": "BIN D",
+              "category": "process"
+            },
+            {
+              "name": "BIN E",
+              "category": "process"
+            },
+            {
+              "name": "BIN F",
+              "category": "process"
+            }
+          ]
+        },
+        {
+          "id": "LORRY_LOADING_BINS",
+          "name": "LORRY LOADING BINS",
+          "drawing_label": "BIN A ... BIN F",
+          "canonical_name": "LORRY_LOADING_BINS",
+          "long_name": "Lorry Loading Bins A to F",
+          "type": "bin_group",
+          "components": [
+            {
+              "name": "BIN A",
+              "category": "process"
+            },
+            {
+              "name": "BIN B",
+              "category": "process"
+            },
+            {
+              "name": "BIN C",
+              "category": "process"
+            },
+            {
+              "name": "BIN D",
+              "category": "process"
+            },
+            {
+              "name": "BIN E",
+              "category": "process"
+            },
+            {
+              "name": "BIN F",
+              "category": "process"
+            },
+            {
+              "name": "SCALE",
+              "category": "process"
+            },
+            {
+              "name": "LOADING CHUTE",
+              "category": "process"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "external_interfaces",
+      "name": "External Interfaces",
+      "assets": [
+        {
+          "id": "CARGILLS",
+          "name": "CARGILLS",
+          "drawing_label": "CARGILLS",
+          "canonical_name": "CARGILLS",
+          "long_name": "Cargills Interface",
+          "type": "external_interface",
+          "notes": "Live interface, important to retain in the model even if not directly operated."
+        },
+        {
+          "id": "COMPRESSOR_ROOM",
+          "name": "COMPRESSOR ROOM, WORKHOUSE FLOOR 7",
+          "drawing_label": "COMPRESSOR ROOM, WORKHOUSE FLOOR 7",
+          "canonical_name": "COMPRESSOR_ROOM_WORKHOUSE_FLOOR_7",
+          "long_name": "Compressor Room, Workhouse Floor 7",
+          "type": "room",
+          "components": [
+            {
+              "name": "COMPRESSORS",
+              "category": "mechanical"
+            },
+            {
+              "name": "RECEIVER",
+              "category": "mechanical"
+            },
+            {
+              "name": "OIL SEPARATOR",
+              "category": "mechanical"
+            }
+          ]
+        },
+        {
+          "id": "DUMP_HOPPER",
+          "name": "DUMP HOPPER",
+          "drawing_label": "DUMP HOPPER",
+          "canonical_name": "DUMP_HOPPER",
+          "long_name": "Dump Hopper",
+          "type": "hopper",
+          "components": [
+            {
+              "name": "PEEL",
+              "category": "process"
+            },
+            {
+              "name": "DACSA",
+              "category": "process"
+            },
+            {
+              "name": "ADM",
+              "category": "process"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

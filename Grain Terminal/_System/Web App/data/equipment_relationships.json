@@ -1,0 +1,514 @@
+[
+  {
+    "parent_id": 1,
+    "child_id": 155,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Horizontal Conveyor",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 156,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Vertical Conveyor 1",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 157,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Vertical Conveyor 2",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 158,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Inlet Head",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 159,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Slew Motor 1",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 160,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Slew Motor 2",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 161,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Hydraulic Pump Motor",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 162,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 1",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 163,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 2",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 164,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 3",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 165,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 4",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 166,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 5",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 167,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 6",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 168,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 7",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 169,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 8",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 170,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 9",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 1,
+    "child_id": 171,
+    "parent_name": "BMH Ship Unloader",
+    "child_name": "BMH Travel Motor 10",
+    "type": "contains",
+    "notes": "BMH child asset from RSGT Asset ListV2."
+  },
+  {
+    "parent_id": 26,
+    "child_id": 92,
+    "parent_name": "RC3",
+    "child_name": "TH8",
+    "type": "feeds_into",
+    "notes": null
+  },
+  {
+    "parent_id": 27,
+    "child_id": 93,
+    "parent_name": "RC4",
+    "child_name": "TH9",
+    "type": "feeds_into",
+    "notes": null
+  },
+  {
+    "parent_id": 64,
+    "child_id": 80,
+    "parent_name": "BB1_V1",
+    "child_name": "ELV1",
+    "type": "feeds_into",
+    "notes": null
+  },
+  {
+    "parent_id": 64,
+    "child_id": 81,
+    "parent_name": "BB1_V1",
+    "child_name": "ELV2",
+    "type": "feeds_into",
+    "notes": null
+  },
+  {
+    "parent_id": 66,
+    "child_id": 82,
+    "parent_name": "BB3_V1",
+    "child_name": "ELV3",
+    "type": "feeds_into",
+    "notes": null
+  },
+  {
+    "parent_id": 66,
+    "child_id": 83,
+    "parent_name": "BB3_V1",
+    "child_name": "ELV4",
+    "type": "feeds_into",
+    "notes": null
+  },
+  {
+    "parent_id": 194,
+    "child_id": 80,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "ELV1",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 81,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "ELV2",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 82,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "ELV3",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 83,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "ELV4",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 51,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "JL1",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 52,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "JL2",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 121,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "LWCC1",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 122,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "LWCC2",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 91,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "LLCC1",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 128,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "LLCC3",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 119,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "LORRY INTAKE",
+    "type": "protects",
+    "notes": "Fike dust suppression coverage identified by user."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 195,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "Fike Main Elevators Panel",
+    "type": "controlled_by",
+    "notes": "Fike panel linked to dust suppression system."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 196,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "Fike Junction House Panel",
+    "type": "controlled_by",
+    "notes": "Fike panel linked to dust suppression system."
+  },
+  {
+    "parent_id": 194,
+    "child_id": 197,
+    "parent_name": "Fike Dust Suppression System",
+    "child_name": "Fike Scale Room Panel",
+    "type": "controlled_by",
+    "notes": "Fike panel linked to dust suppression system."
+  },
+  {
+    "parent_id": 198,
+    "child_id": 199,
+    "parent_name": "Silo 3 Bin 1",
+    "child_name": "Silo 3 Bin 1 Sweep Auger",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 198,
+    "child_id": 200,
+    "parent_name": "Silo 3 Bin 1",
+    "child_name": "Silo 3 Bin 1 Aeration Fan",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 198,
+    "child_id": 201,
+    "parent_name": "Silo 3 Bin 1",
+    "child_name": "Silo 3 Bin 1 Outlet Gate",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 202,
+    "child_id": 203,
+    "parent_name": "Silo 3 Bin 2",
+    "child_name": "Silo 3 Bin 2 Sweep Auger",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 202,
+    "child_id": 204,
+    "parent_name": "Silo 3 Bin 2",
+    "child_name": "Silo 3 Bin 2 Aeration Fan",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 202,
+    "child_id": 205,
+    "parent_name": "Silo 3 Bin 2",
+    "child_name": "Silo 3 Bin 2 Outlet Gate",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 206,
+    "child_id": 207,
+    "parent_name": "Silo 3 Bin 3",
+    "child_name": "Silo 3 Bin 3 Sweep Auger",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 206,
+    "child_id": 208,
+    "parent_name": "Silo 3 Bin 3",
+    "child_name": "Silo 3 Bin 3 Aeration Fan",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 206,
+    "child_id": 209,
+    "parent_name": "Silo 3 Bin 3",
+    "child_name": "Silo 3 Bin 3 Outlet Gate",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 210,
+    "child_id": 211,
+    "parent_name": "Silo 3 Bin 4",
+    "child_name": "Silo 3 Bin 4 Sweep Auger",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 210,
+    "child_id": 212,
+    "parent_name": "Silo 3 Bin 4",
+    "child_name": "Silo 3 Bin 4 Aeration Fan",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 210,
+    "child_id": 213,
+    "parent_name": "Silo 3 Bin 4",
+    "child_name": "Silo 3 Bin 4 Outlet Gate",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 214,
+    "child_id": 215,
+    "parent_name": "Silo 3 Bin 5",
+    "child_name": "Silo 3 Bin 5 Sweep Auger",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 214,
+    "child_id": 216,
+    "parent_name": "Silo 3 Bin 5",
+    "child_name": "Silo 3 Bin 5 Aeration Fan",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 214,
+    "child_id": 217,
+    "parent_name": "Silo 3 Bin 5",
+    "child_name": "Silo 3 Bin 5 Outlet Gate",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 218,
+    "child_id": 219,
+    "parent_name": "Silo 3 Bin 6",
+    "child_name": "Silo 3 Bin 6 Sweep Auger",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 218,
+    "child_id": 220,
+    "parent_name": "Silo 3 Bin 6",
+    "child_name": "Silo 3 Bin 6 Aeration Fan",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 218,
+    "child_id": 221,
+    "parent_name": "Silo 3 Bin 6",
+    "child_name": "Silo 3 Bin 6 Outlet Gate",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 222,
+    "child_id": 223,
+    "parent_name": "Silo 3 Bin 7",
+    "child_name": "Silo 3 Bin 7 Sweep Auger",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 222,
+    "child_id": 224,
+    "parent_name": "Silo 3 Bin 7",
+    "child_name": "Silo 3 Bin 7 Aeration Fan",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 222,
+    "child_id": 225,
+    "parent_name": "Silo 3 Bin 7",
+    "child_name": "Silo 3 Bin 7 Outlet Gate",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 226,
+    "child_id": 227,
+    "parent_name": "Silo 3 Bin 8",
+    "child_name": "Silo 3 Bin 8 Sweep Auger",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 226,
+    "child_id": 228,
+    "parent_name": "Silo 3 Bin 8",
+    "child_name": "Silo 3 Bin 8 Aeration Fan",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 226,
+    "child_id": 229,
+    "parent_name": "Silo 3 Bin 8",
+    "child_name": "Silo 3 Bin 8 Outlet Gate",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 230,
+    "child_id": 231,
+    "parent_name": "Silo 3 Bin 9",
+    "child_name": "Silo 3 Bin 9 Sweep Auger",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 230,
+    "child_id": 232,
+    "parent_name": "Silo 3 Bin 9",
+    "child_name": "Silo 3 Bin 9 Aeration Fan",
+    "type": "contains",
+    "notes": null
+  },
+  {
+    "parent_id": 230,
+    "child_id": 233,
+    "parent_name": "Silo 3 Bin 9",
+    "child_name": "Silo 3 Bin 9 Outlet Gate",
+    "type": "contains",
+    "notes": null
+  }
+]

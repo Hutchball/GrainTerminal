@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "caption": "Port of Liverpool Grain Terminal",
+    "file_path": "Photos/Grain_Ship.png",
+    "url": "../Grain Terminal/Photos/Grain_Ship.png",
+    "area": "General",
+    "equipment_subject": null,
+    "approved": true,
+    "notes": "Site overview photo",
+    "date_added": "2026-04-19"
+  },
+  {
+    "id": 2,
+    "caption": "High Level Limit Switch - BMH Ship Unloader (1)",
+    "file_path": "Ship Unloader BMH/Photos/High Level Limit Switch - BMH Ship Unloader (1).jpg",
+    "url": "../Grain Terminal/Ship Unloader BMH/Photos/High Level Limit Switch - BMH Ship Unloader (1).jpg",
+    "area": "Ship Unloader BMH",
+    "equipment_subject": "High Level Limit Switch",
+    "approved": false,
+    "notes": "Filed 19 Apr 2026",
+    "date_added": "2026-04-19"
+  },
+  {
+    "id": 3,
+    "caption": "High Level Limit Switch - BMH Ship Unloader (2)",
+    "file_path": "Ship Unloader BMH/Photos/High Level Limit Switch - BMH Ship Unloader (2).jpg",
+    "url": "../Grain Terminal/Ship Unloader BMH/Photos/High Level Limit Switch - BMH Ship Unloader (2).jpg",
+    "area": "Ship Unloader BMH",
+    "equipment_subject": "High Level Limit Switch",
+    "approved": false,
+    "notes": "Filed 19 Apr 2026",
+    "date_added": "2026-04-19"
+  }
+]

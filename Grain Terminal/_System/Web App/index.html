@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port of Liverpool Grain Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>Port of Liverpool</h1>
+                <span class="subtitle">Grain Terminal</span>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#dashboard" class="nav-item active" data-section="dashboard">
+                    <span class="nav-icon">&#9632;</span>
+                    Dashboard
+                </a>
+                <a href="#equipment" class="nav-item" data-section="equipment">
+                    <span class="nav-icon">&#9881;</span>
+                    Equipment
+                </a>
+                <a href="#process-schematic" class="nav-item" data-section="process-schematic">
+                    <span class="nav-icon">&#8644;</span>
+                    Process Schematic
+                </a>
+                <a href="#lubricants" class="nav-item" data-section="lubricants">
+                    <span class="nav-icon">&#128167;</span>
+                    Lubricants
+                </a>
+                <a href="#pulleys" class="nav-item" data-section="pulleys">
+                    <span class="nav-icon">&#9711;</span>
+                    Pulleys
+                </a>
+                <a href="#gearboxes" class="nav-item" data-section="gearboxes">
+                    <span class="nav-icon">&#9881;</span>
+                    Gearboxes
+                </a>
+                <a href="#motors" class="nav-item" data-section="motors">
+                    <span class="nav-icon">&#9881;</span>
+                    Motors
+                </a>
+                <a href="#dust-bags" class="nav-item" data-section="dust-bags">
+                    <span class="nav-icon">&#9645;</span>
+                    Dust Bags
+                </a>
+                <a href="#health-safety" class="nav-item" data-section="health-safety">
+                    <span class="nav-icon">&#9888;</span>
+                    Health &amp; Safety
+                </a>
+                <a href="#regulations" class="nav-item" data-section="regulations">
+                    <span class="nav-icon">&#9783;</span>
+                    Regulations
+                </a>
+                <a href="#schematics" class="nav-item" data-section="schematics">
+                    <span class="nav-icon">&#9141;</span>
+                    Schematics
+                </a>
+                <a href="#documents" class="nav-item" data-section="documents">
+                    <span class="nav-icon">&#128196;</span>
+                    Documents
+                </a>
+                <a href="#photos" class="nav-item" data-section="photos">
+                    <span class="nav-icon">&#128247;</span>
+                    Photos
+                </a>
+                <a href="#history" class="nav-item" data-section="history">
+                    <span class="nav-icon">&#128337;</span>
+                    Site History
+                </a>
+                <a href="#sources" class="nav-item" data-section="sources">
+                    <span class="nav-icon">&#128279;</span>
+                    Sources
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="data-notice">
+                    All information from verified sources only
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dashboard -->
+            <section id="dashboard" class="section active">
+                <div class="section-header">
+                    <h2>Dashboard</h2>
+                </div>
+
+                <div class="status-banner">
+                    <span class="status-icon">&#9888;</span>
+                    <span>Safety-critical information system. All data must be verified against original documentation before use.</span>
+                </div>
+
+                <div class="dashboard-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Electrical Schematics</div>
+                        <div class="stat-value" data-stat="electrical_drawings">—</div>
+                        <div class="stat-note">Organised by MCC</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Electrical Motors</div>
+                        <div class="stat-value" data-stat="electrical_motors">—</div>
+                        <div class="stat-note">Motor register rows</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Switchrooms</div>
+                        <div class="stat-value">13</div>
+                        <div class="stat-note">MCC1-13, SCP, Scale Room</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Photos</div>
+                        <div class="stat-value" data-stat="photos">—</div>
+                        <div class="stat-note">Site photography</div>
+                    </div>
+                </div>
+                <div class="last-updated">Last data import: <span data-stat="last_import">—</span></div>
+
+                <div class="quick-links">
+                    <h3>Site Documents</h3>
+                    <div class="link-grid">
+                        <a href="../../Equipment/Conveyors/Roller_Codes.html" class="quick-link">
+                            <span class="link-title">Roller Codes</span>
+                            <span class="link-desc">Belt conveyor roller specifications (Rulmeca)</span>
+                        </a>
+                        <a href="../../Equipment/Equipment_List_Master.md" class="quick-link">
+                            <span class="link-title">Equipment List</span>
+                            <span class="link-desc">Master equipment inventory</span>
+                        </a>
+                        <a href="../../Switchrooms/" class="quick-link">
+                            <span class="link-title">Switchroom Drawings</span>
+                            <span class="link-desc">MCC electrical schematics</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="quick-links">
+                    <h3>External References</h3>
+                    <div class="link-grid">
+                        <a href="https://www.hse.gov.uk/pubns/priced/hsg103.pdf" target="_blank" class="quick-link">
+                            <span class="link-title">HSG103 PDF</span>
+                            <span class="link-desc">Combustible dust guidance</span>
+                        </a>
+                        <a href="https://www.hse.gov.uk/fireandexplosion/atex.htm" target="_blank" class="quick-link">
+                            <span class="link-title">HSE ATEX Guide</span>
+                            <span class="link-desc">Explosive atmospheres</span>
+                        </a>
+                        <a href="https://www.rulmeca.com" target="_blank" class="quick-link">
+                            <span class="link-title">Rulmeca</span>
+                            <span class="link-desc">Conveyor roller supplier</span>
+                        </a>
+                        <a href="https://bruks-siwertell.com" target="_blank" class="quick-link">
+                            <span class="link-title">Bruks Siwertell</span>
+                            <span class="link-desc">BMH ship unloader manufacturer</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-panel">
+                    <h3>Data Required</h3>
+                    <p>The following site-specific information needs to be added:</p>
+                    <ul class="checklist">
+                        <li class="pending">Equipment inventory with manufacturers/models</li>
+                        <li class="pending">ATEX zone classifications and drawings</li>
+                        <li class="pending">Maintenance schedules and intervals</li>
+                        <li class="pending">Explosion relief panel locations</li>
+                        <li class="pending">PLC systems documentation</li>
+                        <li class="pending">Electrical system specifications</li>
+                        <li class="pending">Current inspection certificates</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Process Schematic -->
+            <section id="process-schematic" class="section">
+                <div class="section-header schematic-page-header">
+                    <div>
+                        <h2>Process Schematic</h2>
+                        <p>Click a process stage, then select an asset to open its linked equipment record.</p>
+                    </div>
+                    <a class="drawing-link schematic-source-link" href="../../Process Schematics/Grain Store Process Schematic Rev 1 Sept 21.pdf" target="_blank" rel="noopener">Open source drawing</a>
+                </div>
+
+                <div class="schematic-workspace">
+                    <div id="schematic-map" class="schematic-map"></div>
+                    <div class="schematic-side-panel">
+                        <div id="schematic-stage-summary" class="schematic-stage-summary"></div>
+                        <div id="schematic-asset-list" class="schematic-asset-list"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Lubricants -->
+            <section id="lubricants" class="section">
+                <div class="section-header">
+                    <h2>Lubricants</h2>
+                </div>
+
+                <div class="search-bar">
+                    <input type="search" id="lubricants-search" placeholder="Search product, machine, gearbox, or supplier..." autocomplete="off">
+                </div>
+
+                <div id="lubricants-list" class="lubricants-list"></div>
+                <div id="lubricants-empty" class="info-panel" style="display:none;">
+                    <p>No lubricant rows match your search.</p>
+                </div>
+            </section>
+
+            <!-- Pulleys -->
+            <section id="pulleys" class="section">
+                <div class="section-header">
+                    <h2>Pulleys</h2>
+                </div>
+
+                <div class="search-bar">
+                    <input type="search" id="pulleys-search" placeholder="Search pulley, equipment, bearing, shaft, or diameter..." autocomplete="off">
+                </div>
+
+                <div id="pulleys-list" class="pulleys-list"></div>
+                <div id="pulleys-empty" class="info-panel" style="display:none;">
+                    <p>No pulley rows match your search.</p>
+                </div>
+            </section>
+
+            <!-- Gearboxes -->
+            <section id="gearboxes" class="section">
+                <div class="section-header">
+                    <h2>Gearboxes</h2>
+                </div>
+
+                <div class="search-bar">
+                    <input type="search" id="gearboxes-search" placeholder="Search gearbox, equipment, oil, make, type, or area..." autocomplete="off">
+                </div>
+
+                <div id="gearboxes-list" class="gearboxes-list"></div>
+                <div id="gearboxes-empty" class="info-panel" style="display:none;">
+                    <p>No gearbox rows match your search.</p>
+                </div>
+            </section>
+
+            <!-- Motors -->
+            <section id="motors" class="section">
+                <div class="section-header">
+                    <h2>Motors</h2>
+                </div>
+
+                <div class="search-bar">
+                    <input type="search" id="motors-search" placeholder="Search motor, plant, serial, make, volts, or section..." autocomplete="off">
+                </div>
+
+                <div id="motors-list" class="motors-list"></div>
+                <div id="motors-empty" class="info-panel" style="display:none;">
+                    <p>No motor rows match your search.</p>
+                </div>
+            </section>
+
+            <!-- Dust Bags -->
+            <section id="dust-bags" class="section">
+                <div class="section-header">
+                    <h2>Dust Bags</h2>
+                </div>
+
+                <div class="search-bar">
+                    <input type="search" id="dust-bags-search" placeholder="Search bag type, DCE, dust plant, stock, or date..." autocomplete="off">
+                </div>
+
+                <div id="dust-bags-list" class="dust-bags-list"></div>
+                <div id="dust-bags-empty" class="info-panel" style="display:none;">
+                    <p>No dust bag rows match your search.</p>
+                </div>
+            </section>
+
+            <!-- Equipment -->
+            <section id="equipment" class="section">
+                <div class="section-header">
+                    <h2>Equipment</h2>
+                </div>
+
+                <!-- View toggle -->
+                <div class="view-toggle">
+                    <button id="btn-site-layout" class="toggle-btn active" onclick="showView('site-layout')">&#9783; Site Layout</button>
+                    <button id="btn-equip-list" class="toggle-btn" onclick="showView('equip-list')">&#9776; Equipment Database</button>
+                </div>
+
+                <!-- Site Layout drill-down (Location → Asset → Components) -->
+                <div id="site-layout-view">
+                    <div id="location-breadcrumb" class="breadcrumb" style="display:none;"></div>
+                    <div id="location-cards" class="location-grid">
+                        <!-- Populated by JS from site_layout.json -->
+                    </div>
+                    <div id="asset-list-view" style="display:none;">
+                        <div id="asset-cards" class="asset-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Existing equipment database list (hidden by default) -->
+                <div id="equip-list-view" style="display:none;">
+                    <div class="info-panel">
+                        <p>Equipment database compiled from electrical schematics. 328 drawings across 13 MCCs.</p>
+                    </div>
+                    <div id="equipment-list-container">
+                        <!-- Populated by JS from equipment.json -->
+                    </div>
+                </div>
+
+                <!-- Switchrooms -->
+                <div class="content-card">
+                    <h3>Switchrooms (MCCs)</h3>
+                    <p class="card-note">Motor Control Centers - electrical distribution and motor control</p>
+
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>MCC</th>
+                                <th>Drawings</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>MCC1 (1A, 1B)</td><td>19</td><td>To be processed</td></tr>
+                            <tr><td>MCC2</td><td>67</td><td>To be processed</td></tr>
+                            <tr><td>MCC3</td><td>53</td><td>To be processed</td></tr>
+                            <tr><td>MCC4</td><td>9</td><td>To be processed</td></tr>
+                            <tr><td>MCC5</td><td>30</td><td>To be processed</td></tr>
+                            <tr><td>MCC6</td><td>4</td><td>To be processed</td></tr>
+                            <tr><td>MCC10</td><td>3</td><td>To be processed</td></tr>
+                            <tr><td>MCC11</td><td>9</td><td>To be processed</td></tr>
+                            <tr><td>MCC12</td><td>25</td><td>To be processed</td></tr>
+                            <tr><td>MCC13</td><td>20</td><td>To be processed</td></tr>
+                            <tr><td>SCP (Control Panel)</td><td>87</td><td>To be processed</td></tr>
+                            <tr><td>Scale Room</td><td>2</td><td>To be processed</td></tr>
+                        </tbody>
+                    </table>
+                    <p class="card-note" style="margin-top:1rem;">Original contractor: Dewhurst & Partner Ltd, Melbourne Works, Hounslow</p>
+                </div>
+
+                <!-- General Reference -->
+                <div class="content-card">
+                    <h3>General Equipment Types (Reference)</h3>
+                    <p class="card-note">General industry information for context.</p>
+
+                    <div class="equipment-item">
+                        <h4>Bucket Elevators (Grain Legs)</h4>
+                        <ul>
+                            <li>Vertically-oriented conveyor belt with scoops (buckets)</li>
+                            <li>Used to elevate grain to silos and processing</li>
+                        </ul>
+                        <div class="source-link">Source: <a href="https://en.wikipedia.org/wiki/Grain_elevator" target="_blank">Wikipedia</a></div>
+                    </div>
+
+                    <div class="equipment-item">
+                        <h4>Conveyors</h4>
+                        <ul>
+                            <li><strong>Belt Conveyors:</strong> Horizontal and inclined transport</li>
+                            <li><strong>Chain Conveyors:</strong> Enclosed, used in dusty environments</li>
+                            <li><strong>Screw Conveyors:</strong> Enclosed auger transport</li>
+                        </ul>
+                    </div>
+
+                    <div class="equipment-item">
+                        <h4>Dust Extraction</h4>
+                        <ul>
+                            <li>Filter units with explosion relief</li>
+                            <li>Extraction fans</li>
+                            <li>Rotary valves (ATEX certified)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Schematics -->
+            <section id="schematics" class="section">
+                <div class="section-header">
+                    <h2>Electrical Schematics</h2>
+                </div>
+
+                <div class="search-bar">
+                    <input type="search" id="schematics-search" placeholder="Search by drawing ref, description, or MCC..." autocomplete="off">
+                </div>
+
+                <div id="mcc-filter-bar" class="mcc-filter-bar">
+                    <!-- MCC filter pills rendered by JS -->
+                </div>
+
+                <div id="schematics-list" class="schematics-list">
+                    <!-- Drawing rows rendered by JS -->
+                </div>
+
+                <div id="schematics-empty" class="info-panel" style="display:none;">
+                    <p>No drawings match your search.</p>
+                </div>
+            </section>
+
+            <!-- Health & Safety -->
+            <section id="health-safety" class="section">
+                <div class="section-header">
+                    <h2>Health &amp; Safety</h2>
+                </div>
+
+                <div class="warning-banner">
+                    <span class="warning-icon">&#9888;</span>
+                    <div>
+                        <strong>Grain terminals are high-risk environments.</strong>
+                        <p>Dust explosion, engulfment, confined spaces, and machinery hazards require specific controls and competent personnel.</p>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <h3>Primary Hazards in Grain Terminals</h3>
+
+                    <div class="hazard-grid">
+                        <div class="hazard-item high">
+                            <div class="hazard-level">HIGH RISK</div>
+                            <h4>Dust Explosion</h4>
+                            <p>Grain dust is explosive. Concentrations between LEL and UEL with ignition source can cause catastrophic explosion.</p>
+                            <div class="hazard-controls">
+                                <strong>Controls:</strong> ATEX zoning, explosion relief, dust extraction, earthing, hot work permits
+                            </div>
+                        </div>
+
+                        <div class="hazard-item high">
+                            <div class="hazard-level">HIGH RISK</div>
+                            <h4>Engulfment/Entrapment</h4>
+                            <p>Personnel can be engulfed in flowing grain within seconds. Rescue is extremely difficult.</p>
+                            <div class="hazard-controls">
+                                <strong>Controls:</strong> Lockout/tagout, entry permits, rescue equipment, never walk on grain surface
+                            </div>
+                        </div>
+
+                        <div class="hazard-item medium">
+                            <div class="hazard-level">MEDIUM RISK</div>
+                            <h4>Confined Spaces</h4>
+                            <p>Silos, bins, and enclosed conveyors are confined spaces with atmosphere and access hazards.</p>
+                            <div class="hazard-controls">
+                                <strong>Controls:</strong> Permit to work, atmosphere testing, rescue plan, trained personnel
+                            </div>
+                        </div>
+
+                        <div class="hazard-item medium">
+                            <div class="hazard-level">MEDIUM RISK</div>
+                            <h4>Machinery</h4>
+                            <p>Conveyors, elevators, and rotating equipment present entanglement and crushing hazards.</p>
+                            <div class="hazard-controls">
+                                <strong>Controls:</strong> Guarding, interlocks, lockout/tagout, maintenance procedures
+                            </div>
+                        </div>
+
+                        <div class="hazard-item medium">
+                            <div class="hazard-level">MEDIUM RISK</div>
+                            <h4>Working at Height</h4>
+                            <p>Silo tops, conveyor gantries, and elevated platforms.</p>
+                            <div class="hazard-controls">
+                                <strong>Controls:</strong> Edge protection, harnesses, rescue plan, competent persons
+                            </div>
+                        </div>
+
+                        <div class="hazard-item medium">
+                            <div class="hazard-level">MEDIUM RISK</div>
+                            <h4>Fumigants</h4>
+                            <p>Phosphine and other fumigants used for pest control are highly toxic.</p>
+                            <div class="hazard-controls">
+                                <strong>Controls:</strong> Specialist contractors, exclusion zones, gas monitoring, emergency procedures
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card">
+                    <h3>Key HSE Requirements for Grain Handling</h3>
+                    <p class="card-note">From HSG103 and HSE Food Industry guidance. Source: <a href="https://www.hse.gov.uk/food/safety-hazards/dustexplosion.htm" target="_blank">HSE</a></p>
+
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Requirement</th>
+                                <th>Detail</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Building Design</td>
+                                <td>Locate in open air or strong steel-framed building with lightweight panel walls for explosion relief</td>
+                            </tr>
+                            <tr>
+                                <td>Silos/Bins</td>
+                                <td>Must be fitted with explosion relief venting to unoccupied place of safety (preferably outside)</td>
+                            </tr>
+                            <tr>
+                                <td>Bucket Elevators</td>
+                                <td>Must be equipped with explosion relief at head and as close as practicable to boot</td>
+                            </tr>
+                            <tr>
+                                <td>Dust Collectors</td>
+                                <td>Open bag filter units must be totally enclosed and fitted with explosion relief</td>
+                            </tr>
+                            <tr>
+                                <td>Rotary Valves</td>
+                                <td>Only type-tested, ATEX-certified rotary valves as explosion chokes</td>
+                            </tr>
+                            <tr>
+                                <td>Assessment Review</td>
+                                <td>Every 3-5 years minimum, immediate reassessment after any process change</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="content-card">
+                    <h3>Statutory Training Requirements</h3>
+                    <p class="card-note">Personnel working in grain terminals typically require:</p>
+                    <ul>
+                        <li>ATEX/DSEAR awareness for all personnel</li>
+                        <li>Confined space entry and rescue (where applicable)</li>
+                        <li>Working at height</li>
+                        <li>Lockout/tagout procedures</li>
+                        <li>Manual handling</li>
+                        <li>First aid (appropriate level)</li>
+                        <li>Fire safety and emergency procedures</li>
+                        <li>Site-specific induction</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Regulations -->
+            <section id="regulations" class="section">
+                <div class="section-header">
+                    <h2>Regulations</h2>
+                </div>
+
+                <div class="content-card">
+                    <h3>Explosive Atmospheres</h3>
+
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Regulation</th>
+                                <th>Description</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>DSEAR 2002</strong></td>
+                                <td>Dangerous Substances and Explosive Atmospheres Regulations - UK implementation of ATEX workplace directive</td>
+                                <td><a href="https://www.hse.gov.uk/fireandexplosion/atex.htm" target="_blank">HSE</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>ATEX 137</strong></td>
+                                <td>Directive 99/92/EC - Minimum requirements for workplace safety in explosive atmospheres</td>
+                                <td><a href="https://en.wikipedia.org/wiki/ATEX_directives" target="_blank">Info</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>ATEX 114</strong></td>
+                                <td>Directive 2014/34/EU - Equipment and protective systems for use in explosive atmospheres</td>
+                                <td><a href="https://en.wikipedia.org/wiki/ATEX_directives" target="_blank">Info</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="content-card">
+                    <h3>Dust Zone Classifications</h3>
+                    <p class="card-note">Source: <a href="https://www.hse.gov.uk/fireandexplosion/atex.htm" target="_blank">HSE ATEX Guidance</a></p>
+
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Zone</th>
+                                <th>Definition</th>
+                                <th>Equipment Required</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="zone-badge zone-20">Zone 20</span></td>
+                                <td>Explosive dust cloud present continuously or for long periods</td>
+                                <td>Category 1D</td>
+                            </tr>
+                            <tr>
+                                <td><span class="zone-badge zone-21">Zone 21</span></td>
+                                <td>Explosive dust cloud occurs regularly during normal operations</td>
+                                <td>Category 2D</td>
+                            </tr>
+                            <tr>
+                                <td><span class="zone-badge zone-22">Zone 22</span></td>
+                                <td>Explosive dust cloud likely only rarely but still possible</td>
+                                <td>Category 3D</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="content-card">
+                    <h3>General Health &amp; Safety Regulations</h3>
+
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Regulation</th>
+                                <th>Scope</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Health and Safety at Work Act 1974</td><td>Primary UK H&S legislation</td></tr>
+                            <tr><td>Management of H&S at Work Regulations 1999</td><td>Risk assessment requirements</td></tr>
+                            <tr><td>PUWER 1998</td><td>Provision and Use of Work Equipment</td></tr>
+                            <tr><td>LOLER 1998</td><td>Lifting Operations and Lifting Equipment</td></tr>
+                            <tr><td>Electricity at Work Regulations 1989</td><td>Electrical safety</td></tr>
+                            <tr><td>Work at Height Regulations 2005</td><td>Working at height</td></tr>
+                            <tr><td>COSHH 2002</td><td>Control of substances hazardous to health</td></tr>
+                            <tr><td>Noise at Work Regulations 2005</td><td>Noise exposure</td></tr>
+                            <tr><td>Confined Spaces Regulations 1997</td><td>Work in confined spaces</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="content-card">
+                    <h3>Key HSE Publications</h3>
+
+                    <div class="publication-list">
+                        <a href="https://www.hse.gov.uk/pubns/priced/hsg103.pdf" target="_blank" class="publication-item">
+                            <strong>HSG103</strong>
+                            <span>Safe handling of combustible dusts: Precautions against explosions (2nd ed, 2003)</span>
+                        </a>
+                        <a href="https://www.hse.gov.uk/food/safety-hazards/dustexplosion.htm" target="_blank" class="publication-item">
+                            <strong>Food Industry Guidance</strong>
+                            <span>Prevention of dust explosions in the food industry</span>
+                        </a>
+                        <a href="https://www.hse.gov.uk/confinedspace/" target="_blank" class="publication-item">
+                            <strong>Confined Spaces</strong>
+                            <span>HSE guidance on confined space work</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Documents -->
+            <section id="documents" class="section">
+                <div class="section-header">
+                    <h2>Documents</h2>
+                </div>
+
+                <div id="documents-container">
+                    <div class="search-bar">
+                        <input type="search" id="docs-search" placeholder="Search all documents..." autocomplete="off">
+                    </div>
+                    <div id="docs-list"></div>
+                </div>
+            </section>
+
+            <!-- Photos -->
+            <section id="photos" class="section">
+                <div class="section-header">
+                    <h2>Photos</h2>
+                </div>
+
+                <div id="photo-gallery" class="photo-gallery">
+                    <!-- Photos loaded from photos.json -->
+                </div>
+
+                <div id="no-photos-notice" class="info-panel" style="display:none;">
+                    <h3>No Photos</h3>
+                    <p>Add site photos to the photos folder or provide URLs to Gary.</p>
+                </div>
+            </section>
+
+            <!-- History -->
+            <section id="history" class="section">
+                <div class="section-header">
+                    <h2>Site History</h2>
+                </div>
+
+                <div class="content-card">
+                    <h3>Royal Seaforth Dock</h3>
+                    <table class="data-table compact">
+                        <tr><td>Opened</td><td>1971</td></tr>
+                        <tr><td>Grain terminal completed</td><td>End of 1972 (partial use from July 1972)</td></tr>
+                        <tr><td>Silo capacity</td><td>100,000 tonnes</td></tr>
+                        <tr><td>Location</td><td>Royal Seaforth Dock complex, 500 acres reclaimed from the Mersey</td></tr>
+                    </table>
+                    <div class="source-link">Source: <a href="https://api.parliament.uk/historic-hansard/commons/1974/jul/25/seaforth-grain-terminal" target="_blank">Hansard, 25 July 1974</a></div>
+                </div>
+
+                <div class="content-card">
+                    <h3>Alexandra Dock (Earlier Facility)</h3>
+                    <table class="data-table compact">
+                        <tr><td>Built</td><td>1874-1882 by George Fosbery Lyster</td></tr>
+                        <tr><td>Opened</td><td>1881</td></tr>
+                        <tr><td>Historical grain silo capacity</td><td>110,000 tons (with 20,000 tons floor space)</td></tr>
+                        <tr><td>Current use</td><td>Primarily scrap metal export (grain operations moved to Seaforth)</td></tr>
+                    </table>
+                    <div class="source-link">Source: <a href="https://en.wikipedia.org/wiki/Alexandra_Dock,_Liverpool" target="_blank">Wikipedia</a></div>
+                </div>
+
+                <div class="content-card">
+                    <h3>Current Operator</h3>
+                    <table class="data-table compact">
+                        <tr><td>Operator</td><td>Peel Ports</td></tr>
+                        <tr><td>Status</td><td>UK's leading gateway for imports of grain and animal feed</td></tr>
+                    </table>
+                    <div class="source-link">Source: <a href="https://www.peelports.com/port-locations/liverpool/" target="_blank">Peel Ports</a></div>
+                </div>
+            </section>
+
+            <!-- Sources -->
+            <section id="sources" class="section">
+                <div class="section-header">
+                    <h2>Sources</h2>
+                </div>
+
+                <div class="content-card">
+                    <h3>All Verified Sources</h3>
+                    <ol class="source-list">
+                        <li><a href="https://api.parliament.uk/historic-hansard/commons/1974/jul/25/seaforth-grain-terminal" target="_blank">Hansard - Seaforth Grain Terminal 1974</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Alexandra_Dock,_Liverpool" target="_blank">Wikipedia - Alexandra Dock, Liverpool</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Seaforth_Dock" target="_blank">Wikipedia - Seaforth Dock</a></li>
+                        <li><a href="https://www.peelports.com/port-locations/liverpool/" target="_blank">Peel Ports Liverpool</a></li>
+                        <li><a href="https://www.hse.gov.uk/fireandexplosion/atex.htm" target="_blank">HSE - ATEX and Explosive Atmospheres</a></li>
+                        <li><a href="https://www.hse.gov.uk/pubns/books/hsg103.htm" target="_blank">HSE - HSG103 Publication</a></li>
+                        <li><a href="https://www.hse.gov.uk/pubns/priced/hsg103.pdf" target="_blank">HSE - HSG103 PDF</a></li>
+                        <li><a href="https://www.hse.gov.uk/food/safety-hazards/dustexplosion.htm" target="_blank">HSE - Dust Explosions in Food Industry</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Grain_elevator" target="_blank">Wikipedia - Grain Elevator</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/ATEX_directives" target="_blank">Wikipedia - ATEX Directives</a></li>
+                    </ol>
+                </div>
+
+                <div class="info-panel">
+                    <p><strong>Data Integrity:</strong> All information in this system is sourced from verifiable references. No assumptions or fabrications. Safety-critical decisions must be verified against original documentation by qualified personnel.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Equipment Detail Panel -->
+    <div id="detail-overlay" style="display:none;"></div>
+    <div id="equipment-detail-panel" class="equipment-detail-panel">
+        <div id="detail-content"></div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="grainbot.js"></script>
+</body>
+</html>

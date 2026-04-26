@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "caption": "Port of Liverpool Grain Terminal",
+        "description": "Site photo showing grain terminal operations",
+        "url": "../Grain Terminal/Photos/Grain_Ship.png",
+        "source": "Site Photo",
+        "sourceUrl": "../Grain Terminal/Photos/Grain_Ship.png",
+        "license": "Site owned",
+        "approved": true,
+        "notes": "Approved by site personnel"
+    }
+]

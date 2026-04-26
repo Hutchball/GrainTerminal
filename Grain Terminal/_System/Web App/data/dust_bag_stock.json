@@ -1,0 +1,110 @@
+[
+  {
+    "id": 28,
+    "item_no": "1",
+    "bag_type": "DCE 0.7",
+    "application_summary": "RB12 (20) Total required 20",
+    "stock_quantity": "",
+    "min_quantity": "",
+    "max_quantity": "",
+    "notes": "Historic stock quantities intentionally not imported; use as stock placeholder only.",
+    "source_file": "Incoming/DUST BAGS IN STOCK/Stocks-Table 1.csv",
+    "source_row": 12
+  },
+  {
+    "id": 29,
+    "item_no": "2",
+    "bag_type": "DCE 1.0",
+    "application_summary": "RB3 (30) RB11 (20) AFS C4 (20)",
+    "stock_quantity": "",
+    "min_quantity": "",
+    "max_quantity": "",
+    "notes": "Historic stock quantities intentionally not imported; use as stock placeholder only.",
+    "source_file": "Incoming/DUST BAGS IN STOCK/Stocks-Table 1.csv",
+    "source_row": 14
+  },
+  {
+    "id": 30,
+    "item_no": "3",
+    "bag_type": "DCE 1.25",
+    "application_summary": "RC1 ( 12 x 2) Tripper 5,6,7 (20 x 3) Total required 164 MC 1 - 4 (20 x 4)",
+    "stock_quantity": "",
+    "min_quantity": "",
+    "max_quantity": "",
+    "notes": "Historic stock quantities intentionally not imported; use as stock placeholder only.",
+    "source_file": "Incoming/DUST BAGS IN STOCK/Stocks-Table 1.csv",
+    "source_row": 16
+  },
+  {
+    "id": 31,
+    "item_no": "4",
+    "bag_type": "DCE1.5",
+    "application_summary": "Tower beltloader (20x2) RB1 & RB2 ( 20 x 2) RC2 (20) RB4 (20) RB5,6,7 (20 x 3) Surge Bin (40) AFS Hopper Dust(210) BMH(40) Weightower (30)",
+    "stock_quantity": "",
+    "min_quantity": "",
+    "max_quantity": "",
+    "notes": "Historic stock quantities intentionally not imported; use as stock placeholder only.",
+    "source_file": "Incoming/DUST BAGS IN STOCK/Stocks-Table 1.csv",
+    "source_row": 18
+  },
+  {
+    "id": 32,
+    "item_no": "11",
+    "bag_type": "Dust Plant 16? Total Required?",
+    "application_summary": "Dust Plant 16? Total Required?",
+    "stock_quantity": "",
+    "min_quantity": "",
+    "max_quantity": "",
+    "notes": "Historic stock quantities intentionally not imported; use as stock placeholder only.",
+    "source_file": "Incoming/DUST BAGS IN STOCK/Stocks-Table 1.csv",
+    "source_row": 20
+  },
+  {
+    "id": 33,
+    "item_no": "12",
+    "bag_type": "Disa Type Snap Band 2050 x 127",
+    "application_summary": "RB8 & RB9 ( 2 x 99) Total required 198",
+    "stock_quantity": "",
+    "min_quantity": "",
+    "max_quantity": "",
+    "notes": "Historic stock quantities intentionally not imported; use as stock placeholder only.",
+    "source_file": "Incoming/DUST BAGS IN STOCK/Stocks-Table 1.csv",
+    "source_row": 22
+  },
+  {
+    "id": 34,
+    "item_no": "13",
+    "bag_type": "Disa Type Snap Band 2400 x 127",
+    "application_summary": "SILO 3 (DP14/15) Total required 88",
+    "stock_quantity": "",
+    "min_quantity": "",
+    "max_quantity": "",
+    "notes": "Historic stock quantities intentionally not imported; use as stock placeholder only.",
+    "source_file": "Incoming/DUST BAGS IN STOCK/Stocks-Table 1.csv",
+    "source_row": 24
+  },
+  {
+    "id": 35,
+    "item_no": "14",
+    "bag_type": "Disa Type Snap Band 2420 x 127",
+    "application_summary": "Main Dustplants Total required 1276",
+    "stock_quantity": "",
+    "min_quantity": "",
+    "max_quantity": "",
+    "notes": "Historic stock quantities intentionally not imported; use as stock placeholder only.",
+    "source_file": "Incoming/DUST BAGS IN STOCK/Stocks-Table 1.csv",
+    "source_row": 26
+  },
+  {
+    "id": 36,
+    "item_no": "14",
+    "bag_type": "Disa Type Snap Band 2465 x 127",
+    "application_summary": "Seem to have been ordered and used for Main Dust Plant",
+    "stock_quantity": "",
+    "min_quantity": "",
+    "max_quantity": "",
+    "notes": "Historic stock quantities intentionally not imported; use as stock placeholder only.",
+    "source_file": "Incoming/DUST BAGS IN STOCK/Stocks-Table 1.csv",
+    "source_row": 28
+  }
+]

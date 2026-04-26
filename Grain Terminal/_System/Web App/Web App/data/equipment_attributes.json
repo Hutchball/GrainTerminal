@@ -1,0 +1,3207 @@
+[
+  {
+    "equipment_id": 43,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_chain",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "driven_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "sounder",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 44,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_chain",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "driven_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "sounder",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 45,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "sounder",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 46,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "driven_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "sounder",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 47,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "dust_bags",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pulse_air_solenoids",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fan_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 48,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "dust_bags",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pulse_air_solenoids",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fan_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 49,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "dust_bags",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pulse_air_solenoids",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fan_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 50,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "dust_bags",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pulse_air_solenoids",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fan_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 51,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lower_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "upper_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 52,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lower_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "upper_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 53,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "local_isolator",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "dust_bags",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pulse_air_solenoids",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "sounder",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 54,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "local_isolator",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "dust_bags",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pulse_air_solenoids",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "sounder",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 55,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "dust_bags",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pulse_air_solenoids",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 56,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "dust_bags",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pulse_air_solenoids",
+        "value": "TBC",
+        "unit": null,
+        "category": "dust_control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 59,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 60,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 61,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "local_isolator",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 62,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "local_isolator",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 63,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "local_isolator",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 64,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 65,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 66,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 67,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "anti_runback",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling_drive",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "hv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "higher_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lower_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "speed_sensor",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 68,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "anti_runback",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling_drive",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "hv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "higher_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lower_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "speed_sensor",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 69,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "anti_runback",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling_drive",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "hv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "higher_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lower_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "speed_sensor",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 70,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "anti_runback",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling_drive",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "hv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pony_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "higher_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lower_chute_block",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "speed_sensor",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 71,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_chain",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "driven_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "gravity_take_up",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "bend_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "sounder",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 72,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_chain",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "driven_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "gravity_take_up",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "bend_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "sounder",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "equipment_id": 73,
+    "attributes": [
+      {
+        "key": "hand_control",
+        "value": "TBC",
+        "unit": null,
+        "category": "control",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_chain",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "driven_sprocket",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "gravity_take_up",
+        "value": "TBC",
+        "unit": null,
+        "category": "drive",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "fluid_coupling",
+        "value": "TBC",
+        "unit": null,
+        "category": "fluid_coupling",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "reduction_gearbox",
+        "value": "TBC",
+        "unit": null,
+        "category": "gearbox",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "lv_motor",
+        "value": "TBC",
+        "unit": null,
+        "category": "motor",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "bend_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "drive_pulley",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "return_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "snub_pulleys",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "trough_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "wing_rollers",
+        "value": "TBC",
+        "unit": null,
+        "category": "roller",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "belt_alignment_switches",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "pull_cords",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "sounder",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      },
+      {
+        "key": "stop_buttons",
+        "value": "TBC",
+        "unit": null,
+        "category": "safety",
+        "source": "Silo Layout PH CSV",
+        "confidence": "VERIFIED",
+        "added_by": "Max",
+        "notes": null
+      }
+    ]
+  }
+]
