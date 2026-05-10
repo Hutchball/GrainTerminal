@@ -26,6 +26,7 @@ const block = [
   `const DATA_DUST_BAG_STOCK = ${compact(json('dust_bag_stock.json'))};`,
   `const DATA_EQUIPMENT_DUST_BAGS = ${compact(json('equipment_dust_bags.json'))};`,
   `const DATA_DUST_BAG_CHANGE_HISTORY = ${compact(json('dust_bag_change_history.json'))};`,
+  `const DATA_ATEX = ${compact(json('atex_zones.json'))};`,
   '',
 ].join('\n');
 

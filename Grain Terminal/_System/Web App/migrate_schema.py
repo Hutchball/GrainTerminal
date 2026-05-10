@@ -15,6 +15,33 @@ DB_PATH = Path(__file__).parent / "grain_terminal.db"
 
 
 NEW_TABLES = """
+-- Confined Space Register (Arco Professional Safety Services survey, November 2023).
+-- Each row is one identified confined space on site.
+-- Classification levels: LOW / MEDIUM / HIGH (per CSR '97 ACoP)
+-- Entry requirement: NO_ENTRY_REQUIRED / CONTRACTOR_ONLY / SITE_TEAM_PTW / CONTRACTOR_PTW
+CREATE TABLE IF NOT EXISTS confined_spaces (
+    id                        INTEGER PRIMARY KEY AUTOINCREMENT,
+    cs_ref                    TEXT NOT NULL,       -- register reference e.g. 'CS-01'
+    location_name             TEXT NOT NULL,       -- human-readable name e.g. 'Elevator Head Chute'
+    area                      TEXT,                -- site area / building
+    equipment_id              INTEGER REFERENCES equipment(id),  -- linked equipment if applicable
+    classification            TEXT NOT NULL,       -- 'LOW' / 'MEDIUM' / 'HIGH'
+    classification_notes      TEXT,                -- context for the risk classification
+    entry_requirement         TEXT NOT NULL,       -- 'NO_ENTRY_REQUIRED' / 'CONTRACTOR_ONLY' / 'SITE_TEAM_PTW' / 'CONTRACTOR_PTW'
+    permit_required           INTEGER DEFAULT 1,   -- 1 = PTW required before any entry
+    atmosphere_testing        INTEGER DEFAULT 1,   -- 1 = pre-entry atmosphere test required
+    specified_risks           TEXT,                -- comma-separated specified risks (CSR '97 list)
+    additional_risks          TEXT,                -- comma-separated additional site risks
+    rescue_arrangements       TEXT,                -- rescue plan summary
+    entry_notes               TEXT,                -- specific guidance / recommendations
+    source_document           TEXT,                -- originating document name
+    source_date               TEXT,                -- date of source document
+    confidence                TEXT NOT NULL DEFAULT 'VERIFIED',  -- VERIFIED / LIKELY / UNCERTAIN / UNKNOWN
+    added_by                  TEXT DEFAULT 'Heath',
+    added_at                  DATETIME DEFAULT CURRENT_TIMESTAMP,
+    notes                     TEXT
+);
+
 -- Flexible key-value store for any equipment specification.
 -- Grows dynamically as new data types are discovered.
 CREATE TABLE IF NOT EXISTS equipment_attributes (
@@ -99,6 +126,9 @@ INDEX_MIGRATIONS = [
     "CREATE INDEX IF NOT EXISTS idx_aliases_name   ON equipment_aliases(alias_name)",
     "CREATE INDEX IF NOT EXISTS idx_feedback_item   ON verification_feedback(item_type, item_id)",
     "CREATE INDEX IF NOT EXISTS idx_feedback_status ON verification_feedback(status)",
+    "CREATE INDEX IF NOT EXISTS idx_cs_ref          ON confined_spaces(cs_ref)",
+    "CREATE INDEX IF NOT EXISTS idx_cs_class        ON confined_spaces(classification)",
+    "CREATE INDEX IF NOT EXISTS idx_cs_entry        ON confined_spaces(entry_requirement)",
 ]
 
 
@@ -116,7 +146,7 @@ def migrate():
 
     # 1. New tables
     conn.executescript(NEW_TABLES)
-    print("  ✓ New tables: equipment_attributes, equipment_relationships, equipment_locations, equipment_aliases, verification_feedback")
+    print("  ✓ New tables: confined_spaces, equipment_attributes, equipment_relationships, equipment_locations, equipment_aliases, verification_feedback")
 
     # 2. New columns (add only if missing)
     cursor = conn.cursor()

@@ -52,6 +52,10 @@
                     <span class="nav-icon">&#9888;</span>
                     Health &amp; Safety
                 </a>
+                <a href="#atex-dsear" class="nav-item" data-section="atex-dsear">
+                    <span class="nav-icon">&#9889;</span>
+                    ATEX / DSEAR
+                </a>
                 <a href="#regulations" class="nav-item" data-section="regulations">
                     <span class="nav-icon">&#9783;</span>
                     Regulations
@@ -76,6 +80,10 @@
                     <span class="nav-icon">&#128279;</span>
                     Sources
                 </a>
+                <a href="#about" class="nav-item" data-section="about">
+                    <span class="nav-icon">&#9432;</span>
+                    About
+                </a>
             </nav>
 
             <div class="sidebar-footer">
@@ -89,7 +97,19 @@
         <main class="main-content">
             <!-- Dashboard -->
             <section id="dashboard" class="section active">
-                <div class="section-header">
+
+                <!-- Hero banner -->
+                <div class="site-hero">
+                    <img src="../../Site Photos/Seaforth_Terminal_Aerial.png" alt="Seaforth Grain Terminal — aerial view" class="site-hero-img">
+                    <div class="site-hero-overlay">
+                        <div class="site-hero-text">
+                            <div class="site-hero-title">Seaforth Grain Terminal</div>
+                            <div class="site-hero-sub">Royal Seaforth Dock · Port of Liverpool · Operated by Peel Ports</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-header" style="margin-top:1.5rem;">
                     <h2>Dashboard</h2>
                 </div>
 
@@ -527,6 +547,40 @@
                 </div>
             </section>
 
+            <!-- ATEX / DSEAR Zone Classifications -->
+            <section id="atex-dsear" class="section">
+                <div class="section-header">
+                    <h2>ATEX / DSEAR Zone Classifications</h2>
+                    <p class="section-subtitle">Area classification drawings — Royal Seaforth Grain Terminal · Rev A · 2024 DSEAR Periodic Inspection File · Prepared by Inglewood Engineering Consultancy Ltd</p>
+                </div>
+
+                <div class="content-card" style="margin-bottom:1rem;">
+                    <h3 style="margin-top:0;">Equipment Standard (all zones)</h3>
+                    <table class="data-table">
+                        <thead><tr><th>Zone</th><th>Definition</th><th>Min IP Rating</th><th>Max Surface Temp</th></tr></thead>
+                        <tbody>
+                            <tr><td><span class="atex-badge zone-20">Zone 20</span></td><td>Explosive dust cloud present continuously or for long periods</td><td>IP6X</td><td>205°C</td></tr>
+                            <tr><td><span class="atex-badge zone-21">Zone 21</span></td><td>Explosive dust cloud likely during normal operations</td><td>IP6X</td><td>205°C</td></tr>
+                            <tr><td><span class="atex-badge zone-22">Zone 22</span></td><td>Explosive dust cloud unlikely but possible</td><td>IP5X</td><td>205°C</td></tr>
+                        </tbody>
+                    </table>
+                    <p class="dim" style="margin:0.5rem 0 0;">Max surface temp based on grain LIT 280°C − 75°C safety margin. Source: DSEAR report 7619_REP01.</p>
+                </div>
+
+                <div class="search-bar">
+                    <input type="search" id="atex-search" placeholder="Search by area, drawing number, or zone type..." autocomplete="off">
+                </div>
+                <div style="display:flex;gap:0.5rem;margin-bottom:1rem;flex-wrap:wrap;">
+                    <button class="atex-filter-btn active" data-zone="all" onclick="setAtexFilter('all')">All drawings</button>
+                    <button class="atex-filter-btn" data-zone="Zone 20" onclick="setAtexFilter('Zone 20')">Zone 20 areas</button>
+                    <button class="atex-filter-btn" data-zone="Zone 21" onclick="setAtexFilter('Zone 21')">Zone 21 areas</button>
+                    <button class="atex-filter-btn" data-zone="Zone 22" onclick="setAtexFilter('Zone 22')">Zone 22 areas</button>
+                </div>
+
+                <div id="atex-list"></div>
+                <div id="atex-empty" class="info-panel" style="display:none;">No drawings match your search.</div>
+            </section>
+
             <!-- Regulations -->
             <section id="regulations" class="section">
                 <div class="section-header">
@@ -734,6 +788,78 @@
                     <p><strong>Data Integrity:</strong> All information in this system is sourced from verifiable references. No assumptions or fabrications. Safety-critical decisions must be verified against original documentation by qualified personnel.</p>
                 </div>
             </section>
+
+            <!-- About -->
+            <section id="about" class="section">
+                <div class="section-header">
+                    <h2>About the Terminal</h2>
+                </div>
+
+                <div class="about-hero-wrap">
+                    <img src="../../Site Photos/Seaforth_Terminal_Aerial.png"
+                         alt="Seaforth Grain Terminal — aerial view of bulk carrier alongside"
+                         class="about-hero-img">
+                    <div class="about-hero-caption">
+                        Aerial view — bulk carrier discharging alongside Seaforth Grain Terminal, Royal Seaforth Dock, Port of Liverpool
+                    </div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-card-label">Terminal Name</div>
+                        <div class="about-card-value">Seaforth Grain Terminal</div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-label">Location</div>
+                        <div class="about-card-value">Royal Seaforth Dock, Port of Liverpool</div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-label">Operator</div>
+                        <div class="about-card-value">Peel Ports Group</div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-label">Ship Unloader</div>
+                        <div class="about-card-value">Siwertell (Bruks Siwertell)</div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-label">Unloader Leg Length</div>
+                        <div class="about-card-value">22,000 mm design length</div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-label">Switchrooms</div>
+                        <div class="about-card-value">13 MCCs — MCC1 through MCC13, SCP, Scale Room</div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-label">Electrical Contractor</div>
+                        <div class="about-card-value">Dewhurst &amp; Partner Ltd, Melbourne Works, Hounslow</div>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-label">Electrical Drawings</div>
+                        <div class="about-card-value">328 active schematics on record</div>
+                    </div>
+                </div>
+
+                <div class="content-card" style="margin-top:1.5rem;">
+                    <h3>About this System</h3>
+                    <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.7;">
+                        This knowledge base is built for engineers and managers working at Seaforth Grain Terminal.
+                        It provides a single searchable reference for mechanical and electrical equipment, conveyor
+                        roller codes, dust control systems, switchroom drawings, and site safety information.
+                    </p>
+                    <p style="color:var(--text-secondary);font-size:0.9rem;line-height:1.7;margin-top:0.75rem;">
+                        All data is sourced from verified site documents, drawings, and manufacturer records.
+                        Every entry carries a confidence level — <strong style="color:var(--success)">VERIFIED</strong>,
+                        <strong style="color:#90cdf4">LIKELY</strong>,
+                        <strong style="color:var(--warning)">UNCERTAIN</strong>, or
+                        <strong style="color:var(--danger)">UNKNOWN</strong> — so users know exactly how much to trust each piece of information.
+                    </p>
+                    <p style="color:var(--warning);font-size:0.85rem;margin-top:1rem;border-top:1px solid var(--border);padding-top:0.75rem;">
+                        ⚠ This system is a reference tool only. All safety-critical decisions must be verified against
+                        original documentation by qualified engineers before any work is carried out.
+                    </p>
+                </div>
+            </section>
+
         </main>
     </div>
 

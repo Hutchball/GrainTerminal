@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "contractor": "HF Fire & Security Ltd",
+    "panel_type_note": "Handwritten annotation 'Solid State' on page 1 — may indicate panel brand; unconfirmed",
+    "job_number": "289816",
+    "site": "Royal Seaforth Grain Terminal, Peel Ports Group, Port of Liverpool, L21 1LA",
+    "survey_start": "14/09/2021",
+    "survey_end": "25/04/2022",
+    "notes": "Engineers Workshop area added in second survey 23/11/2022–24/01/2023. Document contains Manual Call Points only — no smoke/heat detectors listed. No panel make/model, access codes, or evacuation procedures present in this document.",
+    "confidence_level": "VERIFIED",
+    "source": "RSGT Fire Alarm Information.pdf (HF Fire & Security Ltd, Job 289816, 14/09/2021–25/04/2022)",
+    "imported_at": "2026-05-09T20:31:54.631902+00:00"
+  }
+]

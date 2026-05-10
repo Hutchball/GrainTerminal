@@ -28,7 +28,7 @@ specific constraints, knowledge, and output format.
 
 ### 1. Adding Raw Data
 
-Drop files into the **Incoming** folder (root level of PKA GrainTerminal):
+Drop files into the **Incoming** folder (root level of the LEEN project folder):
 - PDFs (electrical drawings, manuals, datasheets, reports)
 - Photos (equipment, nameplates, issues)
 - Maintenance logs (spreadsheets, documents)
@@ -65,7 +65,7 @@ After routing:
 ### 3. Folder Structure
 
 ```
-PKA GrainTerminal/
+LEEN/
 ├── Incoming/                  ← drop new files here, then tell Gary
 └── Grain Terminal/
     ├── _System/               ← team files, web app, database (internal)

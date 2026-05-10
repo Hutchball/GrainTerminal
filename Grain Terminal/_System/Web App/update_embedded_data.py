@@ -38,6 +38,7 @@ def main():
         f"const DATA_DUST_BAG_STOCK = {load('dust_bag_stock.json')};",
         f"const DATA_EQUIPMENT_DUST_BAGS = {load('equipment_dust_bags.json')};",
         f"const DATA_DUST_BAG_CHANGE_HISTORY = {load('dust_bag_change_history.json')};",
+        f"const DATA_ATEX = {load('atex_zones.json')};",
         "",
     ])
 

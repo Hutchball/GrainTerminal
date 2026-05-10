@@ -13,3 +13,7 @@ Incoming/Processed/
 *.log
 *.db-shm
 *.db-wal
+
+# Fuse temporary files
+.fuse_hidden*
+__pycache__/

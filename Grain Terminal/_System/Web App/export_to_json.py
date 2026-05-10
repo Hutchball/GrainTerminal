@@ -131,7 +131,8 @@ def export_documents(conn: sqlite3.Connection) -> list:
     cur.execute(
         """
         SELECT id, filename, drawing_ref, drawing_type, description,
-               mcc, area, category, file_path, status, equipment_ids
+               mcc, area, category, file_path, status, equipment_ids,
+               source_document
         FROM documents
         ORDER BY mcc, filename
         """
@@ -142,18 +143,19 @@ def export_documents(conn: sqlite3.Connection) -> list:
         fp = row["file_path"]
         pdf_link = ("../Grain Terminal/" + fp) if fp else None
         result.append({
-            "id":           row["id"],
-            "filename":     row["filename"],
-            "drawing_ref":  row["drawing_ref"],
-            "drawing_type": row["drawing_type"],
-            "description":  row["description"],
-            "mcc":          row["mcc"],
-            "area":         row["area"],
-            "category":     row["category"],
-            "file_path":    fp,
-            "pdf_link":     pdf_link,
-            "status":       row["status"],
-            "equipment_ids": parse_id_list(row["equipment_ids"]),
+            "id":              row["id"],
+            "filename":        row["filename"],
+            "drawing_ref":     row["drawing_ref"],
+            "drawing_type":    row["drawing_type"],
+            "description":     row["description"],
+            "mcc":             row["mcc"],
+            "area":            row["area"],
+            "category":        row["category"],
+            "file_path":       fp,
+            "pdf_link":        pdf_link,
+            "status":          row["status"],
+            "equipment_ids":   parse_id_list(row["equipment_ids"]),
+            "source_document": row["source_document"],
         })
     return result
 
@@ -193,7 +195,7 @@ def export_equipment(conn: sqlite3.Connection) -> list:
     cur.execute(
         """
         SELECT id, name, long_name, equipment_type, area, mcc, drawing_refs,
-               manufacturer, model, notes, location_description
+               manufacturer, model, notes, location_description, source_document
         FROM equipment
         ORDER BY area, name
         """
@@ -202,18 +204,19 @@ def export_equipment(conn: sqlite3.Connection) -> list:
     result = []
     for row in rows:
         result.append({
-            "id":           row["id"],
-            "name":         row["name"],
-            "long_name":    row["long_name"],
-            "type":         row["equipment_type"],
-            "area":         row["area"],
-            "mcc":          row["mcc"],
-            "drawing_refs": parse_drawing_refs(row["drawing_refs"]),
-            "manufacturer": row["manufacturer"],
-            "model":        row["model"],
-            "notes":        row["notes"],
-            "location":     row["location_description"],
-            "aliases":      alias_map.get(row["id"], []),
+            "id":              row["id"],
+            "name":            row["name"],
+            "long_name":       row["long_name"],
+            "type":            row["equipment_type"],
+            "area":            row["area"],
+            "mcc":             row["mcc"],
+            "drawing_refs":    parse_drawing_refs(row["drawing_refs"]),
+            "manufacturer":    row["manufacturer"],
+            "model":           row["model"],
+            "notes":           row["notes"],
+            "location":        row["location_description"],
+            "aliases":         alias_map.get(row["id"], []),
+            "source_document": row["source_document"],
         })
     return result
 
@@ -267,7 +270,7 @@ def export_equipment_attributes(conn: sqlite3.Connection) -> list:
     cur.execute(
         """
         SELECT equipment_id, attribute_key, attribute_value, attribute_unit,
-               attribute_category, source, confidence_level, added_by, notes
+               attribute_category, source, source_document, confidence_level, added_by, notes
         FROM equipment_attributes
         ORDER BY equipment_id, attribute_category, attribute_key
         """
@@ -280,14 +283,15 @@ def export_equipment_attributes(conn: sqlite3.Connection) -> list:
         if eid not in by_equip:
             by_equip[eid] = []
         by_equip[eid].append({
-            "key":        row["attribute_key"],
-            "value":      row["attribute_value"],
-            "unit":       row["attribute_unit"],
-            "category":   row["attribute_category"] or "general",
-            "source":     row["source"],
-            "confidence": row["confidence_level"] or "VERIFIED",
-            "added_by":   row["added_by"],
-            "notes":      row["notes"],
+            "key":             row["attribute_key"],
+            "value":           row["attribute_value"],
+            "unit":            row["attribute_unit"],
+            "category":        row["attribute_category"] or "general",
+            "source":          row["source"],
+            "source_document": row["source_document"],
+            "confidence":      row["confidence_level"] or "VERIFIED",
+            "added_by":        row["added_by"],
+            "notes":           row["notes"],
         })
     # Return as list of {equipment_id, attributes:[...]}
     return [{"equipment_id": eid, "attributes": attrs} for eid, attrs in sorted(by_equip.items())]
@@ -488,6 +492,60 @@ def export_dust_bag_change_history(conn: sqlite3.Connection) -> list:
     return [dict(row) for row in cur.fetchall()]
 
 
+def export_confined_spaces(conn: sqlite3.Connection) -> list:
+    cur = conn.cursor()
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='confined_spaces'")
+    if not cur.fetchone():
+        return []
+    cur.execute(
+        """
+        SELECT id, cs_ref, location_name, area, equipment_id,
+               classification, classification_notes,
+               entry_requirement, permit_required, atmosphere_testing,
+               specified_risks, additional_risks,
+               rescue_arrangements, entry_notes,
+               source_document, source_date,
+               confidence, added_by, added_at, notes
+        FROM confined_spaces
+        ORDER BY cs_ref
+        """
+    )
+    return [dict(row) for row in cur.fetchall()]
+
+
+def export_fire_alarm_zones(conn: sqlite3.Connection) -> list:
+    cur = conn.cursor()
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='fire_alarm_zones'")
+    if not cur.fetchone():
+        return []
+    cur.execute(
+        """
+        SELECT id, zone_number, zone_name, area, detector_type,
+               notes, confidence_level, source, imported_at
+        FROM fire_alarm_zones
+        ORDER BY zone_number
+        """
+    )
+    return [dict(row) for row in cur.fetchall()]
+
+
+def export_fire_alarm_panel(conn: sqlite3.Connection) -> list:
+    cur = conn.cursor()
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='fire_alarm_panel'")
+    if not cur.fetchone():
+        return []
+    cur.execute(
+        """
+        SELECT id, contractor, panel_type_note, job_number, site,
+               survey_start, survey_end, notes, confidence_level,
+               source, imported_at
+        FROM fire_alarm_panel
+        ORDER BY id
+        """
+    )
+    return [dict(row) for row in cur.fetchall()]
+
+
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
@@ -506,6 +564,9 @@ def main():
     dust_bag_stock = export_dust_bag_stock(conn)
     equipment_dust_bags = export_equipment_dust_bags(conn)
     dust_bag_change_history = export_dust_bag_change_history(conn)
+    confined_spaces = export_confined_spaces(conn)
+    fire_alarm_zones = export_fire_alarm_zones(conn)
+    fire_alarm_panel = export_fire_alarm_panel(conn)
 
     exports = [
         ("stats.json",                    export_stats(conn),       None),
@@ -524,6 +585,9 @@ def main():
         ("dust_bag_stock.json",           dust_bag_stock,           "dust bag stock records"),
         ("equipment_dust_bags.json",      equipment_dust_bags,      "equipment dust bag requirements"),
         ("dust_bag_change_history.json",  dust_bag_change_history,  "dust bag change history records"),
+        ("confined_spaces.json",          confined_spaces,          "confined space records"),
+        ("fire_alarm_zones.json",         fire_alarm_zones,         "fire alarm zone records"),
+        ("fire_alarm_panel.json",         fire_alarm_panel,         "fire alarm panel records"),
     ]
     conn.close()
 

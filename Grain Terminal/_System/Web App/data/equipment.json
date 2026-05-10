@@ -36,7 +36,8 @@
         "source": "Compressors/Compressors",
         "notes": "Alias from Compressors/Compressors."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 189,
@@ -63,7 +64,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 155,
@@ -90,7 +92,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 161,
@@ -117,7 +120,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 158,
@@ -144,7 +148,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 1,
@@ -177,7 +182,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 159,
@@ -204,7 +210,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 160,
@@ -231,7 +238,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 162,
@@ -258,7 +266,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 171,
@@ -285,7 +294,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 163,
@@ -312,7 +322,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 164,
@@ -339,7 +350,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 165,
@@ -366,7 +378,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 166,
@@ -393,7 +406,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 167,
@@ -420,7 +434,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 168,
@@ -447,7 +462,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 169,
@@ -474,7 +490,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 170,
@@ -501,7 +518,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 156,
@@ -528,7 +546,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 157,
@@ -555,7 +574,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": "BMH Manual (2006)"
   },
   {
     "id": 193,
@@ -588,7 +608,8 @@
         "source": "Compressors/Compressors",
         "notes": "Alias from Compressors/Compressors."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 125,
@@ -621,7 +642,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 123,
@@ -708,7 +730,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 124,
@@ -759,7 +782,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 126,
@@ -786,7 +810,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 15,
@@ -809,7 +834,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 14,
@@ -832,7 +858,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 16,
@@ -856,7 +883,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 19,
@@ -879,7 +907,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 130,
@@ -900,7 +929,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 131,
@@ -939,7 +969,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 132,
@@ -972,7 +1003,114 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
+  },
+  {
+    "id": 234,
+    "name": "Headhouse Scale Control Panel A",
+    "long_name": "MDHC Grain Terminal Headhouse Scale Control Panel A (Scale 1)",
+    "type": "control_panel",
+    "area": "Headhouse",
+    "mcc": null,
+    "drawing_refs": [
+      "WD03021S1",
+      "WD03021S2",
+      "WD03021S3",
+      "WD03021S4",
+      "WD03021S5",
+      "WD03021S6"
+    ],
+    "manufacturer": "Applied Weighing",
+    "model": "WI-130 WDAC",
+    "notes": "Headhouse weighing scale panel A (Scale 1). Applied Weighing WI-130 WDAC controller. 240V AC 50Hz supply.",
+    "location": null,
+    "aliases": [],
+    "source_document": "Scales Documentation (MDHC)"
+  },
+  {
+    "id": 235,
+    "name": "Headhouse Scale Control Panel B",
+    "long_name": "MDHC Grain Terminal Headhouse Scale Control Panel B (Scale 2)",
+    "type": "control_panel",
+    "area": "Headhouse",
+    "mcc": null,
+    "drawing_refs": [
+      "WD03021S8",
+      "WD03021S9",
+      "WD03021S10",
+      "WD03021S11",
+      "WD03021S12"
+    ],
+    "manufacturer": "Applied Weighing",
+    "model": "WI-130 WDAC",
+    "notes": "Headhouse weighing scale panel B (Scale 2). Applied Weighing WI-130 WDAC controller. 240V AC 50Hz supply.",
+    "location": null,
+    "aliases": [],
+    "source_document": "Scales Documentation (MDHC)"
+  },
+  {
+    "id": 236,
+    "name": "Headhouse Scale Control Panel C",
+    "long_name": "MDHC Grain Terminal Headhouse Scale Control Panel C (Scale 3)",
+    "type": "control_panel",
+    "area": "Headhouse",
+    "mcc": null,
+    "drawing_refs": [
+      "WD03021S14",
+      "WD03021S15",
+      "WD03021S16",
+      "WD03021S17",
+      "WD03021S18"
+    ],
+    "manufacturer": "Applied Weighing",
+    "model": "WI-130 WDAC",
+    "notes": "Headhouse weighing scale panel C (Scale 3). Applied Weighing WI-130 WDAC controller. 240V AC 50Hz supply.",
+    "location": null,
+    "aliases": [],
+    "source_document": "Scales Documentation (MDHC)"
+  },
+  {
+    "id": 237,
+    "name": "Headhouse Scale Control Panel D",
+    "long_name": "MDHC Grain Terminal Headhouse Scale Control Panel D (Scale 4)",
+    "type": "control_panel",
+    "area": "Headhouse",
+    "mcc": null,
+    "drawing_refs": [
+      "WD03021S20",
+      "WD03021S21",
+      "WD03021S22",
+      "WD03021S23",
+      "WD03021S24"
+    ],
+    "manufacturer": "Applied Weighing",
+    "model": "WI-130 WDAC",
+    "notes": "Headhouse weighing scale panel D (Scale 4). Applied Weighing WI-130 WDAC controller. 240V AC 50Hz supply.",
+    "location": null,
+    "aliases": [],
+    "source_document": "Scales Documentation (MDHC)"
+  },
+  {
+    "id": 238,
+    "name": "Headhouse Scale Control Panel E",
+    "long_name": "MDHC Grain Terminal Headhouse Scale Control Panel E (Scale 5)",
+    "type": "control_panel",
+    "area": "Headhouse",
+    "mcc": null,
+    "drawing_refs": [
+      "WD03021S26",
+      "WD03021S27",
+      "WD03021S28",
+      "WD03021S29",
+      "WD03021S30"
+    ],
+    "manufacturer": "Applied Weighing",
+    "model": "WI-130 WDAC",
+    "notes": "Headhouse weighing scale panel E (Scale 5). Applied Weighing WI-130 WDAC controller. 240V AC 50Hz supply.",
+    "location": null,
+    "aliases": [],
+    "source_document": "Scales Documentation (MDHC)"
   },
   {
     "id": 91,
@@ -1023,7 +1161,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 141,
@@ -1050,7 +1189,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 128,
@@ -1095,7 +1235,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 129,
@@ -1122,7 +1263,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 140,
@@ -1155,7 +1297,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 139,
@@ -1188,7 +1331,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 90,
@@ -1239,7 +1383,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 80,
@@ -1296,7 +1441,8 @@
         "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
         "notes": "Canonical merge alias for ME1"
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 81,
@@ -1353,7 +1499,8 @@
         "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
         "notes": "Canonical merge alias for ME2"
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 82,
@@ -1410,7 +1557,8 @@
         "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
         "notes": "Canonical merge alias for ME3"
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 83,
@@ -1467,7 +1615,8 @@
         "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
         "notes": "Canonical merge alias for ME4"
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 194,
@@ -1500,7 +1649,8 @@
         "source": "Fike/Fike",
         "notes": "Alias from Fike/Fike."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 88,
@@ -1521,7 +1671,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 89,
@@ -1542,7 +1693,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 143,
@@ -1599,7 +1751,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 26,
@@ -1646,7 +1799,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 27,
@@ -1693,7 +1847,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 74,
@@ -1720,7 +1875,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 75,
@@ -1747,7 +1903,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 84,
@@ -1786,7 +1943,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 85,
@@ -1825,7 +1983,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 86,
@@ -1864,7 +2023,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 87,
@@ -1903,7 +2063,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 76,
@@ -1924,7 +2085,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 77,
@@ -1945,7 +2107,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 78,
@@ -1966,7 +2129,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 79,
@@ -1987,7 +2151,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 186,
@@ -2014,7 +2179,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 185,
@@ -2041,7 +2207,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 188,
@@ -2068,7 +2235,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 187,
@@ -2095,7 +2263,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 135,
@@ -2152,7 +2321,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 28,
@@ -2168,7 +2338,8 @@
     "model": null,
     "notes": "",
     "location": null,
-    "aliases": []
+    "aliases": [],
+    "source_document": null
   },
   {
     "id": 29,
@@ -2191,7 +2362,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 30,
@@ -2214,7 +2386,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 31,
@@ -2237,7 +2410,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 23,
@@ -2260,7 +2434,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 24,
@@ -2283,7 +2458,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 25,
@@ -2306,7 +2482,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 57,
@@ -2339,7 +2516,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 58,
@@ -2372,7 +2550,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 8,
@@ -2395,7 +2574,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 51,
@@ -2466,7 +2646,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 52,
@@ -2529,7 +2710,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 43,
@@ -2576,7 +2758,8 @@
         "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
         "notes": "Canonical merge alias for RB1"
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 47,
@@ -2621,7 +2804,8 @@
         "source": "manual tidy 2026-04-26",
         "notes": "Long name for short equipment code RB1 DCE."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 59,
@@ -2666,7 +2850,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 44,
@@ -2713,7 +2898,8 @@
         "source": "CANONICAL_ALIAS_MAP_2026-04-25.json",
         "notes": "Canonical merge alias for RB2"
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 48,
@@ -2758,7 +2944,8 @@
         "source": "manual tidy 2026-04-26",
         "notes": "Long name for short equipment code RB2 DCE."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 60,
@@ -2803,7 +2990,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 53,
@@ -2842,7 +3030,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 55,
@@ -2887,7 +3076,8 @@
         "source": "manual tidy 2026-04-26",
         "notes": "Long name for short equipment code RB3 DCE."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 54,
@@ -2926,7 +3116,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 56,
@@ -2965,7 +3156,8 @@
         "source": "manual tidy 2026-04-26",
         "notes": "Long name for short equipment code RB4 DCE."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 45,
@@ -3016,7 +3208,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 49,
@@ -3061,7 +3254,8 @@
         "source": "manual tidy 2026-04-26",
         "notes": "Long name for short equipment code RC1 DCE1."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 50,
@@ -3106,7 +3300,8 @@
         "source": "manual tidy 2026-04-26",
         "notes": "Long name for short equipment code RC1 DCE2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 46,
@@ -3163,7 +3358,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 174,
@@ -3196,7 +3392,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 32,
@@ -3219,7 +3416,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 33,
@@ -3242,7 +3440,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 9,
@@ -3265,7 +3464,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 142,
@@ -3286,7 +3486,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 197,
@@ -3313,7 +3514,8 @@
         "source": "Fike/Fike",
         "notes": "Alias from Fike/Fike."
       }
-    ]
+    ],
+    "source_document": "Scales Documentation (MDHC)"
   },
   {
     "id": 136,
@@ -3346,7 +3548,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 71,
@@ -3385,7 +3588,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 175,
@@ -3418,7 +3622,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 72,
@@ -3457,7 +3662,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 176,
@@ -3490,7 +3696,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 73,
@@ -3529,7 +3736,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 177,
@@ -3562,7 +3770,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 138,
@@ -3595,7 +3804,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 144,
@@ -3622,7 +3832,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 145,
@@ -3661,7 +3872,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 133,
@@ -3694,7 +3906,8 @@
         "source": "Pulley register clarification 2026-04-25",
         "notes": "TR5 confirmed as tripper equipment."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 182,
@@ -3721,7 +3934,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 134,
@@ -3754,7 +3968,8 @@
         "source": "Pulley register clarification 2026-04-25",
         "notes": "TR7 confirmed as tripper equipment."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 184,
@@ -3781,7 +3996,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 178,
@@ -3814,7 +4030,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 179,
@@ -3847,7 +4064,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 180,
@@ -3886,7 +4104,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 181,
@@ -3925,7 +4144,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 198,
@@ -3946,7 +4166,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 200,
@@ -3967,7 +4188,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 201,
@@ -3988,7 +4210,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 199,
@@ -4009,7 +4232,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 202,
@@ -4030,7 +4254,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 204,
@@ -4051,7 +4276,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 205,
@@ -4072,7 +4298,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 203,
@@ -4093,7 +4320,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 206,
@@ -4114,7 +4342,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 208,
@@ -4135,7 +4364,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 209,
@@ -4156,7 +4386,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 207,
@@ -4177,7 +4408,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 210,
@@ -4198,7 +4430,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 212,
@@ -4219,7 +4452,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 213,
@@ -4240,7 +4474,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 211,
@@ -4261,7 +4496,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 214,
@@ -4282,7 +4518,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 216,
@@ -4303,7 +4540,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 217,
@@ -4324,7 +4562,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 215,
@@ -4345,7 +4584,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 218,
@@ -4366,7 +4606,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 220,
@@ -4387,7 +4628,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 221,
@@ -4408,7 +4650,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 219,
@@ -4429,7 +4672,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 222,
@@ -4450,7 +4694,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 224,
@@ -4471,7 +4716,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 225,
@@ -4492,7 +4738,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 223,
@@ -4513,7 +4760,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 226,
@@ -4534,7 +4782,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 228,
@@ -4555,7 +4804,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 229,
@@ -4576,7 +4826,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 227,
@@ -4597,7 +4848,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 230,
@@ -4618,7 +4870,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 232,
@@ -4639,7 +4892,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 233,
@@ -4660,7 +4914,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 231,
@@ -4681,7 +4936,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 149,
@@ -4714,7 +4970,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 150,
@@ -4735,7 +4992,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 151,
@@ -4756,7 +5014,8 @@
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 152,
@@ -4783,7 +5042,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 137,
@@ -4984,7 +5244,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 153,
@@ -5017,7 +5278,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 154,
@@ -5050,7 +5312,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 34,
@@ -5079,7 +5342,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 183,
@@ -5106,7 +5370,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 35,
@@ -5148,7 +5413,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 36,
@@ -5190,7 +5456,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 61,
@@ -5235,7 +5502,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 64,
@@ -5280,7 +5548,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 62,
@@ -5325,7 +5594,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 65,
@@ -5370,7 +5640,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 63,
@@ -5415,7 +5686,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 66,
@@ -5460,7 +5732,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Topology label retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 20,
@@ -5495,7 +5768,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Previous starter name before canonical rename to BB4."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 21,
@@ -5530,7 +5804,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Previous starter name before canonical rename to BB5."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 97,
@@ -5551,7 +5826,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 22,
@@ -5586,7 +5862,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Previous starter name before canonical rename to BB7."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 94,
@@ -5619,7 +5896,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 95,
@@ -5652,7 +5930,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 96,
@@ -5685,7 +5964,8 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 12,
@@ -5732,7 +6012,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Previous starter name before canonical rename to RB8."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 13,
@@ -5779,7 +6060,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Previous starter name before canonical rename to RB9."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 98,
@@ -5812,7 +6094,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 92,
@@ -5839,7 +6122,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 93,
@@ -5866,7 +6150,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 112,
@@ -5899,7 +6184,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 113,
@@ -5932,7 +6218,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 114,
@@ -5965,7 +6252,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 110,
@@ -5998,7 +6286,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 111,
@@ -6031,7 +6320,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 104,
@@ -6064,7 +6354,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 105,
@@ -6097,7 +6388,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 103,
@@ -6136,7 +6428,8 @@
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 106,
@@ -6169,7 +6462,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 107,
@@ -6208,7 +6502,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 108,
@@ -6247,7 +6542,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 109,
@@ -6286,7 +6582,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 115,
@@ -6319,7 +6616,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 116,
@@ -6352,7 +6650,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 117,
@@ -6385,7 +6684,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 99,
@@ -6412,7 +6712,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 100,
@@ -6439,7 +6740,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 101,
@@ -6466,7 +6768,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 102,
@@ -6487,7 +6790,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": null
   },
   {
     "id": 196,
@@ -6520,7 +6824,8 @@
         "source": "Fike/Fike",
         "notes": "Alias from Fike/Fike."
       }
-    ]
+    ],
+    "source_document": "Switchroom Schematics"
   },
   {
     "id": 195,
@@ -6559,7 +6864,38 @@
         "source": "user_confirmed",
         "notes": null
       }
-    ]
+    ],
+    "source_document": "Switchroom Schematics"
+  },
+  {
+    "id": 239,
+    "name": "MCC10 New Switchroom",
+    "long_name": "MCC10 New Switchroom — Replacement Motor Control Centre (HF Controls Project 284595)",
+    "type": "mcc",
+    "area": "Switchrooms",
+    "mcc": "MCC10",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "New MCC10 panel installed as part of HF Controls project 284595. Replaces original GEC MCC10. Drawings ref 284595_3111 and 284595_4101.",
+    "location": null,
+    "aliases": [],
+    "source_document": "Switchroom Schematics"
+  },
+  {
+    "id": 240,
+    "name": "New Switchroom 2",
+    "long_name": "New Switchroom 2 — Replacement Panel Assembly (MCC2A/2B/2C New) — HF Controls Project 284595",
+    "type": "mcc",
+    "area": "Switchrooms",
+    "mcc": "MCC2",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "New Switchroom 2 panel assembly comprising MCC2A (New), MCC2B (New), MCC2C (New). HF Controls project 284595. Single-line diagrams show 800A main incomer, soft starts 75kW–90kW. Drawing series 284595_02xx, 10xx, 21xx, 41xx.",
+    "location": null,
+    "aliases": [],
+    "source_document": "Switchroom Schematics"
   },
   {
     "id": 119,
@@ -6598,7 +6934,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": "Scales Documentation (MDHC)"
   },
   {
     "id": 120,
@@ -6631,7 +6968,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": "Scales Documentation (MDHC)"
   },
   {
     "id": 121,
@@ -6652,7 +6990,8 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": "Scales Documentation (MDHC)"
   },
   {
     "id": 122,
@@ -6673,6 +7012,7 @@
         "source": "MERGE_PLAN_2026-04-25.md",
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
-    ]
+    ],
+    "source_document": "Scales Documentation (MDHC)"
   }
 ]

@@ -1,12 +1,14 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude (Cowork/Claude Code) when working in this repository.
 
 ## What this project is
 
-A practical reference tool for **engineers and managers working at the Seaforth (Royal Seaforth Dock) Grain Terminal**, operated by Peel Ports in Liverpool.
+**LEEN — Local Expandable Engineering Network.**
 
-The primary users are on-site: a maintenance engineer needing to know which parts to order before a job, a manager checking what motor is fitted to a conveyor, or a safety officer looking up ATEX zone classifications for an area. The app must be fast, reliable, and correct — wrong information here has real consequences on a live industrial site.
+A practical, sellable engineering reference tool. The first deployment is for **engineers and managers working at the Seaforth (Royal Seaforth Dock) Grain Terminal**, operated by Peel Ports in Liverpool. Once proven there, LEEN will be packaged and sold to other industrial companies as a blank product pre-loaded with their own data.
+
+The primary users at any site are on-site personnel: a maintenance engineer needing to know which parts to order before a job, a manager checking what motor is fitted to a conveyor, or a safety officer looking up ATEX zone classifications for an area. The app must be fast, reliable, and correct — wrong information here has real consequences on a live industrial site.
 
 **Core use cases the app must serve well:**
 - Look up any piece of equipment by tag (e.g. RB1, ELV3, DP4) and see its full spec — motor, gearbox, rollers, lubrication, belt/bag details
@@ -17,7 +19,7 @@ The primary users are on-site: a maintenance engineer needing to know which part
 
 The system ingests raw documents, drawings, and data files, organises them into a structured SQLite database, and exposes them via a static HTML/JS web portal that works without a server.
 
-The working directory is `/Users/paulhutch/Desktop/PKA GrainTerminal/`.
+The working directory is `/Users/paulhutch/Desktop/PKA Paul/Projects/LEEN/`.
 
 ## Design principles
 
@@ -31,17 +33,17 @@ The working directory is `/Users/paulhutch/Desktop/PKA GrainTerminal/`.
 ## Folder layout
 
 ```
-PKA GrainTerminal/
-├── Incoming/               # Drop zone for raw files from Paul
-│   ├── Processed/          # Raw files moved here after processing, with an audit log
-│   └── README.md           # Instructions for what to drop here
-└── Grain Terminal/         # Authoritative organised content
-    ├── _System/
-    │   ├── AI Team/        # Role definitions for every team member (markdown)
-    │   ├── Terminal Structure/  # Canonical asset map, alias map, merge plans
-    │   └── Web App/        # All code: DB, Python importers, HTML portal, JS bot
-    └── <area folders>      # e.g. Switchrooms/, Equipment/, Silo 1/, Process Schematics/
+LEEN/                           # Root — Local Expandable Engineering Network
+├── Grain Terminal/             # First live deployment (Seaforth Grain Terminal)
+│   ├── _System/
+│   │   ├── AI Team/            # Role definitions for every team member (markdown) — SHIPPED WITH PRODUCT
+│   │   ├── Terminal Structure/ # Canonical asset map, alias map, merge plans
+│   │   └── Web App/            # All code: DB, Python importers, HTML portal, JS bot
+│   └── <area folders>          # e.g. Switchrooms/, Equipment/, Silo 1/, Process Schematics/
+└── (future client folders)     # Each new client gets their own folder at this level
 ```
+
+**Commercial note:** The AI Team agents ship with the product. Site users only access the web portal front-end (`index.html`). The agents, database, and Python scripts are the back-office layer used by Paul and the AI team to maintain data.
 
 All code lives in `Grain Terminal/_System/Web App/`.
 

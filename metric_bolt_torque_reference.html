@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metric Bolt Torque Reference — Seaforth Grain Terminal</title>
+<style>
+  :root {
+    --navy: #1a2744;
+    --amber: #e8a020;
+    --light: #f5f7fa;
+    --border: #d0d7e2;
+    --text: #1a1a2e;
+    --muted: #555f7a;
+    --red: #c0392b;
+    --green: #1a7a4a;
+    --grade88: #2563eb;
+    --grade109: #7c3aed;
+    --grade129: #b91c1c;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #fff;
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .page-header {
+    background: var(--navy);
+    color: #fff;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .page-header h1 { font-size: 1.4rem; font-weight: 700; }
+  .page-header .subtitle { font-size: 0.85rem; opacity: 0.7; margin-top: 0.2rem; }
+  .page-header .doc-meta { text-align: right; font-size: 0.8rem; opacity: 0.6; }
+
+  .warning-bar {
+    background: #fef3cd;
+    border-left: 4px solid var(--amber);
+    padding: 0.75rem 2rem;
+    font-size: 0.82rem;
+    color: #5a3e00;
+  }
+  .warning-bar strong { color: #3a2800; }
+
+  .container { padding: 1.5rem 2rem; max-width: 1200px; }
+
+  h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 1.5rem 0 0.75rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid var(--border);
+  }
+  h2:first-child { margin-top: 0; }
+
+  /* Grade badge strips */
+  .grade-strip {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+  .grade-card {
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    flex: 1;
+    min-width: 160px;
+  }
+  .grade-card .label { font-weight: 700; font-size: 1rem; }
+  .grade-card .desc { opacity: 0.85; margin-top: 0.2rem; }
+  .g88 { background: #dbeafe; color: #1e3a8a; border: 1px solid #93c5fd; }
+  .g109 { background: #ede9fe; color: #4c1d95; border: 1px solid #c4b5fd; }
+  .g129 { background: #fee2e2; color: #7f1d1d; border: 1px solid #fca5a5; }
+  .gss  { background: #d1fae5; color: #064e3b; border: 1px solid #6ee7b7; }
+
+  /* Main tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin-bottom: 1.5rem;
+  }
+  th {
+    background: var(--navy);
+    color: #fff;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.78rem;
+  }
+  th.left { text-align: left; }
+  td {
+    padding: 0.45rem 0.7rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  td.left { text-align: left; }
+  tr:nth-child(even) td { background: var(--light); }
+  tr:hover td { background: #e8edf5; }
+
+  .size-col { font-weight: 700; color: var(--navy); }
+  .pitch-col { color: var(--muted); }
+
+  /* Colour-coded grade columns */
+  .col-88 { color: #1e40af; font-weight: 600; }
+  .col-109 { color: #5b21b6; font-weight: 600; }
+  .col-129 { color: #991b1b; font-weight: 600; }
+  .col-ss-a2 { color: #065f46; font-weight: 600; }
+  .col-ss-a4 { color: #064e3b; font-weight: 600; }
+
+  /* Section header within table */
+  .section-row td {
+    background: var(--navy) !important;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding: 0.4rem 0.7rem;
+  }
+
+  /* Adjustment factors */
+  .adj-table th { background: #374151; }
+  .multiply-up   { color: #92400e; font-weight: 700; }
+  .multiply-down { color: #065f46; font-weight: 700; }
+  .multiply-same { color: #374151; font-weight: 600; }
+
+  /* Notes */
+  .notes {
+    background: var(--light);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem 1.2rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+  }
+  .notes ul { padding-left: 1.2rem; }
+  .notes li { margin-bottom: 0.3rem; }
+  .notes strong { color: var(--text); }
+
+  /* Footer */
+  .page-footer {
+    background: var(--light);
+    border-top: 2px solid var(--border);
+    padding: 0.75rem 2rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Key box */
+  .key-row {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+  }
+  .key-item { display: flex; align-items: center; gap: 0.4rem; }
+  .key-dot { width: 10px; height: 10px; border-radius: 2px; }
+
+  @media print {
+    .page-header { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .section-row td { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body { font-size: 11px; }
+    .container { padding: 0.5rem 1rem; }
+  }
+
+  @media (max-width: 700px) {
+    .page-header { flex-direction: column; gap: 0.5rem; }
+    .page-header .doc-meta { text-align: left; }
+    .container { padding: 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <div>
+    <div class="subtitle">Seaforth Grain Terminal · Engineering Reference</div>
+    <h1>Metric Bolt Torque Reference Sheet</h1>
+  </div>
+  <div class="doc-meta">
+    Coarse thread, dry unless noted<br>
+    ISO 898-1 · 75% proof load · K = 0.20<br>
+    Issued: May 2026
+  </div>
+</div>
+
+<div class="warning-bar">
+  ⚠ <strong>OEM manual torque values always take precedence.</strong> This sheet is a general engineering reference only — use it where no manufacturer specification exists.
+  Do not apply to lifting, pressure, or structural connections without engineering sign-off. Reference values per ISO 898-1. Not a substitute for professional judgement.
+</div>
+
+<div class="container">
+
+  <!-- Grade guide -->
+  <h2>Grade Identification</h2>
+  <div class="grade-strip">
+    <div class="grade-card g88">
+      <div class="label">8.8 — Standard High-Tensile</div>
+      <div class="desc">Most common industrial grade. 800 MPa tensile. Marked "8.8" on head.</div>
+    </div>
+    <div class="grade-card g109">
+      <div class="label">10.9 — High Strength</div>
+      <div class="desc">Heavy machinery, dynamic loading. 1,040 MPa tensile. Marked "10.9" on head.</div>
+    </div>
+    <div class="grade-card g129">
+      <div class="label">12.9 — Ultra High Strength</div>
+      <div class="desc">Socket cap screws. 1,220 MPa tensile. Use only where specified. Marked "12.9" or on socket head.</div>
+    </div>
+    <div class="grade-card gss">
+      <div class="label">A2-70 / A4-80 — Stainless</div>
+      <div class="desc">A2 = 304 SS · A4 = 316 marine. Always use copper anti-seize to prevent galling.</div>
+    </div>
+  </div>
+
+  <!-- Main torque table -->
+  <h2>Torque Values — Grades 8.8 / 10.9 / 12.9 (Nm, dry coarse thread)</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="left">Size</th>
+        <th>Pitch<br>(mm)</th>
+        <th class="col-88">8.8<br>Dry (Nm)</th>
+        <th class="col-88">8.8<br>Lub (Nm)</th>
+        <th class="col-88">8.8<br>(ft-lb)</th>
+        <th class="col-109">10.9<br>Dry (Nm)</th>
+        <th class="col-109">10.9<br>Lub (Nm)</th>
+        <th class="col-109">10.9<br>(ft-lb)</th>
+        <th class="col-129">12.9<br>Dry (Nm)</th>
+        <th class="col-129">12.9<br>Lub (Nm)</th>
+        <th class="col-129">12.9<br>(ft-lb)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="section-row"><td colspan="11">Small sizes (M3–M6) — use calibrated torque screwdriver or small ratchet wrench</td></tr>
+      <tr>
+        <td class="left size-col">M3</td><td class="pitch-col">0.5</td>
+        <td class="col-88">1.0</td><td class="col-88">0.8</td><td>0.7</td>
+        <td class="col-109">1.5</td><td class="col-109">1.1</td><td>1.1</td>
+        <td class="col-129">1.8</td><td class="col-129">1.4</td><td>1.3</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M4</td><td class="pitch-col">0.7</td>
+        <td class="col-88">2.5</td><td class="col-88">1.9</td><td>1.8</td>
+        <td class="col-109">3.6</td><td class="col-109">2.7</td><td>2.7</td>
+        <td class="col-129">4.3</td><td class="col-129">3.2</td><td>3.2</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M5</td><td class="pitch-col">0.8</td>
+        <td class="col-88">4.9</td><td class="col-88">3.7</td><td>3.6</td>
+        <td class="col-109">7.2</td><td class="col-109">5.4</td><td>5.3</td>
+        <td class="col-129">8.6</td><td class="col-129">6.5</td><td>6.3</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M6</td><td class="pitch-col">1.0</td>
+        <td class="col-88">8.5</td><td class="col-88">6.4</td><td>6.3</td>
+        <td class="col-109">12</td><td class="col-109">9</td><td>9</td>
+        <td class="col-129">15</td><td class="col-129">11</td><td>11</td>
+      </tr>
+      <tr class="section-row"><td colspan="11">Medium sizes (M8–M16) — use 3/8" or 1/2" drive torque wrench</td></tr>
+      <tr>
+        <td class="left size-col">M8</td><td class="pitch-col">1.25</td>
+        <td class="col-88">21</td><td class="col-88">16</td><td>15</td>
+        <td class="col-109">31</td><td class="col-109">23</td><td>23</td>
+        <td class="col-129">37</td><td class="col-129">28</td><td>27</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M10</td><td class="pitch-col">1.5</td>
+        <td class="col-88">41</td><td class="col-88">31</td><td>30</td>
+        <td class="col-109">60</td><td class="col-109">45</td><td>44</td>
+        <td class="col-129">72</td><td class="col-129">54</td><td>53</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M12</td><td class="pitch-col">1.75</td>
+        <td class="col-88">71</td><td class="col-88">53</td><td>52</td>
+        <td class="col-109">105</td><td class="col-109">79</td><td>77</td>
+        <td class="col-129">125</td><td class="col-129">94</td><td>92</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M14</td><td class="pitch-col">2.0</td>
+        <td class="col-88">115</td><td class="col-88">86</td><td>85</td>
+        <td class="col-109">170</td><td class="col-109">128</td><td>125</td>
+        <td class="col-129">200</td><td class="col-129">150</td><td>148</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M16</td><td class="pitch-col">2.0</td>
+        <td class="col-88">175</td><td class="col-88">131</td><td>129</td>
+        <td class="col-109">260</td><td class="col-109">195</td><td>192</td>
+        <td class="col-129">310</td><td class="col-129">233</td><td>229</td>
+      </tr>
+      <tr class="section-row"><td colspan="11">Large sizes (M18–M24) — use 3/4" drive torque wrench rated appropriately</td></tr>
+      <tr>
+        <td class="left size-col">M18</td><td class="pitch-col">2.5</td>
+        <td class="col-88">245</td><td class="col-88">184</td><td>181</td>
+        <td class="col-109">360</td><td class="col-109">270</td><td>266</td>
+        <td class="col-129">430</td><td class="col-129">323</td><td>317</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M20</td><td class="pitch-col">2.5</td>
+        <td class="col-88">350</td><td class="col-88">263</td><td>258</td>
+        <td class="col-109">510</td><td class="col-109">383</td><td>376</td>
+        <td class="col-129">610</td><td class="col-129">458</td><td>450</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M22</td><td class="pitch-col">2.5</td>
+        <td class="col-88">470</td><td class="col-88">353</td><td>347</td>
+        <td class="col-109">690</td><td class="col-109">518</td><td>509</td>
+        <td class="col-129">820</td><td class="col-129">615</td><td>605</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M24</td><td class="pitch-col">3.0</td>
+        <td class="col-88">600</td><td class="col-88">450</td><td>443</td>
+        <td class="col-109">880</td><td class="col-109">660</td><td>649</td>
+        <td class="col-129">1,050</td><td class="col-129">788</td><td>775</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="notes">
+    <ul>
+      <li><strong>Dry</strong> = clean uncoated steel threads, K = 0.20. <strong>Lub</strong> = lightly oiled (SAE 30 / machine oil), K = 0.15 (approx. 75% of dry value).</li>
+      <li>Values at 75% proof load per ISO 898-1. For socket head cap screws (12.9), apply 80% of the 12.9 dry value as working torque.</li>
+      <li>No grade marking on head → treat as Grade 4.6. Do not apply 8.8 or higher torques to unmarked bolts.</li>
+    </ul>
+  </div>
+
+  <!-- Stainless table -->
+  <h2>Stainless Steel — A2-70 and A4-80 (with copper anti-seize, K = 0.13)</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="left">Size</th>
+        <th>Pitch (mm)</th>
+        <th class="col-ss-a2">A2-70<br>(Nm)</th>
+        <th class="col-ss-a2">A2-70<br>(ft-lb)</th>
+        <th class="col-ss-a4">A4-80<br>(Nm)</th>
+        <th class="col-ss-a4">A4-80<br>(ft-lb)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="left size-col">M4</td><td class="pitch-col">0.7</td><td class="col-ss-a2">1.0</td><td>0.7</td><td class="col-ss-a4">1.3</td><td>1.0</td></tr>
+      <tr><td class="left size-col">M5</td><td class="pitch-col">0.8</td><td class="col-ss-a2">2.0</td><td>1.5</td><td class="col-ss-a4">2.6</td><td>1.9</td></tr>
+      <tr><td class="left size-col">M6</td><td class="pitch-col">1.0</td><td class="col-ss-a2">3.3</td><td>2.4</td><td class="col-ss-a4">4.4</td><td>3.2</td></tr>
+      <tr><td class="left size-col">M8</td><td class="pitch-col">1.25</td><td class="col-ss-a2">8.1</td><td>6.0</td><td class="col-ss-a4">10.8</td><td>8.0</td></tr>
+      <tr><td class="left size-col">M10</td><td class="pitch-col">1.5</td><td class="col-ss-a2">16</td><td>12</td><td class="col-ss-a4">21</td><td>15</td></tr>
+      <tr><td class="left size-col">M12</td><td class="pitch-col">1.75</td><td class="col-ss-a2">28</td><td>21</td><td class="col-ss-a4">37</td><td>27</td></tr>
+      <tr><td class="left size-col">M14</td><td class="pitch-col">2.0</td><td class="col-ss-a2">44</td><td>32</td><td class="col-ss-a4">59</td><td>44</td></tr>
+      <tr><td class="left size-col">M16</td><td class="pitch-col">2.0</td><td class="col-ss-a2">69</td><td>51</td><td class="col-ss-a4">92</td><td>68</td></tr>
+      <tr><td class="left size-col">M18</td><td class="pitch-col">2.5</td><td class="col-ss-a2">95</td><td>70</td><td class="col-ss-a4">127</td><td>94</td></tr>
+      <tr><td class="left size-col">M20</td><td class="pitch-col">2.5</td><td class="col-ss-a2">135</td><td>100</td><td class="col-ss-a4">180</td><td>133</td></tr>
+    </tbody>
+  </table>
+
+  <div class="notes">
+    <strong>Always apply copper anti-seize to stainless threads before assembly</strong> — stainless-to-stainless contact under torque can cold-weld (gall) and seize permanently.
+    A2 = 304 stainless (general). A4 = 316 stainless (marine/chemical environments).
+  </div>
+
+  <!-- Adjustment factors -->
+  <h2>Torque Adjustment Factors — Thread Condition</h2>
+
+  <table class="adj-table">
+    <thead>
+      <tr>
+        <th class="left">Thread Condition</th>
+        <th>K-Factor</th>
+        <th>Multiply Table Value By</th>
+        <th class="left">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="left">Dry, uncoated steel (baseline)</td>
+        <td>0.20</td>
+        <td class="multiply-same">× 1.00</td>
+        <td class="left">Use main table values as-is</td>
+      </tr>
+      <tr>
+        <td class="left">Electrozinc / bright zinc plated</td>
+        <td>0.20</td>
+        <td class="multiply-same">× 1.00</td>
+        <td class="left">Similar friction to bare steel</td>
+      </tr>
+      <tr>
+        <td class="left">Hot-dip galvanised (HDG)</td>
+        <td>0.25</td>
+        <td class="multiply-up">× 1.25 ↑</td>
+        <td class="left">Rough zinc coating — <strong>increase torque 25%</strong> to achieve same preload. Common mistake is to under-torque HDG bolts.</td>
+      </tr>
+      <tr>
+        <td class="left">Lightly oiled (SAE 30 / machine oil)</td>
+        <td>0.15</td>
+        <td class="multiply-down">× 0.75 ↓</td>
+        <td class="left"><strong>Reduce torque 25%.</strong> Applying dry values to oiled bolts will over-tension.</td>
+      </tr>
+      <tr>
+        <td class="left">Copper anti-seize compound</td>
+        <td>0.13</td>
+        <td class="multiply-down">× 0.65 ↓</td>
+        <td class="left"><strong>Reduce torque 35%.</strong> Standard for stainless and high-temp assemblies. Already applied in SS table above.</td>
+      </tr>
+      <tr>
+        <td class="left">Molybdenum disulfide (MoS₂)</td>
+        <td>0.13</td>
+        <td class="multiply-down">× 0.65 ↓</td>
+        <td class="left"><strong>Reduce torque 35%.</strong> Common in high-load / close-tolerance assemblies.</td>
+      </tr>
+      <tr>
+        <td class="left">Loctite threadlocker (before cure)</td>
+        <td>0.15</td>
+        <td class="multiply-down">× 0.75 ↓</td>
+        <td class="left">Loctite acts as lubricant before curing. Follow product datasheet for specific product.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="notes">
+    <strong>Example:</strong> M12 Grade 8.8, hot-dip galvanised → 71 × 1.25 = <strong>89 Nm</strong><br>
+    <strong>Example:</strong> M16 Grade 10.9, oiled threads → 260 × 0.75 = <strong>195 Nm</strong>
+  </div>
+
+  <!-- Wrench guide -->
+  <h2>Torque Wrench Selection Guide</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="left">Bolt Range</th>
+        <th class="left">Drive Size</th>
+        <th class="left">Recommended Wrench Range</th>
+        <th class="left">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="left size-col">M3–M6</td>
+        <td class="left">1/4" drive or torque screwdriver</td>
+        <td class="left">1–25 Nm</td>
+        <td class="left">Use a torque screwdriver — a ratchet wrench is too imprecise at this scale</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M6–M12</td>
+        <td class="left">3/8" drive</td>
+        <td class="left">5–60 Nm</td>
+        <td class="left">Stay within 20–80% of wrench maximum for best accuracy</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M10–M16</td>
+        <td class="left">1/2" drive</td>
+        <td class="left">20–200 Nm</td>
+        <td class="left">Most common range on site</td>
+      </tr>
+      <tr>
+        <td class="left size-col">M16–M24</td>
+        <td class="left">3/4" drive</td>
+        <td class="left">100–800 Nm</td>
+        <td class="left">Do not use a 1/2" drive wrench above M16 Grade 10.9 — exceeds drive capacity</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="notes">
+    <ul>
+      <li><strong>Click-type wrenches:</strong> Stop immediately on click — continuing to apply force after the click over-torques the bolt.</li>
+      <li><strong>Multi-bolt joints</strong> (flanges, covers): Tighten in a cross/star pattern in three passes — 30%, 70%, 100% of final torque.</li>
+      <li><strong>Calibration:</strong> Click-type wrenches should be calibrated annually or every 5,000 cycles. Store wound back to lowest setting.</li>
+      <li><strong>Fine pitch threads (MF):</strong> Add approximately 10% to coarse-pitch table values to achieve the same preload.</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="section-header">Drill &amp; Tap Sizes — Metric Threads</div>
+
+<div class="notes" style="margin-bottom:12px;">
+  <ul>
+    <li><strong>Tap drill formula:</strong> Tap drill ≈ Major diameter − Pitch (coarse). E.g. M10 coarse (pitch 1.5mm) → 10 − 1.5 = 8.5mm.</li>
+    <li><strong>Fine pitch:</strong> Use the fine column where a finer thread is specified — always confirm pitch on drawing.</li>
+    <li><strong>Clearance holes:</strong> Close fit shown. For free fit (easier assembly), go one size up. Use free fit for through-bolted joints where alignment is loose.</li>
+    <li><strong>Drill sizing:</strong> Use the nearest standard drill size if the exact size is unavailable — never go smaller than the tap drill diameter.</li>
+  </ul>
+</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="size-col">Thread</th>
+        <th>Pitch Coarse (mm)</th>
+        <th>Tap Drill Coarse (mm)</th>
+        <th>Pitch Fine (mm)</th>
+        <th>Tap Drill Fine (mm)</th>
+        <th>Clearance Hole (mm)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="size-col">M1.6</td><td>0.35</td><td>1.25</td><td>—</td><td>—</td><td>1.8</td></tr>
+      <tr><td class="size-col">M2</td><td>0.40</td><td>1.60</td><td>—</td><td>—</td><td>2.4</td></tr>
+      <tr><td class="size-col">M2.5</td><td>0.45</td><td>2.05</td><td>—</td><td>—</td><td>2.9</td></tr>
+      <tr><td class="size-col">M3</td><td>0.50</td><td>2.50</td><td>—</td><td>—</td><td>3.4</td></tr>
+      <tr><td class="size-col">M4</td><td>0.70</td><td>3.30</td><td>—</td><td>—</td><td>4.5</td></tr>
+      <tr><td class="size-col">M5</td><td>0.80</td><td>4.20</td><td>—</td><td>—</td><td>5.5</td></tr>
+      <tr><td class="size-col">M6</td><td>1.00</td><td>5.00</td><td>—</td><td>—</td><td>6.6</td></tr>
+      <tr><td class="size-col">M8</td><td>1.25</td><td>6.80</td><td>1.00</td><td>7.00</td><td>9.0</td></tr>
+      <tr><td class="size-col">M10</td><td>1.50</td><td>8.50</td><td>1.25</td><td>8.80</td><td>11.0</td></tr>
+      <tr><td class="size-col">M12</td><td>1.75</td><td>10.20</td><td>1.25</td><td>10.80</td><td>13.5</td></tr>
+      <tr><td class="size-col">M14</td><td>2.00</td><td>12.00</td><td>1.50</td><td>12.50</td><td>15.5</td></tr>
+      <tr><td class="size-col">M16</td><td>2.00</td><td>14.00</td><td>1.50</td><td>14.50</td><td>17.5</td></tr>
+      <tr><td class="size-col">M18</td><td>2.50</td><td>15.50</td><td>1.50</td><td>16.50</td><td>20.0</td></tr>
+      <tr><td class="size-col">M20</td><td>2.50</td><td>17.50</td><td>1.50</td><td>18.50</td><td>22.0</td></tr>
+      <tr><td class="size-col">M22</td><td>2.50</td><td>19.50</td><td>1.50</td><td>20.50</td><td>24.0</td></tr>
+      <tr><td class="size-col">M24</td><td>3.00</td><td>21.00</td><td>2.00</td><td>22.00</td><td>26.0</td></tr>
+    </tbody>
+  </table>
+
+  <div class="notes">
+    <ul>
+      <li><strong>Source:</strong> TR Fastenings / ISO 965-1. Coarse pitch is standard unless drawing specifies MF (metric fine).</li>
+      <li><strong>Tapping tips:</strong> Use cutting fluid on steel. Back off half a turn for every full turn to break the chip. Use a taper tap first, then a plug tap for blind holes.</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="page-footer">
+  <span>Seaforth Grain Terminal — Engineering Reference · General use only · OEM specifications always take precedence</span>
+  <span>Source data: ISO 898-1 · ecomfasteners.com · aimsindustrial.com.au · TR Fastenings · ISO 965-1 · Issued May 2026</span>
+</div>
+
+</body>
+</html>
