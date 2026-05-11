@@ -356,6 +356,8 @@ document.addEventListener('DOMContentLoaded', function () {
     loadDustBags();
     loadDocuments();
     loadAtex();
+    initCompliance();
+    initPersonnel();
 });
 
 // ── Stats ─────────────────────────────────────────────────────────────────────
@@ -1401,4 +1403,502 @@ function loadDocuments() {
             (d.category   ||'').toLowerCase().includes(q)
         ) : nonElec);
     });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// COMPLIANCE & PERSONNEL TABS — Pixel / LEEN
+// ═══════════════════════════════════════════════════════════════════════════════
+
+// ── Helpers ────────────────────────────────────────────────────────────────────
+function weeksFromNow(w) {
+    const d = new Date();
+    d.setDate(d.getDate() + w * 7);
+    return d;
+}
+function fmtDate(d) {
+    return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+function tlStatus(nextDueDate) {
+    const now = new Date();
+    const diffMs = nextDueDate - now;
+    const diffWeeks = diffMs / (1000 * 60 * 60 * 24 * 7);
+    if (diffWeeks < 2)  return 'red';
+    if (diffWeeks < 8)  return 'amber';
+    return 'green';
+}
+function tlDot(status) {
+    return `<span class="tl-dot tl-${status}"></span>`;
+}
+function tlLabel(status) {
+    const labels = { green: 'OK', amber: 'DUE SOON', red: 'OVERDUE / CRITICAL' };
+    return `<span class="comp-td-status-label label-${status}">${labels[status]}</span>`;
+}
+function worstStatus(statuses) {
+    if (statuses.includes('red'))   return 'red';
+    if (statuses.includes('amber')) return 'amber';
+    return 'green';
+}
+
+// ── Compliance example data ─────────────────────────────────────────────────
+function buildComplianceData() {
+    return [
+        {
+            id: 'vans',
+            title: 'Vans — MOT & Service',
+            icon: '🚐',
+            items: [
+                { name: 'LEEN VAN 1 (VE21 XYZ) — MOT',          last: weeksFromNow(-50), next: weeksFromNow(2),   person: 'P. Hutchinson' },
+                { name: 'LEEN VAN 1 (VE21 XYZ) — Annual Service', last: weeksFromNow(-40), next: weeksFromNow(12), person: 'P. Hutchinson' },
+                { name: 'LEEN VAN 2 (BT70 ABC) — MOT',           last: weeksFromNow(-10), next: weeksFromNow(42), person: 'T. Brown' },
+                { name: 'LEEN VAN 2 (BT70 ABC) — Annual Service', last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'T. Brown' },
+                { name: 'LEEN VAN 3 (GN69 DEF) — MOT',           last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'K. Patel' },
+                { name: 'LEEN VAN 3 (GN69 DEF) — Annual Service', last: weeksFromNow(-22), next: weeksFromNow(30), person: 'K. Patel' },
+            ]
+        },
+        {
+            id: 'fire-ext',
+            title: 'Fire Extinguishers',
+            icon: '🧯',
+            items: [
+                { name: 'FE-001 — Boiler Room (CO₂ 5kg)',      last: weeksFromNow(-52), next: weeksFromNow(0),   person: 'Site Safety Officer' },
+                { name: 'FE-002 — Compressor Room (CO₂ 5kg)', last: weeksFromNow(-45), next: weeksFromNow(7),   person: 'Site Safety Officer' },
+                { name: 'FE-003 — MCC10 (CO₂ 2kg)',           last: weeksFromNow(-30), next: weeksFromNow(22),  person: 'Site Safety Officer' },
+                { name: 'FE-004 — Workshop Area A (ABC Dry)',  last: weeksFromNow(-20), next: weeksFromNow(32),  person: 'Site Safety Officer' },
+                { name: 'FE-005 — Workshop Area B (Water)',    last: weeksFromNow(-18), next: weeksFromNow(34),  person: 'Site Safety Officer' },
+                { name: 'FE-006 — Site Office (CO₂ 2kg)',     last: weeksFromNow(-6),  next: weeksFromNow(46),  person: 'Site Safety Officer' },
+                { name: 'FE-007 — Grain Store (ABC Dry)',      last: weeksFromNow(-51), next: weeksFromNow(1),   person: 'Site Safety Officer' },
+                { name: 'FE-008 — Weighbridge (Water)',        last: weeksFromNow(-10), next: weeksFromNow(42),  person: 'Site Safety Officer' },
+            ]
+        },
+        {
+            id: 'first-aid',
+            title: 'First Aid Kits & Certificates',
+            icon: '🩺',
+            items: [
+                { name: 'First Aid Kit — Site Office (BSI)',     last: weeksFromNow(-14), next: weeksFromNow(12), person: 'Site Manager' },
+                { name: 'First Aid Kit — Workshop (BSI)',        last: weeksFromNow(-5),  next: weeksFromNow(21), person: 'Site Manager' },
+                { name: 'First Aid Kit — Control Room (BSI)',    last: weeksFromNow(-50), next: weeksFromNow(2),  person: 'Site Manager' },
+                { name: 'First Aid Kit — Gate House (BSI)',      last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'Site Manager' },
+                { name: 'FAW Certificate — J. Smith',            last: weeksFromNow(-104),next: weeksFromNow(52), person: 'J. Smith' },
+                { name: 'FAW Certificate — S. O\'Brien',         last: weeksFromNow(-150),next: weeksFromNow(6),  person: 'S. O\'Brien' },
+            ]
+        },
+        {
+            id: 'pat',
+            title: 'PAT Testing',
+            icon: '🔌',
+            items: [
+                { name: 'Angle Grinder — Workshop (110V)',       last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'Electrical Dept' },
+                { name: 'SDS Drill #1 — Workshop (110V)',        last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'Electrical Dept' },
+                { name: 'SDS Drill #2 — Workshop (110V)',        last: weeksFromNow(-20), next: weeksFromNow(32), person: 'Electrical Dept' },
+                { name: 'Extension Lead 25m #1 (110V)',          last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'Electrical Dept' },
+                { name: 'Extension Lead 25m #2 (110V)',          last: weeksFromNow(-15), next: weeksFromNow(37), person: 'Electrical Dept' },
+                { name: 'Extension Lead 10m (230V Office)',      last: weeksFromNow(-10), next: weeksFromNow(42), person: 'Electrical Dept' },
+                { name: 'Laptop Charger — Site Office #1',       last: weeksFromNow(-50), next: weeksFromNow(2),  person: 'Electrical Dept' },
+                { name: 'Laptop Charger — Site Office #2',       last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'Electrical Dept' },
+                { name: 'Monitor — Site Office',                 last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'Electrical Dept' },
+                { name: 'Kettle — Kitchen',                      last: weeksFromNow(-52), next: weeksFromNow(0),  person: 'Electrical Dept' },
+                { name: 'Microwave — Kitchen',                   last: weeksFromNow(-52), next: weeksFromNow(0),  person: 'Electrical Dept' },
+                { name: 'Fridge — Kitchen',                      last: weeksFromNow(-10), next: weeksFromNow(42), person: 'Electrical Dept' },
+            ]
+        },
+        {
+            id: 'loler',
+            title: 'LOLER — Lifting Equipment',
+            icon: '⛓️',
+            items: [
+                { name: 'Overhead Crane #1 — 6 Monthly LOLER',   last: weeksFromNow(-22), next: weeksFromNow(4),  person: 'M. Jones' },
+                { name: 'Overhead Crane #2 — 6 Monthly LOLER',   last: weeksFromNow(-10), next: weeksFromNow(16), person: 'M. Jones' },
+                { name: 'Chain Block 3T SN:CB-001',              last: weeksFromNow(-14), next: weeksFromNow(12), person: 'M. Jones' },
+                { name: 'Chain Block 1T SN:CB-002',              last: weeksFromNow(-26), next: weeksFromNow(0),  person: 'M. Jones' },
+                { name: 'Round Slings × 6 (Set A)',              last: weeksFromNow(-10), next: weeksFromNow(16), person: 'M. Jones' },
+                { name: 'Shackles × 8 (Set B — 4.75T)',         last: weeksFromNow(-5),  next: weeksFromNow(21), person: 'M. Jones' },
+            ]
+        },
+        {
+            id: 'harnesses',
+            title: 'Safety Harnesses',
+            icon: '🦺',
+            items: [
+                { name: 'Harness H-001 SN:4512-A (Full Body)',   last: weeksFromNow(-50), next: weeksFromNow(2),  person: 'Health & Safety' },
+                { name: 'Harness H-002 SN:4513-B (Full Body)',   last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'Health & Safety' },
+                { name: 'Harness H-003 SN:4514-C (Full Body)',   last: weeksFromNow(-20), next: weeksFromNow(32), person: 'Health & Safety' },
+                { name: 'Harness H-004 SN:4515-D (Full Body)',   last: weeksFromNow(-10), next: weeksFromNow(42), person: 'Health & Safety' },
+                { name: 'Harness H-005 SN:4516-E (Sit)',         last: weeksFromNow(-5),  next: weeksFromNow(47), person: 'Health & Safety' },
+                { name: 'Harness H-006 SN:4517-F (Sit)',         last: weeksFromNow(-56), next: weeksFromNow(-4), person: 'Health & Safety' },
+            ]
+        },
+        {
+            id: 'radios',
+            title: 'Handheld Radios',
+            icon: '📻',
+            items: [
+                { name: 'Radio #1 (Hytera PD505) SN:RD-001',    last: weeksFromNow(-100),next: weeksFromNow(4),  person: 'P. Hutchinson' },
+                { name: 'Radio #2 (Hytera PD505) SN:RD-002',    last: weeksFromNow(-80), next: weeksFromNow(24), person: 'P. Hutchinson' },
+                { name: 'Radio #3 (Hytera PD505) SN:RD-003',    last: weeksFromNow(-40), next: weeksFromNow(64), person: 'P. Hutchinson' },
+                { name: 'Radio #4 (Hytera PD505) SN:RD-004',    last: weeksFromNow(-30), next: weeksFromNow(74), person: 'P. Hutchinson' },
+                { name: 'Ofcom Site Licence (Annual)',           last: weeksFromNow(-46), next: weeksFromNow(6),  person: 'P. Hutchinson' },
+            ]
+        },
+        {
+            id: 'elec-testers',
+            title: 'Electrical Test Equipment Calibration',
+            icon: '⚡',
+            items: [
+                { name: 'Megger MIT430 IR Tester SN:MIT-001',   last: weeksFromNow(-50), next: weeksFromNow(2),  person: 'Electrical Dept' },
+                { name: 'Megger MFT1741 MFT SN:MFT-001',       last: weeksFromNow(-30), next: weeksFromNow(22), person: 'Electrical Dept' },
+                { name: 'Fluke 376 Clamp Meter SN:FL-001',     last: weeksFromNow(-15), next: weeksFromNow(37), person: 'Electrical Dept' },
+                { name: 'Martindale Voltage Tester SN:MT-001', last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'Electrical Dept' },
+            ]
+        },
+        {
+            id: 'emerg-lighting',
+            title: 'Emergency Lighting',
+            icon: '🔦',
+            items: [
+                { name: 'EL Zone A — Main Corridor (Annual Test)',   last: weeksFromNow(-54), next: weeksFromNow(-2),  person: 'Electrical Dept' },
+                { name: 'EL Zone B — Control Room (Annual Test)',    last: weeksFromNow(-30), next: weeksFromNow(22),  person: 'Electrical Dept' },
+                { name: 'EL Zone C — Workshop (Annual Test)',        last: weeksFromNow(-10), next: weeksFromNow(42),  person: 'Electrical Dept' },
+                { name: 'EL Zone D — MCC Room (Annual Test)',        last: weeksFromNow(-20), next: weeksFromNow(32),  person: 'Electrical Dept' },
+                { name: 'Monthly Functional Test — All Zones',       last: weeksFromNow(-3),  next: weeksFromNow(1),   person: 'Electrical Dept' },
+            ]
+        },
+        {
+            id: 'pressure-vessels',
+            title: 'Pressure Vessels / Air Receivers (PSSR)',
+            icon: '🫧',
+            items: [
+                { name: 'Air Receiver AR-001 (500L, 12 bar)',     last: weeksFromNow(-104),next: weeksFromNow(0),   person: 'M. Jones' },
+                { name: 'Air Receiver AR-002 (200L, 10 bar)',     last: weeksFromNow(-80), next: weeksFromNow(24),  person: 'M. Jones' },
+                { name: 'Compressor Pressure Vessel CP-001',      last: weeksFromNow(-90), next: weeksFromNow(14),  person: 'M. Jones' },
+                { name: 'Compressor Pressure Vessel CP-002',      last: weeksFromNow(-40), next: weeksFromNow(64),  person: 'M. Jones' },
+            ]
+        },
+        {
+            id: 'eyewash',
+            title: 'Eye Wash Stations (Monthly Check)',
+            icon: '👁️',
+            items: [
+                { name: 'EW-001 — Workshop Entry',               last: weeksFromNow(-4),  next: weeksFromNow(0),   person: 'Shift Supervisor' },
+                { name: 'EW-002 — MCC Room',                     last: weeksFromNow(-3),  next: weeksFromNow(1),   person: 'Shift Supervisor' },
+                { name: 'EW-003 — Grain Store Entrance',         last: weeksFromNow(-5),  next: weeksFromNow(-1),  person: 'Shift Supervisor' },
+                { name: 'EW-004 — Site Office',                  last: weeksFromNow(-2),  next: weeksFromNow(2),   person: 'Shift Supervisor' },
+            ]
+        },
+        {
+            id: 'spill-kits',
+            title: 'Spill Kits (Quarterly Inspection)',
+            icon: '🧴',
+            items: [
+                { name: 'SK-001 — Workshop (Oil/Chemical, 240L)', last: weeksFromNow(-13), next: weeksFromNow(0),   person: 'Health & Safety' },
+                { name: 'SK-002 — Compressor Room (Oil, 120L)',   last: weeksFromNow(-8),  next: weeksFromNow(5),   person: 'Health & Safety' },
+                { name: 'SK-003 — Fuel Store (General, 240L)',    last: weeksFromNow(-2),  next: weeksFromNow(11),  person: 'Health & Safety' },
+                { name: 'SK-004 — Gate House (General, 50L)',     last: weeksFromNow(-1),  next: weeksFromNow(12),  person: 'Health & Safety' },
+            ]
+        },
+        {
+            id: 'fire-ra',
+            title: 'Fire Risk Assessment',
+            icon: '🔥',
+            items: [
+                { name: 'Site-Wide FRA (Annual Review)',          last: weeksFromNow(-54), next: weeksFromNow(-2),  person: 'Site Manager' },
+                { name: 'FRA — Grain Store Specific',             last: weeksFromNow(-30), next: weeksFromNow(22),  person: 'Site Manager' },
+                { name: 'FRA — MCC Suite',                        last: weeksFromNow(-10), next: weeksFromNow(42),  person: 'Site Manager' },
+                { name: 'Fire Drill Record',                      last: weeksFromNow(-24), next: weeksFromNow(2),   person: 'Site Safety Officer' },
+            ]
+        },
+        {
+            id: 'insurance',
+            title: 'Insurance Certificates',
+            icon: '📄',
+            items: [
+                { name: 'Employer\'s Liability Insurance',        last: weeksFromNow(-40), next: weeksFromNow(12),  person: 'P. Hutchinson' },
+                { name: 'Public Liability Insurance',             last: weeksFromNow(-40), next: weeksFromNow(12),  person: 'P. Hutchinson' },
+                { name: 'Motor Fleet Insurance (Vans)',           last: weeksFromNow(-50), next: weeksFromNow(2),   person: 'P. Hutchinson' },
+                { name: 'Contractor\'s All Risk (Plant)',         last: weeksFromNow(-10), next: weeksFromNow(42),  person: 'P. Hutchinson' },
+            ]
+        },
+    ];
+}
+
+// ── Render compliance tab ───────────────────────────────────────────────────
+function initCompliance() {
+    const sections = buildComplianceData();
+    const container = document.getElementById('compliance-accordion');
+    if (!container) return;
+
+    let html = '';
+    sections.forEach((sec, si) => {
+        const statuses = sec.items.map(item => tlStatus(item.next));
+        const worst = worstStatus(statuses);
+        const nextDues = sec.items.map(i => i.next).sort((a,b) => a-b);
+        const soonest = nextDues[0];
+        const soonestLabel = fmtDate(soonest);
+        const overdue = sec.items.some(i => tlStatus(i.next) === 'red');
+        const dueLabel = overdue ? 'OVERDUE/CRITICAL' : `Next due: ${soonestLabel}`;
+
+        html += `
+        <div class="comp-section" id="comp-sec-${si}">
+            <div class="comp-section-header" onclick="toggleCompSection(${si})">
+                <span style="font-size:1.1rem;">${sec.icon}</span>
+                <span class="comp-section-title">${sec.title}</span>
+                <div class="comp-section-meta">
+                    <span class="comp-section-due">${dueLabel}</span>
+                    ${tlDot(worst)}
+                    <span class="comp-section-chevron">▼</span>
+                </div>
+            </div>
+            <div class="comp-section-body">
+                <table class="comp-items-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Last Inspection</th>
+                            <th>Next Due</th>
+                            <th>Responsible</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${sec.items.map(item => {
+                            const st = tlStatus(item.next);
+                            return `<tr>
+                                <td>${item.name}</td>
+                                <td style="color:var(--text-secondary);white-space:nowrap;">${fmtDate(item.last)}</td>
+                                <td style="white-space:nowrap;">${fmtDate(item.next)}</td>
+                                <td style="color:var(--text-secondary);">${item.person}</td>
+                                <td><div class="comp-td-status">${tlDot(st)}${tlLabel(st)}</div></td>
+                            </tr>`;
+                        }).join('')}
+                    </tbody>
+                </table>
+            </div>
+        </div>`;
+    });
+    container.innerHTML = html;
+    updateComplianceSummary(sections);
+}
+
+function toggleCompSection(idx) {
+    const sec = document.getElementById(`comp-sec-${idx}`);
+    if (sec) sec.classList.toggle('open');
+}
+
+// ── Personnel example data ──────────────────────────────────────────────────
+const CERT_DEFS = [
+    { key: 'wah',       label: 'Working at Height',      validity: 3*52, noExpiry: false },
+    { key: 'cs',        label: 'Confined Space Entry',   validity: 3*52, noExpiry: false },
+    { key: 'rig',       label: 'Rigging & Slinging',     validity: 3*52, noExpiry: false },
+    { key: 'mewp',      label: 'MEWP / IPAF (3a+3b)',    validity: 5*52, noExpiry: false },
+    { key: 'compex',    label: 'Compex (Ex01–Ex04)',      validity: 3*52, noExpiry: false },
+    { key: 'faw',       label: 'First Aid at Work',       validity: 3*52, noExpiry: false },
+    { key: 'mh',        label: 'Manual Handling',         validity: 3*52, noExpiry: false },
+    { key: 'asb',       label: 'Asbestos Awareness',      validity: 52,   noExpiry: false },
+    { key: 'fw',        label: 'Fire Warden',             validity: 3*52, noExpiry: false },
+    { key: 'abr',       label: 'Abrasive Wheels',         validity: null, noExpiry: true  },
+    { key: 'flt',       label: 'Forklift (RTITB)',        validity: 5*52, noExpiry: false },
+    { key: '18th',      label: '18th Edition Wiring Regs',validity: null, noExpiry: true  },
+    { key: 'cisrs',     label: 'Scaffold Inspection (CISRS)',validity: 5*52, noExpiry: false },
+];
+
+function certForRole(role) {
+    // Returns array of cert keys applicable to this role
+    switch(role) {
+        case 'Electrical Engineer':
+            return ['wah','cs','compex','faw','mh','asb','abr','18th'];
+        case 'Mechanical Fitter':
+            return ['wah','cs','rig','mewp','mh','asb','abr','flt'];
+        case 'Shift Supervisor':
+            return ['wah','cs','rig','mewp','faw','mh','asb','fw','abr','flt','cisrs'];
+        case 'Crane Operator':
+            return ['rig','mewp','wah','mh','asb','flt'];
+        case 'Apprentice':
+            return ['wah','mh','asb','faw'];
+        case 'Site Manager':
+            return ['wah','cs','rig','mewp','compex','faw','mh','asb','fw','abr','flt','18th','cisrs'];
+        default:
+            return [];
+    }
+}
+
+function buildPersonnelData() {
+    // Each person: name, role, certs (object: key -> {issued, expiry} or null)
+    // We'll vary expiry dates to get a mix of traffic lights
+    const people = [
+        { name: 'J. Smith',      role: 'Electrical Engineer', offsets: { wah:-100, cs:-80, compex:-90, faw:-20, mh:-10, asb:-4, abr:-200, '18th':-150 } },
+        { name: 'T. Brown',      role: 'Electrical Engineer', offsets: { wah:-50, cs:-110, compex:-70, faw:-120, mh:-30, asb:-50, abr:-180, '18th':-200 } },
+        { name: 'K. Patel',      role: 'Electrical Engineer', offsets: { wah:-30, cs:-20, compex:-25, faw:-60, mh:-8, asb:-2, abr:-100, '18th':-80 } },
+        { name: 'R. Davies',     role: 'Electrical Engineer', offsets: { wah:-140, cs:-90, compex:-145, faw:-50, mh:-14, asb:-55, abr:-300, '18th':-260 } },
+        { name: 'M. Jones',      role: 'Mechanical Fitter',   offsets: { wah:-20, cs:-30, rig:-100, mewp:-250, mh:-5, asb:-48, abr:-80, flt:-260 } },
+        { name: 'S. O\'Brien',   role: 'Mechanical Fitter',   offsets: { wah:-80, cs:-60, rig:-40, mewp:-200, mh:-20, asb:-10, abr:-120, flt:-180 } },
+        { name: 'D. Kowalski',   role: 'Mechanical Fitter',   offsets: { wah:-150, cs:-140, rig:-155, mewp:-60, mh:-40, asb:-3, abr:-200, flt:-50 } },
+        { name: 'A. Hassan',     role: 'Mechanical Fitter',   offsets: { wah:-10, cs:-8, rig:-5, mewp:-50, mh:-2, asb:-1, abr:-20, flt:-90 } },
+        { name: 'L. Murphy',     role: 'Shift Supervisor',    offsets: { wah:-100, cs:-90, rig:-80, mewp:-260, faw:-110, mh:-30, asb:-52, fw:-80, abr:-150, flt:-100, cisrs:-250 } },
+        { name: 'C. Webster',    role: 'Shift Supervisor',    offsets: { wah:-50, cs:-30, rig:-60, mewp:-130, faw:-20, mh:-8, asb:-6, fw:-100, abr:-200, flt:-200, cisrs:-50 } },
+        { name: 'B. Foster',     role: 'Crane Operator',      offsets: { rig:-30, mewp:-200, wah:-60, mh:-12, asb:-4, flt:-100 } },
+        { name: 'G. Nolan',      role: 'Crane Operator',      offsets: { rig:-150, mewp:-50, wah:-20, mh:-3, asb:-53, flt:-250 } },
+        { name: 'E. Clarke',     role: 'Apprentice',           offsets: { wah:-10, mh:-6, asb:-1, faw:-50 } },
+        { name: 'F. Ahmad',      role: 'Apprentice',           offsets: { wah:-5, mh:-2, asb:-2, faw:-10 } },
+        { name: 'P. Hutchinson', role: 'Site Manager',         offsets: { wah:-50, cs:-100, rig:-70, mewp:-200, compex:-120, faw:-90, mh:-15, asb:-52, fw:-60, abr:-300, flt:-150, '18th':-250, cisrs:-100 } },
+    ];
+
+    return people.map(p => {
+        const applicableKeys = certForRole(p.role);
+        const certs = {};
+        CERT_DEFS.forEach(cd => {
+            if (!applicableKeys.includes(cd.key)) {
+                certs[cd.key] = null; // N/A
+                return;
+            }
+            const issuedWeeksAgo = p.offsets[cd.key] || -52;
+            const issued = weeksFromNow(issuedWeeksAgo);
+            if (cd.noExpiry) {
+                certs[cd.key] = { issued, expiry: null, noExpiry: true };
+            } else {
+                const expiry = new Date(issued.getTime() + cd.validity * 7 * 24 * 60 * 60 * 1000);
+                certs[cd.key] = { issued, expiry, noExpiry: false };
+            }
+        });
+        return { ...p, certs };
+    });
+}
+
+const ROLE_CSS = {
+    'Electrical Engineer': 'role-electrical',
+    'Mechanical Fitter':   'role-mechanical',
+    'Shift Supervisor':    'role-supervisor',
+    'Crane Operator':      'role-crane',
+    'Apprentice':          'role-apprentice',
+    'Site Manager':        'role-manager',
+};
+
+let PERSONNEL_DATA = null;
+
+function initPersonnel() {
+    PERSONNEL_DATA = buildPersonnelData();
+    const grid = document.getElementById('personnel-grid');
+    if (!grid) return;
+
+    let html = '';
+    PERSONNEL_DATA.forEach((person, idx) => {
+        const applicableKeys = certForRole(person.role);
+        const statuses = applicableKeys.map(k => {
+            const c = person.certs[k];
+            if (!c || c.noExpiry) return 'green';
+            return tlStatus(c.expiry);
+        });
+        const worst = worstStatus(statuses);
+
+        // Cert dots row
+        const dotsHtml = CERT_DEFS.map(cd => {
+            const c = person.certs[cd.key];
+            if (!c) {
+                return `<span class="cert-dot-wrap"><span class="cert-dot-na"></span><span class="cert-dot-tooltip">${cd.label}: N/A</span></span>`;
+            }
+            if (c.noExpiry) {
+                return `<span class="cert-dot-wrap"><span class="tl-dot tl-green"></span><span class="cert-dot-tooltip">${cd.label}: No expiry</span></span>`;
+            }
+            const st = tlStatus(c.expiry);
+            return `<span class="cert-dot-wrap"><span class="tl-dot tl-${st}"></span><span class="cert-dot-tooltip">${cd.label}: ${fmtDate(c.expiry)}</span></span>`;
+        }).join('');
+
+        html += `
+        <div class="personnel-card" onclick="openPersonnelModal(${idx})">
+            <div class="personnel-card-name">${person.name}</div>
+            <div><span class="role-badge ${ROLE_CSS[person.role]}">${person.role}</span></div>
+            <div class="personnel-cert-dots">${dotsHtml}</div>
+            <div style="font-size:0.73rem;color:var(--text-muted);margin-top:0.15rem;">Overall: <span style="color:${worst==='green'?'#48bb78':worst==='amber'?'#ed8936':'#fc5656'};font-weight:700;">${worst==='green'?'All OK':worst==='amber'?'Some due soon':'Action required'}</span></div>
+        </div>`;
+    });
+    grid.innerHTML = html;
+    updatePersonnelSummary();
+}
+
+function openPersonnelModal(idx) {
+    const person = PERSONNEL_DATA[idx];
+    const modal = document.getElementById('personnel-modal');
+    const overlay = document.getElementById('personnel-modal-overlay');
+    const content = document.getElementById('personnel-modal-content');
+    if (!modal || !content) return;
+
+    let rows = CERT_DEFS.map(cd => {
+        const c = person.certs[cd.key];
+        if (!c) {
+            return `<tr>
+                <td class="pm-cert-name">${cd.label}</td>
+                <td colspan="3" class="pm-cert-na">Not applicable for this role</td>
+            </tr>`;
+        }
+        if (c.noExpiry) {
+            return `<tr>
+                <td class="pm-cert-name">${cd.label}</td>
+                <td>${fmtDate(c.issued)}</td>
+                <td colspan="2" class="pm-no-expiry">No expiry date</td>
+            </tr>`;
+        }
+        const st = tlStatus(c.expiry);
+        return `<tr>
+            <td class="pm-cert-name">${cd.label}</td>
+            <td style="color:var(--text-secondary);white-space:nowrap;">${fmtDate(c.issued)}</td>
+            <td style="white-space:nowrap;">${fmtDate(c.expiry)}</td>
+            <td><div class="comp-td-status">${tlDot(st)}${tlLabel(st)}</div></td>
+        </tr>`;
+    }).join('');
+
+    content.innerHTML = `
+        <div class="pm-header">
+            <div class="pm-name">${person.name}</div>
+            <span class="role-badge ${ROLE_CSS[person.role]}">${person.role}</span>
+        </div>
+        <table class="pm-certs-table">
+            <thead><tr><th>Certification</th><th>Issued</th><th>Expires</th><th>Status</th></tr></thead>
+            <tbody>${rows}</tbody>
+        </table>`;
+
+    overlay.classList.add('open');
+    modal.classList.add('open');
+}
+
+function closePersonnelModal(e) {
+    if (e && e.target !== document.getElementById('personnel-modal-overlay')) return;
+    document.getElementById('personnel-modal')?.classList.remove('open');
+    document.getElementById('personnel-modal-overlay')?.classList.remove('open');
+}
+
+// ── Compliance summary widget ───────────────────────────────────────────────
+function updateComplianceSummary(sections) {
+    // Count all compliance item statuses
+    let cr = 0, ca = 0, cg = 0;
+    (sections || buildComplianceData()).forEach(sec => {
+        sec.items.forEach(item => {
+            const st = tlStatus(item.next);
+            if (st === 'red')   cr++;
+            else if (st === 'amber') ca++;
+            else cg++;
+        });
+    });
+    const el = id => document.getElementById(id);
+    if (el('csw-comp-red'))   el('csw-comp-red').textContent   = cr;
+    if (el('csw-comp-amber')) el('csw-comp-amber').textContent = ca;
+    if (el('csw-comp-green')) el('csw-comp-green').textContent = cg;
+}
+
+function updatePersonnelSummary() {
+    if (!PERSONNEL_DATA) return;
+    let pr = 0, pa = 0, pg = 0;
+    PERSONNEL_DATA.forEach(person => {
+        const applicableKeys = certForRole(person.role);
+        applicableKeys.forEach(k => {
+            const c = person.certs[k];
+            if (!c || c.noExpiry) { pg++; return; }
+            const st = tlStatus(c.expiry);
+            if (st === 'red')   pr++;
+            else if (st === 'amber') pa++;
+            else pg++;
+        });
+    });
+    const el = id => document.getElementById(id);
+    if (el('csw-pers-red'))   el('csw-pers-red').textContent   = pr;
+    if (el('csw-pers-amber')) el('csw-pers-amber').textContent = pa;
+    if (el('csw-pers-green')) el('csw-pers-green').textContent = pg;
 }

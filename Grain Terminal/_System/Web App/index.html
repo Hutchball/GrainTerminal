@@ -64,6 +64,10 @@
                     <span class="nav-icon">&#9141;</span>
                     Schematics
                 </a>
+                <a href="#browse" class="nav-item" data-section="browse">
+                    <span class="nav-icon">&#9776;</span>
+                    Browse
+                </a>
                 <a href="#documents" class="nav-item" data-section="documents">
                     <span class="nav-icon">&#128196;</span>
                     Documents
@@ -83,6 +87,14 @@
                 <a href="#about" class="nav-item" data-section="about">
                     <span class="nav-icon">&#9432;</span>
                     About
+                </a>
+                <a href="#compliance" class="nav-item" data-section="compliance">
+                    <span class="nav-icon">&#9989;</span>
+                    Compliance
+                </a>
+                <a href="#personnel" class="nav-item" data-section="personnel">
+                    <span class="nav-icon">&#128100;</span>
+                    Personnel
                 </a>
             </nav>
 
@@ -140,6 +152,30 @@
                         <div class="stat-note">Site photography</div>
                     </div>
                 </div>
+                
+                <!-- Compliance Summary Widget -->
+                <div id="compliance-summary-widget" class="compliance-summary-widget">
+                    <div class="csw-title">Compliance Overview <span class="csw-example-tag">EXAMPLE DATA</span></div>
+                    <div class="csw-rows">
+                        <div class="csw-row">
+                            <span class="csw-label">Certificates &amp; Equipment</span>
+                            <div class="csw-counts">
+                                <span class="csw-count csw-red"><span class="tl-dot tl-red"></span> <span id="csw-comp-red">—</span></span>
+                                <span class="csw-count csw-amber"><span class="tl-dot tl-amber"></span> <span id="csw-comp-amber">—</span></span>
+                                <span class="csw-count csw-green"><span class="tl-dot tl-green"></span> <span id="csw-comp-green">—</span></span>
+                            </div>
+                        </div>
+                        <div class="csw-row">
+                            <span class="csw-label">Personnel Certifications</span>
+                            <div class="csw-counts">
+                                <span class="csw-count csw-red"><span class="tl-dot tl-red"></span> <span id="csw-pers-red">—</span></span>
+                                <span class="csw-count csw-amber"><span class="tl-dot tl-amber"></span> <span id="csw-pers-amber">—</span></span>
+                                <span class="csw-count csw-green"><span class="tl-dot tl-green"></span> <span id="csw-pers-green">—</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="last-updated">Last data import: <span data-stat="last_import">—</span></div>
 
                 <div class="quick-links">
@@ -860,6 +896,48 @@
                 </div>
             </section>
 
+
+            <!-- Compliance -->
+            <section id="compliance" class="section">
+                <div class="example-data-banner">
+                    &#9888; EXAMPLE DATA ONLY — All dates and records are illustrative placeholders. Do not use for compliance purposes.
+                </div>
+                <div class="section-header">
+                    <h2>Compliance Register</h2>
+                    <p class="section-subtitle">Inspection &amp; certification tracker — click any section to expand items</p>
+                </div>
+                <div id="compliance-accordion" class="compliance-accordion">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Personnel -->
+            <section id="personnel" class="section">
+                <div class="example-data-banner">
+                    &#9888; EXAMPLE DATA ONLY — All dates and records are illustrative placeholders. Do not use for compliance purposes.
+                </div>
+                <div class="section-header">
+                    <h2>Personnel &amp; Certifications</h2>
+                    <p class="section-subtitle">Click any employee card to view their certification details</p>
+                </div>
+                <div id="personnel-grid" class="personnel-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Browse -->
+            <section id="browse" class="section">
+                <div class="section-header">
+                    <h2>Browse</h2>
+                </div>
+
+                <div class="browse-placeholder-wrap">
+                    <div class="browse-placeholder-icon">&#9776;</div>
+                    <h3 class="browse-placeholder-title">Browse Equipment</h3>
+                    <p class="browse-placeholder-body">Browse by area, type, or system — coming soon.</p>
+                </div>
+            </section>
+
         </main>
     </div>
 
@@ -867,6 +945,14 @@
     <div id="detail-overlay" style="display:none;"></div>
     <div id="equipment-detail-panel" class="equipment-detail-panel">
         <div id="detail-content"></div>
+    </div>
+
+
+    <!-- Personnel Detail Modal -->
+    <div id="personnel-modal-overlay" class="personnel-modal-overlay" onclick="closePersonnelModal(event)"></div>
+    <div id="personnel-modal" class="personnel-modal">
+        <button class="personnel-modal-close" onclick="closePersonnelModal()">&#10005;</button>
+        <div id="personnel-modal-content"></div>
     </div>
 
     <script src="app.js"></script>

@@ -2231,20 +2231,102 @@ li {
     flex-shrink: 0;
     background: #162030;
 }
-.grainbot-input {
+
+/* Autocomplete wrapper — holds mirror, input, and dropdown */
+.grainbot-input-wrap {
     flex: 1;
+    position: relative;
     background: #1e2d3d;
     border: 1px solid #2d4060;
+    border-radius: 8px;
+    transition: border-color 0.15s;
+}
+.grainbot-input-wrap:focus-within {
+    border-color: #4299e1;
+}
+
+/* Mirror: invisible typed prefix + visible ghost suffix, sits behind the input */
+.grainbot-input-mirror {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+    pointer-events: none;
+    white-space: pre;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    z-index: 0;
+}
+#grainbot-mirror-typed {
+    color: transparent;
+    white-space: pre;
+}
+#grainbot-mirror-ghost {
+    color: #4a5568;
+    white-space: pre;
+}
+
+.grainbot-input {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background: transparent;
+    border: none;
     border-radius: 8px;
     color: #e2e8f0;
     font-size: 0.85rem;
     padding: 0.5rem 0.75rem;
     outline: none;
     font-family: inherit;
-    transition: border-color 0.15s;
 }
-.grainbot-input:focus { border-color: #4299e1; }
 .grainbot-input::placeholder { color: #4a5568; }
+
+/* Autocomplete dropdown */
+.grainbot-dropdown {
+    position: absolute;
+    bottom: 100%;
+    left: 0; right: 0;
+    background: #1a2332;
+    border: 1px solid #2d4060;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.55);
+    overflow: hidden;
+    margin-bottom: 0.4rem;
+    z-index: 1020;
+}
+.grainbot-dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.82rem;
+    border-bottom: 1px solid #1e2d3d;
+    transition: background 0.1s;
+}
+.grainbot-dropdown-item:last-child { border-bottom: none; }
+.grainbot-dropdown-item:hover,
+.grainbot-dropdown-item.active {
+    background: #22334a;
+}
+.grainbot-dropdown-tag {
+    color: #e2e8f0;
+    font-weight: 600;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.grainbot-dropdown-area {
+    color: #718096;
+    font-size: 0.76rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
 .grainbot-send {
     background: #2b6cb0;
     border: none;
@@ -2266,6 +2348,37 @@ li {
     padding: 0.35rem;
     background: #0f1419;
     flex-shrink: 0;
+}
+
+/* ── Browse Tab Placeholder ───────────────────────────────────────────────── */
+.browse-placeholder-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    background: var(--bg-card);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+.browse-placeholder-icon {
+    font-size: 3rem;
+    color: var(--text-muted);
+    margin-bottom: 1.25rem;
+    opacity: 0.5;
+}
+.browse-placeholder-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.65rem;
+}
+.browse-placeholder-body {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    max-width: 360px;
 }
 
 /* Dust Bags */
@@ -2470,6 +2583,414 @@ li {
     color: var(--text-primary);
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   COMPLIANCE & PERSONNEL TABS — Pixel / LEEN
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Example data banner ─────────────────────────────────────── */
+.example-data-banner {
+    background: #7b5f00;
+    border: 2px solid #f6c000;
+    border-radius: 8px;
+    color: #ffe066;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    padding: 0.85rem 1.25rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* ── Traffic-light dots ──────────────────────────────────────── */
+.tl-dot {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+.tl-green  { background: #48bb78; box-shadow: 0 0 5px #276749; }
+.tl-amber  { background: #ed8936; box-shadow: 0 0 5px #744210; }
+.tl-red    { background: #fc5656; box-shadow: 0 0 5px #742a2a; }
+
+/* ── Compliance accordion ────────────────────────────────────── */
+.compliance-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.comp-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.comp-section-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s ease;
+}
+.comp-section-header:hover {
+    background: var(--bg-hover);
+}
+
+.comp-section-title {
+    flex: 1;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.comp-section-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.comp-section-due {
+    white-space: nowrap;
+}
+
+.comp-section-chevron {
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+    font-size: 0.75rem;
+}
+.comp-section.open .comp-section-chevron {
+    transform: rotate(180deg);
+}
+
+.comp-section-body {
+    display: none;
+    border-top: 1px solid var(--border);
+    overflow-x: auto;
+}
+.comp-section.open .comp-section-body {
+    display: block;
+}
+
+.comp-items-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+.comp-items-table th {
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    padding: 0.6rem 1rem;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.comp-items-table td {
+    padding: 0.65rem 1rem;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+}
+.comp-items-table tr:last-child td {
+    border-bottom: none;
+}
+.comp-items-table tr:hover td {
+    background: var(--bg-hover);
+}
+.comp-td-status {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+.comp-td-status-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.label-green { color: #48bb78; }
+.label-amber { color: #ed8936; }
+.label-red   { color: #fc5656; }
+
+/* ── Compliance Summary Widget (dashboard) ───────────────────── */
+.compliance-summary-widget {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1.5rem;
+}
+.csw-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.csw-example-tag {
+    background: #7b5f00;
+    color: #ffe066;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+}
+.csw-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.csw-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.csw-label {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+}
+.csw-counts {
+    display: flex;
+    gap: 1rem;
+}
+.csw-count {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.csw-red   { color: #fc5656; }
+.csw-amber { color: #ed8936; }
+.csw-green { color: #48bb78; }
+
+/* ── Personnel grid ──────────────────────────────────────────── */
+.personnel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.personnel-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.personnel-card:hover {
+    border-color: var(--accent);
+    background: var(--bg-hover);
+    transform: translateY(-1px);
+}
+
+.personnel-card-name {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+
+.role-badge {
+    display: inline-block;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+}
+.role-electrical  { background: #1a365d; color: #63b3ed; }
+.role-mechanical  { background: #4a2008; color: #ed8936; }
+.role-supervisor  { background: #3b1f6e; color: #b794f4; }
+.role-crane       { background: #1a3d2f; color: #68d391; }
+.role-apprentice  { background: #2d3748; color: #a0aec0; }
+.role-manager     { background: #4a1942; color: #fbb6ce; }
+
+.personnel-cert-dots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.2rem;
+}
+.cert-dot-wrap {
+    position: relative;
+    display: inline-flex;
+}
+.cert-dot-wrap:hover .cert-dot-tooltip {
+    display: block;
+}
+.cert-dot-tooltip {
+    display: none;
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0f1419;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text-primary);
+    font-size: 0.7rem;
+    padding: 0.2rem 0.45rem;
+    white-space: nowrap;
+    z-index: 100;
+    pointer-events: none;
+}
+.cert-dot-na {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 1px dashed var(--border);
+    background: transparent;
+    display: inline-block;
+}
+
+/* ── Personnel modal ─────────────────────────────────────────── */
+.personnel-modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 500;
+}
+.personnel-modal-overlay.open {
+    display: block;
+}
+
+.personnel-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(560px, 100vw);
+    height: 100vh;
+    background: var(--bg-secondary);
+    border-left: 1px solid var(--border);
+    z-index: 501;
+    overflow-y: auto;
+    padding: 1.5rem;
+    box-shadow: -8px 0 32px rgba(0,0,0,0.5);
+}
+.personnel-modal.open {
+    display: block;
+}
+
+.personnel-modal-close {
+    position: sticky;
+    top: 0;
+    float: right;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    margin-bottom: 1rem;
+    z-index: 10;
+}
+.personnel-modal-close:hover {
+    color: var(--text-primary);
+    background: var(--bg-hover);
+}
+
+.pm-header {
+    margin-bottom: 1.25rem;
+    padding-top: 0.25rem;
+}
+.pm-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.4rem;
+}
+.pm-certs-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.84rem;
+}
+.pm-certs-table th {
+    color: var(--text-secondary);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    padding: 0.5rem 0.6rem;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--border);
+}
+.pm-certs-table td {
+    padding: 0.55rem 0.6rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-primary);
+    vertical-align: middle;
+}
+.pm-certs-table tr:last-child td {
+    border-bottom: none;
+}
+.pm-cert-name {
+    color: var(--text-secondary);
+    font-size: 0.83rem;
+}
+.pm-cert-na {
+    color: var(--text-muted);
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.pm-no-expiry {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+/* ── Section subtitle ────────────────────────────────────────── */
+.section-subtitle {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+/* ── Responsive additions ────────────────────────────────────── */
+@media (max-width: 768px) {
+    .personnel-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .comp-items-table th,
+    .comp-items-table td {
+        padding: 0.5rem 0.6rem;
+    }
+    .personnel-modal {
+        width: 100vw;
+        border-left: none;
+    }
+    .csw-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+}
+@media (max-width: 400px) {
+    .personnel-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 </style>
 </head>
 <body>
@@ -2530,6 +3051,10 @@ li {
                     <span class="nav-icon">&#9141;</span>
                     Schematics
                 </a>
+                <a href="#browse" class="nav-item" data-section="browse">
+                    <span class="nav-icon">&#9776;</span>
+                    Browse
+                </a>
                 <a href="#documents" class="nav-item" data-section="documents">
                     <span class="nav-icon">&#128196;</span>
                     Documents
@@ -2549,6 +3074,14 @@ li {
                 <a href="#about" class="nav-item" data-section="about">
                     <span class="nav-icon">&#9432;</span>
                     About
+                </a>
+                <a href="#compliance" class="nav-item" data-section="compliance">
+                    <span class="nav-icon">&#9989;</span>
+                    Compliance
+                </a>
+                <a href="#personnel" class="nav-item" data-section="personnel">
+                    <span class="nav-icon">&#128100;</span>
+                    Personnel
                 </a>
             </nav>
 
@@ -2606,6 +3139,30 @@ li {
                         <div class="stat-note">Site photography</div>
                     </div>
                 </div>
+                
+                <!-- Compliance Summary Widget -->
+                <div id="compliance-summary-widget" class="compliance-summary-widget">
+                    <div class="csw-title">Compliance Overview <span class="csw-example-tag">EXAMPLE DATA</span></div>
+                    <div class="csw-rows">
+                        <div class="csw-row">
+                            <span class="csw-label">Certificates &amp; Equipment</span>
+                            <div class="csw-counts">
+                                <span class="csw-count csw-red"><span class="tl-dot tl-red"></span> <span id="csw-comp-red">—</span></span>
+                                <span class="csw-count csw-amber"><span class="tl-dot tl-amber"></span> <span id="csw-comp-amber">—</span></span>
+                                <span class="csw-count csw-green"><span class="tl-dot tl-green"></span> <span id="csw-comp-green">—</span></span>
+                            </div>
+                        </div>
+                        <div class="csw-row">
+                            <span class="csw-label">Personnel Certifications</span>
+                            <div class="csw-counts">
+                                <span class="csw-count csw-red"><span class="tl-dot tl-red"></span> <span id="csw-pers-red">—</span></span>
+                                <span class="csw-count csw-amber"><span class="tl-dot tl-amber"></span> <span id="csw-pers-amber">—</span></span>
+                                <span class="csw-count csw-green"><span class="tl-dot tl-green"></span> <span id="csw-pers-green">—</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="last-updated">Last data import: <span data-stat="last_import">—</span></div>
 
                 <div class="quick-links">
@@ -3326,6 +3883,48 @@ li {
                 </div>
             </section>
 
+
+            <!-- Compliance -->
+            <section id="compliance" class="section">
+                <div class="example-data-banner">
+                    &#9888; EXAMPLE DATA ONLY — All dates and records are illustrative placeholders. Do not use for compliance purposes.
+                </div>
+                <div class="section-header">
+                    <h2>Compliance Register</h2>
+                    <p class="section-subtitle">Inspection &amp; certification tracker — click any section to expand items</p>
+                </div>
+                <div id="compliance-accordion" class="compliance-accordion">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Personnel -->
+            <section id="personnel" class="section">
+                <div class="example-data-banner">
+                    &#9888; EXAMPLE DATA ONLY — All dates and records are illustrative placeholders. Do not use for compliance purposes.
+                </div>
+                <div class="section-header">
+                    <h2>Personnel &amp; Certifications</h2>
+                    <p class="section-subtitle">Click any employee card to view their certification details</p>
+                </div>
+                <div id="personnel-grid" class="personnel-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Browse -->
+            <section id="browse" class="section">
+                <div class="section-header">
+                    <h2>Browse</h2>
+                </div>
+
+                <div class="browse-placeholder-wrap">
+                    <div class="browse-placeholder-icon">&#9776;</div>
+                    <h3 class="browse-placeholder-title">Browse Equipment</h3>
+                    <p class="browse-placeholder-body">Browse by area, type, or system — coming soon.</p>
+                </div>
+            </section>
+
         </main>
     </div>
 
@@ -3333,6 +3932,14 @@ li {
     <div id="detail-overlay" style="display:none;"></div>
     <div id="equipment-detail-panel" class="equipment-detail-panel">
         <div id="detail-content"></div>
+    </div>
+
+
+    <!-- Personnel Detail Modal -->
+    <div id="personnel-modal-overlay" class="personnel-modal-overlay" onclick="closePersonnelModal(event)"></div>
+    <div id="personnel-modal" class="personnel-modal">
+        <button class="personnel-modal-close" onclick="closePersonnelModal()">&#10005;</button>
+        <div id="personnel-modal-content"></div>
     </div>
 
     <script>
@@ -3694,6 +4301,8 @@ document.addEventListener('DOMContentLoaded', function () {
     loadDustBags();
     loadDocuments();
     loadAtex();
+    initCompliance();
+    initPersonnel();
 });
 
 // ── Stats ─────────────────────────────────────────────────────────────────────
@@ -4741,9 +5350,507 @@ function loadDocuments() {
     });
 }
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// COMPLIANCE & PERSONNEL TABS — Pixel / LEEN
+// ═══════════════════════════════════════════════════════════════════════════════
+
+// ── Helpers ────────────────────────────────────────────────────────────────────
+function weeksFromNow(w) {
+    const d = new Date();
+    d.setDate(d.getDate() + w * 7);
+    return d;
+}
+function fmtDate(d) {
+    return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+function tlStatus(nextDueDate) {
+    const now = new Date();
+    const diffMs = nextDueDate - now;
+    const diffWeeks = diffMs / (1000 * 60 * 60 * 24 * 7);
+    if (diffWeeks < 2)  return 'red';
+    if (diffWeeks < 8)  return 'amber';
+    return 'green';
+}
+function tlDot(status) {
+    return `<span class="tl-dot tl-${status}"></span>`;
+}
+function tlLabel(status) {
+    const labels = { green: 'OK', amber: 'DUE SOON', red: 'OVERDUE / CRITICAL' };
+    return `<span class="comp-td-status-label label-${status}">${labels[status]}</span>`;
+}
+function worstStatus(statuses) {
+    if (statuses.includes('red'))   return 'red';
+    if (statuses.includes('amber')) return 'amber';
+    return 'green';
+}
+
+// ── Compliance example data ─────────────────────────────────────────────────
+function buildComplianceData() {
+    return [
+        {
+            id: 'vans',
+            title: 'Vans — MOT & Service',
+            icon: '🚐',
+            items: [
+                { name: 'LEEN VAN 1 (VE21 XYZ) — MOT',          last: weeksFromNow(-50), next: weeksFromNow(2),   person: 'P. Hutchinson' },
+                { name: 'LEEN VAN 1 (VE21 XYZ) — Annual Service', last: weeksFromNow(-40), next: weeksFromNow(12), person: 'P. Hutchinson' },
+                { name: 'LEEN VAN 2 (BT70 ABC) — MOT',           last: weeksFromNow(-10), next: weeksFromNow(42), person: 'T. Brown' },
+                { name: 'LEEN VAN 2 (BT70 ABC) — Annual Service', last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'T. Brown' },
+                { name: 'LEEN VAN 3 (GN69 DEF) — MOT',           last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'K. Patel' },
+                { name: 'LEEN VAN 3 (GN69 DEF) — Annual Service', last: weeksFromNow(-22), next: weeksFromNow(30), person: 'K. Patel' },
+            ]
+        },
+        {
+            id: 'fire-ext',
+            title: 'Fire Extinguishers',
+            icon: '🧯',
+            items: [
+                { name: 'FE-001 — Boiler Room (CO₂ 5kg)',      last: weeksFromNow(-52), next: weeksFromNow(0),   person: 'Site Safety Officer' },
+                { name: 'FE-002 — Compressor Room (CO₂ 5kg)', last: weeksFromNow(-45), next: weeksFromNow(7),   person: 'Site Safety Officer' },
+                { name: 'FE-003 — MCC10 (CO₂ 2kg)',           last: weeksFromNow(-30), next: weeksFromNow(22),  person: 'Site Safety Officer' },
+                { name: 'FE-004 — Workshop Area A (ABC Dry)',  last: weeksFromNow(-20), next: weeksFromNow(32),  person: 'Site Safety Officer' },
+                { name: 'FE-005 — Workshop Area B (Water)',    last: weeksFromNow(-18), next: weeksFromNow(34),  person: 'Site Safety Officer' },
+                { name: 'FE-006 — Site Office (CO₂ 2kg)',     last: weeksFromNow(-6),  next: weeksFromNow(46),  person: 'Site Safety Officer' },
+                { name: 'FE-007 — Grain Store (ABC Dry)',      last: weeksFromNow(-51), next: weeksFromNow(1),   person: 'Site Safety Officer' },
+                { name: 'FE-008 — Weighbridge (Water)',        last: weeksFromNow(-10), next: weeksFromNow(42),  person: 'Site Safety Officer' },
+            ]
+        },
+        {
+            id: 'first-aid',
+            title: 'First Aid Kits & Certificates',
+            icon: '🩺',
+            items: [
+                { name: 'First Aid Kit — Site Office (BSI)',     last: weeksFromNow(-14), next: weeksFromNow(12), person: 'Site Manager' },
+                { name: 'First Aid Kit — Workshop (BSI)',        last: weeksFromNow(-5),  next: weeksFromNow(21), person: 'Site Manager' },
+                { name: 'First Aid Kit — Control Room (BSI)',    last: weeksFromNow(-50), next: weeksFromNow(2),  person: 'Site Manager' },
+                { name: 'First Aid Kit — Gate House (BSI)',      last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'Site Manager' },
+                { name: 'FAW Certificate — J. Smith',            last: weeksFromNow(-104),next: weeksFromNow(52), person: 'J. Smith' },
+                { name: 'FAW Certificate — S. O\'Brien',         last: weeksFromNow(-150),next: weeksFromNow(6),  person: 'S. O\'Brien' },
+            ]
+        },
+        {
+            id: 'pat',
+            title: 'PAT Testing',
+            icon: '🔌',
+            items: [
+                { name: 'Angle Grinder — Workshop (110V)',       last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'Electrical Dept' },
+                { name: 'SDS Drill #1 — Workshop (110V)',        last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'Electrical Dept' },
+                { name: 'SDS Drill #2 — Workshop (110V)',        last: weeksFromNow(-20), next: weeksFromNow(32), person: 'Electrical Dept' },
+                { name: 'Extension Lead 25m #1 (110V)',          last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'Electrical Dept' },
+                { name: 'Extension Lead 25m #2 (110V)',          last: weeksFromNow(-15), next: weeksFromNow(37), person: 'Electrical Dept' },
+                { name: 'Extension Lead 10m (230V Office)',      last: weeksFromNow(-10), next: weeksFromNow(42), person: 'Electrical Dept' },
+                { name: 'Laptop Charger — Site Office #1',       last: weeksFromNow(-50), next: weeksFromNow(2),  person: 'Electrical Dept' },
+                { name: 'Laptop Charger — Site Office #2',       last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'Electrical Dept' },
+                { name: 'Monitor — Site Office',                 last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'Electrical Dept' },
+                { name: 'Kettle — Kitchen',                      last: weeksFromNow(-52), next: weeksFromNow(0),  person: 'Electrical Dept' },
+                { name: 'Microwave — Kitchen',                   last: weeksFromNow(-52), next: weeksFromNow(0),  person: 'Electrical Dept' },
+                { name: 'Fridge — Kitchen',                      last: weeksFromNow(-10), next: weeksFromNow(42), person: 'Electrical Dept' },
+            ]
+        },
+        {
+            id: 'loler',
+            title: 'LOLER — Lifting Equipment',
+            icon: '⛓️',
+            items: [
+                { name: 'Overhead Crane #1 — 6 Monthly LOLER',   last: weeksFromNow(-22), next: weeksFromNow(4),  person: 'M. Jones' },
+                { name: 'Overhead Crane #2 — 6 Monthly LOLER',   last: weeksFromNow(-10), next: weeksFromNow(16), person: 'M. Jones' },
+                { name: 'Chain Block 3T SN:CB-001',              last: weeksFromNow(-14), next: weeksFromNow(12), person: 'M. Jones' },
+                { name: 'Chain Block 1T SN:CB-002',              last: weeksFromNow(-26), next: weeksFromNow(0),  person: 'M. Jones' },
+                { name: 'Round Slings × 6 (Set A)',              last: weeksFromNow(-10), next: weeksFromNow(16), person: 'M. Jones' },
+                { name: 'Shackles × 8 (Set B — 4.75T)',         last: weeksFromNow(-5),  next: weeksFromNow(21), person: 'M. Jones' },
+            ]
+        },
+        {
+            id: 'harnesses',
+            title: 'Safety Harnesses',
+            icon: '🦺',
+            items: [
+                { name: 'Harness H-001 SN:4512-A (Full Body)',   last: weeksFromNow(-50), next: weeksFromNow(2),  person: 'Health & Safety' },
+                { name: 'Harness H-002 SN:4513-B (Full Body)',   last: weeksFromNow(-48), next: weeksFromNow(4),  person: 'Health & Safety' },
+                { name: 'Harness H-003 SN:4514-C (Full Body)',   last: weeksFromNow(-20), next: weeksFromNow(32), person: 'Health & Safety' },
+                { name: 'Harness H-004 SN:4515-D (Full Body)',   last: weeksFromNow(-10), next: weeksFromNow(42), person: 'Health & Safety' },
+                { name: 'Harness H-005 SN:4516-E (Sit)',         last: weeksFromNow(-5),  next: weeksFromNow(47), person: 'Health & Safety' },
+                { name: 'Harness H-006 SN:4517-F (Sit)',         last: weeksFromNow(-56), next: weeksFromNow(-4), person: 'Health & Safety' },
+            ]
+        },
+        {
+            id: 'radios',
+            title: 'Handheld Radios',
+            icon: '📻',
+            items: [
+                { name: 'Radio #1 (Hytera PD505) SN:RD-001',    last: weeksFromNow(-100),next: weeksFromNow(4),  person: 'P. Hutchinson' },
+                { name: 'Radio #2 (Hytera PD505) SN:RD-002',    last: weeksFromNow(-80), next: weeksFromNow(24), person: 'P. Hutchinson' },
+                { name: 'Radio #3 (Hytera PD505) SN:RD-003',    last: weeksFromNow(-40), next: weeksFromNow(64), person: 'P. Hutchinson' },
+                { name: 'Radio #4 (Hytera PD505) SN:RD-004',    last: weeksFromNow(-30), next: weeksFromNow(74), person: 'P. Hutchinson' },
+                { name: 'Ofcom Site Licence (Annual)',           last: weeksFromNow(-46), next: weeksFromNow(6),  person: 'P. Hutchinson' },
+            ]
+        },
+        {
+            id: 'elec-testers',
+            title: 'Electrical Test Equipment Calibration',
+            icon: '⚡',
+            items: [
+                { name: 'Megger MIT430 IR Tester SN:MIT-001',   last: weeksFromNow(-50), next: weeksFromNow(2),  person: 'Electrical Dept' },
+                { name: 'Megger MFT1741 MFT SN:MFT-001',       last: weeksFromNow(-30), next: weeksFromNow(22), person: 'Electrical Dept' },
+                { name: 'Fluke 376 Clamp Meter SN:FL-001',     last: weeksFromNow(-15), next: weeksFromNow(37), person: 'Electrical Dept' },
+                { name: 'Martindale Voltage Tester SN:MT-001', last: weeksFromNow(-8),  next: weeksFromNow(44), person: 'Electrical Dept' },
+            ]
+        },
+        {
+            id: 'emerg-lighting',
+            title: 'Emergency Lighting',
+            icon: '🔦',
+            items: [
+                { name: 'EL Zone A — Main Corridor (Annual Test)',   last: weeksFromNow(-54), next: weeksFromNow(-2),  person: 'Electrical Dept' },
+                { name: 'EL Zone B — Control Room (Annual Test)',    last: weeksFromNow(-30), next: weeksFromNow(22),  person: 'Electrical Dept' },
+                { name: 'EL Zone C — Workshop (Annual Test)',        last: weeksFromNow(-10), next: weeksFromNow(42),  person: 'Electrical Dept' },
+                { name: 'EL Zone D — MCC Room (Annual Test)',        last: weeksFromNow(-20), next: weeksFromNow(32),  person: 'Electrical Dept' },
+                { name: 'Monthly Functional Test — All Zones',       last: weeksFromNow(-3),  next: weeksFromNow(1),   person: 'Electrical Dept' },
+            ]
+        },
+        {
+            id: 'pressure-vessels',
+            title: 'Pressure Vessels / Air Receivers (PSSR)',
+            icon: '🫧',
+            items: [
+                { name: 'Air Receiver AR-001 (500L, 12 bar)',     last: weeksFromNow(-104),next: weeksFromNow(0),   person: 'M. Jones' },
+                { name: 'Air Receiver AR-002 (200L, 10 bar)',     last: weeksFromNow(-80), next: weeksFromNow(24),  person: 'M. Jones' },
+                { name: 'Compressor Pressure Vessel CP-001',      last: weeksFromNow(-90), next: weeksFromNow(14),  person: 'M. Jones' },
+                { name: 'Compressor Pressure Vessel CP-002',      last: weeksFromNow(-40), next: weeksFromNow(64),  person: 'M. Jones' },
+            ]
+        },
+        {
+            id: 'eyewash',
+            title: 'Eye Wash Stations (Monthly Check)',
+            icon: '👁️',
+            items: [
+                { name: 'EW-001 — Workshop Entry',               last: weeksFromNow(-4),  next: weeksFromNow(0),   person: 'Shift Supervisor' },
+                { name: 'EW-002 — MCC Room',                     last: weeksFromNow(-3),  next: weeksFromNow(1),   person: 'Shift Supervisor' },
+                { name: 'EW-003 — Grain Store Entrance',         last: weeksFromNow(-5),  next: weeksFromNow(-1),  person: 'Shift Supervisor' },
+                { name: 'EW-004 — Site Office',                  last: weeksFromNow(-2),  next: weeksFromNow(2),   person: 'Shift Supervisor' },
+            ]
+        },
+        {
+            id: 'spill-kits',
+            title: 'Spill Kits (Quarterly Inspection)',
+            icon: '🧴',
+            items: [
+                { name: 'SK-001 — Workshop (Oil/Chemical, 240L)', last: weeksFromNow(-13), next: weeksFromNow(0),   person: 'Health & Safety' },
+                { name: 'SK-002 — Compressor Room (Oil, 120L)',   last: weeksFromNow(-8),  next: weeksFromNow(5),   person: 'Health & Safety' },
+                { name: 'SK-003 — Fuel Store (General, 240L)',    last: weeksFromNow(-2),  next: weeksFromNow(11),  person: 'Health & Safety' },
+                { name: 'SK-004 — Gate House (General, 50L)',     last: weeksFromNow(-1),  next: weeksFromNow(12),  person: 'Health & Safety' },
+            ]
+        },
+        {
+            id: 'fire-ra',
+            title: 'Fire Risk Assessment',
+            icon: '🔥',
+            items: [
+                { name: 'Site-Wide FRA (Annual Review)',          last: weeksFromNow(-54), next: weeksFromNow(-2),  person: 'Site Manager' },
+                { name: 'FRA — Grain Store Specific',             last: weeksFromNow(-30), next: weeksFromNow(22),  person: 'Site Manager' },
+                { name: 'FRA — MCC Suite',                        last: weeksFromNow(-10), next: weeksFromNow(42),  person: 'Site Manager' },
+                { name: 'Fire Drill Record',                      last: weeksFromNow(-24), next: weeksFromNow(2),   person: 'Site Safety Officer' },
+            ]
+        },
+        {
+            id: 'insurance',
+            title: 'Insurance Certificates',
+            icon: '📄',
+            items: [
+                { name: 'Employer\'s Liability Insurance',        last: weeksFromNow(-40), next: weeksFromNow(12),  person: 'P. Hutchinson' },
+                { name: 'Public Liability Insurance',             last: weeksFromNow(-40), next: weeksFromNow(12),  person: 'P. Hutchinson' },
+                { name: 'Motor Fleet Insurance (Vans)',           last: weeksFromNow(-50), next: weeksFromNow(2),   person: 'P. Hutchinson' },
+                { name: 'Contractor\'s All Risk (Plant)',         last: weeksFromNow(-10), next: weeksFromNow(42),  person: 'P. Hutchinson' },
+            ]
+        },
+    ];
+}
+
+// ── Render compliance tab ───────────────────────────────────────────────────
+function initCompliance() {
+    const sections = buildComplianceData();
+    const container = document.getElementById('compliance-accordion');
+    if (!container) return;
+
+    let html = '';
+    sections.forEach((sec, si) => {
+        const statuses = sec.items.map(item => tlStatus(item.next));
+        const worst = worstStatus(statuses);
+        const nextDues = sec.items.map(i => i.next).sort((a,b) => a-b);
+        const soonest = nextDues[0];
+        const soonestLabel = fmtDate(soonest);
+        const overdue = sec.items.some(i => tlStatus(i.next) === 'red');
+        const dueLabel = overdue ? 'OVERDUE/CRITICAL' : `Next due: ${soonestLabel}`;
+
+        html += `
+        <div class="comp-section" id="comp-sec-${si}">
+            <div class="comp-section-header" onclick="toggleCompSection(${si})">
+                <span style="font-size:1.1rem;">${sec.icon}</span>
+                <span class="comp-section-title">${sec.title}</span>
+                <div class="comp-section-meta">
+                    <span class="comp-section-due">${dueLabel}</span>
+                    ${tlDot(worst)}
+                    <span class="comp-section-chevron">▼</span>
+                </div>
+            </div>
+            <div class="comp-section-body">
+                <table class="comp-items-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Last Inspection</th>
+                            <th>Next Due</th>
+                            <th>Responsible</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${sec.items.map(item => {
+                            const st = tlStatus(item.next);
+                            return `<tr>
+                                <td>${item.name}</td>
+                                <td style="color:var(--text-secondary);white-space:nowrap;">${fmtDate(item.last)}</td>
+                                <td style="white-space:nowrap;">${fmtDate(item.next)}</td>
+                                <td style="color:var(--text-secondary);">${item.person}</td>
+                                <td><div class="comp-td-status">${tlDot(st)}${tlLabel(st)}</div></td>
+                            </tr>`;
+                        }).join('')}
+                    </tbody>
+                </table>
+            </div>
+        </div>`;
+    });
+    container.innerHTML = html;
+    updateComplianceSummary(sections);
+}
+
+function toggleCompSection(idx) {
+    const sec = document.getElementById(`comp-sec-${idx}`);
+    if (sec) sec.classList.toggle('open');
+}
+
+// ── Personnel example data ──────────────────────────────────────────────────
+const CERT_DEFS = [
+    { key: 'wah',       label: 'Working at Height',      validity: 3*52, noExpiry: false },
+    { key: 'cs',        label: 'Confined Space Entry',   validity: 3*52, noExpiry: false },
+    { key: 'rig',       label: 'Rigging & Slinging',     validity: 3*52, noExpiry: false },
+    { key: 'mewp',      label: 'MEWP / IPAF (3a+3b)',    validity: 5*52, noExpiry: false },
+    { key: 'compex',    label: 'Compex (Ex01–Ex04)',      validity: 3*52, noExpiry: false },
+    { key: 'faw',       label: 'First Aid at Work',       validity: 3*52, noExpiry: false },
+    { key: 'mh',        label: 'Manual Handling',         validity: 3*52, noExpiry: false },
+    { key: 'asb',       label: 'Asbestos Awareness',      validity: 52,   noExpiry: false },
+    { key: 'fw',        label: 'Fire Warden',             validity: 3*52, noExpiry: false },
+    { key: 'abr',       label: 'Abrasive Wheels',         validity: null, noExpiry: true  },
+    { key: 'flt',       label: 'Forklift (RTITB)',        validity: 5*52, noExpiry: false },
+    { key: '18th',      label: '18th Edition Wiring Regs',validity: null, noExpiry: true  },
+    { key: 'cisrs',     label: 'Scaffold Inspection (CISRS)',validity: 5*52, noExpiry: false },
+];
+
+function certForRole(role) {
+    // Returns array of cert keys applicable to this role
+    switch(role) {
+        case 'Electrical Engineer':
+            return ['wah','cs','compex','faw','mh','asb','abr','18th'];
+        case 'Mechanical Fitter':
+            return ['wah','cs','rig','mewp','mh','asb','abr','flt'];
+        case 'Shift Supervisor':
+            return ['wah','cs','rig','mewp','faw','mh','asb','fw','abr','flt','cisrs'];
+        case 'Crane Operator':
+            return ['rig','mewp','wah','mh','asb','flt'];
+        case 'Apprentice':
+            return ['wah','mh','asb','faw'];
+        case 'Site Manager':
+            return ['wah','cs','rig','mewp','compex','faw','mh','asb','fw','abr','flt','18th','cisrs'];
+        default:
+            return [];
+    }
+}
+
+function buildPersonnelData() {
+    // Each person: name, role, certs (object: key -> {issued, expiry} or null)
+    // We'll vary expiry dates to get a mix of traffic lights
+    const people = [
+        { name: 'J. Smith',      role: 'Electrical Engineer', offsets: { wah:-100, cs:-80, compex:-90, faw:-20, mh:-10, asb:-4, abr:-200, '18th':-150 } },
+        { name: 'T. Brown',      role: 'Electrical Engineer', offsets: { wah:-50, cs:-110, compex:-70, faw:-120, mh:-30, asb:-50, abr:-180, '18th':-200 } },
+        { name: 'K. Patel',      role: 'Electrical Engineer', offsets: { wah:-30, cs:-20, compex:-25, faw:-60, mh:-8, asb:-2, abr:-100, '18th':-80 } },
+        { name: 'R. Davies',     role: 'Electrical Engineer', offsets: { wah:-140, cs:-90, compex:-145, faw:-50, mh:-14, asb:-55, abr:-300, '18th':-260 } },
+        { name: 'M. Jones',      role: 'Mechanical Fitter',   offsets: { wah:-20, cs:-30, rig:-100, mewp:-250, mh:-5, asb:-48, abr:-80, flt:-260 } },
+        { name: 'S. O\'Brien',   role: 'Mechanical Fitter',   offsets: { wah:-80, cs:-60, rig:-40, mewp:-200, mh:-20, asb:-10, abr:-120, flt:-180 } },
+        { name: 'D. Kowalski',   role: 'Mechanical Fitter',   offsets: { wah:-150, cs:-140, rig:-155, mewp:-60, mh:-40, asb:-3, abr:-200, flt:-50 } },
+        { name: 'A. Hassan',     role: 'Mechanical Fitter',   offsets: { wah:-10, cs:-8, rig:-5, mewp:-50, mh:-2, asb:-1, abr:-20, flt:-90 } },
+        { name: 'L. Murphy',     role: 'Shift Supervisor',    offsets: { wah:-100, cs:-90, rig:-80, mewp:-260, faw:-110, mh:-30, asb:-52, fw:-80, abr:-150, flt:-100, cisrs:-250 } },
+        { name: 'C. Webster',    role: 'Shift Supervisor',    offsets: { wah:-50, cs:-30, rig:-60, mewp:-130, faw:-20, mh:-8, asb:-6, fw:-100, abr:-200, flt:-200, cisrs:-50 } },
+        { name: 'B. Foster',     role: 'Crane Operator',      offsets: { rig:-30, mewp:-200, wah:-60, mh:-12, asb:-4, flt:-100 } },
+        { name: 'G. Nolan',      role: 'Crane Operator',      offsets: { rig:-150, mewp:-50, wah:-20, mh:-3, asb:-53, flt:-250 } },
+        { name: 'E. Clarke',     role: 'Apprentice',           offsets: { wah:-10, mh:-6, asb:-1, faw:-50 } },
+        { name: 'F. Ahmad',      role: 'Apprentice',           offsets: { wah:-5, mh:-2, asb:-2, faw:-10 } },
+        { name: 'P. Hutchinson', role: 'Site Manager',         offsets: { wah:-50, cs:-100, rig:-70, mewp:-200, compex:-120, faw:-90, mh:-15, asb:-52, fw:-60, abr:-300, flt:-150, '18th':-250, cisrs:-100 } },
+    ];
+
+    return people.map(p => {
+        const applicableKeys = certForRole(p.role);
+        const certs = {};
+        CERT_DEFS.forEach(cd => {
+            if (!applicableKeys.includes(cd.key)) {
+                certs[cd.key] = null; // N/A
+                return;
+            }
+            const issuedWeeksAgo = p.offsets[cd.key] || -52;
+            const issued = weeksFromNow(issuedWeeksAgo);
+            if (cd.noExpiry) {
+                certs[cd.key] = { issued, expiry: null, noExpiry: true };
+            } else {
+                const expiry = new Date(issued.getTime() + cd.validity * 7 * 24 * 60 * 60 * 1000);
+                certs[cd.key] = { issued, expiry, noExpiry: false };
+            }
+        });
+        return { ...p, certs };
+    });
+}
+
+const ROLE_CSS = {
+    'Electrical Engineer': 'role-electrical',
+    'Mechanical Fitter':   'role-mechanical',
+    'Shift Supervisor':    'role-supervisor',
+    'Crane Operator':      'role-crane',
+    'Apprentice':          'role-apprentice',
+    'Site Manager':        'role-manager',
+};
+
+let PERSONNEL_DATA = null;
+
+function initPersonnel() {
+    PERSONNEL_DATA = buildPersonnelData();
+    const grid = document.getElementById('personnel-grid');
+    if (!grid) return;
+
+    let html = '';
+    PERSONNEL_DATA.forEach((person, idx) => {
+        const applicableKeys = certForRole(person.role);
+        const statuses = applicableKeys.map(k => {
+            const c = person.certs[k];
+            if (!c || c.noExpiry) return 'green';
+            return tlStatus(c.expiry);
+        });
+        const worst = worstStatus(statuses);
+
+        // Cert dots row
+        const dotsHtml = CERT_DEFS.map(cd => {
+            const c = person.certs[cd.key];
+            if (!c) {
+                return `<span class="cert-dot-wrap"><span class="cert-dot-na"></span><span class="cert-dot-tooltip">${cd.label}: N/A</span></span>`;
+            }
+            if (c.noExpiry) {
+                return `<span class="cert-dot-wrap"><span class="tl-dot tl-green"></span><span class="cert-dot-tooltip">${cd.label}: No expiry</span></span>`;
+            }
+            const st = tlStatus(c.expiry);
+            return `<span class="cert-dot-wrap"><span class="tl-dot tl-${st}"></span><span class="cert-dot-tooltip">${cd.label}: ${fmtDate(c.expiry)}</span></span>`;
+        }).join('');
+
+        html += `
+        <div class="personnel-card" onclick="openPersonnelModal(${idx})">
+            <div class="personnel-card-name">${person.name}</div>
+            <div><span class="role-badge ${ROLE_CSS[person.role]}">${person.role}</span></div>
+            <div class="personnel-cert-dots">${dotsHtml}</div>
+            <div style="font-size:0.73rem;color:var(--text-muted);margin-top:0.15rem;">Overall: <span style="color:${worst==='green'?'#48bb78':worst==='amber'?'#ed8936':'#fc5656'};font-weight:700;">${worst==='green'?'All OK':worst==='amber'?'Some due soon':'Action required'}</span></div>
+        </div>`;
+    });
+    grid.innerHTML = html;
+    updatePersonnelSummary();
+}
+
+function openPersonnelModal(idx) {
+    const person = PERSONNEL_DATA[idx];
+    const modal = document.getElementById('personnel-modal');
+    const overlay = document.getElementById('personnel-modal-overlay');
+    const content = document.getElementById('personnel-modal-content');
+    if (!modal || !content) return;
+
+    let rows = CERT_DEFS.map(cd => {
+        const c = person.certs[cd.key];
+        if (!c) {
+            return `<tr>
+                <td class="pm-cert-name">${cd.label}</td>
+                <td colspan="3" class="pm-cert-na">Not applicable for this role</td>
+            </tr>`;
+        }
+        if (c.noExpiry) {
+            return `<tr>
+                <td class="pm-cert-name">${cd.label}</td>
+                <td>${fmtDate(c.issued)}</td>
+                <td colspan="2" class="pm-no-expiry">No expiry date</td>
+            </tr>`;
+        }
+        const st = tlStatus(c.expiry);
+        return `<tr>
+            <td class="pm-cert-name">${cd.label}</td>
+            <td style="color:var(--text-secondary);white-space:nowrap;">${fmtDate(c.issued)}</td>
+            <td style="white-space:nowrap;">${fmtDate(c.expiry)}</td>
+            <td><div class="comp-td-status">${tlDot(st)}${tlLabel(st)}</div></td>
+        </tr>`;
+    }).join('');
+
+    content.innerHTML = `
+        <div class="pm-header">
+            <div class="pm-name">${person.name}</div>
+            <span class="role-badge ${ROLE_CSS[person.role]}">${person.role}</span>
+        </div>
+        <table class="pm-certs-table">
+            <thead><tr><th>Certification</th><th>Issued</th><th>Expires</th><th>Status</th></tr></thead>
+            <tbody>${rows}</tbody>
+        </table>`;
+
+    overlay.classList.add('open');
+    modal.classList.add('open');
+}
+
+function closePersonnelModal(e) {
+    if (e && e.target !== document.getElementById('personnel-modal-overlay')) return;
+    document.getElementById('personnel-modal')?.classList.remove('open');
+    document.getElementById('personnel-modal-overlay')?.classList.remove('open');
+}
+
+// ── Compliance summary widget ───────────────────────────────────────────────
+function updateComplianceSummary(sections) {
+    // Count all compliance item statuses
+    let cr = 0, ca = 0, cg = 0;
+    (sections || buildComplianceData()).forEach(sec => {
+        sec.items.forEach(item => {
+            const st = tlStatus(item.next);
+            if (st === 'red')   cr++;
+            else if (st === 'amber') ca++;
+            else cg++;
+        });
+    });
+    const el = id => document.getElementById(id);
+    if (el('csw-comp-red'))   el('csw-comp-red').textContent   = cr;
+    if (el('csw-comp-amber')) el('csw-comp-amber').textContent = ca;
+    if (el('csw-comp-green')) el('csw-comp-green').textContent = cg;
+}
+
+function updatePersonnelSummary() {
+    if (!PERSONNEL_DATA) return;
+    let pr = 0, pa = 0, pg = 0;
+    PERSONNEL_DATA.forEach(person => {
+        const applicableKeys = certForRole(person.role);
+        applicableKeys.forEach(k => {
+            const c = person.certs[k];
+            if (!c || c.noExpiry) { pg++; return; }
+            const st = tlStatus(c.expiry);
+            if (st === 'red')   pr++;
+            else if (st === 'amber') pa++;
+            else pg++;
+        });
+    });
+    const el = id => document.getElementById(id);
+    if (el('csw-pers-red'))   el('csw-pers-red').textContent   = pr;
+    if (el('csw-pers-amber')) el('csw-pers-amber').textContent = pa;
+    if (el('csw-pers-green')) el('csw-pers-green').textContent = pg;
+}
+
 </script>
     <script>
-// ── Grain Bot ─────────────────────────────────────────────────────────────────
+// ── LEEN ──────────────────────────────────────────────────────────────────────
 // Read-only terminal knowledge assistant.
 // Answers questions from embedded database only. Cannot modify data.
 // Change requests are logged as pending notes for Paul's approval.
@@ -4757,9 +5864,15 @@ function loadDocuments() {
     let changeNotes  = [];   // In-memory log of change requests this session
     let noteCounter  = 1;
 
+    // ── Autocomplete state ────────────────────────────────────────────────────
+    let acCandidates    = [];
+    let acDropdownIndex = -1;
+    let acCurrentGhost  = '';
+
     // ── Bootstrap (run after DOM ready) ───────────────────────────────────────
     document.addEventListener('DOMContentLoaded', function () {
         injectHTML();
+        setupAutocomplete();
     });
 
     function injectHTML() {
@@ -4767,9 +5880,9 @@ function loadDocuments() {
         widget.id = 'grainbot-root';
         widget.innerHTML = `
         <!-- Floating button -->
-        <button id="grainbot-fab" class="grainbot-fab" onclick="GrainBot.toggle()" title="Ask Grain Bot">
+        <button id="grainbot-fab" class="grainbot-fab" onclick="GrainBot.toggle()" title="Ask LEEN">
             <span class="grainbot-fab-icon">🌾</span>
-            <span class="grainbot-fab-label">Grain Bot</span>
+            <span class="grainbot-fab-label">LEEN</span>
         </button>
 
         <!-- Chat panel -->
@@ -4778,7 +5891,7 @@ function loadDocuments() {
                 <div class="grainbot-header-left">
                     <div class="grainbot-avatar">🌾</div>
                     <div>
-                        <div class="grainbot-name">Grain Bot</div>
+                        <div class="grainbot-name">LEEN</div>
                         <div class="grainbot-status" id="grainbot-status">Terminal knowledge assistant</div>
                     </div>
                 </div>
@@ -4795,11 +5908,16 @@ function loadDocuments() {
             </div>
 
             <div class="grainbot-input-row">
-                <input  id="grainbot-input"
-                        class="grainbot-input"
-                        placeholder="Ask about the terminal…"
-                        autocomplete="off"
-                        onkeydown="if(event.key==='Enter')GrainBot.send()" />
+                <div class="grainbot-input-wrap" id="grainbot-input-wrap">
+                    <div class="grainbot-input-mirror" id="grainbot-mirror" aria-hidden="true">
+                        <span id="grainbot-mirror-typed"></span><span id="grainbot-mirror-ghost"></span>
+                    </div>
+                    <input  id="grainbot-input"
+                            class="grainbot-input"
+                            placeholder="Ask about the terminal…"
+                            autocomplete="off" />
+                    <div id="grainbot-dropdown" class="grainbot-dropdown" style="display:none;"></div>
+                </div>
                 <button class="grainbot-send" onclick="GrainBot.send()">&#9658;</button>
             </div>
 
@@ -4869,7 +5987,7 @@ function loadDocuments() {
 
     function greet() {
         addMessage(
-            `Hi, I'm <strong>Grain Bot</strong> 🌾<br>
+            `Hi, I'm <strong>LEEN</strong> 🌾<br>
 I can answer questions about Seaforth Grain Terminal using the verified data in this database.<br><br>
 Try asking me:<br>
 &nbsp;• <em>"What rollers does RB1 use?"</em><br>
@@ -4928,7 +6046,7 @@ To request a data change, say: <em>"Please note that…"</em> and I will log it 
             : window.PKAFeedback.renderPanel({
                 item_type: 'grainbot_answer',
                 item_id: reply.itemId || '',
-                item_label: reply.itemLabel || 'Grain Bot answer',
+                item_label: reply.itemLabel || 'LEEN answer',
                 query_text: reply.queryText || '',
                 response_text: reply.plainText || reply.html.replace(/<[^>]+>/g, ' ').trim(),
                 sources,
@@ -5401,6 +6519,173 @@ I can only answer from verified records. Try being more specific — e.g. name t
         return DATA_LAYOUT.locations.find(loc =>
             q.includes(loc.name.toLowerCase()) || q.includes(loc.id.toLowerCase())
         ) || null;
+    }
+
+    // ── Autocomplete ──────────────────────────────────────────────────────────
+
+    function buildCandidates() {
+        if (acCandidates.length > 0) return;
+        if (typeof DATA_LAYOUT === 'undefined') return;
+        DATA_LAYOUT.locations.forEach(function(loc) {
+            acCandidates.push({ tag: loc.id, name: loc.name, area: '' });
+            loc.assets.forEach(function(asset) {
+                acCandidates.push({ tag: asset.id, name: asset.name, area: loc.name });
+            });
+        });
+    }
+
+    function fuzzyScore(query, target) {
+        var q = query.toLowerCase().replace(/\s/g, '');
+        var t = target.toLowerCase().replace(/\s/g, '');
+        if (t.includes(q)) return 2;   // substring match — highest priority
+        // Subsequence fuzzy: all chars of q appear in order in t
+        var qi = 0;
+        for (var i = 0; i < t.length && qi < q.length; i++) {
+            if (t[i] === q[qi]) qi++;
+        }
+        return qi === q.length ? 1 : 0;
+    }
+
+    function getSuggestions(query) {
+        if (!query || query.length < 1) return [];
+        buildCandidates();
+        var results = [];
+        acCandidates.forEach(function(c) {
+            var nameScore = fuzzyScore(query, c.name);
+            var tagScore  = fuzzyScore(query, c.tag);
+            var score = Math.max(nameScore, tagScore);
+            if (score > 0) results.push({ tag: c.tag, name: c.name, area: c.area, score: score });
+        });
+        results.sort(function(a, b) { return b.score - a.score; });
+        return results.slice(0, 6);
+    }
+
+    function escAc(str) {
+        return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    function setupAutocomplete() {
+        var input       = document.getElementById('grainbot-input');
+        var dropdown    = document.getElementById('grainbot-dropdown');
+        var mirrorTyped = document.getElementById('grainbot-mirror-typed');
+        var mirrorGhost = document.getElementById('grainbot-mirror-ghost');
+        if (!input || !dropdown) return;
+
+        function updateGhost(val) {
+            var sugg = getSuggestions(val);
+            // Ghost text: only when exactly one match and it starts with what the user typed
+            if (sugg.length === 1 && sugg[0].name.toLowerCase().startsWith(val.toLowerCase())) {
+                acCurrentGhost = sugg[0].name.slice(val.length);
+            } else {
+                acCurrentGhost = '';
+            }
+            if (mirrorTyped) mirrorTyped.textContent = val;
+            if (mirrorGhost) mirrorGhost.textContent = acCurrentGhost;
+        }
+
+        function renderDropdown(val) {
+            var sugg = getSuggestions(val);
+            acDropdownIndex = -1;
+            if (sugg.length === 0 || !val) {
+                dropdown.style.display = 'none';
+                return;
+            }
+            dropdown.innerHTML = sugg.map(function(s, i) {
+                var safeTag  = escAc(s.name);
+                var safeName = s.name.replace(/"/g, '&quot;');
+                var areaHtml = s.area ? '<span class="grainbot-dropdown-area">' + escAc(s.area) + '</span>' : '';
+                return '<div class="grainbot-dropdown-item" data-idx="' + i + '" data-name="' + safeName + '">' +
+                       '<span class="grainbot-dropdown-tag">' + safeTag + '</span>' + areaHtml +
+                       '</div>';
+            }).join('');
+            dropdown.style.display = 'block';
+
+            dropdown.querySelectorAll('.grainbot-dropdown-item').forEach(function(item) {
+                item.addEventListener('mousedown', function(e) {
+                    e.preventDefault();
+                    var chosen = this.dataset.name;
+                    input.value = chosen;
+                    acCurrentGhost = '';
+                    if (mirrorTyped) mirrorTyped.textContent = chosen;
+                    if (mirrorGhost) mirrorGhost.textContent = '';
+                    dropdown.style.display = 'none';
+                    input.focus();
+                });
+            });
+        }
+
+        function acceptGhost() {
+            if (!acCurrentGhost) return false;
+            var newVal = input.value + acCurrentGhost;
+            input.value = newVal;
+            acCurrentGhost = '';
+            if (mirrorTyped) mirrorTyped.textContent = newVal;
+            if (mirrorGhost) mirrorGhost.textContent = '';
+            dropdown.style.display = 'none';
+            return true;
+        }
+
+        input.addEventListener('input', function() {
+            buildCandidates();
+            updateGhost(this.value);
+            renderDropdown(this.value);
+        });
+
+        input.addEventListener('keydown', function(e) {
+            var items = dropdown.querySelectorAll('.grainbot-dropdown-item');
+            var dropVisible = dropdown.style.display !== 'none';
+
+            if (e.key === 'ArrowDown') {
+                if (!dropVisible) return;
+                e.preventDefault();
+                acDropdownIndex = Math.min(acDropdownIndex + 1, items.length - 1);
+                items.forEach(function(el, i) { el.classList.toggle('active', i === acDropdownIndex); });
+
+            } else if (e.key === 'ArrowUp') {
+                if (!dropVisible) return;
+                e.preventDefault();
+                acDropdownIndex = Math.max(acDropdownIndex - 1, -1);
+                items.forEach(function(el, i) { el.classList.toggle('active', i === acDropdownIndex); });
+
+            } else if (e.key === 'Enter') {
+                if (dropVisible && acDropdownIndex >= 0 && items[acDropdownIndex]) {
+                    // Accept highlighted dropdown item (don't send yet)
+                    e.preventDefault();
+                    var chosen = items[acDropdownIndex].dataset.name;
+                    input.value = chosen;
+                    acCurrentGhost = '';
+                    if (mirrorTyped) mirrorTyped.textContent = chosen;
+                    if (mirrorGhost) mirrorGhost.textContent = '';
+                    dropdown.style.display = 'none';
+                } else {
+                    // Close dropdown and send
+                    dropdown.style.display = 'none';
+                    window.GrainBot.send();
+                }
+
+            } else if (e.key === 'Tab') {
+                if (acceptGhost()) { e.preventDefault(); }
+
+            } else if (e.key === 'ArrowRight') {
+                // Accept ghost only if cursor is at end of input
+                var len = input.value.length;
+                if (input.selectionStart === len && input.selectionEnd === len) {
+                    if (acceptGhost()) { e.preventDefault(); }
+                }
+
+            } else if (e.key === 'Escape') {
+                dropdown.style.display = 'none';
+                acCurrentGhost = '';
+                if (mirrorGhost) mirrorGhost.textContent = '';
+            }
+        });
+
+        // Dismiss dropdown on outside click
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('#grainbot-input-wrap')) {
+                dropdown.style.display = 'none';
+            }
+        });
     }
 
     function extractBeltId(q) {

@@ -1,4 +1,4 @@
-// ── Grain Bot ─────────────────────────────────────────────────────────────────
+// ── LEEN ──────────────────────────────────────────────────────────────────────
 // Read-only terminal knowledge assistant.
 // Answers questions from embedded database only. Cannot modify data.
 // Change requests are logged as pending notes for Paul's approval.
@@ -12,9 +12,15 @@
     let changeNotes  = [];   // In-memory log of change requests this session
     let noteCounter  = 1;
 
+    // ── Autocomplete state ────────────────────────────────────────────────────
+    let acCandidates    = [];
+    let acDropdownIndex = -1;
+    let acCurrentGhost  = '';
+
     // ── Bootstrap (run after DOM ready) ───────────────────────────────────────
     document.addEventListener('DOMContentLoaded', function () {
         injectHTML();
+        setupAutocomplete();
     });
 
     function injectHTML() {
@@ -22,9 +28,9 @@
         widget.id = 'grainbot-root';
         widget.innerHTML = `
         <!-- Floating button -->
-        <button id="grainbot-fab" class="grainbot-fab" onclick="GrainBot.toggle()" title="Ask Grain Bot">
+        <button id="grainbot-fab" class="grainbot-fab" onclick="GrainBot.toggle()" title="Ask LEEN">
             <span class="grainbot-fab-icon">🌾</span>
-            <span class="grainbot-fab-label">Grain Bot</span>
+            <span class="grainbot-fab-label">LEEN</span>
         </button>
 
         <!-- Chat panel -->
@@ -33,7 +39,7 @@
                 <div class="grainbot-header-left">
                     <div class="grainbot-avatar">🌾</div>
                     <div>
-                        <div class="grainbot-name">Grain Bot</div>
+                        <div class="grainbot-name">LEEN</div>
                         <div class="grainbot-status" id="grainbot-status">Terminal knowledge assistant</div>
                     </div>
                 </div>
@@ -50,11 +56,16 @@
             </div>
 
             <div class="grainbot-input-row">
-                <input  id="grainbot-input"
-                        class="grainbot-input"
-                        placeholder="Ask about the terminal…"
-                        autocomplete="off"
-                        onkeydown="if(event.key==='Enter')GrainBot.send()" />
+                <div class="grainbot-input-wrap" id="grainbot-input-wrap">
+                    <div class="grainbot-input-mirror" id="grainbot-mirror" aria-hidden="true">
+                        <span id="grainbot-mirror-typed"></span><span id="grainbot-mirror-ghost"></span>
+                    </div>
+                    <input  id="grainbot-input"
+                            class="grainbot-input"
+                            placeholder="Ask about the terminal…"
+                            autocomplete="off" />
+                    <div id="grainbot-dropdown" class="grainbot-dropdown" style="display:none;"></div>
+                </div>
                 <button class="grainbot-send" onclick="GrainBot.send()">&#9658;</button>
             </div>
 
@@ -124,7 +135,7 @@
 
     function greet() {
         addMessage(
-            `Hi, I'm <strong>Grain Bot</strong> 🌾<br>
+            `Hi, I'm <strong>LEEN</strong> 🌾<br>
 I can answer questions about Seaforth Grain Terminal using the verified data in this database.<br><br>
 Try asking me:<br>
 &nbsp;• <em>"What rollers does RB1 use?"</em><br>
@@ -183,7 +194,7 @@ To request a data change, say: <em>"Please note that…"</em> and I will log it 
             : window.PKAFeedback.renderPanel({
                 item_type: 'grainbot_answer',
                 item_id: reply.itemId || '',
-                item_label: reply.itemLabel || 'Grain Bot answer',
+                item_label: reply.itemLabel || 'LEEN answer',
                 query_text: reply.queryText || '',
                 response_text: reply.plainText || reply.html.replace(/<[^>]+>/g, ' ').trim(),
                 sources,
@@ -656,6 +667,173 @@ I can only answer from verified records. Try being more specific — e.g. name t
         return DATA_LAYOUT.locations.find(loc =>
             q.includes(loc.name.toLowerCase()) || q.includes(loc.id.toLowerCase())
         ) || null;
+    }
+
+    // ── Autocomplete ──────────────────────────────────────────────────────────
+
+    function buildCandidates() {
+        if (acCandidates.length > 0) return;
+        if (typeof DATA_LAYOUT === 'undefined') return;
+        DATA_LAYOUT.locations.forEach(function(loc) {
+            acCandidates.push({ tag: loc.id, name: loc.name, area: '' });
+            loc.assets.forEach(function(asset) {
+                acCandidates.push({ tag: asset.id, name: asset.name, area: loc.name });
+            });
+        });
+    }
+
+    function fuzzyScore(query, target) {
+        var q = query.toLowerCase().replace(/\s/g, '');
+        var t = target.toLowerCase().replace(/\s/g, '');
+        if (t.includes(q)) return 2;   // substring match — highest priority
+        // Subsequence fuzzy: all chars of q appear in order in t
+        var qi = 0;
+        for (var i = 0; i < t.length && qi < q.length; i++) {
+            if (t[i] === q[qi]) qi++;
+        }
+        return qi === q.length ? 1 : 0;
+    }
+
+    function getSuggestions(query) {
+        if (!query || query.length < 1) return [];
+        buildCandidates();
+        var results = [];
+        acCandidates.forEach(function(c) {
+            var nameScore = fuzzyScore(query, c.name);
+            var tagScore  = fuzzyScore(query, c.tag);
+            var score = Math.max(nameScore, tagScore);
+            if (score > 0) results.push({ tag: c.tag, name: c.name, area: c.area, score: score });
+        });
+        results.sort(function(a, b) { return b.score - a.score; });
+        return results.slice(0, 6);
+    }
+
+    function escAc(str) {
+        return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    function setupAutocomplete() {
+        var input       = document.getElementById('grainbot-input');
+        var dropdown    = document.getElementById('grainbot-dropdown');
+        var mirrorTyped = document.getElementById('grainbot-mirror-typed');
+        var mirrorGhost = document.getElementById('grainbot-mirror-ghost');
+        if (!input || !dropdown) return;
+
+        function updateGhost(val) {
+            var sugg = getSuggestions(val);
+            // Ghost text: only when exactly one match and it starts with what the user typed
+            if (sugg.length === 1 && sugg[0].name.toLowerCase().startsWith(val.toLowerCase())) {
+                acCurrentGhost = sugg[0].name.slice(val.length);
+            } else {
+                acCurrentGhost = '';
+            }
+            if (mirrorTyped) mirrorTyped.textContent = val;
+            if (mirrorGhost) mirrorGhost.textContent = acCurrentGhost;
+        }
+
+        function renderDropdown(val) {
+            var sugg = getSuggestions(val);
+            acDropdownIndex = -1;
+            if (sugg.length === 0 || !val) {
+                dropdown.style.display = 'none';
+                return;
+            }
+            dropdown.innerHTML = sugg.map(function(s, i) {
+                var safeTag  = escAc(s.name);
+                var safeName = s.name.replace(/"/g, '&quot;');
+                var areaHtml = s.area ? '<span class="grainbot-dropdown-area">' + escAc(s.area) + '</span>' : '';
+                return '<div class="grainbot-dropdown-item" data-idx="' + i + '" data-name="' + safeName + '">' +
+                       '<span class="grainbot-dropdown-tag">' + safeTag + '</span>' + areaHtml +
+                       '</div>';
+            }).join('');
+            dropdown.style.display = 'block';
+
+            dropdown.querySelectorAll('.grainbot-dropdown-item').forEach(function(item) {
+                item.addEventListener('mousedown', function(e) {
+                    e.preventDefault();
+                    var chosen = this.dataset.name;
+                    input.value = chosen;
+                    acCurrentGhost = '';
+                    if (mirrorTyped) mirrorTyped.textContent = chosen;
+                    if (mirrorGhost) mirrorGhost.textContent = '';
+                    dropdown.style.display = 'none';
+                    input.focus();
+                });
+            });
+        }
+
+        function acceptGhost() {
+            if (!acCurrentGhost) return false;
+            var newVal = input.value + acCurrentGhost;
+            input.value = newVal;
+            acCurrentGhost = '';
+            if (mirrorTyped) mirrorTyped.textContent = newVal;
+            if (mirrorGhost) mirrorGhost.textContent = '';
+            dropdown.style.display = 'none';
+            return true;
+        }
+
+        input.addEventListener('input', function() {
+            buildCandidates();
+            updateGhost(this.value);
+            renderDropdown(this.value);
+        });
+
+        input.addEventListener('keydown', function(e) {
+            var items = dropdown.querySelectorAll('.grainbot-dropdown-item');
+            var dropVisible = dropdown.style.display !== 'none';
+
+            if (e.key === 'ArrowDown') {
+                if (!dropVisible) return;
+                e.preventDefault();
+                acDropdownIndex = Math.min(acDropdownIndex + 1, items.length - 1);
+                items.forEach(function(el, i) { el.classList.toggle('active', i === acDropdownIndex); });
+
+            } else if (e.key === 'ArrowUp') {
+                if (!dropVisible) return;
+                e.preventDefault();
+                acDropdownIndex = Math.max(acDropdownIndex - 1, -1);
+                items.forEach(function(el, i) { el.classList.toggle('active', i === acDropdownIndex); });
+
+            } else if (e.key === 'Enter') {
+                if (dropVisible && acDropdownIndex >= 0 && items[acDropdownIndex]) {
+                    // Accept highlighted dropdown item (don't send yet)
+                    e.preventDefault();
+                    var chosen = items[acDropdownIndex].dataset.name;
+                    input.value = chosen;
+                    acCurrentGhost = '';
+                    if (mirrorTyped) mirrorTyped.textContent = chosen;
+                    if (mirrorGhost) mirrorGhost.textContent = '';
+                    dropdown.style.display = 'none';
+                } else {
+                    // Close dropdown and send
+                    dropdown.style.display = 'none';
+                    window.GrainBot.send();
+                }
+
+            } else if (e.key === 'Tab') {
+                if (acceptGhost()) { e.preventDefault(); }
+
+            } else if (e.key === 'ArrowRight') {
+                // Accept ghost only if cursor is at end of input
+                var len = input.value.length;
+                if (input.selectionStart === len && input.selectionEnd === len) {
+                    if (acceptGhost()) { e.preventDefault(); }
+                }
+
+            } else if (e.key === 'Escape') {
+                dropdown.style.display = 'none';
+                acCurrentGhost = '';
+                if (mirrorGhost) mirrorGhost.textContent = '';
+            }
+        });
+
+        // Dismiss dropdown on outside click
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('#grainbot-input-wrap')) {
+                dropdown.style.display = 'none';
+            }
+        });
     }
 
     function extractBeltId(q) {
