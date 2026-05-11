@@ -1,13 +1,32 @@
 [
     {
         "id": 1,
-        "caption": "Port of Liverpool Grain Terminal",
-        "description": "Site photo showing grain terminal operations",
-        "url": "../Grain Terminal/Photos/Grain_Ship.png",
+        "caption": "Royal Seaforth Grain Terminal",
+        "description": "LEEN — Engineering Reference Portal",
+        "url": "../../Photos/LEEN.png",
         "source": "Site Photo",
-        "sourceUrl": "../Grain Terminal/Photos/Grain_Ship.png",
+        "license": "Site owned",
+        "approved": true,
+        "notes": "Hero image / portal logo"
+    },
+    {
+        "id": 2,
+        "caption": "Port of Liverpool Grain Terminal",
+        "description": "Grain terminal operations — site photo",
+        "url": "../../Photos/Grain_Ship.png",
+        "source": "Site Photo",
         "license": "Site owned",
         "approved": true,
         "notes": "Approved by site personnel"
+    },
+    {
+        "id": 3,
+        "caption": "Aerial View — Seaforth Terminal",
+        "description": "Aerial overview of the grain terminal site",
+        "url": "../../Photos/Screenshot 2026-05-09 at 08.21.04.png",
+        "source": "Site Photo",
+        "license": "Site owned",
+        "approved": true,
+        "notes": "Site overview"
     }
 ]
