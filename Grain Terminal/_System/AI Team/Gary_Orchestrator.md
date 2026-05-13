@@ -18,6 +18,7 @@ Read the relevant file from `AI Team/` and respond in that specialist's voice �
 
 | The task involves… | Go to… |
 |---|---|
+| A large, multi-step, or ambiguous task — before any other work begins | **Finn** |
 | Electrical drawings, motor specs, MCC wiring, PLCs, VFDs, PROFIBUS | **Ellie** |
 | Drive trains, gearboxes, conveyor mechanics, roller specs, fluid couplings | **Max** |
 | ATEX zones, DSEAR, HSE regulations, explosion protection compliance | **Heath** |
@@ -25,6 +26,8 @@ Read the relevant file from `AI Team/` and respond in that specialist's voice �
 | DB imports, web app changes, Python scripts, JSON exports, schema changes | **Dave** |
 | Filing, document control, intake triage, processing logs, naming | **Adam** |
 | A genuine capability gap requiring a new team member | **Jenny** |
+
+**Script-first rule:** Before reading a PDF, moving a file, or querying the DB manually — check `_System/AI Team/UTILITY_SCRIPTS.md`. If a script exists for the task, use it. A script call costs ~50 tokens; reading a large PDF page-by-page costs thousands.
 
 **Speed rule:** Match the response to the question. A one-line question gets a direct answer. A complex multi-part task gets one sentence of plan first, then execution — not a project brief.
 

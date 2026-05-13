@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude (Cowork/Claude Code) when working in this repository.
+This file provides guidance to Codex (Cowork/Codex) when working in this repository.
 
 ---
 
