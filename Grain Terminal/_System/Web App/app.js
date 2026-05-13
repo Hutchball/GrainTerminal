@@ -331,13 +331,22 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.nav-item').forEach(item => {
         item.addEventListener('click', function (e) {
             e.preventDefault();
+            const parentGroup = this.closest('.nav-group');
+            if (parentGroup) parentGroup.open = true;
+            navigateToSection(this.getAttribute('href').substring(1), this);
+        });
+    });
+
+    document.querySelectorAll('.dashboard-nav-link[href^="#"]').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
             const targetId = this.getAttribute('href').substring(1);
-            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-            this.classList.add('active');
-            document.querySelectorAll('.section').forEach(s => {
-                s.classList.remove('active');
-                if (s.id === targetId) s.classList.add('active');
-            });
+            const navItem = document.querySelector(`.nav-item[href="#${targetId}"]`);
+            if (navItem) {
+                navItem.click();
+            } else {
+                navigateToSection(targetId);
+            }
         });
     });
 
@@ -360,6 +369,14 @@ document.addEventListener('DOMContentLoaded', function () {
     initPersonnel();
 });
 
+function navigateToSection(targetId, activeNavItem = null) {
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+    if (activeNavItem) activeNavItem.classList.add('active');
+    document.querySelectorAll('.section').forEach(s => {
+        s.classList.toggle('active', s.id === targetId);
+    });
+}
+
 // ── Stats ─────────────────────────────────────────────────────────────────────
 function loadStats() {
     const stats = DATA_STATS;
@@ -367,6 +384,8 @@ function loadStats() {
         const key = elStat.dataset.stat;
         if (key === 'last_import') {
             elStat.textContent = stats.last_import ? stats.last_import.replace('T', ' ') : '—';
+        } else if (key === 'atex_drawings') {
+            elStat.textContent = DATA_DOCUMENTS.filter(d => d.drawing_type === 'DSEAR').length;
         } else if (stats[key] !== undefined) {
             elStat.textContent = stats[key];
         }
@@ -389,6 +408,7 @@ function renderMccFilters() {
     });
     const bar = el('mcc-filter-bar');
     bar.innerHTML = '';
+    renderMccCards(mccs);
     const allPill = document.createElement('button');
     allPill.className = 'mcc-pill active';
     allPill.textContent = `All (${allDrawings.length})`;
@@ -406,10 +426,29 @@ function renderMccFilters() {
     });
 }
 
+function renderMccCards(mccs) {
+    const grid = el('mcc-card-grid');
+    if (!grid) return;
+    grid.innerHTML = mccs.map(mcc => {
+        const count = allDrawings.filter(d => (d.mcc || 'Obsolete') === mcc).length;
+        return `<button type="button" class="mcc-card" data-mcc="${escHtml(mcc)}">
+            <span>${escHtml(mcc)}</span>
+            <strong>${count}</strong>
+            <small>drawings</small>
+        </button>`;
+    }).join('');
+    grid.querySelectorAll('.mcc-card').forEach(card => {
+        card.addEventListener('click', () => setMccFilter(card.dataset.mcc));
+    });
+}
+
 function setMccFilter(mcc) {
     activeFilter = mcc;
     document.querySelectorAll('.mcc-pill').forEach(p => {
         p.classList.toggle('active', p.dataset.mcc === mcc);
+    });
+    document.querySelectorAll('.mcc-card').forEach(card => {
+        card.classList.toggle('active', card.dataset.mcc === mcc);
     });
     renderDrawings();
 }

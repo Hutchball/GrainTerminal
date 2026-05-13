@@ -28,18 +28,21 @@
         widget.id = 'grainbot-root';
         widget.innerHTML = `
         <!-- Floating button -->
-        <button id="grainbot-fab" class="grainbot-fab" onclick="GrainBot.toggle()" title="Ask LEEN">
-            <span class="grainbot-fab-icon">🌾</span>
-            <span class="grainbot-fab-label">LEEN</span>
+        <button id="grainbot-fab" class="grainbot-fab" onclick="GrainBot.toggle()" title="Ask ECM Assist">
+            <svg class="grainbot-chat-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                <path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 8.9 8.9 0 0 1-3.6-.75L3 21l1.7-4.45A8.1 8.1 0 0 1 3 11.5 8.4 8.4 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5Z"></path>
+                <path d="M8 10h8M8 14h5"></path>
+            </svg>
+            <span class="grainbot-fab-label">ECM Assist</span>
         </button>
 
         <!-- Chat panel -->
         <div id="grainbot-panel" class="grainbot-panel grainbot-hidden">
             <div class="grainbot-header">
                 <div class="grainbot-header-left">
-                    <div class="grainbot-avatar">🌾</div>
+                    <div class="grainbot-avatar">ECM</div>
                     <div>
-                        <div class="grainbot-name">LEEN</div>
+                        <div class="grainbot-name">ECM Assist</div>
                         <div class="grainbot-status" id="grainbot-status">Terminal knowledge assistant</div>
                     </div>
                 </div>
@@ -135,7 +138,7 @@
 
     function greet() {
         addMessage(
-            `Hi, I'm <strong>LEEN</strong> 🌾<br>
+            `Hi, I'm <strong>ECM Assist</strong><br>
 I can answer questions about Seaforth Grain Terminal using the verified data in this database.<br><br>
 Try asking me:<br>
 &nbsp;• <em>"What rollers does RB1 use?"</em><br>
