@@ -174,7 +174,7 @@ def export_photos(conn: sqlite3.Connection) -> list:
     result = []
     for row in rows:
         fp = row["file_path"]
-        url = ("../Grain Terminal/" + fp) if fp else None
+        url = ("photos/" + Path(fp).name) if fp else None
         result.append({
             "id":               row["id"],
             "caption":          row["caption"],
