@@ -1,6 +1,220 @@
 {
-  "_note": "Source: Grain Store Process Schematic Rev 1 Sept 21.pdf. This first-pass terminal topology preserves original drawing labels and adds canonical names for database use. Legacy CSV-derived starter data has been folded into this structure where it aligns. BMH Ship Unloader added to receiving topology during merge pass.",
+  "_note": "Source: Grain Store Process Schematic Rev 1 Sept 21.pdf. This first-pass terminal topology preserves original drawing labels and adds canonical names for database use. Legacy CSV-derived starter data has been folded into this structure where it aligns. BMH Ship Unloader added to receiving topology during merge pass, with Ship Unloader and Switchrooms / MCCs top-level tiles for multi-site expansion.",
   "locations": [
+    {
+      "id": "switchrooms-mccs",
+      "name": "Switchrooms / MCCs",
+      "assets": [
+        {
+          "id": "MCC1",
+          "name": "MCC1",
+          "canonical_name": "MCC1",
+          "long_name": "MCC1 (1A, 1B)",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "19",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "MCC2",
+          "name": "MCC2",
+          "canonical_name": "MCC2",
+          "long_name": "MCC2",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "67",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "MCC3",
+          "name": "MCC3",
+          "canonical_name": "MCC3",
+          "long_name": "MCC3",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "53",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "MCC4",
+          "name": "MCC4",
+          "canonical_name": "MCC4",
+          "long_name": "MCC4",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "9",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "MCC5",
+          "name": "MCC5",
+          "canonical_name": "MCC5",
+          "long_name": "MCC5",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "30",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "MCC6",
+          "name": "MCC6",
+          "canonical_name": "MCC6",
+          "long_name": "MCC6",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "4",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "MCC10",
+          "name": "MCC10",
+          "canonical_name": "MCC10",
+          "long_name": "MCC10",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "3",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "MCC11",
+          "name": "MCC11",
+          "canonical_name": "MCC11",
+          "long_name": "MCC11",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "9",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "MCC12",
+          "name": "MCC12",
+          "canonical_name": "MCC12",
+          "long_name": "MCC12",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "25",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "MCC13",
+          "name": "MCC13",
+          "canonical_name": "MCC13",
+          "long_name": "MCC13",
+          "type": "mcc",
+          "notes": "Grain Terminal motor control centre. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "20",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "SCP",
+          "name": "SCP",
+          "canonical_name": "SCP",
+          "long_name": "SCP (Control Panel)",
+          "type": "control_panel",
+          "notes": "Grain Terminal control panel. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "87",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        },
+        {
+          "id": "SCALE_ROOM",
+          "name": "Scale Room",
+          "canonical_name": "SCALE_ROOM",
+          "long_name": "Scale Room",
+          "type": "control_panel",
+          "notes": "Grain Terminal scale room control equipment. Drawing count from embedded MCC register.",
+          "components": [
+            {
+              "name": "Electrical Drawings",
+              "category": "electrical",
+              "spec": "2",
+              "spec_source": "Electrical schematic register"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ship-unloader",
+      "name": "Ship Unloader",
+      "assets": [
+        {
+          "id": "BMH_SHIP_UNLOADER",
+          "name": "BMH Ship Unloader",
+          "drawing_label": "Ship unloader",
+          "canonical_name": "BMH_SHIP_UNLOADER",
+          "long_name": "BMH Ship Unloader",
+          "type": "ship_unloader",
+          "notes": "Existing marine intake asset added to topology during 25 Apr 2026 merge. Separated into a top-level Ship Unloader tile to support sites with multiple unloaders.",
+          "components": []
+        }
+      ]
+    },
     {
       "id": "receiving",
       "name": "Receiving",
