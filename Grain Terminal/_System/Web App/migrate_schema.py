@@ -86,6 +86,17 @@ CREATE TABLE IF NOT EXISTS equipment_aliases (
     notes            TEXT
 );
 
+-- Page-level references: which pages in a document mention a given piece of equipment.
+-- Populated by scan_pdf_pages.py. Pages stored as a JSON array e.g. [4, 89, 92].
+CREATE TABLE IF NOT EXISTS document_page_refs (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    document_id  INTEGER NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
+    equipment_id INTEGER NOT NULL REFERENCES equipment(id) ON DELETE CASCADE,
+    pages        TEXT NOT NULL,   -- JSON array of 1-based page numbers
+    created_at   TEXT NOT NULL,
+    UNIQUE(document_id, equipment_id)
+);
+
 CREATE TABLE IF NOT EXISTS verification_feedback (
     id               INTEGER PRIMARY KEY AUTOINCREMENT,
     item_type        TEXT NOT NULL,

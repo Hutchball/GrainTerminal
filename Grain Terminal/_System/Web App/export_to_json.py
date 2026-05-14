@@ -13,6 +13,7 @@ import json
 import sqlite3
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 BASE    = Path(__file__).parent          # .../Web App/
@@ -138,10 +139,33 @@ def export_documents(conn: sqlite3.Connection) -> list:
         """
     )
     rows = cur.fetchall()
+
+    # Build page refs lookup: {(document_id, equipment_id): [pages]}
+    page_refs: dict = {}
+    cur2 = conn.cursor()
+    cur2.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='document_page_refs'")
+    if cur2.fetchone():
+        cur2.execute("SELECT document_id, equipment_id, pages FROM document_page_refs")
+        for pr in cur2.fetchall():
+            try:
+                pages = json.loads(pr["pages"])
+            except (json.JSONDecodeError, TypeError):
+                pages = []
+            page_refs[(pr["document_id"], pr["equipment_id"])] = pages
+
     result = []
     for row in rows:
         fp = row["file_path"]
-        pdf_link = ("../Grain Terminal/" + fp) if fp else None
+        pdf_link = ("../../" + quote(fp, safe='/')) if fp else None
+        eq_ids = parse_id_list(row["equipment_ids"])
+
+        # Attach page refs keyed by equipment_id for this document
+        doc_page_refs = {}
+        for eid in eq_ids:
+            pages = page_refs.get((row["id"], eid))
+            if pages:
+                doc_page_refs[str(eid)] = pages
+
         result.append({
             "id":              row["id"],
             "filename":        row["filename"],
@@ -154,7 +178,8 @@ def export_documents(conn: sqlite3.Connection) -> list:
             "file_path":       fp,
             "pdf_link":        pdf_link,
             "status":          row["status"],
-            "equipment_ids":   parse_id_list(row["equipment_ids"]),
+            "equipment_ids":   eq_ids,
+            "page_refs":       doc_page_refs,
             "source_document": row["source_document"],
         })
     return result

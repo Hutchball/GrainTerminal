@@ -1751,6 +1751,29 @@ li {
     font-size: 0.85rem;
 }
 .detail-drawing-row:last-child { border-bottom: none; }
+.detail-page-refs {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    padding: 4px 0 8px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+}
+.page-ref-link {
+    display: inline-block;
+    padding: 2px 7px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    color: var(--accent);
+    text-decoration: none;
+}
+.page-ref-link:hover { background: var(--accent); color: #fff; }
+.page-ref-schematic { border-color: #2a9d5c; color: #2a9d5c; }
+.page-ref-schematic:hover { background: #2a9d5c; color: #fff; border-color: #2a9d5c; }
 .detail-drawing-ref {
     font-family: var(--font-mono);
     font-weight: 600;

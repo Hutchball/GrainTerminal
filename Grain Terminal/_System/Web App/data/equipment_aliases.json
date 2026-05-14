@@ -794,14 +794,6 @@
   {
     "equipment_id": 51,
     "equipment_name": "JL1",
-    "alias_name": "J/H ELEVATOR 1 PONY",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 51,
-    "equipment_name": "JL1",
     "alias_name": "J/HOUSE ELEVATOR 1",
     "alias_type": "asset_list",
     "source": "Incoming/RSGT Asset ListV2",
@@ -862,14 +854,6 @@
     "alias_type": "asset_list",
     "source": "Incoming/RSGT Asset ListV2",
     "notes": "Asset number from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 52,
-    "equipment_name": "JL2",
-    "alias_name": "J/H ELEVATOR 2 PONY",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 52,
@@ -3146,218 +3130,18 @@
   {
     "equipment_id": 137,
     "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN 1 OUTLET GATE",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
+    "alias_name": "BIN_1_TO_9",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
   },
   {
     "equipment_id": 137,
     "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN 2 OUTLET GATE",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN 3 OUTLET GATE",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN 4 OUTLET GATE",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN 5 OUTLET GATE",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN 6 OUTLET GATE",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN 7 OUTLET GATE",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN 8 OUTLET GATE",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN 9 OUTLET GATE",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 1 FAN",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 1 SWEEP AUGER",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 2 FAN",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 2 SWEEP AUGER",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 3 FAN",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 3 SWEEP AUGER",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 4 FAN",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 4 SWEEP AUGER",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 5 FAN",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 5 SWEEP AUGER",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 6 FAN",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 6 SWEEP AUGER",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 7 FAN",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 7 SWEEP AUGER",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 8 FAN",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 8 SWEEP AUGER",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 9 FAN",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 137,
-    "equipment_name": "Silo 3 Storage Bins 1 to 9",
-    "alias_name": "BIN No 9 SWEEP AUGER",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
+    "alias_name": "SILO_CLUSTER_3_BINS",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
   },
   {
     "equipment_id": 137,
@@ -3390,6 +3174,14 @@
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 137,
+    "equipment_name": "Silo 3 Storage Bins 1 to 9",
+    "alias_name": "Silo Cluster 3 Bins 1 to 9",
+    "alias_type": "legacy_name",
+    "source": "MERGE_PLAN_2026-04-25.md",
+    "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
   },
   {
     "equipment_id": 138,
@@ -3490,38 +3282,6 @@
   {
     "equipment_id": 143,
     "equipment_name": "Main Elevator Pony Motors",
-    "alias_name": "ELEVATOR No 1 PONY",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 143,
-    "equipment_name": "Main Elevator Pony Motors",
-    "alias_name": "ELEVATOR No 2 PONY",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 143,
-    "equipment_name": "Main Elevator Pony Motors",
-    "alias_name": "ELEVATOR No 3 PONY",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 143,
-    "equipment_name": "Main Elevator Pony Motors",
-    "alias_name": "ELEVATOR No 4 PONY",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 143,
-    "equipment_name": "Main Elevator Pony Motors",
     "alias_name": "ELV PONY",
     "alias_type": "legacy_name",
     "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
@@ -3555,38 +3315,6 @@
     "equipment_id": 144,
     "equipment_name": "Surge Bin 1",
     "alias_name": "Surge Bin 1 Valve 2",
-    "alias_type": "legacy_name",
-    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
-    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
-  },
-  {
-    "equipment_id": 145,
-    "equipment_name": "Surge Bin 2",
-    "alias_name": "SURGE BIN No2 VALVE1",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 145,
-    "equipment_name": "Surge Bin 2",
-    "alias_name": "SURGE BIN No2 VALVE2",
-    "alias_type": "asset_list",
-    "source": "Incoming/RSGT Asset ListV2",
-    "notes": "Component description from RSGT Asset ListV2."
-  },
-  {
-    "equipment_id": 145,
-    "equipment_name": "Surge Bin 2",
-    "alias_name": "Surge Bin 2 Valve 1",
-    "alias_type": "legacy_name",
-    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
-    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
-  },
-  {
-    "equipment_id": 145,
-    "equipment_name": "Surge Bin 2",
-    "alias_name": "Surge Bin 2 Valve 2",
     "alias_type": "legacy_name",
     "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
     "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
@@ -4466,6 +4194,14 @@
   {
     "equipment_id": 199,
     "equipment_name": "Silo 3 Bin 1 Sweep Auger",
+    "alias_name": "BIN No 1 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 199,
+    "equipment_name": "Silo 3 Bin 1 Sweep Auger",
     "alias_name": "Silo 3 Bin 1 Auger",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
@@ -4474,10 +4210,26 @@
   {
     "equipment_id": 200,
     "equipment_name": "Silo 3 Bin 1 Aeration Fan",
+    "alias_name": "BIN No 1 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 200,
+    "equipment_name": "Silo 3 Bin 1 Aeration Fan",
     "alias_name": "Bin 1 Aeration Fan",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 201,
+    "equipment_name": "Silo 3 Bin 1 Outlet Gate",
+    "alias_name": "BIN 1 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 201,
@@ -4498,6 +4250,14 @@
   {
     "equipment_id": 203,
     "equipment_name": "Silo 3 Bin 2 Sweep Auger",
+    "alias_name": "BIN No 2 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 203,
+    "equipment_name": "Silo 3 Bin 2 Sweep Auger",
     "alias_name": "Silo 3 Bin 2 Auger",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
@@ -4506,10 +4266,26 @@
   {
     "equipment_id": 204,
     "equipment_name": "Silo 3 Bin 2 Aeration Fan",
+    "alias_name": "BIN No 2 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 204,
+    "equipment_name": "Silo 3 Bin 2 Aeration Fan",
     "alias_name": "Bin 2 Aeration Fan",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 205,
+    "equipment_name": "Silo 3 Bin 2 Outlet Gate",
+    "alias_name": "BIN 2 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 205,
@@ -4530,6 +4306,14 @@
   {
     "equipment_id": 207,
     "equipment_name": "Silo 3 Bin 3 Sweep Auger",
+    "alias_name": "BIN No 3 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 207,
+    "equipment_name": "Silo 3 Bin 3 Sweep Auger",
     "alias_name": "Silo 3 Bin 3 Auger",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
@@ -4538,10 +4322,26 @@
   {
     "equipment_id": 208,
     "equipment_name": "Silo 3 Bin 3 Aeration Fan",
+    "alias_name": "BIN No 3 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 208,
+    "equipment_name": "Silo 3 Bin 3 Aeration Fan",
     "alias_name": "Bin 3 Aeration Fan",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 209,
+    "equipment_name": "Silo 3 Bin 3 Outlet Gate",
+    "alias_name": "BIN 3 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 209,
@@ -4562,6 +4362,14 @@
   {
     "equipment_id": 211,
     "equipment_name": "Silo 3 Bin 4 Sweep Auger",
+    "alias_name": "BIN No 4 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 211,
+    "equipment_name": "Silo 3 Bin 4 Sweep Auger",
     "alias_name": "Silo 3 Bin 4 Auger",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
@@ -4570,10 +4378,26 @@
   {
     "equipment_id": 212,
     "equipment_name": "Silo 3 Bin 4 Aeration Fan",
+    "alias_name": "BIN No 4 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 212,
+    "equipment_name": "Silo 3 Bin 4 Aeration Fan",
     "alias_name": "Bin 4 Aeration Fan",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 213,
+    "equipment_name": "Silo 3 Bin 4 Outlet Gate",
+    "alias_name": "BIN 4 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 213,
@@ -4594,6 +4418,14 @@
   {
     "equipment_id": 215,
     "equipment_name": "Silo 3 Bin 5 Sweep Auger",
+    "alias_name": "BIN No 5 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 215,
+    "equipment_name": "Silo 3 Bin 5 Sweep Auger",
     "alias_name": "Silo 3 Bin 5 Auger",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
@@ -4602,10 +4434,26 @@
   {
     "equipment_id": 216,
     "equipment_name": "Silo 3 Bin 5 Aeration Fan",
+    "alias_name": "BIN No 5 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 216,
+    "equipment_name": "Silo 3 Bin 5 Aeration Fan",
     "alias_name": "Bin 5 Aeration Fan",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 217,
+    "equipment_name": "Silo 3 Bin 5 Outlet Gate",
+    "alias_name": "BIN 5 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 217,
@@ -4626,6 +4474,14 @@
   {
     "equipment_id": 219,
     "equipment_name": "Silo 3 Bin 6 Sweep Auger",
+    "alias_name": "BIN No 6 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 219,
+    "equipment_name": "Silo 3 Bin 6 Sweep Auger",
     "alias_name": "Silo 3 Bin 6 Auger",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
@@ -4634,10 +4490,26 @@
   {
     "equipment_id": 220,
     "equipment_name": "Silo 3 Bin 6 Aeration Fan",
+    "alias_name": "BIN No 6 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 220,
+    "equipment_name": "Silo 3 Bin 6 Aeration Fan",
     "alias_name": "Bin 6 Aeration Fan",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 221,
+    "equipment_name": "Silo 3 Bin 6 Outlet Gate",
+    "alias_name": "BIN 6 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 221,
@@ -4658,6 +4530,14 @@
   {
     "equipment_id": 223,
     "equipment_name": "Silo 3 Bin 7 Sweep Auger",
+    "alias_name": "BIN No 7 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 223,
+    "equipment_name": "Silo 3 Bin 7 Sweep Auger",
     "alias_name": "Silo 3 Bin 7 Auger",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
@@ -4666,10 +4546,26 @@
   {
     "equipment_id": 224,
     "equipment_name": "Silo 3 Bin 7 Aeration Fan",
+    "alias_name": "BIN No 7 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 224,
+    "equipment_name": "Silo 3 Bin 7 Aeration Fan",
     "alias_name": "Bin 7 Aeration Fan",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 225,
+    "equipment_name": "Silo 3 Bin 7 Outlet Gate",
+    "alias_name": "BIN 7 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 225,
@@ -4690,6 +4586,14 @@
   {
     "equipment_id": 227,
     "equipment_name": "Silo 3 Bin 8 Sweep Auger",
+    "alias_name": "BIN No 8 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 227,
+    "equipment_name": "Silo 3 Bin 8 Sweep Auger",
     "alias_name": "Silo 3 Bin 8 Auger",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
@@ -4698,10 +4602,26 @@
   {
     "equipment_id": 228,
     "equipment_name": "Silo 3 Bin 8 Aeration Fan",
+    "alias_name": "BIN No 8 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 228,
+    "equipment_name": "Silo 3 Bin 8 Aeration Fan",
     "alias_name": "Bin 8 Aeration Fan",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 229,
+    "equipment_name": "Silo 3 Bin 8 Outlet Gate",
+    "alias_name": "BIN 8 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 229,
@@ -4722,10 +4642,26 @@
   {
     "equipment_id": 231,
     "equipment_name": "Silo 3 Bin 9 Sweep Auger",
+    "alias_name": "BIN No 9 SWEEP AUGER",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 231,
+    "equipment_name": "Silo 3 Bin 9 Sweep Auger",
     "alias_name": "Silo 3 Bin 9 Auger",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 232,
+    "equipment_name": "Silo 3 Bin 9 Aeration Fan",
+    "alias_name": "BIN No 9 FAN",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
   },
   {
     "equipment_id": 232,
@@ -4738,9 +4674,97 @@
   {
     "equipment_id": 233,
     "equipment_name": "Silo 3 Bin 9 Outlet Gate",
+    "alias_name": "BIN 9 OUTLET GATE",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 233,
+    "equipment_name": "Silo 3 Bin 9 Outlet Gate",
     "alias_name": "Bin 9 Outlet Gate",
     "alias_type": "legacy_name",
     "source": "user_confirmed",
     "notes": null
+  },
+  {
+    "equipment_id": 241,
+    "equipment_name": "JL1 Pony Motor",
+    "alias_name": "J/H ELEVATOR 1 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 242,
+    "equipment_name": "JL2 Pony Motor",
+    "alias_name": "J/H ELEVATOR 2 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 248,
+    "equipment_name": "Main Elevator 1 Pony Motor",
+    "alias_name": "ELEVATOR No 1 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 249,
+    "equipment_name": "Main Elevator 2 Pony Motor",
+    "alias_name": "ELEVATOR No 2 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 250,
+    "equipment_name": "Main Elevator 3 Pony Motor",
+    "alias_name": "ELEVATOR No 3 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 251,
+    "equipment_name": "Main Elevator 4 Pony Motor",
+    "alias_name": "ELEVATOR No 4 PONY",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 252,
+    "equipment_name": "Surge Bin 2 Valve 1 Motor",
+    "alias_name": "SURGE BIN No2 VALVE1",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 252,
+    "equipment_name": "Surge Bin 2 Valve 1 Motor",
+    "alias_name": "Surge Bin 2 Valve 1",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+  },
+  {
+    "equipment_id": 253,
+    "equipment_name": "Surge Bin 2 Valve 2 Motor",
+    "alias_name": "SURGE BIN No2 VALVE2",
+    "alias_type": "asset_list",
+    "source": "Incoming/RSGT Asset ListV2",
+    "notes": "Component description from RSGT Asset ListV2."
+  },
+  {
+    "equipment_id": 253,
+    "equipment_name": "Surge Bin 2 Valve 2 Motor",
+    "alias_name": "Surge Bin 2 Valve 2",
+    "alias_type": "legacy_name",
+    "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
+    "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
   }
 ]

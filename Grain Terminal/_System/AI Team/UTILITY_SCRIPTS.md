@@ -7,6 +7,7 @@ Maintained by Finn. One entry per script. Check here before commissioning anythi
 | `extract_pdf_text.py` | `_System/Web App/utils/` | Extract all text from a PDF to a .txt file (page-by-page, with separators) | `python3 utils/extract_pdf_text.py "path/to/file.pdf"` | 2026-05-13 |
 | `file_incoming.py` | `_System/Web App/utils/` | Move a file from Incoming/ to its final home in one step — logs + optional DB insert | `python3 utils/file_incoming.py "manual.pdf" "Manuals/" --category manual --area MCC4 --db` | 2026-05-13 |
 | `audit_portal.py` | `_System/Web App/utils/` | Full data quality audit — duplicates, orphans, broken links, missing fields. Read-only. | `python3 utils/audit_portal.py` | 2026-05-13 |
+| `scan_pdf_pages.py` | `_System/Web App/utils/` | Scan a linked PDF and record which pages mention each linked equipment record. Saves to document_page_refs. | `python3 utils/scan_pdf_pages.py <document_id>` | 2026-05-14 |
 
 ---
 

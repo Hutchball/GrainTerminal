@@ -1,11 +1,56 @@
 [
   {
+    "id": 279,
+    "name": "BMH 110V Sockets",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "110V power outlets on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 278,
+    "name": "BMH 240V Sockets",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "240V power outlets on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 273,
+    "name": "BMH Anemometer",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Wind speed monitor on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
     "id": 192,
     "name": "BMH Compressor",
     "long_name": null,
     "type": "compressor",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -40,12 +85,27 @@
     "source_document": "BMH Manual (2006)"
   },
   {
+    "id": 268,
+    "name": "BMH Computer System",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Operator/control computer system in the electrical house.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
     "id": 189,
     "name": "BMH DCE",
     "long_name": null,
     "type": "dust_control",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -68,12 +128,72 @@
     "source_document": "BMH Manual (2006)"
   },
   {
+    "id": 262,
+    "name": "BMH Drivers Cabin",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Drivers cab on the ship unloader. Contains operator controls and HMI.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 266,
+    "name": "BMH Fire Alarm System",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Fire alarm system on the BMH ship unloader. Distinct from the terminal fire alarm network.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 280,
+    "name": "BMH Floodlights",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "External floodlights on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 272,
+    "name": "BMH Heaters",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Space heaters in the electrical house, cabin, and other enclosures.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
     "id": 155,
     "name": "BMH Horizontal Conveyor",
     "long_name": null,
     "type": "chain_conveyor",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -96,12 +216,27 @@
     "source_document": "BMH Manual (2006)"
   },
   {
+    "id": 264,
+    "name": "BMH Hydraulic House",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Hydraulic house on the ship unloader. Distinct from the hydraulic pump motor.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
     "id": 161,
     "name": "BMH Hydraulic Pump Motor",
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -129,7 +264,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -152,12 +287,57 @@
     "source_document": "BMH Manual (2006)"
   },
   {
+    "id": 281,
+    "name": "BMH Internal Lighting",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Internal lighting and illumination within the BMH ship unloader enclosures.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 276,
+    "name": "BMH Lubrication System",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Automatic lubrication/grease system on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 274,
+    "name": "BMH Radio",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Radio communication system on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
     "id": 1,
     "name": "BMH Ship Unloader",
     "long_name": null,
     "type": "ship_unloader",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": "Siwertell (Bruks Siwertell)",
     "model": null,
@@ -186,12 +366,42 @@
     "source_document": "BMH Manual (2006)"
   },
   {
+    "id": 277,
+    "name": "BMH Siren Sounder",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Warning sirens, sounders and beacons on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 271,
+    "name": "BMH Slew Brakes",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Braking system for the slewing drive on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
     "id": 159,
     "name": "BMH Slew Motor 1",
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -219,7 +429,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -242,12 +452,89 @@
     "source_document": "BMH Manual (2006)"
   },
   {
+    "id": 267,
+    "name": "BMH Stormlock",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Storm protection/lock system on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 265,
+    "name": "BMH Switchroom",
+    "long_name": "BMH Ship Unloader Electrical House",
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [
+      "202A6086"
+    ],
+    "manufacturer": "Automation Gunnarstorp (BMH)",
+    "model": null,
+    "notes": "Standalone electrical house (ELHOUSE) on the BMH Ship Unloader. Contains switchboards SB1-SB4, PLC cabinet, computer cabinet. Project 15050007.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 275,
+    "name": "BMH Telephone Intercom",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Telephone and intercom system on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 263,
+    "name": "BMH Transformer Room",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Transformer room (TRAFO ROM) on the ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
+    "id": 270,
+    "name": "BMH Travel Brakes",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Braking system for the travelling (travel) drive on the BMH ship unloader.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
     "id": 162,
     "name": "BMH Travel Motor 1",
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -275,7 +562,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -303,7 +590,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -331,7 +618,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -359,7 +646,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -387,7 +674,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -415,7 +702,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -443,7 +730,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -471,7 +758,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -499,7 +786,7 @@
     "long_name": null,
     "type": "process_equipment",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -522,12 +809,27 @@
     "source_document": "BMH Manual (2006)"
   },
   {
+    "id": 269,
+    "name": "BMH UPS",
+    "long_name": null,
+    "type": "control_panel",
+    "area": "BMH",
+    "mcc": "BMH",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Uninterruptible power supply in the electrical house.",
+    "location": null,
+    "aliases": [],
+    "source_document": "BMH Elec Drawings.pdf"
+  },
+  {
     "id": 156,
     "name": "BMH Vertical Conveyor 1",
     "long_name": null,
     "type": "chain_conveyor",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -555,7 +857,7 @@
     "long_name": null,
     "type": "chain_conveyor",
     "area": "BMH",
-    "mcc": null,
+    "mcc": "BMH",
     "drawing_refs": [],
     "manufacturer": null,
     "model": null,
@@ -1387,6 +1689,51 @@
     "source_document": null
   },
   {
+    "id": 245,
+    "name": "DCC Valve Motor 1",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Small valve motor on Distribution Chain Conveyor. Serial 828D008. Split from DCC aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
+    "source_document": null
+  },
+  {
+    "id": 246,
+    "name": "DCC Valve Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Small valve motor on Distribution Chain Conveyor. Serial 789965. Split from DCC aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
+    "source_document": null
+  },
+  {
+    "id": 247,
+    "name": "DCC Valve Motor 3",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Small valve motor on Distribution Chain Conveyor. Serial 789964. Split from DCC aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
+    "source_document": null
+  },
+  {
     "id": 80,
     "name": "ELV1",
     "long_name": "Elevator 1",
@@ -1697,6 +2044,94 @@
     "source_document": null
   },
   {
+    "id": 248,
+    "name": "Main Elevator 1 Pony Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Pony motor — Main Elevator 1. Serial CMY8369/18. Split from Main Elevator Pony Motors aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [
+      {
+        "name": "ELEVATOR No 1 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ],
+    "source_document": null
+  },
+  {
+    "id": 249,
+    "name": "Main Elevator 2 Pony Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Pony motor — Main Elevator 2. Serial CMY8369/14. Split from Main Elevator Pony Motors aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [
+      {
+        "name": "ELEVATOR No 2 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ],
+    "source_document": null
+  },
+  {
+    "id": 250,
+    "name": "Main Elevator 3 Pony Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Pony motor — Main Elevator 3. Serial CMY8369/16. Split from Main Elevator Pony Motors aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [
+      {
+        "name": "ELEVATOR No 3 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ],
+    "source_document": null
+  },
+  {
+    "id": 251,
+    "name": "Main Elevator 4 Pony Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Pony motor — Main Elevator 4. Serial CMY8369/15. Split from Main Elevator Pony Motors aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [
+      {
+        "name": "ELEVATOR No 4 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ],
+    "source_document": null
+  },
+  {
     "id": 143,
     "name": "Main Elevator Pony Motors",
     "long_name": null,
@@ -1709,30 +2144,6 @@
     "notes": "Aggregate main elevator pony motor record from the electrical motor register.",
     "location": "Main Elevators And Distribution",
     "aliases": [
-      {
-        "name": "ELEVATOR No 1 PONY",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "ELEVATOR No 2 PONY",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "ELEVATOR No 3 PONY",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "ELEVATOR No 4 PONY",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
       {
         "name": "ELV PONY",
         "type": "legacy_name",
@@ -1947,6 +2358,21 @@
     "source_document": null
   },
   {
+    "id": 243,
+    "name": "TH1 Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Secondary motor on Turnhead 1. Split from TH1 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
+    "source_document": null
+  },
+  {
     "id": 85,
     "name": "TH2",
     "long_name": "Turnhead 2",
@@ -1984,6 +2410,21 @@
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
     ],
+    "source_document": null
+  },
+  {
+    "id": 255,
+    "name": "TH2 Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Secondary motor on Turnhead 2. Split from TH2 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
     "source_document": null
   },
   {
@@ -2027,6 +2468,21 @@
     "source_document": null
   },
   {
+    "id": 244,
+    "name": "TH3 Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Secondary motor on Turnhead 3. Split from TH3 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
+    "source_document": null
+  },
+  {
     "id": 87,
     "name": "TH4",
     "long_name": "Turnhead 4",
@@ -2064,6 +2520,21 @@
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
     ],
+    "source_document": null
+  },
+  {
+    "id": 256,
+    "name": "TH4 Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Main Elevators And Distribution",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Secondary motor on Turnhead 4. Split from TH4 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
     "source_document": null
   },
   {
@@ -2322,6 +2793,21 @@
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
     ],
+    "source_document": null
+  },
+  {
+    "id": 261,
+    "name": "Mill Feed Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Mill Feed",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Secondary motor serial on Mill Feed (serial A41521, row 75 — serial only, no full spec). Split from Mill Feed aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
     "source_document": null
   },
   {
@@ -2593,12 +3079,6 @@
     "location": null,
     "aliases": [
       {
-        "name": "J/H ELEVATOR 1 PONY",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
         "name": "J/HOUSE ELEVATOR 1",
         "type": "asset_list",
         "source": "Incoming/RSGT Asset ListV2",
@@ -2650,6 +3130,28 @@
     "source_document": null
   },
   {
+    "id": 241,
+    "name": "JL1 Pony Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Receiving",
+    "mcc": "MCC1/MCC2",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Pony motor for Junction House Elevator 1. Split from JL1 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [
+      {
+        "name": "J/H ELEVATOR 1 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      }
+    ],
+    "source_document": null
+  },
+  {
     "id": 52,
     "name": "JL2",
     "long_name": "Junction House Elevator 2",
@@ -2662,12 +3164,6 @@
     "notes": "Bucket elevator",
     "location": null,
     "aliases": [
-      {
-        "name": "J/H ELEVATOR 2 PONY",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
       {
         "name": "J/HOUSE ELEVATOR 2",
         "type": "asset_list",
@@ -2709,6 +3205,28 @@
         "type": "asset_list",
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Asset number from RSGT Asset ListV2."
+      }
+    ],
+    "source_document": null
+  },
+  {
+    "id": 242,
+    "name": "JL2 Pony Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Receiving",
+    "mcc": "MCC1/MCC2",
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Pony motor for Junction House Elevator 2. Split from JL2 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [
+      {
+        "name": "J/H ELEVATOR 2 PONY",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
       }
     ],
     "source_document": null
@@ -3847,15 +4365,24 @@
     "model": null,
     "notes": "Surge Bin 2 valve motors from the electrical motor register.",
     "location": "Silo 1",
+    "aliases": [],
+    "source_document": null
+  },
+  {
+    "id": 252,
+    "name": "Surge Bin 2 Valve 1 Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Valve motor, Surge Bin 2. Serial 282FB/T231A. Split from Surge Bin 2 aggregate record 2026-05-13.",
+    "location": null,
     "aliases": [
       {
         "name": "SURGE BIN No2 VALVE1",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "SURGE BIN No2 VALVE2",
         "type": "asset_list",
         "source": "Incoming/RSGT Asset ListV2",
         "notes": "Component description from RSGT Asset ListV2."
@@ -3865,6 +4392,28 @@
         "type": "legacy_name",
         "source": "Incoming/RSGT ELECTRICAL MOTOR Details.csv",
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
+      }
+    ],
+    "source_document": null
+  },
+  {
+    "id": 253,
+    "name": "Surge Bin 2 Valve 2 Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Valve motor, Surge Bin 2. Serial 282FB/123A. Split from Surge Bin 2 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [
+      {
+        "name": "SURGE BIN No2 VALVE2",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
       },
       {
         "name": "Surge Bin 2 Valve 2",
@@ -3873,6 +4422,21 @@
         "notes": "Alias added during Incoming/RSGT ELECTRICAL MOTOR Details.csv motor linking."
       }
     ],
+    "source_document": null
+  },
+  {
+    "id": 254,
+    "name": "Surge Bin 2 Valve 3 Motor",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Silo 1",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Valve motor, Surge Bin 2. Serial 282FB/213A. Split from Surge Bin 2 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
     "source_document": null
   },
   {
@@ -4183,6 +4747,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN No 1 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 1 Aeration Fan",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4205,6 +4775,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN 1 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 1 Outlet Gate",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4226,6 +4802,12 @@
     "notes": null,
     "location": null,
     "aliases": [
+      {
+        "name": "BIN No 1 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
       {
         "name": "Silo 3 Bin 1 Auger",
         "type": "legacy_name",
@@ -4271,6 +4853,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN No 2 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 2 Aeration Fan",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4293,6 +4881,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN 2 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 2 Outlet Gate",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4314,6 +4908,12 @@
     "notes": null,
     "location": null,
     "aliases": [
+      {
+        "name": "BIN No 2 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
       {
         "name": "Silo 3 Bin 2 Auger",
         "type": "legacy_name",
@@ -4359,6 +4959,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN No 3 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 3 Aeration Fan",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4381,6 +4987,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN 3 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 3 Outlet Gate",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4402,6 +5014,12 @@
     "notes": null,
     "location": null,
     "aliases": [
+      {
+        "name": "BIN No 3 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
       {
         "name": "Silo 3 Bin 3 Auger",
         "type": "legacy_name",
@@ -4447,6 +5065,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN No 4 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 4 Aeration Fan",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4469,6 +5093,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN 4 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 4 Outlet Gate",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4490,6 +5120,12 @@
     "notes": null,
     "location": null,
     "aliases": [
+      {
+        "name": "BIN No 4 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
       {
         "name": "Silo 3 Bin 4 Auger",
         "type": "legacy_name",
@@ -4535,6 +5171,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN No 5 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 5 Aeration Fan",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4557,6 +5199,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN 5 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 5 Outlet Gate",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4578,6 +5226,12 @@
     "notes": null,
     "location": null,
     "aliases": [
+      {
+        "name": "BIN No 5 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
       {
         "name": "Silo 3 Bin 5 Auger",
         "type": "legacy_name",
@@ -4623,6 +5277,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN No 6 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 6 Aeration Fan",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4645,6 +5305,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN 6 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 6 Outlet Gate",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4666,6 +5332,12 @@
     "notes": null,
     "location": null,
     "aliases": [
+      {
+        "name": "BIN No 6 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
       {
         "name": "Silo 3 Bin 6 Auger",
         "type": "legacy_name",
@@ -4711,6 +5383,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN No 7 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 7 Aeration Fan",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4733,6 +5411,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN 7 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 7 Outlet Gate",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4754,6 +5438,12 @@
     "notes": null,
     "location": null,
     "aliases": [
+      {
+        "name": "BIN No 7 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
       {
         "name": "Silo 3 Bin 7 Auger",
         "type": "legacy_name",
@@ -4799,6 +5489,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN No 8 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 8 Aeration Fan",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4821,6 +5517,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN 8 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 8 Outlet Gate",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4842,6 +5544,12 @@
     "notes": null,
     "location": null,
     "aliases": [
+      {
+        "name": "BIN No 8 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
       {
         "name": "Silo 3 Bin 8 Auger",
         "type": "legacy_name",
@@ -4887,6 +5595,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN No 9 FAN",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 9 Aeration Fan",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4909,6 +5623,12 @@
     "location": null,
     "aliases": [
       {
+        "name": "BIN 9 OUTLET GATE",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
+      {
         "name": "Bin 9 Outlet Gate",
         "type": "legacy_name",
         "source": "user_confirmed",
@@ -4930,6 +5650,12 @@
     "notes": null,
     "location": null,
     "aliases": [
+      {
+        "name": "BIN No 9 SWEEP AUGER",
+        "type": "asset_list",
+        "source": "Incoming/RSGT Asset ListV2",
+        "notes": "Component description from RSGT Asset ListV2."
+      },
       {
         "name": "Silo 3 Bin 9 Auger",
         "type": "legacy_name",
@@ -5059,166 +5785,16 @@
     "location": "Silo 3",
     "aliases": [
       {
-        "name": "BIN 1 OUTLET GATE",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
+        "name": "BIN_1_TO_9",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       },
       {
-        "name": "BIN 2 OUTLET GATE",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN 3 OUTLET GATE",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN 4 OUTLET GATE",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN 5 OUTLET GATE",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN 6 OUTLET GATE",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN 7 OUTLET GATE",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN 8 OUTLET GATE",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN 9 OUTLET GATE",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 1 FAN",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 1 SWEEP AUGER",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 2 FAN",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 2 SWEEP AUGER",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 3 FAN",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 3 SWEEP AUGER",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 4 FAN",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 4 SWEEP AUGER",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 5 FAN",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 5 SWEEP AUGER",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 6 FAN",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 6 SWEEP AUGER",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 7 FAN",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 7 SWEEP AUGER",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 8 FAN",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 8 SWEEP AUGER",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 9 FAN",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
-      },
-      {
-        "name": "BIN No 9 SWEEP AUGER",
-        "type": "asset_list",
-        "source": "Incoming/RSGT Asset ListV2",
-        "notes": "Component description from RSGT Asset ListV2."
+        "name": "SILO_CLUSTER_3_BINS",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       },
       {
         "name": "Silo 3 Bin",
@@ -5243,6 +5819,12 @@
         "type": "legacy_name",
         "source": "user_confirmed",
         "notes": null
+      },
+      {
+        "name": "Silo Cluster 3 Bins 1 to 9",
+        "type": "legacy_name",
+        "source": "MERGE_PLAN_2026-04-25.md",
+        "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
     ],
     "source_document": null
@@ -6432,6 +7014,21 @@
     "source_document": null
   },
   {
+    "id": 257,
+    "name": "FE1 Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Secondary motor on FE1. Split from FE1 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
+    "source_document": null
+  },
+  {
     "id": 106,
     "name": "MC1",
     "long_name": "Mill Conveyor 1",
@@ -6654,6 +7251,21 @@
     "source_document": null
   },
   {
+    "id": 258,
+    "name": "RB11 Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Secondary motor on RB11. Split from RB11 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
+    "source_document": null
+  },
+  {
     "id": 117,
     "name": "RB12",
     "long_name": "Receiving Belt 12",
@@ -6685,6 +7297,21 @@
         "notes": "Alias retained during MERGE_PLAN_2026-04-25.md integration."
       }
     ],
+    "source_document": null
+  },
+  {
+    "id": 259,
+    "name": "RB12 Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Silo Cluster 3 And Mill",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Secondary motor on RB12. Split from RB12 aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
     "source_document": null
   },
   {
@@ -6936,6 +7563,21 @@
       }
     ],
     "source_document": "Scales Documentation (MDHC)"
+  },
+  {
+    "id": 260,
+    "name": "LORRY INTAKE Motor 2",
+    "long_name": null,
+    "type": "process_equipment",
+    "area": "Weighback And Lorry Intake",
+    "mcc": null,
+    "drawing_refs": [],
+    "manufacturer": null,
+    "model": null,
+    "notes": "Secondary motor on Lorry Intake. Split from LORRY INTAKE aggregate record 2026-05-13.",
+    "location": null,
+    "aliases": [],
+    "source_document": null
   },
   {
     "id": 120,

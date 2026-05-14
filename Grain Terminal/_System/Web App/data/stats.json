@@ -1,11 +1,12 @@
 {
-  "electrical_drawings": 373,
+  "electrical_drawings": 374,
   "photos": 3,
-  "equipment_items": 211,
+  "equipment_items": 252,
   "electrical_motors": 304,
   "obsolete_drawings": 12,
-  "last_import": "2026-05-10T17:56",
+  "last_import": "2026-05-14T21:56",
   "mcc_counts": {
+    "BMH": 1,
     "MCC1": 19,
     "MCC10": 8,
     "MCC11": 9,
